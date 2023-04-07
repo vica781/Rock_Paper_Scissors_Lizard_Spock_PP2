@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&family=Lato&family=Merriweather+Sans&family=Montserrat+Alternates&display=swap'); 
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+    max-width: 1800px;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#gameField {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#choiceImg {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#playerImg {
+    width: 10rem;
+    height: 10rem;
+    border: solid 5px;
+    border-color: cadetblue;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 2rem;
+}
+
+#compImg {
+    width: 10rem;
+    height: 10rem;
+    border: solid 5px;
+    border-color: cadetblue;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 2rem;
+}
