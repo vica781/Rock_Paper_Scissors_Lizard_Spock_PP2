@@ -41,23 +41,59 @@ buttons.forEach(button => {
 // and assign the result to the `winner` variable
 function determinWinner() {
     let winner;
+    let message;
     if (playerPick === computerPick) {
-        winner = 'It\'s a tie';
+        winner = 'tie';
+        message = "It's a tie";
     } else if (winningCombinations[playerPick].includes(computerPick)) {
-        winner = 'Player wins';
+        winner = 'player';
+        message = `${playerPick} ${winningMessages[playerPick][computerPick]} You win!`;
     } else {
-        winner = 'Computer wins';
+        winner = 'computer';
+        message = `${computerPick} ${winningMessages[computerPick][playerPick]} Computer wins!`;
     }
-    return winner;
+    return [winner, message];
 }
 
-// Use `playerImg`, `compImg` and `result` variables to updated UI
-const playerImg = document.getElementById('playerImg');
-const compImg = document.getElementById('compImg');
-const result = document.getElementById('result');
+const outcomeMessages = {
+    'scissors-paper': 'Scissors cuts Paper',
+    'paper-rock': 'Paper covers Rock',
+    'rock-lizard': 'Rock crushes Lizard',
+    'lizard-spock': 'Lizard poisons Spock',
+    'spock-scissors': 'Spock smashes Scissors',
+    'scissors-lizard': 'Scissors decapitates Lizard',
+    'lizard-paper': 'Lizard eats Paper',
+    'paper-spock': 'Paper disproves Spock',
+    'spock-rock': 'Spock vaporizes Rock',
+    'rock-scissors': 'Rock crushes Scissors'
+  };
+  
+const winningMessages = {
+    scissors: {
+        paper: 'cuts',
+        lizard: 'decapitates'
+    },
+    paper: {
+        rock: 'covers',
+        spock: 'disproves'
+    },
+    rock: {
+        lizard: 'crushes',
+        scissors: 'crushes'
+    },
+    lizard: {
+        spock: 'poisons',
+        paper: 'eats'
+    },
+    spock: {
+        scissors: 'smashes',
+        rock: 'vaporizes'
+    }
+};
 
 function updateUI() {
-  playerImg.innerHTML = `<i class="far fa-hand-${playerPick}"></i>`;
-  compImg.innerHTML = `<i class="far fa-hand-${computerPick}"></i>`;
-  result.innerHTML = `The winner is ${determinWinner()}`;
+    playerImg.innerHTML = `<i class="far fa-hand-${playerPick}"></i>`;
+    compImg.innerHTML = `<i class="far fa-hand-${computerPick}"></i>`;
+    const [winner, message] = determinWinner();
+    result.innerHTML = message;
 }
