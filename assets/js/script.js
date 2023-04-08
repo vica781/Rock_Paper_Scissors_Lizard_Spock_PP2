@@ -57,7 +57,7 @@ function determinWinner() {
     const combo = playerPick + '-' + computerPick;
     if (playerPick === computerPick) {
         winner = 'tie';
-        message = "It's a tie";
+    message = `<i class="far fa-handshake"></i>It's a tie `;
     } else if (winningCombinations[playerPick].includes(computerPick)) {
         winner = 'player';
         message = `${outcomeMessages[combo]} - You win!`;
