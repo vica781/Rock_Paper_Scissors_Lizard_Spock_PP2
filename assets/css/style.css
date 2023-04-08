@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Changa+One&family=Lato&family=Merriweather+Sans&family=Montserrat+Alternates&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&family=Lato&family=Merriweather+Sans&family=Montserrat+Alternates&display=swap');
 
 * {
     margin: 0;
@@ -32,7 +32,7 @@ body {
 #player_choice {
     display: flex;
     justify-content: space-between !important;
-    flex-direction: column;    
+    flex-direction: column;
 }
 
 .btnChoices {
