@@ -31,4 +31,15 @@ playerPick = 'scissors';
 //assign value of random index generated from `pcPick` array to `computerPick` vatiable
 computerPick = pcPicks[Math.floor(Math.random() * pcPicks.length)];
 
-//
+//add event listeners to the `buttons` in order to detect which button the player clicked
+//use `querySelectorAll` to pull all the buttons from the body of index.html
+//use `forEach` to loop through all obtained buttons
+//add `click` event listener to set `playerPick` variable to the `data-type` atribute of the button that that was clicked
+const buttons = document.querySelectorAll('.btnChoices');
+buttons.forEach(button => {
+    button.addEventListener('click', function () {
+        playerPick = this.dataset.type;
+        //call a function to determin the winner
+        //and update the UI (player-computer interaction/communication)
+    });
+});
