@@ -64,7 +64,7 @@ function determinWinner() {
     const combo = playerPick + '-' + computerPick;
     if (playerPick === computerPick) {
         winner = 'tie';
-    message = `<i class="far fa-handshake"></i>It's a tie `;
+        message = `<i class="far fa-handshake"></i>It's a tie `;
     } else if (winningCombinations[playerPick].includes(computerPick)) {
         winner = 'player';
         message = `${outcomeMessages[combo]} - You win!`;
@@ -88,7 +88,7 @@ const outcomeMessages = {
     'paper-spock': 'Paper disproves Spock',
     'spock-rock': 'Spock vaporizes Rock',
     'rock-scissors': 'Rock crushes Scissors',
-  
+
     // Options winning for the computer
     'rock-spock': 'Spock vaporizes Rock',
     'rock-paper': 'Paper covers Rock',
@@ -100,20 +100,23 @@ const outcomeMessages = {
     'lizard-scissors': 'Scissors decapitates Lizard',
     'spock-paper': 'Paper disproves Spock',
     'spock-lizard': 'Lizard poisons Spock',
-  };
-  
-  // Update the UI to reflect the player and computer picks and the game outcome.
-  function updateUI() {
-    // Set the player image to match their pick.
+};
+
+function updateUI() {
     playerImg.innerHTML = `<i class="far fa-hand-${playerPick}"></i>`;
-  
-    // Set the computer image to match its pick.
     compImg.innerHTML = `<i class="far fa-hand-${computerPick}"></i>`;
-  
-    // Determine the winner and the message to display.
     const [winner, message] = determinWinner();
-  
-    // Set the message to display the outcome.
     result.innerHTML = message;
-  }
-  
+    
+    if (winner === 'player') {
+        playerScore++;
+    } else if (winner === 'tie') {
+        tieScore++;
+    } else {
+        computerScore++;
+    }
+    
+    document.getElementById('player_score').innerHTML = `Player: ${playerScore}`;
+    document.getElementById('tie_score').innerHTML = `Tie: ${tieScore}`;
+    document.getElementById('computer_score').innerHTML = `Computer: ${computerScore}`;
+}
