@@ -102,6 +102,15 @@ const outcomeMessages = {
     'spock-lizard': 'Lizard poisons Spock',
 };
 
+//An object containing path to game's images
+const imagePaths = {
+    rock: 'assets/images/rock.webp',
+    paper: 'assets/images/paper_4.webp',
+    scissors: 'assets/images/scissors_1.webp',
+    lizard: 'assets/images/lizard.webp',
+    spock: 'assets/images/spock.webp'
+}
+
 function updateUI() {
     playerImg.innerHTML = `<i class="far fa-hand-${playerPick}"></i>`;
     compImg.innerHTML = `<i class="far fa-hand-${computerPick}"></i>`;
