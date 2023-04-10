@@ -15,12 +15,20 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>No Singing, No Dancing</title>
+    <title>Rock-Paper-Scissors-Lizard-Spock</title>
 </head>
 
 <body>
-    <section id="gameField">
+    <nav>
         <h1>Rock Paper Scissors Lizard Spock</h1>
+        <div class="memu" id="gameMenu">
+            <a href="index.html" class="active">Home</a>
+            <a href="history.html">History</a><br>
+            <a href="strategy.html">Strategy</a><br>
+        </div>
+    </nav>
+    <section id="gameField">
+        
         <p id="pick">Take a Pick! </p>
 
         <div class="coices_container">
@@ -49,7 +57,7 @@
 
         <button id="reset_btn">Reset</button>
 
-        <div class="modal" id="reset_modal">
+        <!-- <div class="modal" id="reset_modal">
             <button class="modal_close_cross" id="reset_close">&times;</button>
             <div id="reset_modal_message"></div>
             <div id="reset_modal_score">
@@ -57,7 +65,7 @@
                 <p>Computer</p>
             </div>
         </div>
-        <div id="reset_modal_overlay"></div>
+        <div id="reset_modal_overlay"></div> -->
 
         <div id="choiceImg">
             <div id="playerImg" class="choiceImage"></div>
