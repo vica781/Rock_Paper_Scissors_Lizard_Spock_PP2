@@ -117,7 +117,7 @@ const imagePaths = {
 function updateUI() {
     // Update the player and computer hand images with the chosen icons
     playerImg.innerHTML = `<img src=${imagePaths[playerPick]} id="pImg"></img>`;
-    compImg.innerHTML = `<i class="far fa-hand-${computerPick}"></i>`;
+    compImg.innerHTML = `<img src=${imagePaths[computerPick]} id="cImg"></img>`;
 
     // Determine the winner and get the appropriate message
     const [winner, message] = determinWinner();

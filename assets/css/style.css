@@ -82,12 +82,6 @@ i {
     margin-right: 5rem;
 }
 
-#pImg {
-    width: 150px;
-    height: 150px;
-
-}
-
 #compImg {
     width: 10rem;
     height: 10rem;
@@ -98,6 +92,13 @@ i {
     margin-top: 2rem;
     margin-left: 5rem;
 }
+
+#pImg, #cImg {
+    width: 150px;
+    height: 150px;
+}
+
+
 
 h1 {
     font-family: 'Merriweather Sans', sans-serif;
