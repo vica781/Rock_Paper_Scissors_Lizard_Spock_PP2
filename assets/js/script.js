@@ -103,18 +103,20 @@ const outcomeMessages = {
 };
 
 //An object containing path to game's images
-// const imagePaths = {
-//     rock: 'assets/images/rock.webp',
-//     paper: 'assets/images/paper_4.webp',
-//     scissors: 'assets/images/scissors_1.webp',
-//     lizard: 'assets/images/lizard.webp',
-//     spock: 'assets/images/spock.webp'
-// }
+const imagePaths = {
+    rock: '../images/rock.webp',
+    paper: '../images/paper_4.webp',
+    scissors: '../images/scissors_1.webp',
+    lizard: '../images/lizard.webp',
+    spock: '../images/spock.webp'
+}
+
+
 
 // Update the UI with the results of the game
 function updateUI() {
     // Update the player and computer hand images with the chosen icons
-    playerImg.innerHTML = `<i class="far fa-hand-${playerPick}"></i>`;
+    playerImg.innerHTML = `<img src=${imagePaths[playerPick]} id="pImg"></img>`;
     compImg.innerHTML = `<i class="far fa-hand-${computerPick}"></i>`;
 
     // Determine the winner and get the appropriate message

@@ -70,6 +70,8 @@ i {
 }
 
 #playerImg {
+    display: flex;
+    justify-content: center;
     width: 10rem;
     height: 10rem;
     border: solid 5px;
@@ -78,6 +80,12 @@ i {
     border-radius: 5px;
     margin-top: 2rem;
     margin-right: 5rem;
+}
+
+#pImg {
+    width: 150px;
+    height: 150px;
+
 }
 
 #compImg {
@@ -215,10 +223,12 @@ section {
     /* max-height: 70vh; */
     max-width: 80vh;
     margin: 1.5rem 1.5rem 0 1.5rem;
-    
+
 }
 
-.info p, ol, ul {
+.info p,
+ol,
+ul {
     font-family: 'Lato', sans-serif;
     font-size: 1.2rem;
 }
