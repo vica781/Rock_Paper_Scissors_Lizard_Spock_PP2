@@ -116,7 +116,7 @@ function updateUI() {
     compImg.innerHTML = `<i class="far fa-hand-${computerPick}"></i>`;
     const [winner, message] = determinWinner();
     result.innerHTML = message;
-    
+
     if (winner === 'player') {
         playerScore++;
     } else if (winner === 'tie') {
@@ -124,8 +124,18 @@ function updateUI() {
     } else {
         computerScore++;
     }
-    
+
     document.getElementById('player_score').innerHTML = `Player: ${playerScore}`;
     document.getElementById('tie_score').innerHTML = `Tie: ${tieScore}`;
     document.getElementById('computer_score').innerHTML = `Computer: ${computerScore}`;
 }
+
+document.getElementById('reset_btn').addEventListener('click', function () {
+    playerScore = 0;
+    computerScore = 0;
+    tieScore = 0;
+
+    document.getElementById('player_score').innerHTML = `Player: 0`;
+    document.getElementById('tie_score').innerHTML = `Tie: 0`;
+    document.getElementById('computer_score').innerHTML = `Computer: 0`;
+})
