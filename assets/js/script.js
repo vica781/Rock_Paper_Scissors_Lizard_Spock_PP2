@@ -103,13 +103,13 @@ const outcomeMessages = {
 };
 
 //An object containing path to game's images
-const imagePaths = {
-    rock: 'assets/images/rock.webp',
-    paper: 'assets/images/paper_4.webp',
-    scissors: 'assets/images/scissors_1.webp',
-    lizard: 'assets/images/lizard.webp',
-    spock: 'assets/images/spock.webp'
-}
+// const imagePaths = {
+//     rock: 'assets/images/rock.webp',
+//     paper: 'assets/images/paper_4.webp',
+//     scissors: 'assets/images/scissors_1.webp',
+//     lizard: 'assets/images/lizard.webp',
+//     spock: 'assets/images/spock.webp'
+// }
 
 // Update the UI with the results of the game
 function updateUI() {
@@ -142,6 +142,10 @@ document.getElementById('reset_btn').addEventListener('click', function () {
     playerScore = 0;
     computerScore = 0;
     tieScore = 0;
+    // Clear content of elements from previous game results
+    playerImg.innerHTML = '';
+    compImg.innerHTML = '';
+    result.innerHTML = '';
 
     // Update the scores displayed in the UI to 0
     document.getElementById('player_score').innerHTML = `Player: 0`;
