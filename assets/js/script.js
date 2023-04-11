@@ -111,12 +111,17 @@ const imagePaths = {
     spock: 'assets/images/spock.webp'
 }
 
+// Update the UI with the results of the game
 function updateUI() {
+    // Update the player and computer hand images with the chosen icons
     playerImg.innerHTML = `<i class="far fa-hand-${playerPick}"></i>`;
     compImg.innerHTML = `<i class="far fa-hand-${computerPick}"></i>`;
+
+    // Determine the winner and get the appropriate message
     const [winner, message] = determinWinner();
     result.innerHTML = message;
 
+    // Update the score based on the winner
     if (winner === 'player') {
         playerScore++;
     } else if (winner === 'tie') {
@@ -125,16 +130,20 @@ function updateUI() {
         computerScore++;
     }
 
+    // Update the scores displayed in the UI
     document.getElementById('player_score').innerHTML = `Player: ${playerScore}`;
     document.getElementById('tie_score').innerHTML = `Tie: ${tieScore}`;
     document.getElementById('computer_score').innerHTML = `Computer: ${computerScore}`;
 }
 
+// Add a click event listener to the reset button
 document.getElementById('reset_btn').addEventListener('click', function () {
+    // Reset the scores to 0
     playerScore = 0;
     computerScore = 0;
     tieScore = 0;
 
+    // Update the scores displayed in the UI to 0
     document.getElementById('player_score').innerHTML = `Player: 0`;
     document.getElementById('tie_score').innerHTML = `Tie: 0`;
     document.getElementById('computer_score').innerHTML = `Computer: 0`;
