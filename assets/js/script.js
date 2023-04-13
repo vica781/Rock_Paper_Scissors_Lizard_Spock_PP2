@@ -109,13 +109,19 @@ const imagePaths = {
     spock: '../images/spock_2.webp'
 }
 
+function displayComputerChoice() {
+    compImg.innerHTML = `<img src=${imagePaths[computerPick]} id="cImg"></img>`;
+}
+
 
 
 // Update the UI with the results of the game
 function updateUI() {
     // Update the player and computer hand images with the chosen icons
     playerImg.innerHTML = `<img src=${imagePaths[playerPick]} id="pImg"></img>`;
-    compImg.innerHTML = `<img src=${imagePaths[computerPick]} id="cImg"></img>`;
+    
+
+    displayComputerChoice();
 
     // Determine the winner and get the appropriate message
     const [winner, message] = determinWinner();
