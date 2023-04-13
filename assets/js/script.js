@@ -18,8 +18,6 @@ for (let key in winningCombinations) {
 }
 
 // Declare variables to store the choices made by the player and the computer, respectively, and their scores
-let playerChoice;
-let computerChoice;
 let playerScore = 0;
 let tieScore = 0;
 let computerScore = 0;
