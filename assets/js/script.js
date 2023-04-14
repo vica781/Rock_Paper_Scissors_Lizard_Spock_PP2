@@ -104,11 +104,11 @@ const outcomeMessages = {
 
 //An object containing path to game's images
 const imagePaths = {
-    rock: '../images/boulder_1.webp',
-    paper: '../images/paper_ball.webp',
-    scissors: '../images/scissors_5.webp',
-    lizard: '../images/lizard_3.webp',
-    spock: '../images/spock_2.webp'
+    rock: '../images/characters/boulder_1.webp',
+    paper: '../images/characters/paper_ball.webp',
+    scissors: '../images/characters/scissors_5.webp',
+    lizard: '../images/characters/lizard_3.webp',
+    spock: '../images/characters/spock_2.webp'
 }
 
 function displayComputerChoice() {
