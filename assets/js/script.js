@@ -9,15 +9,17 @@ const winningCombinations = {
     spock: ['scissors', 'rock'],
 }
 
-// Create an array pcPick containing all possible game choices
+// Create an array pcPicks containing all possible game choices
 // Use for...in loop to iterate through the keys of winningCombinations object
-// Use push() method to add those keys to the end of the pcPick array
-const pcPick = [];
+// Use push() method to add those keys to the end of the pcPicks array
+const pcPicks = [];
 for (let key in winningCombinations) {
-    pcPick.push(key);
+    pcPicks.push(key);
 }
 
 // Declare variables to store the choices made by the player and the computer, respectively, and their scores
+let playerChoice;
+let computerChoice;
 let playerScore = 0;
 let tieScore = 0;
 let computerScore = 0;
@@ -38,11 +40,11 @@ buttons.forEach(button => {
     button.addEventListener('click', function () {
         playerPick = this.dataset.type;
 
-        // Generate a random index number to select an element from the `pcPick` array
-        computerPick = pcPick[Math.floor(Math.random() * pcPick.length)];
+        // Generate a random index number to select an element from the `pcPicks` array
+        computerPick = pcPicks[Math.floor(Math.random() * pcPicks.length)];
 
-        // Call the `determineWinner()` function to determine the winner of the game
-        determineWinner();
+        // Call the `determinWinner()` function to determine the winner of the game
+        determinWinner();
 
         // Call the `updateUI()` function to update the user interface with the winner and game result
         updateUI();
@@ -55,8 +57,8 @@ buttons.forEach(button => {
 // If the player and computer choose the same option, the game is a tie.
 // If the player's choice beats the computer's choice, the player wins.
 // If the computer's choice beats the player's choice, the computer wins.
-// The function returns an array with two elements
-function determineWinner() {
+// The function returns an array with two values: the winner and the message to display the outcome of the game.
+function determinWinner() {
     let winner;
     let message;
     const combo = playerPick + '-' + computerPick;
@@ -109,49 +111,14 @@ const imagePaths = {
     spock: '../images/spock_2.webp'
 }
 
+// Update the UI with the results of the game
 function updateUI() {
-    // Display the player's choice
+    // Update the player and computer hand images with the chosen icons
     playerImg.innerHTML = `<img src=${imagePaths[playerPick]} id="pImg"></img>`;
-
-    // Use Fisher-Yates Shuffle algorithm as a tool to create animated imitation of a slot machine to display computer choices
-    // Use https://www.nobledesktop.com/learn/coding/fisher-yates-shuffle-algorithm as a learning material
-    // Adapt idea from https://www.youtube.com/watch?v=NfekYmg4vCE
-
-    // Make a copy of pcPick to stop modifying the original array
-    const shuffledPcPick = pcPick.slice();
-
-    //Shuffle the pcPick array to create a 'for' loop
-    for (let i = shuffledPcPick.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [shuffledPcPick[j], shuffledPcPick[i]] = [shuffledPcPick[i], shuffledPcPick[j]];
-    };
-
-    // Animate the slot machine by displaying each image in the sequence with a delay
-    let i = 0;
-
-    const slotMachineInterval = setInterval(() => {
-        // Set the innerHTML of the compImg element to display the image at the current index in the shuffled pcPick array
-        compImg.innerHTML = `<img src=${imagePaths[pcPick[i]]} class="slotMachineImg"></img>`;
-
-        // Increment the index variable
-        i++;
-
-        // Stop the animation if the index variable reaches the length of the pcPick array
-        if (i >= pcPick.length) {
-            // Clear the interval ising the interval ID to prevent the repeat calls of the function
-            clearInterval(slotMachineInterval);
-
-            // Display the computer's choice
-            displayComputerChoice();
-
-            // Update the scores and display the outcome message
-            updateScores(winner);
-            result.innerHTML = message;
-        }
-    }, 200);
+    compImg.innerHTML = `<img src=${imagePaths[computerPick]} id="cImg"></img>`;
 
     // Determine the winner and get the appropriate message
-    const [winner, message] = determineWinner();
+    const [winner, message] = determinWinner();
     result.innerHTML = message;
 
     // Update the score based on the winner
