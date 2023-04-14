@@ -131,7 +131,7 @@ function updateUI() {
 
         const slotMachineInterval = setInterval(() => {
             // Set the innerHTML of the compImg element to display the image at the current index in the shuffled pcPick array
-            compImg.innerHTML = `<img src=${imagePaths[pcPick[i]]} class="slotMachineImg></img>`;
+            compImg.innerHTML = `<img src=${imagePaths[pcPick[i]]} class="slotMachineImg"></img>`;
 
             // Increment the index variable
             i++;
