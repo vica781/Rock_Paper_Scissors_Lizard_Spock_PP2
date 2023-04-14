@@ -116,10 +116,14 @@ function updateUI() {
     // Use Fisher-Yates Shuffle algorithm as a tool to create animated imitation of a slot machine to display computer choices
     // Use https://www.nobledesktop.com/learn/coding/fisher-yates-shuffle-algorithm as a learning material
     // Adapt idea from https://www.youtube.com/watch?v=NfekYmg4vCE
+
+    // Make a copy of pcPick to stop modifying the original array
+    const shuffledPcPick = pcPick.slice();
+
     //Shuffle the pcPick array to create a 'for' loop
-    for (let i = pcPick.length - 1; i > 0; i--) {
+    for (let i = shuffledPcPick.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
-        [pcPick[j], pcPick[i]] = [pcPick[i], pcPick[j]];
+        [shuffledPcPick[j], shuffledPcPick[i]] = [shuffledPcPick[i], shuffledPcPick[j]];
         };
 
         // Animate the slot machine by displaying each image in the sequence with a delay
@@ -149,8 +153,6 @@ function updateUI() {
 
             }
         }, 200);
-
-
 
         // Determine the winner and get the appropriate message
         const [winner, message] = determinWinner();
