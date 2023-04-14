@@ -124,68 +124,64 @@ function updateUI() {
     for (let i = shuffledPcPick.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [shuffledPcPick[j], shuffledPcPick[i]] = [shuffledPcPick[i], shuffledPcPick[j]];
-        };
+    };
 
-        // Animate the slot machine by displaying each image in the sequence with a delay
-        let i = 0;
+    // Animate the slot machine by displaying each image in the sequence with a delay
+    let i = 0;
 
-        const slotMachineInterval = setInterval(() => {
-            // Set the innerHTML of the compImg element to display the image at the current index in the shuffled pcPick array
-            compImg.innerHTML = `<img src=${imagePaths[pcPick[i]]} class="slotMachineImg"></img>`;
+    const slotMachineInterval = setInterval(() => {
+        // Set the innerHTML of the compImg element to display the image at the current index in the shuffled pcPick array
+        compImg.innerHTML = `<img src=${imagePaths[pcPick[i]]} class="slotMachineImg"></img>`;
 
-            // Increment the index variable
-            i++;
+        // Increment the index variable
+        i++;
 
-            // Stop the animation if the index variable reaches the length of the pcPick array
-            if (i >= pcPick.length) {
-                // Clear the interval ising the interval ID to prevent the repeat calls of the function
-                clearInterval(slotMachineInterval);
+        // Stop the animation if the index variable reaches the length of the pcPick array
+        if (i >= pcPick.length) {
+            // Clear the interval ising the interval ID to prevent the repeat calls of the function
+            clearInterval(slotMachineInterval);
 
-                // Display the computer's choice
-                displayComputerChoice();
+            // Display the computer's choice
+            displayComputerChoice();
 
-                // Get the winner and message from the determineWinner() function
-                const [winner, message] = determineWinner();
-
-                // Update the scores and display the outcome message
-                updateScores(winner);
-                result.innerHTML = message;
-
-            }
-        }, 200);
-
-        // Determine the winner and get the appropriate message
-        const [winner, message] = determineWinner();
-        result.innerHTML = message;
-
-        // Update the score based on the winner
-        if (winner === 'player') {
-            playerScore++;
-        } else if (winner === 'tie') {
-            tieScore++;
-        } else {
-            computerScore++;
+            // Update the scores and display the outcome message
+            updateScores(winner);
+            result.innerHTML = message;
         }
+    }, 200);
 
-        // Update the scores displayed in the UI
-        document.getElementById('player_score').innerHTML = `Player: ${playerScore}`;
-        document.getElementById('tie_score').innerHTML = `Tie: ${tieScore}`;
-        document.getElementById('computer_score').innerHTML = `Computer: ${computerScore}`;
+    // Determine the winner and get the appropriate message
+    const [winner, message] = determineWinner();
+    result.innerHTML = message;
+
+    // Update the score based on the winner
+    if (winner === 'player') {
+        playerScore++;
+    } else if (winner === 'tie') {
+        tieScore++;
+    } else {
+        computerScore++;
     }
 
-    // Add a click event listener to the reset button
-    document.getElementById('reset_btn').addEventListener('click', function () {
-        // Reset the scores to 0
-        playerScore = 0;
-        computerScore = 0;
-        tieScore = 0;
-        // Clear content of elements from previous game results
-        playerImg.innerHTML = '';
-        compImg.innerHTML = '';
-        result.innerHTML = '';
+    // Update the scores displayed in the UI
+    document.getElementById('player_score').innerHTML = `Player: ${playerScore}`;
+    document.getElementById('tie_score').innerHTML = `Tie: ${tieScore}`;
+    document.getElementById('computer_score').innerHTML = `Computer: ${computerScore}`;
+}
 
-        // Update the scores displayed in the UI to 0
-        document.getElementById('player_score').innerHTML = `Player: 0`;
-        document.getElementById('tie_score').innerHTML = `Tie: 0`;
-        document.getElementById('computer_score').innerHTML = `Computer: 0`;
-    })
+// Add a click event listener to the reset button
+document.getElementById('reset_btn').addEventListener('click', function () {
+    // Reset the scores to 0
+    playerScore = 0;
+    computerScore = 0;
+    tieScore = 0;
+    // Clear content of elements from previous game results
+    playerImg.innerHTML = '';
+    compImg.innerHTML = '';
+    result.innerHTML = '';
+
+    // Update the scores displayed in the UI to 0
+    document.getElementById('player_score').innerHTML = `Player: 0`;
+    document.getElementById('tie_score').innerHTML = `Tie: 0`;
+    document.getElementById('computer_score').innerHTML = `Computer: 0`;
+})
