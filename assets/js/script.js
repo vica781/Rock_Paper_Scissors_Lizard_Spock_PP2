@@ -55,7 +55,7 @@ buttons.forEach(button => {
 // If the player and computer choose the same option, the game is a tie.
 // If the player's choice beats the computer's choice, the player wins.
 // If the computer's choice beats the player's choice, the computer wins.
-// The function returns an array with two values: the winner and the message to display the outcome of the game.
+// The function returns an array with two elements
 function determinWinner() {
     let winner;
     let message;
@@ -113,16 +113,16 @@ function updateUI() {
     // Display the player's choice
     playerImg.innerHTML = `<img src=${imagePaths[playerPick]} id="pImg"></img>`;
 
-    // Use Fisher-Yates Shuffle algorithm as a tool to creat animated imitation of a slot machine to display computer choices
+    // Use Fisher-Yates Shuffle algorithm as a tool to create animated imitation of a slot machine to display computer choices
     // Use https://www.nobledesktop.com/learn/coding/fisher-yates-shuffle-algorithm as a learning material
-    // Addapt idea from https://www.youtube.com/watch?v=NfekYmg4vCE
-    //Shuffle the pcPick array to creat a 'for' loop
+    // Adapt idea from https://www.youtube.com/watch?v=NfekYmg4vCE
+    //Shuffle the pcPick array to create a 'for' loop
     for (let i = pcPick.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [pcPick[j], pcPick[i]] = [pcPick[i], pcPick[j]];
         };
 
-        // Animate the slot machine by displaying each emage in the sequence with a delay
+        // Animate the slot machine by displaying each image in the sequence with a delay
         let i = 0;
 
         const slotMachineInterval = setInterval(() => {
