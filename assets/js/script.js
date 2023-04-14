@@ -115,11 +115,18 @@ function displayComputerChoice() {
 
 
 
-// Update the UI with the results of the game
 function updateUI() {
-    // Update the player and computer hand images with the chosen icons
+    // Display the player's choice
     playerImg.innerHTML = `<img src=${imagePaths[playerPick]} id="pImg"></img>`;
     
+    // Use Fisher-Yates Shuffle algorithm as a tool to creat animated imitation of a slot machine to display computer choices
+    // Use https://www.nobledesktop.com/learn/coding/fisher-yates-shuffle-algorithm as a learning material
+    // Addapt idea from https://www.youtube.com/watch?v=NfekYmg4vCE
+    //Shuffle the pcPick array to creat a 'for' loop
+    for (let i = pcPick.lenght - 1; i>0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [pcPicks[i],pcPicks[j]] = [pcPicks[j],[pcPicks[i]]];
+    }
 
     displayComputerChoice();
 
