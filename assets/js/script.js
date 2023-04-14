@@ -171,5 +171,7 @@ document.getElementById('reset_btn').addEventListener('click', function () {
 })
 
 // Add background image
+// document.body.style.backgroundImage = "url('../images/backgrounds/sand_zen.webp')";
+// document.body.style.backgroundImage = "url('../images/backgrounds/sand.webp')";
 document.body.style.backgroundImage = "url('../images/backgrounds/sand_sky.webp')";
-
+// document.body.style.backgroundImage = "url('../images/backgrounds/wood.webp')";
