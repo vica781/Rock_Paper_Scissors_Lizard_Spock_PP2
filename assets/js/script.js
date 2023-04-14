@@ -110,7 +110,7 @@ const imagePaths = {
 }
 
 function displayComputerChoice() {
-    compImg.innerHTML = `<img src=${imagePaths[computerPick]} id="cImg"></img>`;
+    
 }
 
 
@@ -126,6 +126,19 @@ function updateUI() {
     for (let i = pcPick.lenght - 1; i>0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [pcPicks[i],pcPicks[j]] = [pcPicks[j],[pcPicks[i]]];
+    }
+
+    // Animate the slot machine by displaying each emage in the sequence with a delay
+    let i = 0;
+
+    const slotMachineInterval = setInterval() => {
+        // Set the innerHTML of the compImg element to display the image at the current index in the shuffled pcPicks array
+        compImg.innerHTML = `<img src=${imagePaths[pcPicks[i]]} class="slotMachineImg></img>`;
+
+        // Increment the index variable
+        i++;
+
+        // Stop the animation if the index variable reaches the  
     }
 
     displayComputerChoice();
