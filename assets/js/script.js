@@ -119,7 +119,7 @@ function updateUI() {
     //Shuffle the pcPick array to creat a 'for' loop
     for (let i = pcPick.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
-        [pcPick[i], pcPick[j]] = [pcPick[j],[pcPick[i]];
+        [pcPick[j], pcPick[i]] = [pcPick[i], pcPick[j]];
         };
 
         // Animate the slot machine by displaying each emage in the sequence with a delay
