@@ -112,14 +112,20 @@ const imagePaths = {
 }
 
 function displayComputerChoice() {
-    compImg.innerHTML = `<img src=${imagePaths[computerPick]} id="cImg"></img>`;
+    // compImg.innerHTML = `<img src=${imagePaths[computerPick]} id="cImg"></img>`;
 
     let computerPickIndex = pcPicks.indexOf(computerPick);
     let slotArray = pcPicks.toSpliced(computerPickIndex, 1);
-    slotArray.push(computerPick);
-
-    console.log(computerPick);
-    console.log(slotArray);
+    slotArray.push(computerPick)
+    let count = -1;
+    const interval = setInterval(function () {
+        if (++count === slotArray.length) {
+            clearInterval(interval);
+            return;
+        }
+        compImg.innerHTML = `<img src=${imagePaths[slotArray[count]]} id="cImg"></img>`;
+    }, 400);
+    
 }
 
 // Update the UI with the results of the game
@@ -165,5 +171,5 @@ document.getElementById('reset_btn').addEventListener('click', function () {
 })
 
 // Add background image
-document.body.style.backgroundImage = "url('../images/backgrounds/sand-zen.webp')";
+document.body.style.backgroundImage = "url('../images/backgrounds/sand_sky.webp')";
 
