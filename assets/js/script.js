@@ -9,12 +9,12 @@ const winningCombinations = {
     spock: ['scissors', 'rock'],
 }
 
-// Create an array pcPicks containing all possible game choices
+// Create an array pcPick containing all possible game choices
 // Use for...in loop to iterate through the keys of winningCombinations object
-// Use push() method to add those keys to the end of the pcPicks array
-const pcPicks = [];
+// Use push() method to add those keys to the end of the pcPick array
+const pcPick = [];
 for (let key in winningCombinations) {
-    pcPicks.push(key);
+    pcPick.push(key);
 }
 
 // Declare variables to store the choices made by the player and the computer, respectively, and their scores
@@ -38,8 +38,8 @@ buttons.forEach(button => {
     button.addEventListener('click', function () {
         playerPick = this.dataset.type;
 
-        // Generate a random index number to select an element from the `pcPicks` array
-        computerPick = pcPicks[Math.floor(Math.random() * pcPicks.length)];
+        // Generate a random index number to select an element from the `pcPick` array
+        computerPick = pcPick[Math.floor(Math.random() * pcPick.length)];
 
         // Call the `determinWinner()` function to determine the winner of the game
         determinWinner();
@@ -109,72 +109,81 @@ const imagePaths = {
     spock: '../images/spock_2.webp'
 }
 
-function displayComputerChoice() {
-    
-}
-
-
-
 function updateUI() {
     // Display the player's choice
     playerImg.innerHTML = `<img src=${imagePaths[playerPick]} id="pImg"></img>`;
-    
+
     // Use Fisher-Yates Shuffle algorithm as a tool to creat animated imitation of a slot machine to display computer choices
     // Use https://www.nobledesktop.com/learn/coding/fisher-yates-shuffle-algorithm as a learning material
     // Addapt idea from https://www.youtube.com/watch?v=NfekYmg4vCE
     //Shuffle the pcPick array to creat a 'for' loop
-    for (let i = pcPick.lenght - 1; i>0; i--) {
+    for (let i = pcPick.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
-        [pcPicks[i],pcPicks[j]] = [pcPicks[j],[pcPicks[i]]];
+        [pcPick[i], pcPick[j]] = [pcPick[j],[pcPick[i]];
+        };
+
+        // Animate the slot machine by displaying each emage in the sequence with a delay
+        let i = 0;
+
+        const slotMachineInterval = setInterval(() => {
+            // Set the innerHTML of the compImg element to display the image at the current index in the shuffled pcPick array
+            compImg.innerHTML = `<img src=${imagePaths[pcPick[i]]} class="slotMachineImg></img>`;
+
+            // Increment the index variable
+            i++;
+
+            // Stop the animation if the index variable reaches the length of the pcPick array
+            if (i >= pcPick.length) {
+                // Clear the interval ising the interval ID to prevent the repeat calls of the function
+                clearInterval(slotMachineInterval);
+
+                // Display the computer's choice
+                displayComputerChoice();
+
+                // Get the winner and message from the determineWinner() function
+                const [winner, message] = determinWinner();
+
+                // Update the scores and display the outcome message
+                updateScores(winner);
+                result.innerHTML = message;
+
+            }
+        }, 200);
+
+
+
+        // Determine the winner and get the appropriate message
+        const [winner, message] = determinWinner();
+        result.innerHTML = message;
+
+        // Update the score based on the winner
+        if (winner === 'player') {
+            playerScore++;
+        } else if (winner === 'tie') {
+            tieScore++;
+        } else {
+            computerScore++;
+        }
+
+        // Update the scores displayed in the UI
+        document.getElementById('player_score').innerHTML = `Player: ${playerScore}`;
+        document.getElementById('tie_score').innerHTML = `Tie: ${tieScore}`;
+        document.getElementById('computer_score').innerHTML = `Computer: ${computerScore}`;
     }
 
-    // Animate the slot machine by displaying each emage in the sequence with a delay
-    let i = 0;
+    // Add a click event listener to the reset button
+    document.getElementById('reset_btn').addEventListener('click', function () {
+        // Reset the scores to 0
+        playerScore = 0;
+        computerScore = 0;
+        tieScore = 0;
+        // Clear content of elements from previous game results
+        playerImg.innerHTML = '';
+        compImg.innerHTML = '';
+        result.innerHTML = '';
 
-    const slotMachineInterval = setInterval() => {
-        // Set the innerHTML of the compImg element to display the image at the current index in the shuffled pcPicks array
-        compImg.innerHTML = `<img src=${imagePaths[pcPicks[i]]} class="slotMachineImg></img>`;
-
-        // Increment the index variable
-        i++;
-
-        // Stop the animation if the index variable reaches the  
-    }
-
-    displayComputerChoice();
-
-    // Determine the winner and get the appropriate message
-    const [winner, message] = determinWinner();
-    result.innerHTML = message;
-
-    // Update the score based on the winner
-    if (winner === 'player') {
-        playerScore++;
-    } else if (winner === 'tie') {
-        tieScore++;
-    } else {
-        computerScore++;
-    }
-
-    // Update the scores displayed in the UI
-    document.getElementById('player_score').innerHTML = `Player: ${playerScore}`;
-    document.getElementById('tie_score').innerHTML = `Tie: ${tieScore}`;
-    document.getElementById('computer_score').innerHTML = `Computer: ${computerScore}`;
-}
-
-// Add a click event listener to the reset button
-document.getElementById('reset_btn').addEventListener('click', function () {
-    // Reset the scores to 0
-    playerScore = 0;
-    computerScore = 0;
-    tieScore = 0;
-    // Clear content of elements from previous game results
-    playerImg.innerHTML = '';
-    compImg.innerHTML = '';
-    result.innerHTML = '';
-
-    // Update the scores displayed in the UI to 0
-    document.getElementById('player_score').innerHTML = `Player: 0`;
-    document.getElementById('tie_score').innerHTML = `Tie: 0`;
-    document.getElementById('computer_score').innerHTML = `Computer: 0`;
-})
+        // Update the scores displayed in the UI to 0
+        document.getElementById('player_score').innerHTML = `Player: 0`;
+        document.getElementById('tie_score').innerHTML = `Tie: 0`;
+        document.getElementById('computer_score').innerHTML = `Computer: 0`;
+    })
