@@ -41,8 +41,8 @@ buttons.forEach(button => {
         // Generate a random index number to select an element from the `pcPick` array
         computerPick = pcPick[Math.floor(Math.random() * pcPick.length)];
 
-        // Call the `determinWinner()` function to determine the winner of the game
-        determinWinner();
+        // Call the `determineWinner()` function to determine the winner of the game
+        determineWinner();
 
         // Call the `updateUI()` function to update the user interface with the winner and game result
         updateUI();
@@ -56,7 +56,7 @@ buttons.forEach(button => {
 // If the player's choice beats the computer's choice, the player wins.
 // If the computer's choice beats the player's choice, the computer wins.
 // The function returns an array with two elements
-function determinWinner() {
+function determineWinner() {
     let winner;
     let message;
     const combo = playerPick + '-' + computerPick;
@@ -145,7 +145,7 @@ function updateUI() {
                 displayComputerChoice();
 
                 // Get the winner and message from the determineWinner() function
-                const [winner, message] = determinWinner();
+                const [winner, message] = determineWinner();
 
                 // Update the scores and display the outcome message
                 updateScores(winner);
@@ -155,7 +155,7 @@ function updateUI() {
         }, 200);
 
         // Determine the winner and get the appropriate message
-        const [winner, message] = determinWinner();
+        const [winner, message] = determineWinner();
         result.innerHTML = message;
 
         // Update the score based on the winner
