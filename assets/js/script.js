@@ -113,6 +113,20 @@ const imagePaths = {
 
 function displayComputerChoice() {
     compImg.innerHTML = `<img src=${imagePaths[computerPick]} id="cImg"></img>`;
+
+    let slotArray = [];
+    let computerPickIndex = pcPicks.indexOf(computerPick);
+    for (let i = 0; i < pcPicks.length; i++) {
+        if (computerPickIndex +i < pcPicks.length) {
+            slotArray.push(pcPicks[computerPickIndex + i]);
+        } else {
+            slotArray.push(pcPicks[computerPickIndex + i - pcPicks.length]);
+        }        
+    }
+    slotArray.shift();
+    slotArray.push(computerPick);
+    console.log(computerPick);
+    console.log(slotArray); 
 }
 
 // Update the UI with the results of the game
