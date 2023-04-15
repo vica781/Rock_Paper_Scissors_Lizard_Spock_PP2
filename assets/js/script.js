@@ -170,8 +170,27 @@ document.getElementById('reset_btn').addEventListener('click', function () {
     document.getElementById('computer_score').innerHTML = `Computer: 0`;
 })
 
-// Add background image
-// document.body.style.backgroundImage = "url('../images/backgrounds/sand_zen.webp')";
-// document.body.style.backgroundImage = "url('../images/backgrounds/sand.webp')";
-document.body.style.backgroundImage = "url('../images/backgrounds/sand_sky.webp')";
-// document.body.style.backgroundImage = "url('../images/backgrounds/wood.webp')";
+// Create an array of image paths for the background options
+const backgroundOptions = [
+    '../images/backgrounds/sand-zen.webp',
+    '../images/backgrounds/sand.webp',
+    '../images/backgrounds/sand_sky.webp',
+    '../images/backgrounds/wood.webp',
+    '../images/backgrounds/deep_space.webp',
+    '../images/backgrounds/grass_1.webp',
+    '../images/backgrounds/under_water.webp',
+    '../images/backgrounds/wood_grain.webp',
+    '../images/backgrounds/rope.webp'
+];
+
+// Use querySelectorAll to pull all the buttons from the body of index.html
+const bgButtons = document.querySelectorAll('.bgOption');
+
+// Use forEach to loop through all obtained buttons
+bgButtons.forEach(button => {
+    // Add click event listener to set background image to the data-type attribute of the button that was clicked
+    button.addEventListener('click', function () {
+        let bgIndex = this.dataset.index;
+        document.body.style.backgroundImage = `url(${backgroundOptions[bgIndex]})`;
+    });
+});
