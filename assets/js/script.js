@@ -104,20 +104,35 @@ const outcomeMessages = {
 
 //An object containing path to game's images
 const imagePaths = {
-    rock: '../images/boulder_1.webp',
-    paper: '../images/paper_ball.webp',
-    scissors: '../images/scissors_5.webp',
-    lizard: '../images/lizard_3.webp',
-    spock: '../images/spock_2.webp'
+    rock: '../images/characters/boulder_1.webp',
+    paper: '../images/characters/paper_ball.webp',
+    scissors: '../images/characters/scissors_5.webp',
+    lizard: '../images/characters/lizard_3.webp',
+    spock: '../images/characters/spock_2.webp'
 }
 
+function displayComputerChoice() {
+    // compImg.innerHTML = `<img src=${imagePaths[computerPick]} id="cImg"></img>`;
 
+    let computerPickIndex = pcPicks.indexOf(computerPick);
+    let slotArray = pcPicks.toSpliced(computerPickIndex, 1);
+    slotArray.push(computerPick)
+    let count = -1;
+    const interval = setInterval(function () {
+        if (++count === slotArray.length) {
+            clearInterval(interval);
+            return;
+        }
+        compImg.innerHTML = `<img src=${imagePaths[slotArray[count]]} id="cImg"></img>`;
+    }, 400);
+    
+}
 
 // Update the UI with the results of the game
 function updateUI() {
     // Update the player and computer hand images with the chosen icons
     playerImg.innerHTML = `<img src=${imagePaths[playerPick]} id="pImg"></img>`;
-    compImg.innerHTML = `<img src=${imagePaths[computerPick]} id="cImg"></img>`;
+    displayComputerChoice();
 
     // Determine the winner and get the appropriate message
     const [winner, message] = determinWinner();
@@ -154,3 +169,9 @@ document.getElementById('reset_btn').addEventListener('click', function () {
     document.getElementById('tie_score').innerHTML = `Tie: 0`;
     document.getElementById('computer_score').innerHTML = `Computer: 0`;
 })
+
+// Add background image
+// document.body.style.backgroundImage = "url('../images/backgrounds/sand_zen.webp')";
+// document.body.style.backgroundImage = "url('../images/backgrounds/sand.webp')";
+document.body.style.backgroundImage = "url('../images/backgrounds/sand_sky.webp')";
+// document.body.style.backgroundImage = "url('../images/backgrounds/wood.webp')";
