@@ -40,6 +40,8 @@ buttons.forEach(button => {
     button.addEventListener('click', function () {
         playerPick = this.dataset.type;
 
+        result.innerHTML = '';
+
         // Generate a random index number to select an element from the `pcPicks` array
         computerPick = pcPicks[Math.floor(Math.random() * pcPicks.length)];
 
@@ -111,7 +113,7 @@ const imagePaths = {
     spock: '../images/characters/spock_2.webp'
 }
 
-function displayComputerChoice() {
+function displayComputerChoice(message) {
     // compImg.innerHTML = `<img src=${imagePaths[computerPick]} id="cImg"></img>`;
 
     let computerPickIndex = pcPicks.indexOf(computerPick);
@@ -124,6 +126,9 @@ function displayComputerChoice() {
             return;
         }
         compImg.innerHTML = `<img src=${imagePaths[slotArray[count]]} id="cImg"></img>`;
+        if (count === slotArray.length - 1) {
+            result.innerHTML = message;
+      }
     }, 400);
     
 }
@@ -132,12 +137,10 @@ function displayComputerChoice() {
 function updateUI() {
     // Update the player and computer hand images with the chosen icons
     playerImg.innerHTML = `<img src=${imagePaths[playerPick]} id="pImg"></img>`;
-    displayComputerChoice();
-
+    
     // Determine the winner and get the appropriate message
     const [winner, message] = determinWinner();
-    result.innerHTML = message;
-
+    
     // Update the score based on the winner
     if (winner === 'player') {
         playerScore++;
@@ -146,6 +149,8 @@ function updateUI() {
     } else {
         computerScore++;
     }
+
+    displayComputerChoice(message);
 
     // Update the scores displayed in the UI
     document.getElementById('player_score').innerHTML = `Player: ${playerScore}`;
