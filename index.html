@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Font Awasome and Google Fonts -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Changa+One&family=Lato&family=Merriweather+Sans&family=Montserrat+Alternates&display=swap"
-        rel="stylesheet">
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Changa+One&family=Lato&family=Merriweather+Sans&family=Montserrat+Alternates&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>Home Rock-Paper-Scissors-Lizard-Spock</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <!-- <nav>        
         <div class="memu" id="gameMenu">
             <a href="index.html" class="active">Home</a>
@@ -28,36 +30,44 @@
         </div>
     </nav> -->
     <section id="gameField">
-        <h1>Rock Paper Scissors Lizard Spock</h1>
-        <p id="pick">Take a Pick! </p>
+      <h1>Rock Paper Scissors Lizard Spock</h1>
+      <p id="pick">Take a Pick!</p>
 
-        <div class="coices_container">
-            <div id="player_choice">
-                <button data-type="rock" id="rock" class="btnChoices"><i class="far fa-hand-rock"></i> Rock</button>
-                <button data-type="paper" id="paper" class="btnChoices"><i class="far fa-hand-paper"></i> Paper</button>
-                <button data-type="scissors" id="scissors" class="btnChoices"><i class="far fa-hand-scissors"></i>
-                    Scissors</button>
-                <button data-type="lizard" id="lizard" class="btnChoices"><i class="far fa-hand-lizard"></i>
-                    Lizard</button>
-                <button data-type="spock" id="spock" class="btnChoices"><i class="far fa-hand-spock"></i> Spock</button>
-            </div>
+      <div class="coices_container">
+        <div id="player_choice">
+          <button data-type="rock" id="rock" class="btnChoices">
+            <i class="far fa-hand-rock"></i> Rock
+          </button>
+          <button data-type="paper" id="paper" class="btnChoices">
+            <i class="far fa-hand-paper"></i> Paper
+          </button>
+          <button data-type="scissors" id="scissors" class="btnChoices">
+            <i class="far fa-hand-scissors"></i> Scissors
+          </button>
+          <button data-type="lizard" id="lizard" class="btnChoices">
+            <i class="far fa-hand-lizard"></i> Lizard
+          </button>
+          <button data-type="spock" id="spock" class="btnChoices">
+            <i class="far fa-hand-spock"></i> Spock
+          </button>
         </div>
+      </div>
 
-        <div>
-            <p id="score">Score</p>
+      <div>
+        <p id="score">Score</p>
+      </div>
+
+      <div class="score_container">
+        <div id="score_board">
+          <p id="player_score">Player</p>
+          <p id="tie_score">Tie</p>
+          <p id="computer_score">Computer</p>
         </div>
+      </div>
 
-        <div class="score_container">
-            <div id="score_board">
-                <p id="player_score">Player</p>
-                <p id="tie_score">Tie</p>
-                <p id="computer_score">Computer</p>
-            </div>
-        </div>
+      <button id="reset_btn">Reset</button>
 
-        <button id="reset_btn">Reset</button>
-
-        <!-- <div class="modal" id="reset_modal">
+      <!-- <div class="modal" id="reset_modal">
             <button class="modal_close_cross" id="reset_close">&times;</button>
             <div id="reset_modal_message"></div>
             <div id="reset_modal_score">
@@ -67,24 +77,31 @@
         </div>
         <div id="reset_modal_overlay"></div> -->
 
-        <div id="choiceImg">
-            <div id="playerImg">
-            </div>
-            <div id="compImg">
-            </div>
-        </div>
-        <div>
-            <p id="result"></p>
-        </div>
+      <div id="choiceImg">
+        <div id="playerImg"></div>
+        <div id="compImg"></div>
+      </div>
+      <div>
+        <p id="result"></p>
+      </div>
 
-        <div id="background_change">
-            <button class="bgOption" data-index="0">Dill</button>
-            <button class="bgOption" data-index="1">Oyster</button>
-            <button class="bgOption" data-index="2">Margic World</button>
-        </div>
-
+      <div id="background_change">
+        <button class="bgOption" data-index="0">Dill</button>
+        <button class="bgOption" data-index="1">Oyster</button>
+        <button class="bgOption" data-index="2">Chinice lantern</button>
+        <button class="bgOption" data-index="3">Dandelion 1</button>
+        <button class="bgOption" data-index="4">Droplets</button>
+        <button class="bgOption" data-index="5">Leaf</button>
+        <button class="bgOption" data-index="6">Winter</button>
+        <button class="bgOption" data-index="7">Magic World</button>
+        <button class="bgOption" data-index="8">Peacock</button>
+        <button class="bgOption" data-index="9">Poppy seeds</button>
+        <button class="bgOption" data-index="10">Dandelion</button>
+        <button class="bgOption" data-index="11">Rainy leaf</button>
+        <button class="bgOption" data-index="12">Water drops</button>
+        <button class="bgOption" data-index="13">Mushroom gills</button>
+      </div>
     </section>
     <script src="assets/js/script.js"></script>
-</body>
-
+  </body>
 </html>

@@ -36,7 +36,7 @@ body {
     align-items: center;
     flex-direction: column;
     max-width: 100%;
-    background-color: rgb(67, 113, 140, 0.5);
+    background-color: rgba(255, 255, 255, .4);
     border-radius: 20px;
 }
 
@@ -59,8 +59,8 @@ body {
     justify-content: center;
     cursor: pointer;
     border-radius: 5px;
-    border: 3px solid #1F4642;
-    background-color: rgb(255, 255, 255, 0.5);
+    border: 3px solid #1F4642 5px;
+    background-color: rgb(255, 255, 255, 0.3);
 }
 
 i {
@@ -84,7 +84,7 @@ i {
     height: 10rem;
     border: solid 5px;
     border-color: #1F4642;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, 0.3);
     border-radius: 5px;
     margin-top: 2rem;
     margin-right: 5rem;
@@ -95,7 +95,7 @@ i {
     height: 10rem;
     border: solid 5px;
     border-color: #1F4642;
-    background-color: rgb(169, 146, 192, 0.5);
+    background-color: rgb(169, 146, 192, 0.3);
     border-radius: 5px;
     margin-top: 2rem;
     margin-left: 5rem;
@@ -198,6 +198,7 @@ p {
     justify-content: center;
     cursor: pointer;
     border-radius: 5px;
+    background-color: rgb(255, 255, 255, 0.3);
 }
 
 .modal {
