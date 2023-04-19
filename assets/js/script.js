@@ -28,6 +28,7 @@ let computerScore = 0;
 let playerPick;
 let computerPick;
 let winner;
+let bgChoice = 0;
 
 // Add event listeners to the buttons in order to detect which button the player clicked
 
@@ -195,14 +196,14 @@ const backgroundOptions = [
   "../images/backgrounds/water_drops.webp",
   "../images/backgrounds/mushroom_gills.webp",];
 
-// Use querySelectorAll to pull all the buttons from the body of index.html
-const bgButtons = document.querySelectorAll(".bgOption");
+  document.body.style.backgroundImage = `url(${backgroundOptions[bgChoice]})`;
 
-// Use forEach to loop through all obtained buttons
-bgButtons.forEach((button) => {
-  // Add click event listener to set background image to the data-type attribute of the button that was clicked
-  button.addEventListener("click", function () {
-    let bgIndex = this.dataset.index;
-    document.body.style.backgroundImage = `url(${backgroundOptions[bgIndex]})`;
+  const bgChange = document.getElementById("bgChange");
+  bgChange.addEventListener("click", function () {
+    bgChoice ++;
+    if (bgChoice === backgroundOptions.length) {
+      bgChoice = 0;
+    }
+    document.body.style.backgroundImage = `url(${backgroundOptions[bgChoice]})`;
   });
-});
+
