@@ -1,27 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Changa+One&family=Lato&family=Merriweather+Sans&family=Montserrat+Alternates&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Changa+One&family=Lato&family=Merriweather+Sans&family=Montserrat+Alternates&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
 }
 
 html {
-    position: relative;
-    min-height: 100%;
+  position: relative;
+  min-height: 100%;
 }
 
 body {
-    font-family: 'Merriweather Sans', sans-serif;
-    max-width: 1800px;
-    max-height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  font-family: "Merriweather Sans", sans-serif;
+  max-width: 1800px;
+  max-height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 /* nav {
@@ -31,241 +31,250 @@ body {
 } */
 
 #gameField {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    max-width: 100%;
-    background-color: rgba(255, 255, 255, .4);
-    border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 100%;
+  background-color: rgba(253, 241, 222, 0.4);
+  border-radius: 20px;
 }
 
 #player_choice {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 3rem;
-
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem;
 }
 
 .btnChoices {
-    display: flex;
-    width: 8rem;
-    height: 2.5rem;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    border-radius: 5px;
-    border: 3px solid #1F4642 5px;
-    background-color: rgb(255, 255, 255, 0.3);
+  display: flex;
+  width: 8rem;
+  height: 2.5rem;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 3px solid #1f4642 5px;
+  background-color: rgba(253, 241, 222, 0.7);
+}
+
+.bgOption {
+  background-color: rgba(253, 241, 222, 0.7);
+  font-family: "Merriweather Sans", sans-serif;
 }
 
 i {
-    margin-right: .5rem;
+  margin-right: 0.5rem;
 }
 
 #scissors {
-    width: 10rem;
+  width: 10rem;
 }
 
 #choiceImg {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
 }
 
 #playerImg {
-    display: flex;
-    justify-content: center;
-    width: 10rem;
-    height: 10rem;
-    border: solid 5px;
-    border-color: #1F4642;
-    background-color: rgba(255, 255, 255, 0.3);
-    border-radius: 5px;
-    margin-top: 2rem;
-    margin-right: 5rem;
+  display: flex;
+  justify-content: center;
+  width: 10rem;
+  height: 10rem;
+  border: solid 5px;
+  border-color: #1f4642;
+  background-color: rgba(253, 241, 222, 0.7);
+  border-radius: 10px;
+  margin-top: 2rem;
+  margin-right: 5rem;
 }
 
 #compImg {
-    width: 10rem;
-    height: 10rem;
-    border: solid 5px;
-    border-color: #1F4642;
-    background-color: rgb(169, 146, 192, 0.3);
-    border-radius: 5px;
-    margin-top: 2rem;
-    margin-left: 5rem;
+  width: 10rem;
+  height: 10rem;
+  border: solid 5px;
+  border-color: #1f4642;
+  background-color: rgb(253, 241, 222, 0.7);
+  border-radius: 10px;
+  margin-top: 2rem;
+  margin-left: 5rem;
 }
 
 #pImg,
 #cImg {
-    width: 150px;
-    height: 150px;
+  width: 150px;
+  height: 150px;
 }
-
-
 
 /* Center the h1 element */
 h1 {
-    font-family: 'Merriweather Sans', sans-serif;
-    font-size: 4rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    letter-spacing: .2rem;
-    text-align: center;
+  font-family: "Changa One", cursive;
+  font-size: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  letter-spacing: 0.2rem;
+  text-align: center;
 }
 
 /* Adjust the width of the h1 element for smaller screens */
 @media only screen and (max-width: 768px) {
-    h1 {
-        font-size: 3rem;
-        max-width: 80%;
-    }
+  h1 {
+    font-size: 3rem;
+    max-width: 80%;
+  }
 }
 
 h2 {
-    font-family: 'Merriweather Sans', sans-serif;
-    font-size: 3rem;
+  font-family: "Changa One", cursive;
+  font-size: 3rem;
 }
 
 h3 {
-    font-family: 'Merriweather Sans', sans-serif;
-    font-size: 2.5rem;
+  font-family: "Changa One", cursive;
+  font-size: 2.5rem;
 }
 
 p {
-    font-family: 'Lato', sans-serif;
-    font-size: 2rem;
-    margin-bottom: 2rem;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
 #pick {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 
 .score_container {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    /* margin-top: 20px; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* margin-top: 20px; */
 }
 
 #score_board {
-    display: flex;
-    justify-content: space-evenly;
-    width: 30%;
-    gap: 7rem;
+  display: flex;
+  justify-content: space-evenly;
+  width: 30%;
+  gap: 7rem;
 }
 
 #score_board p {
-    flex: 1;
-    text-align: center;
+  flex: 1;
+  text-align: center;
+  font-family: "Changa One", cursive;
 }
 
 .score_container {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 2rem;
 }
 
 #player_score {
-    margin-right: 2.8rem;
+  margin-right: 2.8rem;
 }
 
 #score {
-    margin-top: 3rem;
-    font-size: 2.5rem;
+  margin-top: 3rem;
+  font-size: 2.5rem;
+}
+
+#result {
+  font-size: 2.5rem;
+  margin-top: 3rem;
+  font-family: "Merriweather Sans", sans-serif;
 }
 
 .fa-handshake {
-    margin-right: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 /* RESET Button and Modal */
-#reset_btn {
-    display: flex;
-    width: 8rem;
-    height: 2.5rem;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    border-radius: 5px;
-    background-color: rgb(255, 255, 255, 0.3);
-}
+/* #reset_btn {
+  display: flex;
+  width: 8rem;
+  height: 2.5rem;
+  font-size: 1.5rem;
+  font-weight: 600; 
+  margin-bottom: 1rem;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255, 0.7);
+} */
 
-.modal {
-    position: fixed;
-    border: 1px solid black;
-    border-radius: 5px;
-    z-index: 15;
-    width: 22rem;
-    height: 12rem;
-    background-color: aquamarine;
-}
+/* .modal {
+  position: fixed;
+  border: 1px solid black;
+  border-radius: 5px;
+  z-index: 15;
+  width: 22rem;
+  height: 12rem;
+  background-color: aquamarine;
+} */
 
-#reset_modal_score {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+/* #reset_modal_score {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 #reset_modal #reset_close {
-    cursor: pointer;
-    border: none;
-    outline: none;
-    background: none;
-    font-size: 1.5rem;
-    font-weight: bold;
-    justify-content: end;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  justify-content: end;
 }
 
 #reset_modal_overlay {
-    background-color: brown;
-}
+  background-color: brown;
+} */
 
 /*History Page*/
 
 /*Strategy Page*/
-section {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    /* max-height: 70vh; */
-    max-width: 80vh;
-    margin: 1.5rem 1.5rem 0 1.5rem;
+/* section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center; */
+  /* max-height: 70vh; */
+  /* max-width: 80vh;
+  margin: 1.5rem 1.5rem 0 1.5rem;
+} */
 
-}
-
-.info p,
+/* .info p,
 ol,
 ul {
-    font-family: 'Lato', sans-serif;
-    font-size: 1.2rem;
+  font-family: "Lato", sans-serif;
+  font-size: 1.2rem;
 }
 
 ol {
-    list-style-type: disc;
+  list-style-type: disc;
 }
 
 ul {
-    list-style-type: square;
-}
+  list-style-type: square;
+} */
 
 /* Slot Machine */
-.slotMachineImg {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-
+/* .slotMachineImg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+} */
