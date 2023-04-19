@@ -181,29 +181,31 @@ document.getElementById("reset_btn").addEventListener("click", function () {
 
 // Create an array of image paths for the background options
 const backgroundOptions = [
-  "../images/backgrounds/dill.webp",
-  "../images/backgrounds/oyster.webp",
-  "../images/backgrounds/chinese_lantern.webp",
-  "../images/backgrounds/dandelion_1.webp",
-  "../images/backgrounds/droplets.webp",
+  "../images/backgrounds/dill.webp",  
+  "../images/backgrounds/peacock.webp",
   "../images/backgrounds/leaf.webp",
+  "../images/backgrounds/dandelion.webp",
+  "../images/backgrounds/droplets.webp",
+  "../images/backgrounds/rainy_leaf.webp",
+  "../images/backgrounds/chinese_lantern.webp",
+  
   "../images/backgrounds/macro_winter.webp",
   "../images/backgrounds/magic_world.webp",
-  "../images/backgrounds/peacock.webp",
-  "../images/backgrounds/poppy_seeds.webp",
-  "../images/backgrounds/dandelion.webp",
-  "../images/backgrounds/rainy_leaf.webp",
+  
   "../images/backgrounds/water_drops.webp",
-  "../images/backgrounds/mushroom_gills.webp",];
+  "../images/backgrounds/mushroom_gills.webp",
+  "../images/backgrounds/dandelion_1.webp",
+  "../images/backgrounds/poppy_seeds.webp",
+  "../images/backgrounds/oyster.webp",
+];
 
+document.body.style.backgroundImage = `url(${backgroundOptions[bgChoice]})`;
+
+const bgChange = document.getElementById("bgChange");
+bgChange.addEventListener("click", function () {
+  bgChoice++;
+  if (bgChoice === backgroundOptions.length) {
+    bgChoice = 0;
+  }
   document.body.style.backgroundImage = `url(${backgroundOptions[bgChoice]})`;
-
-  const bgChange = document.getElementById("bgChange");
-  bgChange.addEventListener("click", function () {
-    bgChoice ++;
-    if (bgChoice === backgroundOptions.length) {
-      bgChoice = 0;
-    }
-    document.body.style.backgroundImage = `url(${backgroundOptions[bgChoice]})`;
-  });
-
+});
