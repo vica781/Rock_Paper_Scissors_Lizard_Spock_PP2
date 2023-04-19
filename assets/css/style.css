@@ -188,7 +188,7 @@ p {
 
 #result {
   font-size: 2.5rem;
-  margin-top: 3rem;
+  margin-top: 1.5rem;
   font-family: "Merriweather Sans", sans-serif;
 }
 
@@ -197,7 +197,7 @@ p {
 }
 
 /* RESET Button and Modal */
-/* #reset_btn {
+#reset_btn {
   display: flex;
   width: 8rem;
   height: 2.5rem;
@@ -209,8 +209,8 @@ p {
   justify-content: center;
   cursor: pointer;
   border-radius: 5px;
-  background-color: rgb(255, 255, 255, 0.7);
-} */
+  background-color: rgb(253, 241, 222, 0.7);
+}
 
 /* .modal {
   position: fixed;
