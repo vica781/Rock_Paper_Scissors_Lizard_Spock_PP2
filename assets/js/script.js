@@ -222,3 +222,7 @@ homeBtn.addEventListener("click", function () {
   homeBtn.classList.add("active");
   aboutBtn.classList.remove("active");
 });
+
+const currentYear = new Date().getFullYear();
+document.getElementById("current-year").innerHTML =
+  "&copy; " + currentYear + " 'Rock Paper Sciccors Lizard Spock' by Victoria Kalenik";

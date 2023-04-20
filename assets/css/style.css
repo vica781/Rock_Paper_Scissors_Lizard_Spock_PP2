@@ -259,6 +259,57 @@ p {
   background-color: rgb(253, 241, 222, 0.7);
 }
 
+/* FOOTER */
+footer {
+  background-color: #5a7d8c;
+  color: #fff;
+  padding: 20px;
+}
+
+.mediaicons {
+  text-align: center;
+}
+
+.mediaicons li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.icons {
+  margin: 0;
+  padding: 0;
+}
+
+.icons li {
+  display: inline-block;
+  margin: 0 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+}
+
+.icons li a {
+  color: #fff;
+  font-size: 1rem;
+}
+
+.icons li a:hover {
+  text-decoration: none;
+}
+
+#disclaimer {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: .2rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.5rem;
+}
+
 /* .modal {
   position: fixed;
   border: 1px solid black;
