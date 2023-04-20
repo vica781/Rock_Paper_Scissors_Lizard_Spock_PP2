@@ -181,17 +181,17 @@ document.getElementById("reset_btn").addEventListener("click", function () {
 
 // Create an array of image paths for the background options
 const backgroundOptions = [
-  "../images/backgrounds/dill.webp",
+  "../images/backgrounds/dill.webp",  
   "../images/backgrounds/peacock.webp",
   "../images/backgrounds/leaf.webp",
   "../images/backgrounds/dandelion.webp",
   "../images/backgrounds/droplets.webp",
   "../images/backgrounds/rainy_leaf.webp",
   "../images/backgrounds/chinese_lantern.webp",
-
+  
   "../images/backgrounds/macro_winter.webp",
   "../images/backgrounds/magic_world.webp",
-
+  
   "../images/backgrounds/water_drops.webp",
   "../images/backgrounds/mushroom_gills.webp",
   "../images/backgrounds/dandelion_1.webp",
@@ -209,20 +209,3 @@ bgChange.addEventListener("click", function () {
   }
   document.body.style.backgroundImage = `url(${backgroundOptions[bgChoice]})`;
 });
-
-// Get references to the navbar elements
-const homeBtn = document.getElementById("home-btn");
-const aboutBtn = document.getElementById("about-btn");
-
-// Add event listeners to the navbar buttons
-homeBtn.addEventListener("click", function () {
-  document.getElementById("home").style.display = "block";
-  document.getElementById("about").style.display = "none";
-
-  homeBtn.classList.add("active");
-  aboutBtn.classList.remove("active");
-});
-
-const currentYear = new Date().getFullYear();
-document.getElementById("current-year").innerHTML =
-  "&copy; " + currentYear + " 'Rock Paper Sciccors Lizard Spock' by Victoria Kalenik";

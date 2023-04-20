@@ -17,7 +17,7 @@
       rel="stylesheet"
     />
 
-    <link rel="icon" type="image/png" href="../images/favicon/pentagon.png" />
+    <link rel="icon" type="image/png" href="../images/favicon/pentagon_2.png" />
 
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>Home Rock-Paper-Scissors-Lizard-Spock</title>
@@ -27,7 +27,7 @@
     <nav>
       <div class="logo">
         <img
-          src="../images/favicon/pentagon.png"
+          src="../images/favicon/pentagon_2.png"
           alt="Game logo in a shape of pentagon formed by five icons: Rock, Paper, Scissors, Lizard, Spock"
         />
       </div>
@@ -43,6 +43,14 @@
     </nav>
 
     <section id="gameField">
+      <div id="choiceImg">
+        <div id="playerImg"></div>
+        <div id="compImg"></div>
+      </div>
+      <div>
+        <p id="result"></p>
+      </div>
+
       <p id="pick">Take a Pick!</p>
 
       <div class="coices_container">
@@ -77,27 +85,10 @@
         </div>
       </div>
 
-      <button id="reset_btn">New Game</button>
-
-      <!-- <div class="modal" id="reset_modal">
-            <button class="modal_close_cross" id="reset_close">&times;</button>
-            <div id="reset_modal_message"></div>
-            <div id="reset_modal_score">
-                <p>Player</p>
-                <p>Computer</p>
-            </div>
-        </div>
-        <div id="reset_modal_overlay"></div> -->
-
-      <div id="choiceImg">
-        <div id="playerImg"></div>
-        <div id="compImg"></div>
-      </div>
       <div>
-        <p id="result"></p>
+        <button id="reset_btn">New Game</button>
+        <button id="bgChange">Change Background</button>
       </div>
-
-      <button id="bgChange">Change Background</button>
     </section>
 
     <footer>
@@ -142,9 +133,9 @@
         <div id="disclaimer">
           <p>
             Full Stack Developer course with Code Institute
-            <br>
+            <br />
             Created as a part of a portfolio. Milestone Project 2
-            <br>
+            <br />
             All materials used for an educational purpose only
           </p>
           <p id="current-year"></p>
