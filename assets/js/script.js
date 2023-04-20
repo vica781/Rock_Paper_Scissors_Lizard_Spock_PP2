@@ -183,20 +183,18 @@ document.getElementById("reset_btn").addEventListener("click", function () {
 const backgroundOptions = [
   "../images/backgrounds/dill.webp",
   "../images/backgrounds/peacock.webp",
-  "../images/backgrounds/leaf.webp",
-
   "../images/backgrounds/rainy_leaf.webp",
-  "../images/backgrounds/dandelion.webp",
 
   "../images/backgrounds/chinese_lantern.webp",
   "../images/backgrounds/magic_world.webp",
-  "../images/backgrounds/water_drops.webp",
+  "../images/backgrounds/mushroom_gills.webp",
+  "../images/backgrounds/leaf.webp",
 
   "../images/backgrounds/droplets.webp",
   "../images/backgrounds/macro_winter.webp",
+  "../images/backgrounds/water_drops.webp",
 
-  "../images/backgrounds/mushroom_gills.webp",
-
+  "../images/backgrounds/dandelion.webp",
   "../images/backgrounds/dandelion_1.webp",
   "../images/backgrounds/poppy_seeds.webp",
   "../images/backgrounds/oyster.webp",
