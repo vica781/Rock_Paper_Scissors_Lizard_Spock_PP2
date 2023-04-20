@@ -209,3 +209,7 @@ bgChange.addEventListener("click", function () {
   }
   document.body.style.backgroundImage = `url(${backgroundOptions[bgChoice]})`;
 });
+
+const currentYear = new Date().getFullYear();
+document.getElementById("current-year").innerHTML = "&copy; " + currentYear +
+    " 'Rock Paper Scissors Lizard Spock' created by Victoria Kalenik";
