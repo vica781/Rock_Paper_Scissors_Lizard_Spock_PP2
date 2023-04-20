@@ -181,19 +181,22 @@ document.getElementById("reset_btn").addEventListener("click", function () {
 
 // Create an array of image paths for the background options
 const backgroundOptions = [
-  "../images/backgrounds/dill.webp",  
+  "../images/backgrounds/dill.webp",
   "../images/backgrounds/peacock.webp",
   "../images/backgrounds/leaf.webp",
-  "../images/backgrounds/dandelion.webp",
-  "../images/backgrounds/droplets.webp",
+
   "../images/backgrounds/rainy_leaf.webp",
+  "../images/backgrounds/dandelion.webp",
+
   "../images/backgrounds/chinese_lantern.webp",
-  
-  "../images/backgrounds/macro_winter.webp",
   "../images/backgrounds/magic_world.webp",
-  
   "../images/backgrounds/water_drops.webp",
+
+  "../images/backgrounds/droplets.webp",
+  "../images/backgrounds/macro_winter.webp",
+
   "../images/backgrounds/mushroom_gills.webp",
+
   "../images/backgrounds/dandelion_1.webp",
   "../images/backgrounds/poppy_seeds.webp",
   "../images/backgrounds/oyster.webp",
@@ -211,5 +214,7 @@ bgChange.addEventListener("click", function () {
 });
 
 const currentYear = new Date().getFullYear();
-document.getElementById("current-year").innerHTML = "&copy; " + currentYear +
-    " 'Rock Paper Scissors Lizard Spock' created by Victoria Kalenik";
+document.getElementById("current-year").innerHTML =
+  "&copy; " +
+  currentYear +
+  " 'Rock Paper Scissors Lizard Spock' created by Victoria Kalenik";
