@@ -30,7 +30,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   background-color: rgba(74, 79, 23, 0.8);
-  color: fff;
+  /* color: hsl(55, 100%, 50%); */
   padding: 10px;
   font-size: 1.2rem;
   font-family: "Montserrat", sans-serif;
@@ -46,13 +46,13 @@ nav {
   /* font-family: "Cabin Sketch", cursive; */
   font-family: "Abril Fatface", cursive;
   font-size: 4rem;
-  color: #fff;
+  color: hsl(55, 100%, 50%);
   letter-spacing: 6px;
 }
 
 .buttons a {
   background-color: rgba(125, 145, 23, 1);
-  color: #fff;
+  color: hsl(55, 100%, 50%);
   border: 1px solid #fff;
   padding: 10px 20px;
   font-family: "Montserrat", sans-serif;
@@ -186,6 +186,7 @@ p {
   flex: 1;
   text-align: center;
   font-family: "Montserrat", sans-serif;
+  color: hsl(55, 100%, 50%);
 }
 
 #player_score {
@@ -218,6 +219,7 @@ p {
   height: 2.5rem;
   font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
+  color: hsl(55, 100%, 50%);
   margin-bottom: 1rem;
   align-content: center;
   align-items: center;
@@ -230,7 +232,7 @@ p {
 /* FOOTER */
 footer {
   background-color: rgba(74, 79, 23, 0.9);
-  color: #fff;
+  color: hsl(55, 100%, 50%);
   padding: 20px;
   text-align: center;
 }
@@ -257,12 +259,13 @@ footer {
 }
 
 .icons li a {
-  color: #fff;
   font-size: 1.5rem;
+  color: hsl(55, 100%, 50%);
 }
 
 .icons li a:hover {
   text-decoration: none;
+  color: hsl(123, 43%, 80%);
 }
 
 #disclaimer p {
