@@ -43,8 +43,8 @@ nav {
 }
 
 .heading h1 {
-  /* font-family: "Cabin Sketch", cursive; */
-  font-family: "Abril Fatface", cursive;
+  font-family: "Cabin Sketch", cursive;
+  /* font-family: "Abril Fatface", cursive; */
   font-size: 4rem;
   color: hsl(55, 100%, 50%);
   letter-spacing: 6px;
@@ -120,7 +120,7 @@ i {
   height: 10rem;
   border: solid 5px;
   border-color: rgb(74, 79, 23);
-  background-color: rgb(225, 235, 84, 0.5);
+  background-color: rgba(218, 141, 54, 0.8);
   border-radius: 10px;
   margin-top: 2rem;
   margin-right: 5rem;
@@ -132,7 +132,7 @@ i {
   height: 10rem;
   border: solid 5px;
   border-color: rgb(74, 79, 23);
-  background-color: rgba(221, 199, 139, 0.7);
+  background-color: rgba(126, 103, 206, 0.8);
   border-radius: 10px;
   margin-top: 2rem;
   margin-left: 5rem;
