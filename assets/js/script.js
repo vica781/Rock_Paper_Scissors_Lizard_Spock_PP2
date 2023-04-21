@@ -135,22 +135,22 @@ function displayComputerChoice(message) {
   }, 400);
 }
 
-  // Add the event listener to the window object
-  window.addEventListener("load", function () {
-    // Get the playerImg and compImg elements
-    const playerImg = document.getElementById("playerImg");
-    const compImg = document.getElementById("compImg");
+// Add the event listener to the window object
+window.addEventListener("load", function () {
+  // Get the playerImg and compImg elements
+  const playerImg = document.getElementById("playerImg");
+  const compImg = document.getElementById("compImg");
 
-    // Create the image element and set its attributes
-    const pentagonImage = document.createElement("img");
-    pentagonImage.src = "../images/favicon/pentagon_2.png";
-    pentagonImage.alt =
-      "Game logo in a shape of pentagon formed by five icons: Rock, Paper, Scissors, Lizard, Spock";
+  // Create the image element and set its attributes
+  const pentagonImage = document.createElement("img");
+  pentagonImage.src = "../images/favicon/pentagon_2.png";
+  pentagonImage.alt =
+    "Game logo in a shape of pentagon formed by five icons: Rock, Paper, Scissors, Lizard, Spock";
 
-    // Add the image to the playerImg and compImg elements
-    playerImg.appendChild(pentagonImage.cloneNode());
-    compImg.appendChild(pentagonImage);
-  });
+  // Add the image to the playerImg and compImg elements
+  playerImg.appendChild(pentagonImage.cloneNode());
+  compImg.appendChild(pentagonImage);
+});
 
 // Update the UI with the results of the game
 function updateUI() {
@@ -194,6 +194,33 @@ document.getElementById("reset_btn").addEventListener("click", function () {
   document.getElementById("player_score").innerHTML = `Player: 0`;
   document.getElementById("tie_score").innerHTML = `Tie: 0`;
   document.getElementById("computer_score").innerHTML = `Computer: 0`;
+});
+
+// Add a click event listener to the reset (New Game) button
+document.getElementById("reset_btn").addEventListener("click", function () {
+  playerScore = 0;
+  computerScore = 0;
+  tieScore = 0;
+
+  // Clear content of elements from previous game results
+  playerImg.innerHTML = "";
+  compImg.innerHTML = "";
+  result.innerHTML = "";
+
+  // Update the scores displayed in the UI to 0
+  document.getElementById("player_score").innerHTML = `Player: 0`;
+  document.getElementById("tie_score").innerHTML = `Tie: 0`;
+  document.getElementById("computer_score").innerHTML = `Computer: 0`;
+
+  // Creat the image element and set its attributes
+  const pentagonImage = document.createElement("img");
+  pentagonImage.src = "../images/favicon/pentagon_2.png";
+  pentagonImage.alt =
+    "Game logo in a shape of pentagon formed by five icons: Rock, Paper, Scissors, Lizard, Spock";
+
+  // Add the image to the playerImg and compImg elements
+  playerImg.appendChild(pentagonImage.cloneNode());
+  compImg.appendChild(pentagonImage);
 });
 
 // Create an array of image paths for the background options
