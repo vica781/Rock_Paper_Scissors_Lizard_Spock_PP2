@@ -226,13 +226,14 @@ p {
 #reset_btn,
 #bgChange {
   display: flex;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.5rem;
-  color: rgb(255, 235, 0);
-  margin-bottom: 1rem;
-  align-content: center;
   align-items: center;
   justify-content: center;
+  height: 3rem;
+  width: 20rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.7rem;
+  color: rgb(255, 235, 0);
+  margin-bottom: 1rem;
   cursor: pointer;
   border-radius: 5px;
   border: 3px solid rgb(74, 79, 23);
@@ -241,10 +242,11 @@ p {
 
 .newGame_bgChange {
   display: flex;
+  width: 80%;
+  justify-content: space-between;
   flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
   font-family: "Montserrat", sans-serif;
+  margin-top: 2rem;
 }
 
 /* FOOTER */
