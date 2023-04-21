@@ -196,6 +196,13 @@ document.getElementById("reset_btn").addEventListener("click", function () {
   document.getElementById("computer_score").innerHTML = `Computer: 0`;
 });
 
+// Set the initial scores to 0 on window load
+window.addEventListener("load", function () {
+  document.getElementById("player_score").innerHTML = `Player: 0`;
+  document.getElementById("tie_score").innerHTML = `Tie: 0`;
+  document.getElementById("computer_score").innerHTML = `Computer: 0`;
+});   
+
 // Add a click event listener to the reset (New Game) button
 document.getElementById("reset_btn").addEventListener("click", function () {
   playerScore = 0;
