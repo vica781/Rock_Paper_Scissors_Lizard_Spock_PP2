@@ -135,6 +135,23 @@ function displayComputerChoice(message) {
   }, 400);
 }
 
+  // Add the event listener to the window object
+  window.addEventListener("load", function () {
+    // Get the playerImg and compImg elements
+    const playerImg = document.getElementById("playerImg");
+    const compImg = document.getElementById("compImg");
+
+    // Create the image element and set its attributes
+    const pentagonImage = document.createElement("img");
+    pentagonImage.src = "../images/favicon/pentagon_2.png";
+    pentagonImage.alt =
+      "Game logo in a shape of pentagon formed by five icons: Rock, Paper, Scissors, Lizard, Spock";
+
+    // Add the image to the playerImg and compImg elements
+    playerImg.appendChild(pentagonImage.cloneNode());
+    compImg.appendChild(pentagonImage);
+  });
+
 // Update the UI with the results of the game
 function updateUI() {
   // Update the player and computer hand images with the chosen icons
