@@ -127,6 +127,7 @@ i {
 }
 
 #compImg {
+  display: flex;
   width: 10rem;
   height: 10rem;
   border: solid 5px;
