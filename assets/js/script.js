@@ -34,7 +34,7 @@ let bgChoice = 0;
 
 // Use querySelectorAll to pull all the buttons from the body of index.html
 const buttons = document.querySelectorAll(".btnChoices");
-
+result.innerHTML = "Ready when you are!";
 // Use forEach to loop through all obtained buttons
 buttons.forEach((button) => {
   // Add click event listener to set playerPick variable to the data-type attribute of the button that was clicked
@@ -117,6 +117,11 @@ const imagePaths = {
 function displayComputerChoice(message) {
   // compImg.innerHTML = `<img src=${imagePaths[computerPick]} id="cImg"></img>`;
 
+  result.innerHTML = `You have chosen ${playerPick.charAt(0).toUpperCase()
+    + playerPick.slice(1)}!`;
+
+  
+
   let computerPickIndex = pcPicks.indexOf(computerPick);
   let slotArray = pcPicks.toSpliced(computerPickIndex, 1);
   slotArray.push(computerPick);
@@ -131,8 +136,20 @@ function displayComputerChoice(message) {
     } id="cImg"></img>`;
     if (count === slotArray.length - 1) {
       result.innerHTML = message;
+
+      // Update the score
+      displayScore();
     }
   }, 400);
+}
+
+function displayScore() {
+  // Update the scores displayed in the UI
+  document.getElementById("player_score").innerHTML = `Player: ${playerScore}`;
+  document.getElementById("tie_score").innerHTML = `Tie: ${tieScore}`;
+  document.getElementById(
+    "computer_score"
+  ).innerHTML = `Computer: ${computerScore}`;
 }
 
 // Add the event listener to the window object
@@ -170,38 +187,14 @@ function updateUI() {
   }
 
   displayComputerChoice(message);
-
-  // Update the scores displayed in the UI
-  document.getElementById("player_score").innerHTML = `Player: ${playerScore}`;
-  document.getElementById("tie_score").innerHTML = `Tie: ${tieScore}`;
-  document.getElementById(
-    "computer_score"
-  ).innerHTML = `Computer: ${computerScore}`;
 }
-
-// Add a click event listener to the reset button
-document.getElementById("reset_btn").addEventListener("click", function () {
-  // Reset the scores to 0
-  playerScore = 0;
-  computerScore = 0;
-  tieScore = 0;
-  // Clear content of elements from previous game results
-  playerImg.innerHTML = "";
-  compImg.innerHTML = "";
-  result.innerHTML = "";
-
-  // Update the scores displayed in the UI to 0
-  document.getElementById("player_score").innerHTML = `Player: 0`;
-  document.getElementById("tie_score").innerHTML = `Tie: 0`;
-  document.getElementById("computer_score").innerHTML = `Computer: 0`;
-});
 
 // Set the initial scores to 0 on window load
 window.addEventListener("load", function () {
   document.getElementById("player_score").innerHTML = `Player: 0`;
   document.getElementById("tie_score").innerHTML = `Tie: 0`;
   document.getElementById("computer_score").innerHTML = `Computer: 0`;
-});   
+});
 
 // Add a click event listener to the reset (New Game) button
 document.getElementById("reset_btn").addEventListener("click", function () {
@@ -212,7 +205,7 @@ document.getElementById("reset_btn").addEventListener("click", function () {
   // Clear content of elements from previous game results
   playerImg.innerHTML = "";
   compImg.innerHTML = "";
-  result.innerHTML = "";
+  result.innerHTML = "Ready when you are!";
 
   // Update the scores displayed in the UI to 0
   document.getElementById("player_score").innerHTML = `Player: 0`;
@@ -263,7 +256,4 @@ bgChange.addEventListener("click", function () {
 });
 
 const currentYear = new Date().getFullYear();
-document.getElementById("current-year").innerHTML =
-  "&copy; " +
-  currentYear +
-  " 'Rock Paper Scissors Lizard Spock' created by Victoria Kalenik";
+document.getElementById("current-year").innerHTML = currentYear;

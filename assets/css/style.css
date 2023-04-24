@@ -252,6 +252,9 @@ p {
 
 /* FOOTER */
 footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   background-color: rgba(74, 79, 23, 0.9);
   color: hsl(55, 100%, 50%);
   padding: 20px;
