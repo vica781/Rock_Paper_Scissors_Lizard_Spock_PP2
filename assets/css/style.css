@@ -251,14 +251,19 @@ p {
 }
 
 /* FOOTER */
+/* CSS */
 footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
   background-color: rgba(74, 79, 23, 0.9);
   color: hsl(55, 100%, 50%);
   padding: 20px;
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  margin: 0 20%;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .mediaicons {
@@ -279,7 +284,6 @@ footer {
   display: inline-block;
   margin: 0 10px;
   font-size: 1.5rem;
-  margin-bottom: 1rem;
 }
 
 .icons li a {
@@ -295,15 +299,18 @@ footer {
 #disclaimer p {
   text-align: center;
   font-family: "Montserrat", sans-serif;
-  font-size: 0.8rem;
+  font-size: 1.5rem;
   font-weight: lighter;
 }
 
-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+.footer-p {
+  margin-bottom: 0;
+}
+
+hr {
+  height: 2.5rem;
+  border-color: hsl(55, 100%, 50%);
+   
 }
 
 /* MEDIA QUERIES */

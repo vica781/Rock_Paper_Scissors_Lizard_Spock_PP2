@@ -30,6 +30,10 @@ let computerPick;
 let winner;
 let bgChoice = 0;
 
+// Add a YEAR to the footer
+const currentYear = new Date().getFullYear();
+document.getElementById("current-year").innerHTML = currentYear;
+
 // Add event listeners to the buttons in order to detect which button the player clicked
 
 // Use querySelectorAll to pull all the buttons from the body of index.html
@@ -117,10 +121,9 @@ const imagePaths = {
 function displayComputerChoice(message) {
   // compImg.innerHTML = `<img src=${imagePaths[computerPick]} id="cImg"></img>`;
 
-  result.innerHTML = `You have chosen ${playerPick.charAt(0).toUpperCase()
-    + playerPick.slice(1)}!`;
-
-  
+  result.innerHTML = `You have chosen ${
+    playerPick.charAt(0).toUpperCase() + playerPick.slice(1)
+  }!`;
 
   let computerPickIndex = pcPicks.indexOf(computerPick);
   let slotArray = pcPicks.toSpliced(computerPickIndex, 1);
@@ -255,5 +258,19 @@ bgChange.addEventListener("click", function () {
   document.body.style.backgroundImage = `url(${backgroundOptions[bgChoice]})`;
 });
 
-const currentYear = new Date().getFullYear();
-document.getElementById("current-year").innerHTML = currentYear;
+// Get the BACK-TO-TOP button
+const backToTopButton = document.getElementById("back-to-top");
+
+// Show the back-to-top button when the player scrolls down from the top of the page
+window.addEventListener("scroll", () => {
+  if (window.pageYOffset > 300) {
+    backToTopButton.style.display = "block";
+  } else {
+    backToTopButton.style.display = "none";
+  }
+});
+
+// Scroll back to the top of the page after the player clicks the back-to-top button
+backToTopButton.addEventListener("click", () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
