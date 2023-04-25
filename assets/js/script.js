@@ -23,6 +23,7 @@ let computerChoice;
 let playerScore = 0;
 let tieScore = 0;
 let computerScore = 0;
+let counter = 0;
 
 // Declare variables to store the choices made by the player and the computer, respectively
 let playerPick;
@@ -43,6 +44,11 @@ result.innerHTML = "Ready when you are!";
 buttons.forEach((button) => {
   // Add click event listener to set playerPick variable to the data-type attribute of the button that was clicked
   button.addEventListener("click", function () {
+    // If counter is = 20, don't allow to play anymore do not allow to excecute the code below
+    
+    // Add one to the counter
+
+    
     playerPick = this.dataset.type;
 
     result.innerHTML = "";
@@ -204,6 +210,8 @@ document.getElementById("reset_btn").addEventListener("click", function () {
   playerScore = 0;
   computerScore = 0;
   tieScore = 0;
+  // Reset the counter to 0
+  counter = 0;
 
   // Clear content of elements from previous game results
   playerImg.innerHTML = "";
