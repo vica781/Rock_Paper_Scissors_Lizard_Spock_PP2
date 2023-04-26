@@ -45,10 +45,9 @@ buttons.forEach((button) => {
   // Add click event listener to set playerPick variable to the data-type attribute of the button that was clicked
   button.addEventListener("click", function () {
     // If counter is = 20, don't allow to play anymore do not allow to excecute the code below
-    
+
     // Add one to the counter
 
-    
     playerPick = this.dataset.type;
 
     result.innerHTML = "";
@@ -94,6 +93,7 @@ function determinWinner() {
   const combo = playerPick + "-" + computerPick;
   if (playerPick === computerPick) {
     winner = "tie";
+    // Add span to the message to style it independently from the rest of the text
     message = `<span class="outcome-message"><i class="far fa-handshake"></i>It's a tie</span>`;
   } else if (winningCombinations[playerPick].includes(computerPick)) {
     winner = "player";
@@ -104,7 +104,6 @@ function determinWinner() {
   }
   return [winner, message];
 }
-
 
 // An object containing messages describing the outcome of each possible game result.
 const outcomeMessages = {
