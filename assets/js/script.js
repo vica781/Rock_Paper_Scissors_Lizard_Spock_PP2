@@ -71,22 +71,40 @@ buttons.forEach((button) => {
 // If the player's choice beats the computer's choice, the player wins.
 // If the computer's choice beats the player's choice, the computer wins.
 // The function returns an array with two values: the winner and the message to display the outcome of the game.
+// function determinWinner() {
+//   let winner;
+//   let message;
+//   const combo = playerPick + "-" + computerPick;
+//   if (playerPick === computerPick) {
+//     winner = "tie";
+//     message = `<i class="far fa-handshake"></i>It's a tie `;
+//   } else if (winningCombinations[playerPick].includes(computerPick)) {
+//     winner = "player";
+//     message = `${outcomeMessages[combo]} - You win!`;
+//   } else {
+//     winner = "computer";
+//     message = `${outcomeMessages[combo]} - Computer wins!`;
+//   }
+//   return [winner, message];
+// }
+
 function determinWinner() {
   let winner;
   let message;
   const combo = playerPick + "-" + computerPick;
   if (playerPick === computerPick) {
     winner = "tie";
-    message = `<i class="far fa-handshake"></i>It's a tie `;
+    message = `<span class="outcome-message"><i class="far fa-handshake"></i>It's a tie</span>`;
   } else if (winningCombinations[playerPick].includes(computerPick)) {
     winner = "player";
-    message = `${outcomeMessages[combo]} - You win!`;
+    message = `<span class="outcome-message">${outcomeMessages[combo]} - You win!</span>`;
   } else {
     winner = "computer";
-    message = `${outcomeMessages[combo]} - Computer wins!`;
+    message = `<span class="outcome-message">${outcomeMessages[combo]} - Computer wins!</span>`;
   }
   return [winner, message];
 }
+
 
 // An object containing messages describing the outcome of each possible game result.
 const outcomeMessages = {
