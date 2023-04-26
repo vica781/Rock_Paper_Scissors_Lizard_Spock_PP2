@@ -332,4 +332,18 @@ hr {
   border: 1.5px solid hsl(55, 100%, 50%);
 }
 
+/* MEDIA QUERIES */
+/* SMALL screens */
+@media (max-width: 600px) {
+  .logo img {
+    display: none;
+  }
 
+  .heading h1 {
+    font-size: 2.5rem;
+  }
+
+  .nav-text {
+    display: none;
+  }
+}
