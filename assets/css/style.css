@@ -64,8 +64,12 @@ nav {
 }
 
 .buttons a:hover {
-  background-color: #fff;
-  color: #333;
+  background-color: rgb(84, 85, 206);
+  color: #fff;
+}
+
+.nav-text {
+  display: inline;
 }
 
 /* Main Section */
@@ -262,11 +266,23 @@ p {
 footer {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   text-align: center;
   height: 8.5rem;
   background-color: rgba(74, 79, 23, 0.9);
+  /* color: hsl(55, 100%, 50%); */
+}
+
+.foot-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  /* height: 8.5rem; */
+  width: 40%;
+  /* background-color: rgba(74, 79, 23, 0.9); */
   color: hsl(55, 100%, 50%);
 }
 
@@ -297,7 +313,7 @@ footer {
 
 .icons li a:hover {
   text-decoration: none;
-  color: hsl(123, 43%, 80%);
+  color: rgb(84, 85, 206);
 }
 
 #disclaimer p {
@@ -314,16 +330,6 @@ footer {
 hr {
   height: 2.5rem;
   border: 1.5px solid hsl(55, 100%, 50%);
-  margin-left: -37rem;
-  margin-right: -36rem;
 }
 
-/* MEDIA QUERIES */
-@media screen and (max-width: 768px) {
-  #playerImg {
-    margin-right: 0;
-  }
-  #compImg {
-    margin-left: 0;
-  }
-}
+
