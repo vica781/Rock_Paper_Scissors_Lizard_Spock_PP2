@@ -30,9 +30,8 @@ nav {
   justify-content: space-between;
   align-items: center;
   background-color: rgba(74, 79, 23, 0.8);
-  /* color: hsl(55, 100%, 50%); */
-  padding: 10px;
-  font-size: 1.2rem;
+  padding: 20px;
+  font-size: 1.5rem;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -52,8 +51,9 @@ nav {
 
 .buttons {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  gap: 1rem;
 }
 
 .buttons a {
@@ -191,6 +191,7 @@ h3 {
   font-family: "Montserrat", sans-serif;
   font-size: 1.8rem;
   color: hsl(55, 100%, 50%);
+  margin-bottom: 3rem;
 }
 
 #player_score {
@@ -201,6 +202,7 @@ h3 {
 #score,
 #pick {
   margin-top: 1rem;
+  margin-bottom: 1rem;
   font-size: 1.8rem;
   font-family: "Montserrat", sans-serif;
   color: hsl(55, 100%, 50%);
@@ -208,8 +210,9 @@ h3 {
 }
 
 #result {
-  font-size: 2.2rem;
-  margin-top: 1rem;
+  font-size: 2rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
   font-family: "Montserrat", sans-serif;
   font-size: 2rem;
   color: rgb(6, 63, 6);
@@ -353,8 +356,13 @@ hr {
     display: none;
   }
 
-  #home-btn {
-    margin-bottom: 1rem;
+  .buttons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bttns {
+    gap: 1rem;
   }
 
   .bttns i {
