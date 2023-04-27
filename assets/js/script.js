@@ -134,11 +134,11 @@ const outcomeMessages = {
 
 //An object containing path to game's images
 const imagePaths = {
-  rock: "../images/characters/boulder_1.webp",
-  paper: "../images/characters/paper_ball.webp",
-  scissors: "../images/characters/scissors_5.webp",
-  lizard: "../images/characters/lizard_3.webp",
-  spock: "../images/characters/spock_2.webp",
+  rock: "assets/images/characters/boulder_1.webp",
+  paper: "assets/images/characters/paper_ball.webp",
+  scissors: "assets/images/characters/scissors_5.webp",
+  lizard: "assets/images/characters/lizard_3.webp",
+  spock: "assets/images/characters/spock_2.webp",
 };
 
 function displayComputerChoice(message) {
@@ -186,7 +186,7 @@ window.addEventListener("load", function () {
 
   // Create the image element and set its attributes
   const pentagonImage = document.createElement("img");
-  pentagonImage.src = "../images/favicon/pentagon_2.png";
+  pentagonImage.src = "assets/images/favicon/pentagon_2.png";
   pentagonImage.alt =
     "Game logo in a shape of pentagon formed by five icons: Rock, Paper, Scissors, Lizard, Spock";
 
@@ -242,7 +242,7 @@ document.getElementById("reset_btn").addEventListener("click", function () {
 
   // Creat the image element and set its attributes
   const pentagonImage = document.createElement("img");
-  pentagonImage.src = "../images/favicon/pentagon_2.png";
+  pentagonImage.src = "assets/images/favicon/pentagon_2.png";
   pentagonImage.alt =
     "Game logo in a shape of pentagon formed by five icons: Rock, Paper, Scissors, Lizard, Spock";
 
@@ -253,23 +253,23 @@ document.getElementById("reset_btn").addEventListener("click", function () {
 
 // Create an array of image paths for the background options
 const backgroundOptions = [
-  "../images/backgrounds/dill.webp",
-  "../images/backgrounds/leaf.webp",
-  "../images/backgrounds/peacock.webp",
-  "../images/backgrounds/rainy_leaf.webp",
-  "../images/backgrounds/dandelion.webp",
+  "assets/images/backgrounds/dill.webp",
+  "assets/images/backgrounds/leaf.webp",
+  "assets/images/backgrounds/peacock.webp",
+  "assets/images/backgrounds/rainy_leaf.webp",
+  "assets/images/backgrounds/dandelion.webp",
 
-  "../images/backgrounds/chinese_lantern.webp",
-  "../images/backgrounds/magic_world.webp",
-  "../images/backgrounds/mushroom_gills.webp",
+  "assets/images/backgrounds/chinese_lantern.webp",
+  "assets/images/backgrounds/magic_world.webp",
+  "assets/images/backgrounds/mushroom_gills.webp",
 
-  "../images/backgrounds/droplets.webp",
-  "../images/backgrounds/macro_winter.webp",
-  "../images/backgrounds/water_drops.webp",
+  "assets/images/backgrounds/droplets.webp",
+  "assets/images/backgrounds/macro_winter.webp",
+  "assets/images/backgrounds/water_drops.webp",
 
-  "../images/backgrounds/dandelion_1.webp",
-  "../images/backgrounds/poppy_seeds.webp",
-  "../images/backgrounds/oyster.webp",
+  "assets/images/backgrounds/dandelion_1.webp",
+  "assets/images/backgrounds/poppy_seeds.webp",
+  "assets/images/backgrounds/oyster.webp",
 ];
 
 document.body.style.backgroundImage = `url(${backgroundOptions[bgChoice]})`;
