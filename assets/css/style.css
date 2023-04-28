@@ -279,7 +279,6 @@ footer {
   text-align: center;
   height: 8.5rem;
   background-color: rgba(74, 79, 23, 0.9);
-  /* color: hsl(55, 100%, 50%); */
 }
 
 .foot-container {
@@ -315,7 +314,7 @@ footer {
 }
 
 .icons li a {
-  font-size: 1.5rem;
+  font-size: clamp(1rem, 2vw, 1.5rem);
   color: hsl(55, 100%, 50%);
 }
 
@@ -327,7 +326,7 @@ footer {
 #disclaimer p {
   text-align: center;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.5rem;
+  font-size: clamp(0.8rem, 1.5vw, 1.2rem);
   font-weight: lighter;
 }
 
