@@ -237,23 +237,20 @@ document.getElementById("reset_btn").addEventListener("click", function () {
 
 // Create an array of image paths for the background options
 const backgroundOptions = [
-  "assets/images/backgrounds/dill.webp",
-  "assets/images/backgrounds/leaf.webp",
-  "assets/images/backgrounds/peacock.webp",
-  "assets/images/backgrounds/rainy_leaf.webp",
-  "assets/images/backgrounds/dandelion.webp",
-
+  "assets/images/backgrounds/blue_feather.webp",
   "assets/images/backgrounds/chinese_lantern.webp",
-  "assets/images/backgrounds/magic_world.webp",
-  "assets/images/backgrounds/mushroom_gills.webp",
-
-  "assets/images/backgrounds/droplets.webp",
-  "assets/images/backgrounds/macro_winter.webp",
-  "assets/images/backgrounds/water_drops.webp",
-
+  "assets/images/backgrounds/dandelion.webp",
+  "assets/images/backgrounds/feather.webp",
+  "assets/images/backgrounds/leaf-1.webp",
+  "assets/images/backgrounds/mushroom.webp",
+  "assets/images/backgrounds/fish_scale_2.webp",
+  "assets/images/backgrounds/fish_scale.webp",
+  "assets/images/backgrounds/leaf.webp",  
+  "assets/images/backgrounds/pettel.webp",
   "assets/images/backgrounds/dandelion_1.webp",
-  "assets/images/backgrounds/poppy_seeds.webp",
-  "assets/images/backgrounds/oyster.webp",
+  "assets/images/backgrounds/succulent.webp",
+  "assets/images/backgrounds/sweet_pea.webp",
+  "assets/images/backgrounds/insect_scales.webp",
 ];
 
 document.body.style.backgroundImage = `url(${backgroundOptions[bgChoice]})`;
