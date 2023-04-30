@@ -353,6 +353,54 @@ hr {
 }
 
 /* MEDIA QUERIES */
+/* Large to medium screens */
+
+@media (max-width: 1620px) {
+  .logo {
+    margin-right: 4rem;
+  }
+
+  .heading {
+    line-height: 2.8rem;
+  }
+
+  .bttns,
+  i {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: nowrap;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .newGame_bgChange {
+    gap: 30rem;
+    align-items: center;
+  }
+
+  #playerImg,
+  #compImg {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  img {
+    width: 7.2rem;
+    height: 7.2em;
+  }
+
+  #pImg,
+  #cImg {
+    width: 7.35rem;
+    height: 7.35em;
+  }
+}
+
 /* Medium-sized screens */
 @media (max-width: 1024px) {
   .logo {
