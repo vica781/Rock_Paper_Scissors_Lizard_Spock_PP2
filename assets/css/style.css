@@ -85,7 +85,7 @@ nav {
   align-items: center;
   flex-direction: column;
   max-width: 100%;
-  background-color: rgba(117, 116, 114, 0.5);
+  /* background-color: rgba(117, 116, 114, 0.5); */
   border-radius: 20px;
 }
 
@@ -298,10 +298,8 @@ footer {
   justify-content: space-around;
   align-items: center;
   text-align: center;
-  /* height: 8.5rem; */
   max-width: 40%;
   min-width: 17.5rem;
-  /* background-color: rgba(74, 79, 23, 0.9); */
   color: hsl(55, 100%, 50%);
 }
 
