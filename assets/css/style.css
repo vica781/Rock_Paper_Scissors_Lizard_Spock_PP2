@@ -50,6 +50,13 @@ nav {
   line-height: clamp(2rem, 1rem + 4vw, 4rem);
 }
 
+.logo-heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
 .buttons {
   display: flex;
   flex-direction: row;
@@ -453,13 +460,17 @@ hr {
 
 /* Small-sized screens */
 @media (max-width: 600px) {
+  .logo {
+    margin-right: 0;
+  }
+
   .logo img {
     display: none;
   }
 
-  .logo-heading {
+  /* .logo-heading {
     gap: clamp(0.5rem, 1rem + 2vh, 1.5rem);
-  }
+  } */
 
   .buttons {
     line-height: clamp(0.2rem, 0.5rem + 2vh, 1rem);
