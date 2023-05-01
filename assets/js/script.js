@@ -45,6 +45,10 @@ buttons.forEach((button) => {
   // Add click event listener to set playerPick variable to the data-type attribute of the button that was clicked
   button.addEventListener("click", function () {
     // If counter is = 20, don't allow to play anymore do not allow to excecute the code below
+    if (counter < 20) {
+      counter++;
+      
+
 
     // Add one to the counter
 
@@ -60,7 +64,12 @@ buttons.forEach((button) => {
 
     // Call the `updateUI()` function to update the user interface with the winner and game result
     updateUI();
+    } else {
+      result.innerHTML = "Game over! You have reached 20 points!";
+    }
+    
   });
+  
 });
 
 // This function determines the winner of a game based on the comparison of the player's and computer's choices to the winningCombinations object.
@@ -237,6 +246,7 @@ document.getElementById("reset_btn").addEventListener("click", function () {
 
 // Create an array of image paths for the background options
 const backgroundOptions = [
+  "assets/images/backgrounds/sweet_pea.webp",
   "assets/images/backgrounds/blue_feather.webp",
   "assets/images/backgrounds/chinese_lantern.webp",
   "assets/images/backgrounds/dandelion.webp",
@@ -245,11 +255,9 @@ const backgroundOptions = [
   "assets/images/backgrounds/mushroom.webp",
   "assets/images/backgrounds/fish_scale_2.webp",
   "assets/images/backgrounds/fish_scale.webp",
-  "assets/images/backgrounds/leaf.webp",  
+  "assets/images/backgrounds/leaf.webp",
   "assets/images/backgrounds/pettel.webp",
   "assets/images/backgrounds/dandelion_1.webp",
-  "assets/images/backgrounds/succulent.webp",
-  "assets/images/backgrounds/sweet_pea.webp",
   "assets/images/backgrounds/insect_scales.webp",
 ];
 
