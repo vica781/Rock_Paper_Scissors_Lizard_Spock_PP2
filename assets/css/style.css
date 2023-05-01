@@ -137,7 +137,7 @@ i {
 #choiceImg {
   display: flex;
   justify-content: space-between;
-  /* margin-bottom: 1.5rem; */
+  gap: 25rem;
 }
 
 #playerImg {
@@ -150,7 +150,6 @@ i {
   background-color: rgba(118, 69, 46, 0.7);
   border-radius: 10px;
   margin-top: 2rem;
-  margin-right: 5rem;
 }
 
 #compImg {
@@ -162,7 +161,6 @@ i {
   background-color: rgba(119, 114, 36, 0.7);
   border-radius: 10px;
   margin-top: 2rem;
-  margin-left: 5rem;
 }
 
 #pImg,
@@ -171,16 +169,6 @@ i {
   height: 9.9rem;
   border-radius: 10px;
 }
-
-/* h2 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 3rem;
-}
-
-h3 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 2.5rem;
-} */
 
 .btnChoices p {
   font-family: "Montserrat", sans-serif;
@@ -410,7 +398,7 @@ hr {
   .logo {
     margin-right: 4rem;
   }
-  
+
   .bttns,
   i {
     display: flex;
@@ -447,6 +435,10 @@ hr {
     height: 7.35em;
   }
 
+  #choiceImg {
+    gap: 15rem;
+  }
+
   .foot-container {
     max-width: 50%;
     min-width: 17.5rem;
@@ -455,7 +447,6 @@ hr {
 }
 
 @media (max-width: 768px) {
-  
 }
 
 /* Small-sized screens */
@@ -467,10 +458,6 @@ hr {
   .logo img {
     display: none;
   }
-
-  /* .logo-heading {
-    gap: clamp(0.5rem, 1rem + 2vh, 1.5rem);
-  } */
 
   .buttons {
     line-height: clamp(0.2rem, 0.5rem + 2vh, 1rem);
@@ -499,10 +486,14 @@ hr {
     align-items: center;
     margin-right: 0;
   }
+  #choiceImg {
+    gap: 7rem;
+  }
 }
 
 /* Extra small-sized screens */
 @media (max-width: 480px) {
-  
+  #choiceImg {
+    gap: 5rem;
+  }
 }
-
