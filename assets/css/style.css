@@ -47,6 +47,7 @@ nav {
   font-size: clamp(2rem, 1rem + 4vw, 4rem);
   color: hsl(66, 80%, 62%);
   letter-spacing: 6px;
+  line-height: clamp(2rem, 1rem + 4vw, 4rem);
 }
 
 .buttons {
@@ -76,6 +77,7 @@ nav {
 
 .nav-text {
   display: inline;
+  font-size: clamp(0.5rem, 0.8rem + 1vw, 1.5rem);
 }
 
 /* Main Section */
@@ -359,10 +361,6 @@ hr {
     margin-right: 4rem;
   }
 
-  .heading {
-    line-height: 2.8rem;
-  }
-
   .bttns,
   i {
     display: flex;
@@ -405,11 +403,7 @@ hr {
   .logo {
     margin-right: 4rem;
   }
-
-  .heading {
-    line-height: 2.8rem;
-  }
-
+  
   .bttns,
   i {
     display: flex;
@@ -454,12 +448,17 @@ hr {
 }
 
 @media (max-width: 768px) {
+  
 }
 
 /* Small-sized screens */
 @media (max-width: 600px) {
   .logo img {
     display: none;
+  }
+
+  .logo-heading {
+    gap: clamp(0.5rem, 1rem + 2vh, 1.5rem);
   }
 
   .buttons {
@@ -493,4 +492,6 @@ hr {
 
 /* Extra small-sized screens */
 @media (max-width: 480px) {
+  
 }
+
