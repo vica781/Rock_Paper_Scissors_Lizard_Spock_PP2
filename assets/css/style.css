@@ -267,6 +267,12 @@ i {
   gap: 70rem;
 }
 
+#reset_btn:hover,
+#bgChange:hover {
+  background-color: rgb(84, 85, 206);
+  color: #fff;
+}
+
 .outcome-message {
   display: flex;
   flex-direction: column;
