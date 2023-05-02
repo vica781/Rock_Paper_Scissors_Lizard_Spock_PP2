@@ -96,7 +96,9 @@ nav {
   max-width: 100%;
   background-color: rgba(241, 217, 169, 0.5);
   border-radius: 20px;
-  margin: 22px 150px 21px 150px;
+  margin: 22px 0 21px 0;
+  margin-left: clamp(1rem, 1rem + 1vw, 50rem);
+  margin-right: clamp(1rem, 1rem + 1vw, 50rem);
 }
 
 #player_choice {
