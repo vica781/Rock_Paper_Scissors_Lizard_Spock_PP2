@@ -39,7 +39,7 @@ document.getElementById("current-year").innerHTML = currentYear;
 
 // Use querySelectorAll to pull all the buttons from the body of index.html
 const buttons = document.querySelectorAll(".btnChoices");
-result.innerHTML = "Ready when you are!";
+result.innerHTML = '<span class="start-message">Ready when you are!</span>';
 // Use forEach to loop through all obtained buttons
 buttons.forEach((button) => {
   // Add click event listener to set playerPick variable to the data-type attribute of the button that was clicked
