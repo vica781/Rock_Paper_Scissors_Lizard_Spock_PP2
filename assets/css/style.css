@@ -193,19 +193,19 @@ nav {
 }
 
 .start-message {
-  color: rgb(128, 227, 119);
+  color: #4e52c4;
 }
 
 .you-have-chosen {
-  color: rgb(225, 30, 26);
+  color: #077986;
 }
 
 .outcome-message {
-  color: rgb(75, 6, 128);
+  color: #7753bf;
 }
 
 #pick {
-  color: rgb(238, 241, 78);
+  color: #aa3a1e;
 }
 
 .fa-handshake {
@@ -275,12 +275,11 @@ i {
   font-family: "Montserrat", sans-serif;
   font-size: clamp(1rem, 1rem + 1vw, 1.6rem);
   font-weight: 600;
-  color: #753240;
+  color: #6d3183;
   margin-bottom: calc(1rem + 1vw);
 }
 
 #player_score {
-  /* margin-right: 2.8rem; */
   font-family: "Montserrat", sans-serif;
 }
 
@@ -289,7 +288,7 @@ i {
   margin-bottom: 1rem;
   font-size: clamp(1rem, 1rem + 1vw, 1.6rem);
   font-family: "Montserrat", sans-serif;
-  color: #753240;
+  color: #6d3183;
   font-weight: 600;
 }
 
