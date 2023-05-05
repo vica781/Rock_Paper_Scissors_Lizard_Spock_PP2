@@ -177,7 +177,6 @@ nav {
 }
 
 /* Messages */
-.start-message,
 #result,
 #pick {
   display: flex;
@@ -194,7 +193,7 @@ nav {
 }
 
 .start-message {
-  color: rgb(16, 128, 6);
+  color: rgb(128, 227, 119);
 }
 
 .you-have-chosen {

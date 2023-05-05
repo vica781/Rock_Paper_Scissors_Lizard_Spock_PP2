@@ -226,7 +226,7 @@ document.getElementById("reset_btn").addEventListener("click", function () {
   // Clear content of elements from previous game results
   playerImg.innerHTML = "";
   compImg.innerHTML = "";
-  result.innerHTML = "Ready when you are!";
+  result.innerHTML = '<span class="start-message">Ready when you are!</span>';
 
   // Update the scores displayed in the UI to 0
   document.getElementById("player_score").innerHTML = `Player: 0`;
