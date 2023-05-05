@@ -47,29 +47,25 @@ buttons.forEach((button) => {
     // If counter is = 20, don't allow to play anymore do not allow to excecute the code below
     if (counter < 20) {
       counter++;
-      
 
+      // Add one to the counter
 
-    // Add one to the counter
+      playerPick = this.dataset.type;
 
-    playerPick = this.dataset.type;
+      result.innerHTML = "";
 
-    result.innerHTML = "";
+      // Generate a random index number to select an element from the `pcPicks` array
+      computerPick = pcPicks[Math.floor(Math.random() * pcPicks.length)];
 
-    // Generate a random index number to select an element from the `pcPicks` array
-    computerPick = pcPicks[Math.floor(Math.random() * pcPicks.length)];
+      // Call the `determinWinner()` function to determine the winner of the game
+      determinWinner();
 
-    // Call the `determinWinner()` function to determine the winner of the game
-    determinWinner();
-
-    // Call the `updateUI()` function to update the user interface with the winner and game result
-    updateUI();
+      // Call the `updateUI()` function to update the user interface with the winner and game result
+      updateUI();
     } else {
       result.innerHTML = "Game over! You have reached 20 points!";
     }
-    
   });
-  
 });
 
 // This function determines the winner of a game based on the comparison of the player's and computer's choices to the winningCombinations object.
@@ -171,32 +167,32 @@ function displayScore() {
   ).innerHTML = `Computer: ${computerScore}`;
 }
 
-// Add the event listener to the window object
+// Add the event listener to the window object.
 window.addEventListener("load", function () {
   // Get the playerImg and compImg elements
   const playerImg = document.getElementById("playerImg");
   const compImg = document.getElementById("compImg");
 
-  // Create the image element and set its attributes
+  // Create the image element and set its attributes.
   const pentagonImage = document.createElement("img");
   pentagonImage.src = "assets/images/favicon/pentagon_2.png";
   pentagonImage.alt =
     "Game logo in a shape of pentagon formed by five icons: Rock, Paper, Scissors, Lizard, Spock";
 
-  // Add the image to the playerImg and compImg elements
+  // Add the image to the playerImg and compImg elements.
   playerImg.appendChild(pentagonImage.cloneNode());
   compImg.appendChild(pentagonImage);
 });
 
-// Update the UI with the results of the game
+// Update the UI with the results of the game.
 function updateUI() {
-  // Update the player and computer hand images with the chosen icons
+  // Update the player and computer hand images with the chosen icons.
   playerImg.innerHTML = `<img src=${imagePaths[playerPick]} id="pImg"></img>`;
 
-  // Determine the winner and get the appropriate message
+  // Determine the winner and get the appropriate message.
   const [winner, message] = determinWinner();
 
-  // Update the score based on the winner
+  // Update the score based on the winner.
   if (winner === "player") {
     playerScore++;
   } else if (winner === "tie") {
@@ -208,14 +204,14 @@ function updateUI() {
   displayComputerChoice(message);
 }
 
-// Set the initial scores to 0 on window load
+// Set the initial scores to 0 on window load.
 window.addEventListener("load", function () {
   document.getElementById("player_score").innerHTML = `Player: 0`;
   document.getElementById("tie_score").innerHTML = `Tie: 0`;
   document.getElementById("computer_score").innerHTML = `Computer: 0`;
 });
 
-// Add a click event listener to the reset (New Game) button
+// Add a click event listener to the reset (New Game) button.
 document.getElementById("reset_btn").addEventListener("click", function () {
   playerScore = 0;
   computerScore = 0;
@@ -223,28 +219,28 @@ document.getElementById("reset_btn").addEventListener("click", function () {
   // Reset the counter to 0
   counter = 0;
 
-  // Clear content of elements from previous game results
+  // Clear content of elements from previous game results.
   playerImg.innerHTML = "";
   compImg.innerHTML = "";
   result.innerHTML = '<span class="start-message">Ready when you are!</span>';
 
-  // Update the scores displayed in the UI to 0
+  // Update the scores displayed in the UI to 0.
   document.getElementById("player_score").innerHTML = `Player: 0`;
   document.getElementById("tie_score").innerHTML = `Tie: 0`;
   document.getElementById("computer_score").innerHTML = `Computer: 0`;
 
-  // Creat the image element and set its attributes
+  // Creat the image element and set its attributes.
   const pentagonImage = document.createElement("img");
   pentagonImage.src = "assets/images/favicon/pentagon_2.png";
   pentagonImage.alt =
     "Game logo in a shape of pentagon formed by five icons: Rock, Paper, Scissors, Lizard, Spock";
 
-  // Add the image to the playerImg and compImg elements
+  // Add the image to the playerImg and compImg elements.
   playerImg.appendChild(pentagonImage.cloneNode());
   compImg.appendChild(pentagonImage);
 });
 
-// Create an array of image paths for the background options
+// Create an array of image paths for the background options.
 const backgroundOptions = [
   "assets/images/backgrounds/sweet_pea.webp",
   "assets/images/backgrounds/dill.webp",
@@ -259,7 +255,7 @@ const backgroundOptions = [
   "assets/images/backgrounds/oyster.webp",
   "assets/images/backgrounds/magic_world.webp",
   "assets/images/backgrounds/fish_scale.webp",
-  "assets/images/backgrounds/leaf.webp",  
+  "assets/images/backgrounds/leaf.webp",
   "assets/images/backgrounds/dandelion_1.webp",
   "assets/images/backgrounds/insect_scales.webp",
 ];
@@ -274,6 +270,52 @@ bgChange.addEventListener("click", function () {
   }
   document.body.style.backgroundImage = `url(${backgroundOptions[bgChoice]})`;
 });
+
+// Set the initial background image index to 0 on window load.
+let currentBgIndex = 0;
+
+if (currentBgIndex >= backgroundOptions.length) {
+  currentBgIndex = 0;
+}
+
+// Function to update the background image of the body element.
+function updateBackgroundImage() {
+  // Set the background image of the body element to the image at the currentBgIndex position in the backgroundOptions array.
+  document.body.style.backgroundImage = `url(${backgroundOptions[currentBgIndex]})`;
+}
+
+// Function to change the background image of the body element to the previous image in the backgroundOptions array.
+function previousBg() {
+  // Decrement the currentBgIndex by 1
+  currentBgIndex--;
+
+  // If the currentBgIndex is less than 0, set it to the last index of the backgroundOptions array.
+  if (currentBgIndex < 0) {
+    currentBgIndex = backgroundOptions.length - 1;
+  }
+
+  // Call the updateBackgroundImage() function to update the background image of the body element.
+  updateBackgroundImage();
+}
+
+// Function to change the background image of the body element to the next image in the backgroundOptions array.
+function nextBg() {
+  // Increment the currentBgIndex by 1
+  currentBgIndex++;
+
+  // If the currentBgIndex is equal to the length of the backgroundOptions array, set it to 0.
+  if (currentBgIndex === backgroundOptions.length) {
+    currentBgIndex = 0;
+  }
+
+  // Call the updateBackgroundImage() function to update the background image of the body element.
+  updateBackgroundImage();
+}
+
+// Attach event listeners to the buttons.
+document.getElementById("bgForward").addEventListener("click", nextBg);
+document.getElementById("bgBack").addEventListener("click", previousBg);
+document.getElementById("bgChange").addEventListener("click", nextBg);
 
 // Get the BACK-TO-TOP button
 const backToTopButton = document.getElementById("back-to-top");
