@@ -98,8 +98,8 @@ nav {
   max-width: 100%;
   background-color: rgba(241, 217, 169, 0.6);
   border-radius: 20px;
-  width: 55rem;
-  margin: 22px 0 21px 0;  
+  width: 52rem;
+  margin: 22px 0 21px 0;
 }
 
 /* New Game and Background Change buttons*/
@@ -108,8 +108,6 @@ nav {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  /* justify-content: space-between; */
-  /* align-items: flex-end; */
   font-family: "Montserrat", sans-serif;
   font-size: clamp(1.5rem, 1rem + 2vw, 2rem);
   margin-top: clamp(1rem, 1rem + 2vw, 2rem);
@@ -138,6 +136,43 @@ nav {
 #bgChange:hover {
   background-color: rgb(84, 85, 206);
   color: #fff;
+}
+
+.bgChange_container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: none;
+}
+
+#bgBack,
+#bgForward {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  height: clamp(1.5rem, 2rem + 1vw, 2.5rem);
+  font-family: "Montserrat", sans-serif;
+  font-size: clamp(1rem, 0.5rem + 2vw, 1.5rem);
+  color: rgb(86, 127, 121);
+  padding: 0 10px 0 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  background: none;
+  transition: 0.5s;
+}
+
+#bgChange, i {
+  gap: 1rem;
+  /* display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  transition: 0.5s;  */
+  /* margin-right: clamp(1rem, 1rem + 1vw, 1.5rem); */
+  /* margin-right: 1rem; */
 }
 
 /* Player abd Computer Images display */
