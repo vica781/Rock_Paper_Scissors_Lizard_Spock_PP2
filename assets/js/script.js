@@ -284,20 +284,6 @@ function updateBackgroundImage() {
   document.body.style.backgroundImage = `url(${backgroundOptions[currentBgIndex]})`;
 }
 
-// Function to change the background image of the body element to the previous image in the backgroundOptions array.
-function previousBg() {
-  // Decrement the currentBgIndex by 1
-  currentBgIndex--;
-
-  // If the currentBgIndex is less than 0, set it to the last index of the backgroundOptions array.
-  if (currentBgIndex < 0) {
-    currentBgIndex = backgroundOptions.length - 1;
-  }
-
-  // Call the updateBackgroundImage() function to update the background image of the body element.
-  updateBackgroundImage();
-}
-
 // Function to change the background image of the body element to the next image in the backgroundOptions array.
 function nextBg() {
   // Increment the currentBgIndex by 1
@@ -306,6 +292,20 @@ function nextBg() {
   // If the currentBgIndex is equal to the length of the backgroundOptions array, set it to 0.
   if (currentBgIndex === backgroundOptions.length) {
     currentBgIndex = 0;
+  }
+
+  // Call the updateBackgroundImage() function to update the background image of the body element.
+  updateBackgroundImage();
+}
+
+// Function to change the background image of the body element to the previous image in the backgroundOptions array.
+function previousBg() {
+  // Decrement the currentBgIndex by 1
+  currentBgIndex--;
+
+  // If the currentBgIndex is less than 0, set it to the last index of the backgroundOptions array.
+  if (currentBgIndex < 0) {
+    currentBgIndex = backgroundOptions.length - 1;
   }
 
   // Call the updateBackgroundImage() function to update the background image of the body element.
