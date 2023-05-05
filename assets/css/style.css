@@ -104,20 +104,15 @@ nav {
 /* New Game and Background Change buttons*/
 .newGame_bgChange {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 45rem;
-}
-
-.newGame_bgChange {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-end;
+  /* justify-content: space-between; */
+  /* align-items: flex-end; */
   font-family: "Montserrat", sans-serif;
   font-size: clamp(1.5rem, 1rem + 2vw, 2rem);
-  margin-top: 2rem;
-  gap: 35rem;
+  margin-top: clamp(1rem, 1rem + 2vw, 2rem);
+  gap: clamp(1rem, 1rem + 2vw, 40rem);
 }
 
 #reset_btn,
@@ -136,7 +131,7 @@ nav {
   border: 1px solid hsl(66, 69%, 69%);
   background-color: rgba(86, 127, 121, 1);
   transition: 0.5s;
-} 
+}
 
 #reset_btn:hover,
 #bgChange:hover {
@@ -182,54 +177,43 @@ nav {
 }
 
 /* Messages */
-.start-message {
+.start-message,
+#result,
+#pick {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  gap: 1rem;
+  text-align: center;
   font-family: "Montserrat", sans-serif;
-  font-size: clamp(1rem, 1rem + 1vw, 1.5rem);
-  color: #134512;
+  font-size: clamp(1rem, 1rem + 1vw, 2rem);
+  line-height: clamp(0.5rem, 1rem + 1vw, 1.5rem);
+  font-weight: 600;
   margin-top: clamp(1rem, 1rem + 1vw, 1.5rem);
   margin-bottom: clamp(1rem, 1rem + 1vw, 1.5rem);
-  text-align: center;
 }
 
-#pick {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  font-size: clamp(1rem, 1rem + 1vw, 1.6rem);
-  font-family: "Montserrat", sans-serif;
-  color: #F9F871;
-  font-weight: 600;
+.start-message {
+  color: rgb(16, 128, 6);
+}
+
+.you-have-chosen {
+  color: rgb(225, 30, 26);
 }
 
 .outcome-message {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
   color: rgb(75, 6, 128);
-  font-weight: 600;
-  font-size: clamp(1rem, 1rem + 1vw, 2rem);
-  line-height: clamp(0.5rem, 1rem + 1vw, 1.5rem);
 }
 
-#result {
-  font-size: 2rem;
-  margin-top: 2.5rem;
-  margin-bottom: 1rem;
-  font-family: "Montserrat", sans-serif;
-  font-size: 2rem;
-  color: rgb(6, 63, 6);
-  font-weight: bolder;
+#pick {
+  color: rgb(238, 241, 78);
 }
 
 .fa-handshake {
   margin-right: 1.5rem;
 }
 
-/* Player Choice Buttons */ 
+/* Player Choice Buttons */
 #player_choice {
   display: flex;
   justify-content: center;
@@ -525,6 +509,10 @@ hr {
   #choiceImg {
     gap: 5rem;
   }
+
+  #pick {
+    margin-top: 0;
+  }
 }
 
 /* Extra small-sized screens */
@@ -535,5 +523,9 @@ hr {
 
   .newGame_bgChange {
     gap: 3rem;
+  }
+
+  #pick {
+    margin-top: 0;
   }
 }

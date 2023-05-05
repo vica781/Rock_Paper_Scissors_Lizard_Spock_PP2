@@ -137,9 +137,9 @@ const imagePaths = {
 function displayComputerChoice(message) {
   // compImg.innerHTML = `<img src=${imagePaths[computerPick]} id="cImg"></img>`;
 
-  result.innerHTML = `You have chosen ${
+  result.innerHTML = `<span class="you-have-chosen">You have chosen ${
     playerPick.charAt(0).toUpperCase() + playerPick.slice(1)
-  }!`;
+  }!</span>`;
 
   let computerPickIndex = pcPicks.indexOf(computerPick);
   let slotArray = pcPicks.toSpliced(computerPickIndex, 1);
