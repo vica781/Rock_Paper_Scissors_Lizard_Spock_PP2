@@ -30,7 +30,7 @@ nav {
   align-items: center;
   background-color: rgba(98, 96, 88, 0.9);
   padding: 20px;
-  font-size: 1.5rem;
+  font-size: clamp(1rem, 0.5rem + 1vw, 1.5rem);
   font-family: "Montserrat", sans-serif;
 }
 
@@ -98,21 +98,29 @@ nav {
   max-width: 100%;
   background-color: rgba(241, 217, 169, 0.6);
   border-radius: 20px;
-  width: 52rem;
-  margin: 22px 0 21px 0;
+  width: 50rem;
+  margin: 25px 0 25px 0;
 }
 
 /* New Game and Background Change buttons*/
 .newGame_bgChange {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  /* justify-content: space-between; */
   align-items: center;
   font-family: "Montserrat", sans-serif;
   font-size: clamp(1.5rem, 1rem + 2vw, 2rem);
-  margin-top: clamp(1rem, 1rem + 2vw, 2rem);
-  gap: clamp(1rem, 1rem + 2vw, 40rem);
+  margin-top: clamp(1rem, 1rem + 2vw, 2rem); 
+  margin-left: -1rem; 
 }
+
+#reset_btn {
+  margin-right: 10rem;
+}
+
+/* #bgBack {
+  margin-left: 6rem;
+} */
 
 #reset_btn,
 #bgChange {
@@ -171,19 +179,18 @@ nav {
   gap: calc(0.5rem + 1vw);
 }
 
-
 /* Player abd Computer Images display */
 #choiceImg {
   display: flex;
   justify-content: space-between;
-  gap: 18rem;
+  gap: 15rem;
 }
 
 #playerImg {
   display: flex;
   justify-content: center;
-  width: 10rem;
-  height: 10rem;
+  width: 15rem;
+  height: 15rem;
   border: solid 1.5px;
   border-color: hsl(66, 69%, 69%);
   background-color: rgba(118, 69, 46, 0.7);
@@ -193,8 +200,8 @@ nav {
 
 #compImg {
   display: flex;
-  width: 10rem;
-  height: 10rem;
+  width: 15rem;
+  height: 15rem;
   border: solid 1.5px;
   border-color: hsl(66, 69%, 69%);
   background-color: rgba(119, 114, 36, 0.7);
@@ -203,9 +210,10 @@ nav {
 }
 
 #pImg,
-#cImg {
-  width: 9.9rem;
-  height: 9.9rem;
+#cImg,
+img {
+  width: 14.9rem;
+  height: 14.9rem;
   border-radius: 10px;
 }
 
@@ -251,7 +259,7 @@ nav {
   justify-content: center;
   flex-wrap: wrap;
   gap: clamp(1rem, 1rem + 1vw, 3.5rem);
-  margin-bottom: clamp(.5rem, 1rem + 1vw, 1rem);
+  margin-bottom: clamp(0.5rem, 1rem + 1vw, 1rem);
 }
 
 .btnChoices {
@@ -270,7 +278,7 @@ nav {
   cursor: pointer;
   transition: 0.5s;
   /* padding: 2px 6px 2px 6px; */
-  padding: .2rem .5rem .2rem .5rem;
+  padding: 0.2rem 0.5rem 0.2rem 0.5rem;
 }
 
 .btnChoices p {
@@ -311,8 +319,6 @@ nav {
 }
 
 #score {
-  /* margin-top: clamp(.5rem, 1rem + 1vw, 1rem); */
-  /* margin-bottom: clamp(.5rem, 1rem + 1vw, 1rem); */
   font-size: clamp(1rem, 1rem + 1vw, 1.6rem);
   font-family: "Montserrat", sans-serif;
   color: #6d3183;
@@ -415,14 +421,14 @@ hr {
     align-items: center;
   }
 
-  #playerImg,
+  /* #playerImg,
   #compImg {
     width: 8rem;
     height: 8rem;
   }
 
   img {
-    width: 7.2rem; /*game logo*/
+    width: 7.2rem; 
     height: 7.2rem;
   }
 
@@ -430,6 +436,28 @@ hr {
   #cImg {
     width: 7.35rem;
     height: 7.35rem;
+  } */
+  #choiceImg {
+    gap: 10rem;
+  }
+
+  #playerImg {
+    width: 12rem;
+    height: 12rem;
+    /* margin-top: 2rem; */
+  }
+
+  #compImg {
+    width: 12rem;
+    height: 12rem;
+    /* margin-top: 2rem; */
+  }
+
+  #pImg,
+  #cImg,
+  img {
+    width: 11.9rem;
+    height: 11.9rem;
   }
 }
 
@@ -454,25 +482,25 @@ hr {
   }
 
   .newGame_bgChange {
-    gap: 25rem;
+    gap: 3rem;
     align-items: center;
   }
 
   #playerImg,
   #compImg {
-    width: 8rem;
-    height: 8rem;
+    width: 7rem;
+    height: 7rem;
   }
 
   img {
-    width: 7.2rem; /*game logo*/
-    height: 7.2rem;
+    width: 6.9rem; /*game logo*/
+    height: 6.9rem;
   }
 
   #pImg,
   #cImg {
-    width: 7.35rem;
-    height: 7.35rem;
+    width: 6.9rem;
+    height: 6.9rem;
   }
 
   #choiceImg {
@@ -485,9 +513,6 @@ hr {
     align-items: center;
   }
 }
-
-/* @media (max-width: 768px) {
-} */
 
 /* Small-sized screens */
 @media (max-width: 768px) {
@@ -528,11 +553,11 @@ hr {
   }
 
   .newGame_bgChange {
-    gap: 10rem;
+    gap: 5rem;
   }
 
   #choiceImg {
-    gap: 5rem;
+    gap: 10rem;
   }
 
   #pick {
@@ -542,11 +567,29 @@ hr {
 
 /* Extra small-sized screens */
 @media (max-width: 480px) {
-  #choiceImg {
-    gap: 1.5rem;
+  .newGame_bgChange {
+    gap: 1rem;
+    align-items: center;
   }
 
-  .newGame_bgChange {
+  #playerImg,
+  #compImg {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  img {
+    width: 5.9rem; /*game logo*/
+    height: 5.9rem;
+  }
+
+  #pImg,
+  #cImg {
+    width: 5.9rem;
+    height: 5.9rem;
+  }
+
+  #choiceImg {
     gap: 3rem;
   }
 
