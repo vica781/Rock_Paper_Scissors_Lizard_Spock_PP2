@@ -110,17 +110,13 @@ nav {
   align-items: center;
   font-family: "Montserrat", sans-serif;
   font-size: clamp(1.5rem, 1rem + 2vw, 2rem);
-  margin-top: clamp(1rem, 1rem + 2vw, 2rem); 
-  margin-left: -1rem; 
+  margin-top: clamp(1rem, 1rem + 2vw, 2rem);
 }
 
 #reset_btn {
-  margin-right: 10rem;
+  margin-right: 17.5rem;
+  margin-left: 4rem;
 }
-
-/* #bgBack {
-  margin-left: 6rem;
-} */
 
 #reset_btn,
 #bgChange {
@@ -312,14 +308,14 @@ img {
   flex: 1;
   text-align: center;
   font-family: "Montserrat", sans-serif;
-  font-size: clamp(1rem, 1rem + 1vw, 1.6rem);
+  font-size: clamp(.8rem, .8rem + 1vw, 1.6rem);
   font-weight: 600;
   color: #6d3183;
   margin-bottom: calc(1rem + 1vw);
 }
 
 #score {
-  font-size: clamp(1rem, 1rem + 1vw, 1.6rem);
+  font-size: clamp(1.2rem, 1rem + 1vw, 1.6rem);
   font-family: "Montserrat", sans-serif;
   color: #6d3183;
   font-weight: 600;
@@ -416,48 +412,30 @@ hr {
     gap: 0.5rem;
   }
 
-  .newGame_bgChange {
-    gap: 25rem;
-    align-items: center;
+  #reset_btn {
+    margin-right: 15rem;
+    margin-left: 4rem;
   }
 
-  /* #playerImg,
-  #compImg {
-    width: 8rem;
-    height: 8rem;
-  }
-
-  img {
-    width: 7.2rem; 
-    height: 7.2rem;
-  }
-
-  #pImg,
-  #cImg {
-    width: 7.35rem;
-    height: 7.35rem;
-  } */
   #choiceImg {
-    gap: 10rem;
+    gap: 15rem;
   }
 
   #playerImg {
-    width: 12rem;
-    height: 12rem;
-    /* margin-top: 2rem; */
+    width: 13rem;
+    height: 13rem;
   }
 
   #compImg {
-    width: 12rem;
-    height: 12rem;
-    /* margin-top: 2rem; */
+    width: 13rem;
+    height: 13rem;
   }
 
   #pImg,
   #cImg,
   img {
-    width: 11.9rem;
-    height: 11.9rem;
+    width: 12.9rem;
+    height: 12.9rem;
   }
 }
 
@@ -481,10 +459,10 @@ hr {
     gap: 0.5rem;
   }
 
-  .newGame_bgChange {
+  /* .newGame_bgChange {
     gap: 3rem;
     align-items: center;
-  }
+  } */
 
   #playerImg,
   #compImg {
@@ -501,10 +479,6 @@ hr {
   #cImg {
     width: 6.9rem;
     height: 6.9rem;
-  }
-
-  #choiceImg {
-    gap: 15rem;
   }
 
   .foot-container {
@@ -552,12 +526,30 @@ hr {
     margin-right: 0;
   }
 
-  .newGame_bgChange {
-    gap: 5rem;
+  #reset_btn {
+    margin-right: 15rem;
+    margin-left: 4rem;
   }
 
   #choiceImg {
-    gap: 10rem;
+    gap: 15rem;
+  }
+
+  #playerImg {
+    width: 11rem;
+    height: 11rem;
+  }
+
+  #compImg {
+    width: 11rem;
+    height: 11rem;
+  }
+
+  #pImg,
+  #cImg,
+  img {
+    width: 10.9rem;
+    height: 10.9rem;
   }
 
   #pick {
@@ -567,30 +559,38 @@ hr {
 
 /* Extra small-sized screens */
 @media (max-width: 480px) {
-  .newGame_bgChange {
-    gap: 1rem;
-    align-items: center;
+  #reset_btn {
+    margin-right: 2rem;
+    margin-left: 2rem;
   }
 
-  #playerImg,
-  #compImg {
-    width: 6rem;
-    height: 6rem;
-  }
-
-  img {
-    width: 5.9rem; /*game logo*/
-    height: 5.9rem;
-  }
-
-  #pImg,
-  #cImg {
-    width: 5.9rem;
-    height: 5.9rem;
+  #reset_btn,
+  #bgChange {
+    padding: 0.2rem 0 0.2rem 0;
   }
 
   #choiceImg {
-    gap: 3rem;
+    gap: 4rem;
+    /* margin-top: .5rem; */
+  }
+
+  #playerImg {
+    width: 7rem;
+    height: 7rem;
+    margin-top: 1rem;
+  }
+
+  #compImg {
+    width: 7rem;
+    height: 7rem;
+    margin-top: 1rem;
+  }
+
+  #pImg,
+  #cImg,
+  img {
+    width: 6.9rem;
+    height: 6.9rem;
   }
 
   #pick {
