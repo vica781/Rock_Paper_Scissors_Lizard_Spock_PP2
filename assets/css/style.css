@@ -229,8 +229,8 @@ img {
   font-size: clamp(1rem, 1rem + 1vw, 2rem);
   line-height: clamp(0.5rem, 1rem + 1vw, 1.5rem);
   font-weight: 600;
-  margin-top: clamp(1rem, 1rem + 1vw, 1.5rem);
-  margin-bottom: clamp(1rem, 1rem + 1vw, 1.5rem);
+  margin-top: clamp(.5rem, 1rem + 1vw, 1.5rem);
+  margin-bottom: clamp(.5rem, 1rem + 1vw, 1.5rem);
 }
 
 .start-message {
@@ -638,5 +638,6 @@ hr {
 
   #result {
     height: 3rem;
+    margin: .5rem;
   }
 }

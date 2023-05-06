@@ -317,19 +317,3 @@ document.getElementById("bgForward").addEventListener("click", nextBg);
 document.getElementById("bgBack").addEventListener("click", previousBg);
 document.getElementById("bgChange").addEventListener("click", nextBg);
 
-// Get the BACK-TO-TOP button
-const backToTopButton = document.getElementById("back-to-top");
-
-// Show the back-to-top button when the player scrolls down from the top of the page
-window.addEventListener("scroll", () => {
-  if (window.pageYOffset > 300) {
-    backToTopButton.style.display = "block";
-  } else {
-    backToTopButton.style.display = "none";
-  }
-});
-
-// Scroll back to the top of the page after the player clicks the back-to-top button
-backToTopButton.addEventListener("click", () => {
-  window.scrollTo({ top: 0, behavior: "smooth" });
-});
