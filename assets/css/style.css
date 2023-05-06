@@ -308,7 +308,7 @@ img {
   flex: 1;
   text-align: center;
   font-family: "Montserrat", sans-serif;
-  font-size: clamp(.8rem, .8rem + 1vw, 1.6rem);
+  font-size: clamp(0.8rem, 0.8rem + 1vw, 1.6rem);
   font-weight: 600;
   color: #6d3183;
   margin-bottom: calc(1rem + 1vw);
@@ -412,9 +412,20 @@ hr {
     gap: 0.5rem;
   }
 
+  #reset_btn,
+  #bgChange {
+    padding: 0.5rem 0 0.5rem 0;
+    line-height: 1.2rem;
+    font-size: 1.3rem;
+  }
+
+  #gameField {
+    margin: 2rem 4rem 2rem 4rem;
+  }
+
   #reset_btn {
-    margin-right: 15rem;
-    margin-left: 4rem;
+    margin-right: 18rem;
+    margin-left: 2rem;
   }
 
   #choiceImg {
@@ -459,26 +470,34 @@ hr {
     gap: 0.5rem;
   }
 
-  /* .newGame_bgChange {
-    gap: 3rem;
-    align-items: center;
-  } */
-
-  #playerImg,
-  #compImg {
-    width: 7rem;
-    height: 7rem;
+  #reset_btn {
+    margin-right: 10.5rem;
+    margin-left: 3.5rem;
   }
 
-  img {
-    width: 6.9rem; /*game logo*/
-    height: 6.9rem;
+  #gameField {
+    margin: 4rem 5rem 4rem 5rem;
+  }
+
+  #choiceImg {
+    gap: 12rem;
+  }
+
+  #playerImg {
+    width: 12rem;
+    height: 12rem;
+  }
+
+  #compImg {
+    width: 12rem;
+    height: 12rem;
   }
 
   #pImg,
-  #cImg {
-    width: 6.9rem;
-    height: 6.9rem;
+  #cImg,
+  img {
+    width: 11.9rem;
+    height: 11.9rem;
   }
 
   .foot-container {
@@ -506,11 +525,6 @@ hr {
     display: none;
   }
 
-  .buttons {
-    display: flex;
-    flex-direction: column;
-  }
-
   .bttns {
     gap: 1rem;
   }
@@ -525,31 +539,42 @@ hr {
     align-items: center;
     margin-right: 0;
   }
-
+  
   #reset_btn {
-    margin-right: 15rem;
-    margin-left: 4rem;
+    margin-right: 6rem;
+    margin-left: 2rem;
+  }
+
+  #reset_btn,
+  #bgChange {
+    font-size: 1rem;
+    padding: 0.2rem 0 0.2rem 0;
+    line-height: 1rem;
+  }
+
+  #gameField {
+    margin: 2rem 4rem 2rem 4rem;
   }
 
   #choiceImg {
-    gap: 15rem;
+    gap: 4rem;
   }
 
   #playerImg {
-    width: 11rem;
-    height: 11rem;
+    width: 10rem;
+    height: 10rem;
   }
 
   #compImg {
-    width: 11rem;
-    height: 11rem;
+    width: 10rem;
+    height: 10rem;
   }
 
   #pImg,
   #cImg,
   img {
-    width: 10.9rem;
-    height: 10.9rem;
+    width: 9.9rem;
+    height: 9.9rem;
   }
 
   #pick {
@@ -567,11 +592,15 @@ hr {
   #reset_btn,
   #bgChange {
     padding: 0.2rem 0 0.2rem 0;
+    line-height: .9rem;
+  }
+
+  #gameField {
+    margin: 1rem 2rem 1rem 2rem;
   }
 
   #choiceImg {
-    gap: 4rem;
-    /* margin-top: .5rem; */
+    gap: 3rem;    
   }
 
   #playerImg {
