@@ -106,7 +106,6 @@ nav {
 .newGame_bgChange {
   display: flex;
   flex-direction: row;
-  /* justify-content: space-between; */
   align-items: center;
   font-family: "Montserrat", sans-serif;
   font-size: clamp(1.5rem, 1rem + 2vw, 2rem);
@@ -189,9 +188,14 @@ nav {
   height: 15rem;
   border: solid 1.5px;
   border-color: hsl(66, 69%, 69%);
-  background-color: rgba(118, 69, 46, 0.7);
+  background-color: rgba(118, 69, 46, 0.8);
   border-radius: 10px;
   margin-top: 2rem;
+  /* Code taken from http://thenewcode.com/483/Flipping-Images-With-CSS-Transforms#:~:text=Reversing%20the%20orientation%20of%20images,the%20element%20horizontally%20or%20vertically */
+  /* playerImg horizontal flip */
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
 }
 
 #compImg {
@@ -200,7 +204,7 @@ nav {
   height: 15rem;
   border: solid 1.5px;
   border-color: hsl(66, 69%, 69%);
-  background-color: rgba(119, 114, 36, 0.7);
+  background-color: rgba(119, 114, 36, 0.8);
   border-radius: 10px;
   margin-top: 2rem;
 }
@@ -268,12 +272,10 @@ img {
   border-radius: 5px;
   border: 1px solid hsl(66, 69%, 69%);
   background-color: rgba(86, 127, 121, 1);
-  /* margin-bottom: clamp(.5rem, 1rem + 1vw, 1rem); */
   height: clamp(1rem, 1.5rem + 1vw, 2rem);
   gap: 0.3rem;
   cursor: pointer;
   transition: 0.5s;
-  /* padding: 2px 6px 2px 6px; */
   padding: 0.2rem 0.5rem 0.2rem 0.5rem;
 }
 
@@ -539,7 +541,7 @@ hr {
     align-items: center;
     margin-right: 0;
   }
-  
+
   #reset_btn {
     margin-right: 6rem;
     margin-left: 2rem;
@@ -577,6 +579,10 @@ hr {
     height: 9.9rem;
   }
 
+  .btnChoices {
+    font-size: 1.3rem;
+  }
+
   #pick {
     margin-top: 0;
   }
@@ -592,7 +598,7 @@ hr {
   #reset_btn,
   #bgChange {
     padding: 0.2rem 0 0.2rem 0;
-    line-height: .9rem;
+    line-height: 0.9rem;
   }
 
   #gameField {
@@ -600,7 +606,7 @@ hr {
   }
 
   #choiceImg {
-    gap: 3rem;    
+    gap: 3rem;
   }
 
   #playerImg {
@@ -622,7 +628,15 @@ hr {
     height: 6.9rem;
   }
 
+  .btnChoices {
+    font-size: 1rem;
+  }
+
   #pick {
     margin-top: 0;
+  }
+
+  #result {
+    height: 3rem;
   }
 }
