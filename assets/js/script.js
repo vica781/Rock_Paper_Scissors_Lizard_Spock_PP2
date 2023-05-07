@@ -317,8 +317,8 @@ document.getElementById("bgForward").addEventListener("click", nextBg);
 document.getElementById("bgBack").addEventListener("click", previousBg);
 document.getElementById("bgChange").addEventListener("click", nextBg);
 
-// Add AUDIO to the game
-// Create an array of audio paths for the background options.
+// ADD AUDIO TO THE GAME
+// Array of audio file names to be used by the audio element.
 const audioFiles = [
   "AntonioVivaldi_Autumn_TheFourSeasons.mp3",
   "AramKhachaturian_Masquerade_Suite_NoI_ Waltz.mp3",
@@ -335,50 +335,46 @@ const audioFiles = [
 // Variable to keep track of the current audio index
 let currentAudioIndex = 0;
 
-// Create an audio element with the audio file at the currentAudioIndex position in the audioFiles array.
+// Create an audio element with the initial audio file and set it to loop.
 const audioElement = new Audio(`assets/audio/${audioFiles[currentAudioIndex]}`);
-audioElement.loop = true; // Set the loop property of the audio element to true.
+audioElement.loop = true; 
 
-// Event listener for the volume_up button to play or pause the audio.
+// Event listener for the volume_up button to play the next audio or start playing the first one.
 document.getElementById("volume_up").addEventListener("click", function () {
     if (audioElement.paused) {
-    audioElement.play(); // If the audio is paused, play it.
+    audioElement.play(); // Play the audio if it's paused.
   } else {
-    currentAudioIndex++; // If the audio is playing, increment the currentAudioIndex by 1.
+    currentAudioIndex++; // Move to the next audio in the array.
     if (currentAudioIndex === audioFiles.length) {
-      currentAudioIndex = 0; // If the currentAudioIndex is equal to the length of the audioFiles array, set it to 0.
+      currentAudioIndex = 0; // Reset the index if it is reaches the end of the array.
   }
-    audioElement.src = `assets/audio/${audioFiles[currentAudioIndex]}`; // Set the src attribute of the audio element to the audio file at the currentAudioIndex position in the audioFiles array.
-}
-  audioElement.play(); // Play the audio.
-}
-);
+    audioElement.src = `assets/audio/${audioFiles[currentAudioIndex]}`; // Update the audio source.
+  audioElement.play(); // Play the new audio file.
+  }
+});
 
-// Event listener for the volume_off button to stop the audio.
+// Event listener for the volume_off button to pause the audio and reset its currentTime.
 document.getElementById("volume_off").addEventListener("click", function () {
-  audioElement.pause(); // Pause the audio.
-  audioElement.currentTime = 0; // Reset the currentTime property to 0.
-}
-);
+  audioElement.pause(); 
+  audioElement.currentTime = 0; 
+});
 
-// Evenet listener for the back_music button to play the previous audio file.
+// Event listener for the back_music button to play the previous audio file.
 document.getElementById("back_music").addEventListener("click", function () {
-  currentAudioIndex--; // Decrement the currentAudioIndex by 1.
+  currentAudioIndex--; 
   if (currentAudioIndex < 0) {
-    currentAudioIndex = audioFiles.length - 1; // If the currentAudioIndex is less than 0, set it to the last index of the audioFiles array.
+    currentAudioIndex = audioFiles.length - 1; // Set the index to the last item if it goes below 0.
   }
-  audioElement.src = `assets/audio/${audioFiles[currentAudioIndex]}`; // Set the src attribute of the audio element to the audio file at the currentAudioIndex position in the audioFiles array.
-  audioElement.play(); // Play the audio.
-}
-);
+  audioElement.src = `assets/audio/${audioFiles[currentAudioIndex]}`; // Update the audio source.
+  audioElement.play(); // Play the new audio file.
+});
 
 // Event listener for the forward_music button to play the next audio file.
 document.getElementById("forward_music").addEventListener("click", function () {
-  currentAudioIndex++; // Increment the currentAudioIndex by 1.
+  currentAudioIndex++; 
   if (currentAudioIndex === audioFiles.length) {
-    currentAudioIndex = 0; // If the currentAudioIndex is equal to the length of the audioFiles array, set it to 0.
+    currentAudioIndex = 0; // Reset the index if it reaches the end of the array.
   }
-  audioElement.src = `assets/audio/${audioFiles[currentAudioIndex]}`; // Set the src attribute of the audio element to the audio file at the currentAudioIndex position in the audioFiles array.
-  audioElement.play(); // Play the audio.
-}
-);
+  audioElement.src = `assets/audio/${audioFiles[currentAudioIndex]}`; // Update the audio source.
+  audioElement.play(); // Play the new audio file.
+});
