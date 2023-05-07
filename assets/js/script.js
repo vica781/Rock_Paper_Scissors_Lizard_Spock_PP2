@@ -365,3 +365,14 @@ document.getElementById("back_music").addEventListener("click", function () {
   audioElement.play(); // Play the audio.
 }
 );
+
+// Event listener for the forward_music button to play the next audio file.
+document.getElementById("forward_music").addEventListener("click", function () {
+  currentAudioIndex++; // Increment the currentAudioIndex by 1.
+  if (currentAudioIndex === audioFiles.length) {
+    currentAudioIndex = 0; // If the currentAudioIndex is equal to the length of the audioFiles array, set it to 0.
+  }
+  audioElement.src = `assets/audio/${audioFiles[currentAudioIndex]}`; // Set the src attribute of the audio element to the audio file at the currentAudioIndex position in the audioFiles array.
+  audioElement.play(); // Play the audio.
+}
+);
