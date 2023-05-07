@@ -170,24 +170,30 @@ nav {
   transition: 0.5s;
 }
 
+#bgBack:hover,
+#bgForward:hover,
 #volume_up:hover,
+#volume_off:hover,
 #back_music:hover,
-#forward_music:hover {
-  color: rgb(84, 85, 206);
-}
-
+#forward_music:hover,
 #reset_btn:hover,
 #bgChange:hover {
   background-color: rgb(84, 85, 206);
   color: #fff;
 }
 
-#volume_off:hover {
-  /* background-color: rgb(84, 85, 206); */
-  background-color: hsl(66, 69%, 69%);
-  color: #fff;
+#bgBack,
+#bgForward,
+#back_music,
+#forward_music,
+#volume_up,
+#volume_off {
+  padding: 0 .3rem 0 .3rem;
 }
 
+#volume_off {
+  margin-left: 1rem;  
+}
 
 #bgChange,
 #bgBack i,
@@ -216,8 +222,7 @@ nav {
   border-radius: 10px;
   margin-top: 2rem;
   /* Code taken from http://thenewcode.com/483/Flipping-Images-With-CSS-Transforms#:~:text=Reversing%20the%20orientation%20of%20images,the%20element%20horizontally%20or%20vertically */
-  /* playerImg horizontal flip */
-  transform: scaleX(-1);
+  transform: scaleX(-1); /* playerImg horizontal flip */
   filter: FlipH;
   -ms-filter: "FlipH";
 }
