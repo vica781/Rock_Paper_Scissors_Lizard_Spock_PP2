@@ -113,12 +113,12 @@ nav {
 }
 
 #reset_btn {
-  margin-right: 6rem;
+  margin-right: 4.5rem;
   margin-left: 4rem;
 }
 
 #bgBack {
-  margin-left: 4rem;
+  margin-left: 2.5em;
 }
 
 #reset_btn,
@@ -137,12 +137,6 @@ nav {
   border: 1px solid hsl(66, 69%, 69%);
   background-color: rgba(86, 127, 121, 1);
   transition: 0.5s;
-}
-
-#reset_btn:hover,
-#bgChange:hover {
-  background-color: rgb(84, 85, 206);
-  color: #fff;
 }
 
 .bgChange_container {
@@ -181,6 +175,19 @@ nav {
 #bgForward_music:hover {
   color: rgb(84, 85, 206);
 }
+
+#reset_btn:hover,
+#bgChange:hover {
+  background-color: rgb(84, 85, 206);
+  color: #fff;
+}
+
+#volume_off:hover {
+  /* background-color: rgb(84, 85, 206); */
+  background-color: hsl(66, 69%, 69%);
+  color: #fff;
+}
+
 
 #bgChange,
 #bgBack i,
