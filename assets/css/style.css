@@ -113,7 +113,11 @@ nav {
 }
 
 #reset_btn {
-  margin-right: 17.5rem;
+  margin-right: 6rem;
+  margin-left: 4rem;
+}
+
+#bgBack {
   margin-left: 4rem;
 }
 
@@ -151,7 +155,11 @@ nav {
 }
 
 #bgBack,
-#bgForward {
+#bgForward,
+#bgBack_music,
+#bgForward_music,
+#volume_up,
+#volume_off {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -168,10 +176,19 @@ nav {
   transition: 0.5s;
 }
 
+#volume_up:hover,
+#bgBack_music:hover,
+#bgForward_music:hover {
+  color: rgb(84, 85, 206);
+}
+
 #bgChange,
 #bgBack i,
-#bgForward i {
-  gap: calc(0.5rem + 1vw);
+#bgForward i,
+#volume_up,
+#bgBack_music i,
+#bgForward_music i { 
+  gap: calc(0.2rem + 1vw);
 }
 
 /* Player abd Computer Images display */
