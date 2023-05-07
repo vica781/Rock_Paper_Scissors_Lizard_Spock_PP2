@@ -355,4 +355,13 @@ document.getElementById("volume_off").addEventListener("click", function () {
 }
 );
 
-
+// Evenet listener for the back_music button to play the previous audio file.
+document.getElementById("back_music").addEventListener("click", function () {
+  currentAudioIndex--; // Decrement the currentAudioIndex by 1.
+  if (currentAudioIndex < 0) {
+    currentAudioIndex = audioFiles.length - 1; // If the currentAudioIndex is less than 0, set it to the last index of the audioFiles array.
+  }
+  audioElement.src = `assets/audio/${audioFiles[currentAudioIndex]}`; // Set the src attribute of the audio element to the audio file at the currentAudioIndex position in the audioFiles array.
+  audioElement.play(); // Play the audio.
+}
+);
