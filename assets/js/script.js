@@ -317,3 +317,42 @@ document.getElementById("bgForward").addEventListener("click", nextBg);
 document.getElementById("bgBack").addEventListener("click", previousBg);
 document.getElementById("bgChange").addEventListener("click", nextBg);
 
+// Add AUDIO to the game
+// Create an array of audio paths for the background options.
+const audioFiles = [
+  "AntonioVivaldi_Autumn_TheFourSeasons.mp3",
+  "AramKhachaturian_Masquerade_Suite_NoI_ Waltz.mp3",
+  "ChristophGluck_OrfeoEdEuridice_DanceOfTheBlessedSpirits.mp3",
+  "ClaudeDebussy_Arabesque_No_1.mp3.mp3",
+  "ClaudeDebussy_ClairDeLune.mp3.mp3",
+  "EdvardGrieg_MorningMood_PeerGynt_Suite_No1.mp3",
+  "ErikSatie_Gymnopédie_No_1.mp3",
+  "LudwigVanBeethoven_FürElise.mp3",
+  "LudwigVanBeethoven_Pastoral_Symphony_No_6.mp3",
+  "PeterTchaikovsky_The_Nutcracker_WaltzOfTheFlowers.mp3",
+];
+
+// Variable to keep track of the current audio index
+let currentAudioIndex = 0;
+
+// Create an audio element with the audio file at the currentAudioIndex position in the audioFiles array.
+const audioElement = new Audio(`assets/audio/${audioFiles[currentAudioIndex]}`);
+
+// Event listener for the volume_up button to play or pause the audio.
+document.getElementById("volume_up").addEventListener("click", function () {
+    if (audioElement.paused) {
+    audioElement.play(); // If the audio is paused, play it.
+  } else {
+    audioElement.pause(); // Otherwise, pause it.
+  }
+}
+);
+
+// Event listener for the volume_off button to stop the audio.
+document.getElementById("volume_off").addEventListener("click", function () {
+  audioElement.pause(); // Pause the audio.
+  audioElement.currentTime = 0; // Reset the currentTime property to 0.
+}
+);
+
+

@@ -150,8 +150,8 @@ nav {
 
 #bgBack,
 #bgForward,
-#bgBack_music,
-#bgForward_music,
+#back_music,
+#forward_music,
 #volume_up,
 #volume_off {
   display: flex;
@@ -171,8 +171,8 @@ nav {
 }
 
 #volume_up:hover,
-#bgBack_music:hover,
-#bgForward_music:hover {
+#back_music:hover,
+#forward_music:hover {
   color: rgb(84, 85, 206);
 }
 
