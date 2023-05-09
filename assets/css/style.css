@@ -188,11 +188,11 @@ nav {
 #forward_music,
 #volume_up,
 #volume_off {
-  padding: 0 .3rem 0 .3rem;
+  padding: 0 0.3rem 0 0.3rem;
 }
 
 #volume_off {
-  margin-left: 1rem;  
+  margin-left: 1rem;
 }
 
 #bgChange,
@@ -200,7 +200,7 @@ nav {
 #bgForward i,
 #volume_up,
 #bgBack_music i,
-#bgForward_music i { 
+#bgForward_music i {
   gap: calc(0.2rem + 1vw);
 }
 
@@ -258,8 +258,8 @@ img {
   font-size: clamp(1rem, 1rem + 1vw, 2rem);
   line-height: clamp(0.5rem, 1rem + 1vw, 1.5rem);
   font-weight: 600;
-  margin-top: clamp(.5rem, 1rem + 1vw, 1.5rem);
-  margin-bottom: clamp(.5rem, 1rem + 1vw, 1.5rem);
+  margin-top: clamp(0.5rem, 1rem + 1vw, 1.5rem);
+  margin-bottom: clamp(0.5rem, 1rem + 1vw, 1.5rem);
 }
 
 .start-message {
@@ -419,6 +419,49 @@ footer {
 hr {
   height: 2.5rem;
   border: 1.5px solid hsl(66, 69%, 69%);
+}
+
+/* 404 PAGE */
+.errorPage-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: absolute;  
+}
+
+.errorPage h1 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: clamp(1rem, 1rem + 4vw, 3rem);
+  color: rgb(84, 85, 206);
+  letter-spacing: 6px;
+  line-height: clamp(1rem, 1rem + 4vw, 3rem);
+  margin-top: clamp(1rem, 1rem + 4vw, 3rem);
+}
+
+.errorPage p {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: clamp(0.8rem, 1rem + 1vw, 1.5rem);
+  font-weight: bold;
+  color: rgb(119, 114, 36);
+  margin-top: clamp(1rem, 1rem + 4vw, 3rem);
+}
+
+.image-wrapper #er_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+  /* display: inline-block; */
+  width: 375px;
+  height: 485px;
+  overflow: hidden;  
+  margin-bottom: clamp(1rem, 1rem + 4vw, 1.5rem);  
+  transform: translate(195%, 3%);
 }
 
 /* MEDIA QUERIES */
@@ -667,6 +710,6 @@ hr {
 
   #result {
     height: 3rem;
-    margin: .5rem;
+    margin: 0.5rem;
   }
 }
