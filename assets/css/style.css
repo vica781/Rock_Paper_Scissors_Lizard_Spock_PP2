@@ -463,6 +463,76 @@ hr {
   transform: translate(175%, 3%);
 }
 
+/* RULES (opening) MODAL */
+/* .rules_modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; */
+  /* display: none; */
+  /* position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(98, 96, 88, 0.9);
+} */
+
+/* General styles for the modal */
+.rules_modal {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 48rem;
+  height: 40rem;
+  background-color: #fff;
+  border-radius: 20px;
+  border: 2px solid #4e52c4;
+  z-index: 1000;
+  padding: 1rem;
+}
+
+/* Header container styles */
+#modalHeader_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+/* Header title styles */
+#rules {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+/* Close button styles */
+#close_modal {
+  background-color: transparent;
+  border: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Image styles */
+#rules_img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: 32rem;
+}
+
+
 /* MEDIA QUERIES */
 /* Large to medium screens */
 
