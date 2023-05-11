@@ -378,3 +378,25 @@ document.getElementById("forward_music").addEventListener("click", function () {
   audioElement.src = `assets/audio/${audioFiles[currentAudioIndex]}`; // Update the audio source.
   audioElement.play(); // Play the new audio file.
 });
+
+// MODAL WINDOW
+
+// constants for modal elements
+const modal = document.getElementById("modal");
+const openModal = document.getElementById("open-modal-btn");
+const closeModal = document.getElementById("close-modal-btn");
+
+// Open modal at the start of the page
+window.onload = function () {
+  document.getElementById("modal").showModal();
+};
+
+// Make click on button open modal
+openModal.addEventListener("click", () => {
+  modal.showModal();
+});
+
+// Close modal on button click
+closeModal.addEventListener("click", () => {
+  modal.close();
+});
