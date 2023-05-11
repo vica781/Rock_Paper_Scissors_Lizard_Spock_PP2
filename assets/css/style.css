@@ -466,6 +466,8 @@ hr {
 /* RULES (opening) MODAL */
 /* General styles for the modal */
 #modal {
+  /* width: calc(72% - 2rem); */
+  /* height: calc(72% - 2rem); */
   width: 72%;
   height: 72%;
 }
@@ -510,8 +512,8 @@ dialog {
   display: block;
   margin: 0 auto;
   max-width: 100%;
-  width: 22rem;
-  height: 32rem;
+  width: calc(40% - 2rem);
+  height: calc(68% - 2rem);
   padding: 10px;
 }
 
