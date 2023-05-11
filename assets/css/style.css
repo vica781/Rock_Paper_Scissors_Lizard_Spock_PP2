@@ -465,13 +465,18 @@ hr {
 
 /* RULES (opening) MODAL */
 /* General styles for the modal */
+#modal {
+  width: 72%;
+  height: 72%;
+}
+
 dialog {
   text-align: center;
-  top: 52%;
+  top: 53%;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-width: 48rem;
-  /* min-width: 30rem; */
+  width: calc(100% - 30rem);
+  height: calc(100% - 30rem);
   border: 2px solid #4e52c4;
   border-radius: 25px;
   padding: 1rem;
@@ -480,7 +485,7 @@ dialog {
 /* Header title styles */
 #rules_header {
   margin: 0;
-  font-size: clamp(1.5rem, 1rem + 1vw, 2rem); /* Victoria, make it smaller */
+  font-size: clamp(0.8rem, 1rem + 1vw, 1.5rem); 
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   line-height: clamp(1.5rem, 1rem + 1vw, 2rem);
