@@ -178,7 +178,7 @@ nav {
 #forward_music:hover,
 #reset_btn:hover,
 #bgChange:hover,
-.open-modal-btn:hover {
+#open-modal-btn:hover {
   background-color: rgb(84, 85, 206);
   color: #fff;
 }
@@ -205,10 +205,11 @@ nav {
   gap: calc(0.2rem + 1vw);
 }
 
-.open-modal-btn {
+#open-modal-btn {
   cursor: pointer;
   transition: 0.5s;
-  margin-bottom: clamp(.5rem, 1rem + 2vw, 1rem);
+  margin-top: clamp(-0.5rem, -.5rem + 1vw, -.8rem);
+  margin-bottom: clamp(0.5rem, 1rem + 1vw, 1rem);
 }
 
 /* Player abd Computer Images display */
