@@ -528,7 +528,6 @@ dialog {
   font-size: clamp(0.8rem, 1rem + 1vw, 1rem);
   font-weight: bold;
   cursor: pointer;
-  /* line-height: clamp(1.5rem, 1rem + 1vw, 2rem); */
   margin-top: clamp(0.5rem, 1rem + 1vw, 1.5rem);
   padding: 0.2rem 0.5rem 0.2rem 0.5rem;
 }
@@ -835,11 +834,11 @@ dialog {
   }
   
   dialog {
-    top: 40%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 30rem;
-    height: 60rem;
+    height: 70rem;
     padding: 1rem;
   }
   
