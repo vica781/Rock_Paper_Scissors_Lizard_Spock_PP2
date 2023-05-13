@@ -834,12 +834,8 @@ dialog {
   }
   
   dialog {
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     width: 30rem;
-    height: 70rem;
-    padding: 1rem;
+    height: 80rem;
   }
   
   /* Header title styles */
