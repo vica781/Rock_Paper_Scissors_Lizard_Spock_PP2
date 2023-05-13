@@ -474,13 +474,13 @@ hr {
 /* RULES (opening) MODAL */
 /* General styles for the modal */
 #modal {
-  width: 50%;
-  height: 72%;
+  width: 41%;
+  height: 70%;
 }
 
 dialog {
   text-align: center;
-  top: 53%;
+  top: 53.5%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: calc(100% - 30rem);
@@ -523,13 +523,14 @@ dialog {
 /* Close button styles */
 #close-modal-btn {
   background-color: transparent;
-  border: none;
+  border: 1px solid black;
+  border-radius: 5px;
   font-size: clamp(0.8rem, 1rem + 1vw, 1rem);
   font-weight: bold;
   cursor: pointer;
-  line-height: clamp(1.5rem, 1rem + 1vw, 2rem);
+  /* line-height: clamp(1.5rem, 1rem + 1vw, 2rem); */
   margin-top: clamp(0.5rem, 1rem + 1vw, 1.5rem);
-  padding: 0 0.5rem 0 0.5rem;
+  padding: 0.2rem 0.5rem 0.2rem 0.5rem;
 }
 
 #close-modal-button:hover {
@@ -541,7 +542,7 @@ dialog {
   display: block;
   margin: 0 auto;
   max-width: 100%;
-  width: calc(45% - 2rem);
+  width: calc(52% - 2rem);
   height: calc(60% - 2rem);
   padding: 10px;
 }
