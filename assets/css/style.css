@@ -829,13 +829,14 @@ dialog {
     translate: -120%;
   }  
   #modal {
-    width: 92%;
-    height: 60%;
+    width: 100%;
+    height: 68%;
   }
   
   dialog {
-    width: 30rem;
-    height: 80rem;
+    /* width: 48rem; */
+    /* height: 90rem; */
+    translate: 0 -9%;
   }
   
   /* Header title styles */
