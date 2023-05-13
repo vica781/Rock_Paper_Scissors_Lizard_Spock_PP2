@@ -246,6 +246,7 @@ const backgroundOptions = [
   "assets/images/backgrounds/dill.webp",
   "assets/images/backgrounds/blue_feather.webp",
   "assets/images/backgrounds/chinese_lantern.webp",
+  "assets/images/backgrounds/lavandula.webp",
   "assets/images/backgrounds/dandelion.webp",
   "assets/images/backgrounds/pettel.webp",
   "assets/images/backgrounds/feather.webp",
@@ -253,11 +254,13 @@ const backgroundOptions = [
   "assets/images/backgrounds/mushroom.webp",
   "assets/images/backgrounds/fish_scale_2.webp",
   "assets/images/backgrounds/oyster.webp",
+  "assets/images/backgrounds/catmint.webp",
   "assets/images/backgrounds/magic_world.webp",
   "assets/images/backgrounds/fish_scale.webp",
   "assets/images/backgrounds/leaf.webp",
   "assets/images/backgrounds/dandelion_1.webp",
   "assets/images/backgrounds/insect_scales.webp",
+  "assets/images/backgrounds/droplets.webp",
 ];
 
 document.body.style.backgroundImage = `url(${backgroundOptions[bgChoice]})`;
@@ -320,16 +323,28 @@ document.getElementById("bgChange").addEventListener("click", nextBg);
 // ADD AUDIO TO THE GAME
 // Array of audio file names to be used by the audio element.
 const audioFiles = [
+  "PeterTchaikovsky_The_Nutcracker_WaltzOfTheFlowers.mp3",
+  "EdvardGrieg_MorningMood_PeerGynt_Suite_No1.mp3",
+  "JohannPachelbel_Canon.mp3",
+  "AntonioVivaldi_Spring_TheFourSeasons.mp3",
+  "ChristophGluck_OrfeoEdEuridice_DanceOfTheBlessedSpirits.mp3",
   "AntonioVivaldi_Autumn_TheFourSeasons.mp3",
   "AramKhachaturian_Masquerade_Suite_NoI_ Waltz.mp3",
-  "ChristophGluck_OrfeoEdEuridice_DanceOfTheBlessedSpirits.mp3",
   "ClaudeDebussy_Arabesque_No_1.mp3",
   "ClaudeDebussy_ClairDeLune.mp3",
-  "EdvardGrieg_MorningMood_PeerGynt_Suite_No1.mp3",
+  "RalphVaughanWilliams_TheLarkAscending.mp3",
   "ErikSatie_Gymnopédie_No_1.mp3",
   "LudwigVanBeethoven_FürElise.mp3",
   "LudwigVanBeethoven_Pastoral_Symphony_No_6.mp3",
-  "PeterTchaikovsky_The_Nutcracker_WaltzOfTheFlowers.mp3",
+  "AntoninDvorak_SymphonyNo9_FromTheNewWorld.mp3",
+  "AntonioVivaldi_Summer_TheFourSeasons.mp3",
+  "AntonioVivaldi_Winter_TheFourSeasons.mp3",
+  "CamilleSaint-Saens_CarnivalOfTheAnimals_TheSwan.mp3",
+  "EdwardElgar_EnigmaVariations_Nimrod.mp3",
+  "FredericChopin_NocturneNo2.mp3",
+  "JohannesBrahms_SymphonyNo3_3rdMovement.mp3",
+  "MauriceRavel_PavaneForAdeadPrincess.mp3",
+  "SergeiRachmaninoff_PianoConcertoNo2.mp3",
 ];
 
 // Variable to keep track of the current audio index
@@ -337,31 +352,31 @@ let currentAudioIndex = 0;
 
 // Create an audio element with the initial audio file and set it to loop.
 const audioElement = new Audio(`assets/audio/${audioFiles[currentAudioIndex]}`);
-audioElement.loop = true; 
+audioElement.loop = true;
 
 // Event listener for the volume_up button to play the next audio or start playing the first one.
 document.getElementById("volume_up").addEventListener("click", function () {
-    if (audioElement.paused) {
+  if (audioElement.paused) {
     audioElement.play(); // Play the audio if it's paused.
   } else {
     currentAudioIndex++; // Move to the next audio in the array.
     if (currentAudioIndex === audioFiles.length) {
       currentAudioIndex = 0; // Reset the index if it is reaches the end of the array.
-  }
+    }
     audioElement.src = `assets/audio/${audioFiles[currentAudioIndex]}`; // Update the audio source.
-  audioElement.play(); // Play the new audio file.
+    audioElement.play(); // Play the new audio file.
   }
 });
 
 // Event listener for the volume_off button to pause the audio and reset its currentTime.
 document.getElementById("volume_off").addEventListener("click", function () {
-  audioElement.pause(); 
-  audioElement.currentTime = 0; 
+  audioElement.pause();
+  audioElement.currentTime = 0;
 });
 
 // Event listener for the back_music button to play the previous audio file.
 document.getElementById("back_music").addEventListener("click", function () {
-  currentAudioIndex--; 
+  currentAudioIndex--;
   if (currentAudioIndex < 0) {
     currentAudioIndex = audioFiles.length - 1; // Set the index to the last item if it goes below 0.
   }
@@ -371,7 +386,7 @@ document.getElementById("back_music").addEventListener("click", function () {
 
 // Event listener for the forward_music button to play the next audio file.
 document.getElementById("forward_music").addEventListener("click", function () {
-  currentAudioIndex++; 
+  currentAudioIndex++;
   if (currentAudioIndex === audioFiles.length) {
     currentAudioIndex = 0; // Reset the index if it reaches the end of the array.
   }

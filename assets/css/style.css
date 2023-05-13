@@ -512,12 +512,10 @@ dialog {
   display: block;
   margin: 0 auto;
   max-width: 100%;
-  width: calc(40% - 2rem);
+  width: calc(38% - 2rem);
   height: calc(68% - 2rem);
   padding: 10px;
 }
-
-/* end of changed by T */
 
 /* MEDIA QUERIES */
 /* Large to medium screens */
