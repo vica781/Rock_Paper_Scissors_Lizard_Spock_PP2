@@ -177,7 +177,8 @@ nav {
 #back_music:hover,
 #forward_music:hover,
 #reset_btn:hover,
-#bgChange:hover {
+#bgChange:hover,
+.open-modal-btn:hover {
   background-color: rgb(84, 85, 206);
   color: #fff;
 }
@@ -202,6 +203,12 @@ nav {
 #bgBack_music i,
 #bgForward_music i {
   gap: calc(0.2rem + 1vw);
+}
+
+.open-modal-btn {
+  cursor: pointer;
+  transition: 0.5s;
+  margin-bottom: clamp(.5rem, 1rem + 2vw, 1rem);
 }
 
 /* Player abd Computer Images display */
@@ -342,7 +349,7 @@ img {
   font-size: clamp(0.8rem, 0.8rem + 1vw, 1.6rem);
   font-weight: 600;
   color: #6d3183;
-  margin-bottom: calc(1rem + 1vw);
+  margin-bottom: calc(.5rem + 1vw);
 }
 
 #score {
