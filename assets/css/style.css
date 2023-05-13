@@ -771,7 +771,7 @@ dialog {
 
   #reset_btn,
   #bgChange {
-    padding: 0.2rem 0 0.2rem 0;
+    padding: 0.5rem 0 0.5rem 0;
     line-height: 0.9rem;
   }
 
@@ -834,7 +834,7 @@ dialog {
   }
   
   dialog {
-    top: 53%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 30rem;
@@ -848,26 +848,16 @@ dialog {
     line-height: .9rem;
   }
   
-  /* Close button styles
-  #close-modal-btn {
-    background-color: transparent;
-    border: none;
-    font-size: clamp(0.8rem, 1rem + 1vw, 1rem);
-    font-weight: bold;
-    cursor: pointer;
-    line-height: clamp(1.5rem, 1rem + 1vw, 2rem);
-    margin-top: clamp(0.5rem, 1rem + 1vw, 1.5rem);
-    padding: 0 0.5rem 0 0.5rem;
-  } */
-  
-  /* #close-modal-button:hover {
-    color: #4e52c4;
-  } */
+  /* Madal Text */
+  .madal-text {
+    font-size: .8rem;
+    line-height: .9rem;
+  }
   
   /* Image styles */
   #rules_img {
-    width: 20rem;
-    height: 20rem;
+    width: 18rem;
+    height: 18rem;
     padding: 10px;
   }
 }
