@@ -208,7 +208,7 @@ nav {
 #open-modal-btn {
   cursor: pointer;
   transition: 0.5s;
-  margin-top: clamp(-0.5rem, -.5rem + 1vw, -.8rem);
+  margin-top: clamp(-0.5rem, -0.5rem + 1vw, -0.8rem);
   margin-bottom: clamp(0.5rem, 1rem + 1vw, 1rem);
 }
 
@@ -350,7 +350,7 @@ img {
   font-size: clamp(0.8rem, 0.8rem + 1vw, 1.6rem);
   font-weight: 600;
   color: #6d3183;
-  margin-bottom: calc(.5rem + 1vw);
+  margin-bottom: calc(0.5rem + 1vw);
 }
 
 #score {
@@ -493,7 +493,7 @@ dialog {
 /* Header title styles */
 #rules_header {
   margin: 0;
-  font-size: clamp(0.5rem, 1rem + 1vw, 1.5rem); 
+  font-size: clamp(0.5rem, 1rem + 1vw, 1.5rem);
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   line-height: clamp(1.5rem, 1rem + 1vw, 2rem);
@@ -504,7 +504,7 @@ dialog {
   font-size: clamp(0.5rem, 1rem + 1vw, 1rem);
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  line-height: clamp(.8rem, 1rem + 1vw, 1.2rem);
+  line-height: clamp(0.8rem, 1rem + 1vw, 1.2rem);
 }
 
 /* To open modal Rules button */
@@ -827,30 +827,28 @@ dialog {
     max-width: 50%;
     max-height: 30vh;
     translate: -120%;
-  }  
+  }
   #modal {
     width: 100%;
-    height: 68%;
+    height: 80%;
   }
-  
+
   dialog {
-    /* width: 48rem; */
-    /* height: 90rem; */
-    translate: 0 -9%;
+    translate: 0 -11%;
   }
-  
+
   /* Header title styles */
   #rules_header {
-    font-size: 1rem;       
-    line-height: .9rem;
+    font-size: 1rem;
+    line-height: 0.9rem;
   }
-  
+
   /* Madal Text */
   .madal-text {
-    font-size: .8rem;
-    line-height: .9rem;
+    font-size: 0.8rem;
+    line-height: 0.9rem;
   }
-  
+
   /* Image styles */
   #rules_img {
     width: 18rem;
