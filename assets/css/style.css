@@ -802,7 +802,7 @@ dialog {
   }
   #modal {
     width: 100%;
-    height: 66%;
+    height: 70%;
   }
   dialog {
     translate: 0 -9%;
@@ -824,8 +824,6 @@ dialog {
     padding: 10px;
   }
   #close-modal-btn {
-    /* font-size: 0.8rem;
-    padding: 0.2rem 0.5rem 0.2rem 0.5rem; */
     margin-top: 1rem;
   }
 }
