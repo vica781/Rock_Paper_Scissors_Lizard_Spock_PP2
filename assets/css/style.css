@@ -483,7 +483,6 @@ hr {
 /* RULES (opening) MODAL */
 
 /* General styles for the modal */
-
 #modal {
   width: 41%;
   height: 70%;
@@ -505,7 +504,7 @@ dialog {
 
 #rules_header {
   margin: 0;
-  font-size: clamp(0.5rem, 1rem + 1vw, 1.5rem);
+  font-size: clamp(0.5rem, 1rem + 1vw, 2rem);
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   line-height: clamp(1.5rem, 1rem + 1vw, 2rem);
@@ -514,10 +513,10 @@ dialog {
 /* Modal Text */
 
 .modal-text {
-  font-size: clamp(0.5rem, 1rem + 1vw, 1rem);
+  font-size: clamp(0.5rem, 1rem + 1vw, 1.3rem);
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  line-height: clamp(0.8rem, 1rem + 1vw, 1.2rem);
+  line-height: clamp(0.8rem, 1rem + 1vw, 1.3rem);
 }
 
 /* To open modal Rules button */
@@ -557,15 +556,35 @@ dialog {
   display: block;
   margin: 0 auto;
   max-width: 100%;
-  width: calc(52% - 2rem);
-  height: calc(60% - 2rem);
+  width: calc(55% - 2rem);
+  height: calc(65% - 2rem);
   padding: 10px;
 }
 
 /* MEDIA QUERIES */
+/* For screens between 1620px and 1800px  ONLY for the MODAL*/
+@media only screen and (min-width: 1621px) and (max-width: 1800px) {
+  #modal {
+    width: 50%;
+    height: 70%;
+  }
+  #rules_header {
+    font-size: 2rem;
+  }
+  .modal-text {
+    font-size: 1.2rem;
+    line-height: 1rem;
+  }
+  #rules_img {
+    width: 25rem;
+    height: 25rem;
+  }
+  #close-modal-btn {
+    margin-top: 2rem;
+  }
+}
 
-/* Large to medium screens */
-
+/* For screens less than or equal to 1620px */
 @media (max-width: 1620px) {
   .logo {
     margin-right: 4rem;
@@ -611,6 +630,25 @@ dialog {
   img {
     width: 12.9rem;
     height: 12.9rem;
+  }
+  /* Modal_Rules */
+  #modal {
+    width: 50%;
+    height: 68%;
+  }
+  #rules_header {
+    font-size: 1.8rem;
+  }
+  .modal-text {
+    font-size: 1.2rem;
+    line-height: 1rem;
+  }
+  #rules_img {
+    width: 25rem;
+    height: 25rem;
+  }
+  #close-modal-btn {
+    margin-top: 1rem;
   }
 }
 
