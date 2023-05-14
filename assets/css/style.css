@@ -800,10 +800,30 @@ dialog {
     max-height: 47vh;
     translate: -115%;
   }
+  /* MODAL */
+  #modal {
+    width: 80%;
+    height: 80%;
+  }
+  #rules_header {
+    font-size: 0.7rem;
+    line-height: 0.8rem;
+  }
+  .modal-text {
+    font-size: 0.5rem;
+    line-height: 0.6rem;
+  }
+  #rules_img {
+    width: 12rem;
+    height: 12rem;
+  }
+  #close-modal-btn {
+    margin-top: 0.6rem;
+  }
 }
 
 /* Extra small-sized screens */
-
+/* For screens less than or equal to 480px */
 @media (max-width: 480px) {
   #reset_btn {
     margin-right: 2rem;
@@ -857,13 +877,14 @@ dialog {
     max-height: 30vh;
     translate: -120%;
   }
+  /* MODAL */
   #modal {
-    width: 100%;
-    height: 65%;
+    width: 90%;
+    height: 50%;
   }
-  dialog {
+  /* dialog {
     translate: 0 -11%;
-  }
+  } */
   /* Header title styles */
   #rules_header {
     font-size: 1rem;
@@ -876,9 +897,9 @@ dialog {
   }
   /* Image styles */
   #rules_img {
-    width: 18rem;
-    height: 18rem;
-    padding: 10px;
+    width: 20rem;
+    height: 20rem;
+    /* padding: 10px; */
   }
   #close-modal-btn {
     margin-top: 1rem;
