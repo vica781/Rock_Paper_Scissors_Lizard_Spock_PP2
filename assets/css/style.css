@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cabin+Sketch:wght@400;700&family=Montserrat&display=swap");
-
 * {
   margin: 0;
   padding: 0;
@@ -24,6 +23,7 @@ body {
 }
 
 /* Navigation Bar */
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -86,6 +86,7 @@ nav {
 }
 
 /* MAIN SECTION */
+
 .wrapper {
   display: flex;
   justify-content: center;
@@ -103,6 +104,7 @@ nav {
 }
 
 /* New Game and Background Change buttons*/
+
 .newGame_bgChange {
   display: flex;
   flex-direction: row;
@@ -213,6 +215,7 @@ nav {
 }
 
 /* Player abd Computer Images display */
+
 #choiceImg {
   display: flex;
   justify-content: space-between;
@@ -230,7 +233,8 @@ nav {
   border-radius: 10px;
   margin-top: 2rem;
   /* Code taken from http://thenewcode.com/483/Flipping-Images-With-CSS-Transforms#:~:text=Reversing%20the%20orientation%20of%20images,the%20element%20horizontally%20or%20vertically */
-  transform: scaleX(-1); /* playerImg horizontal flip */
+  transform: scaleX(-1);
+  /* playerImg horizontal flip */
   filter: FlipH;
   -ms-filter: "FlipH";
 }
@@ -255,6 +259,7 @@ img {
 }
 
 /* Messages */
+
 #result,
 #pick {
   display: flex;
@@ -291,6 +296,7 @@ img {
 }
 
 /* Player Choice Buttons */
+
 #player_choice {
   display: flex;
   justify-content: center;
@@ -329,6 +335,7 @@ img {
 }
 
 /* Score Board */
+
 .score_container {
   display: flex;
   justify-content: space-evenly;
@@ -361,6 +368,7 @@ img {
 }
 
 /* FOOTER */
+
 footer {
   display: flex;
   flex-direction: row;
@@ -430,6 +438,7 @@ hr {
 }
 
 /* 404 PAGE */
+
 .errorPage-container {
   display: flex;
   flex-direction: column;
@@ -472,7 +481,9 @@ hr {
 }
 
 /* RULES (opening) MODAL */
+
 /* General styles for the modal */
+
 #modal {
   width: 41%;
   height: 70%;
@@ -491,6 +502,7 @@ dialog {
 }
 
 /* Header title styles */
+
 #rules_header {
   margin: 0;
   font-size: clamp(0.5rem, 1rem + 1vw, 1.5rem);
@@ -499,8 +511,9 @@ dialog {
   line-height: clamp(1.5rem, 1rem + 1vw, 2rem);
 }
 
-/* Madal Text */
-.madal-text {
+/* Modal Text */
+
+.modal-text {
   font-size: clamp(0.5rem, 1rem + 1vw, 1rem);
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
@@ -508,6 +521,7 @@ dialog {
 }
 
 /* To open modal Rules button */
+
 #open-modal-btn {
   font-family: "Montserrat", sans-serif;
   font-size: clamp(1rem, 0.5rem + 2vw, 1.5rem);
@@ -521,6 +535,7 @@ dialog {
 }
 
 /* Close button styles */
+
 #close-modal-btn {
   background-color: transparent;
   border: 1px solid black;
@@ -537,6 +552,7 @@ dialog {
 }
 
 /* Image styles */
+
 #rules_img {
   display: block;
   margin: 0 auto;
@@ -547,13 +563,13 @@ dialog {
 }
 
 /* MEDIA QUERIES */
+
 /* Large to medium screens */
 
 @media (max-width: 1620px) {
   .logo {
     margin-right: 4rem;
   }
-
   .bttns,
   i {
     display: flex;
@@ -562,42 +578,34 @@ dialog {
     gap: 0.5rem;
     flex-wrap: nowrap;
   }
-
   .buttons {
     flex-direction: column;
     gap: 0.5rem;
   }
-
   #reset_btn,
   #bgChange {
     padding: 0.5rem 0 0.5rem 0;
     line-height: 1.2rem;
     font-size: 1.3rem;
   }
-
   #gameField {
     margin: 2rem 4rem 2rem 4rem;
   }
-
   #reset_btn {
     margin-right: 18rem;
     margin-left: 2rem;
   }
-
   #choiceImg {
     gap: 15rem;
   }
-
   #playerImg {
     width: 13rem;
     height: 13rem;
   }
-
   #compImg {
     width: 13rem;
     height: 13rem;
   }
-
   #pImg,
   #cImg,
   img {
@@ -607,11 +615,11 @@ dialog {
 }
 
 /* Medium-sized screens */
+
 @media (max-width: 1024px) {
   .logo {
     margin-right: 4rem;
   }
-
   .bttns,
   i {
     display: flex;
@@ -620,48 +628,39 @@ dialog {
     gap: 0.5rem;
     flex-wrap: nowrap;
   }
-
   .buttons {
     flex-direction: column;
     gap: 0.5rem;
   }
-
   #reset_btn {
     margin-right: 10.5rem;
     margin-left: 3.5rem;
   }
-
   #gameField {
     margin: 4rem 5rem 4rem 5rem;
   }
-
   #choiceImg {
     gap: 12rem;
   }
-
   #playerImg {
     width: 12rem;
     height: 12rem;
   }
-
   #compImg {
     width: 12rem;
     height: 12rem;
   }
-
   #pImg,
   #cImg,
   img {
     width: 11.9rem;
     height: 11.9rem;
   }
-
   .foot-container {
     max-width: 50%;
     min-width: 17.5rem;
     align-items: center;
   }
-
   .image-wrapper #er_img {
     max-width: 60rem;
     max-height: 50vh;
@@ -670,27 +669,23 @@ dialog {
 }
 
 /* Small-sized screens */
+
 @media (max-width: 768px) {
   .logo {
     margin-right: 0;
   }
-
   .logo img {
     display: none;
   }
-
   .buttons {
     line-height: clamp(0.2rem, 0.5rem + 2vh, 1rem);
   }
-
   .nav-text {
     display: none;
   }
-
   .bttns {
     gap: 1rem;
   }
-
   .bttns i {
     display: flex;
     justify-content: center;
@@ -701,60 +696,48 @@ dialog {
     align-items: center;
     margin-right: 0;
   }
-
   #reset_btn {
     margin-right: 6rem;
     margin-left: 2rem;
   }
-
   #reset_btn,
   #bgChange {
     font-size: 1rem;
     padding: 0.2rem 0 0.2rem 0;
     line-height: 1rem;
   }
-
   #gameField {
     margin: 2rem 4rem 2rem 4rem;
   }
-
   #choiceImg {
     gap: 4rem;
   }
-
   #playerImg {
     width: 10rem;
     height: 10rem;
   }
-
   #compImg {
     width: 10rem;
     height: 10rem;
   }
-
   #pImg,
   #cImg,
   img {
     width: 9.9rem;
     height: 9.9rem;
   }
-
   .btnChoices {
     font-size: 1.3rem;
   }
-
   #pick {
     margin-top: 0;
   }
-
   .errorPage-container > h1 {
     font-size: clamp(1.2rem, 1rem + 1vw, 2rem);
   }
-
   .errorPage-container > p {
     font-size: clamp(0.8rem, 0.5rem + 1vw, 1rem);
   }
-
   .image-wrapper #er_img {
     max-width: 50%;
     max-height: 47vh;
@@ -763,66 +746,55 @@ dialog {
 }
 
 /* Extra small-sized screens */
+
 @media (max-width: 480px) {
   #reset_btn {
     margin-right: 2rem;
     margin-left: 2rem;
   }
-
   #reset_btn,
   #bgChange {
     padding: 0.5rem 0 0.5rem 0;
     line-height: 0.9rem;
   }
-
   #gameField {
     margin: 1rem 2rem 1rem 2rem;
   }
-
   #choiceImg {
     gap: 3rem;
   }
-
   #playerImg {
     width: 7rem;
     height: 7rem;
     margin-top: 1rem;
   }
-
   #compImg {
     width: 7rem;
     height: 7rem;
     margin-top: 1rem;
   }
-
   #pImg,
   #cImg,
   img {
     width: 6.9rem;
     height: 6.9rem;
   }
-
   .btnChoices {
     font-size: 1rem;
   }
-
   #pick {
     margin-top: 0;
   }
-
   #result {
     height: 3rem;
     margin: 0.5rem;
   }
-
   .errorPage-container > h1 {
     font-size: clamp(1rem, 1rem + 1vw, 2rem);
   }
-
   .errorPage-container > p {
     font-size: clamp(0.5rem, 0.5rem + 1vw, 1rem);
   }
-
   .image-wrapper #er_img {
     max-width: 50%;
     max-height: 30vh;
@@ -830,32 +802,27 @@ dialog {
   }
   #modal {
     width: 100%;
-    height: 56%;
+    height: 66%;
   }
-
   dialog {
     translate: 0 -9%;
   }
-
   /* Header title styles */
   #rules_header {
     font-size: 1rem;
     line-height: 0.9rem;
   }
-
-  /* Madal Text */
-  .madal-text {
+  /* Modal Text */
+  .modal-text {
     font-size: 0.8rem;
     line-height: 0.9rem;
   }
-
   /* Image styles */
   #rules_img {
     width: 18rem;
     height: 18rem;
     padding: 10px;
   }
-
   #close-modal-btn {
     /* font-size: 0.8rem;
     padding: 0.2rem 0.5rem 0.2rem 0.5rem; */
