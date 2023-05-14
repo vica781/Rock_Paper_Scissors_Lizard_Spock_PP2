@@ -633,8 +633,8 @@ dialog {
   }
   /* Modal_Rules */
   #modal {
-    width: 50%;
-    height: 68%;
+    width: 70%;
+    height: 70%;
   }
   #rules_header {
     font-size: 1.8rem;
@@ -653,7 +653,7 @@ dialog {
 }
 
 /* Medium-sized screens */
-
+/* For screens less than or equal to 1024px */
 @media (max-width: 1024px) {
   .logo {
     margin-right: 4rem;
@@ -704,10 +704,29 @@ dialog {
     max-height: 50vh;
     translate: -110%;
   }
+  /* MODAL */
+  #modal {
+    width: 80%;
+    height: 60%;
+  }
+  #rules_header {
+    font-size: clamp(1.2rem, 1rem + 1vw, 2rem);
+  }
+  .modal-text {
+    font-size: clamp(0.8rem, 0.5rem + 1vw, 1rem);
+    line-height: clamp(0.8rem, 0.5rem + 1vw, 1rem);
+  }
+  #rules_img {
+    width: 20rem;
+    height: 20rem;
+  }
+  #close-modal-btn {
+    margin-top: 0.7rem;
+  }
 }
 
 /* Small-sized screens */
-
+/* For screens less than or equal to 768px */
 @media (max-width: 768px) {
   .logo {
     margin-right: 0;
