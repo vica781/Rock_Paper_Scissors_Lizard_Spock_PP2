@@ -830,11 +830,11 @@ dialog {
   }
   #modal {
     width: 100%;
-    height: 80%;
+    height: 56%;
   }
 
   dialog {
-    translate: 0 -11%;
+    translate: 0 -9%;
   }
 
   /* Header title styles */
@@ -854,5 +854,11 @@ dialog {
     width: 18rem;
     height: 18rem;
     padding: 10px;
+  }
+
+  #close-modal-btn {
+    /* font-size: 0.8rem;
+    padding: 0.2rem 0.5rem 0.2rem 0.5rem; */
+    margin-top: 1rem;
   }
 }
