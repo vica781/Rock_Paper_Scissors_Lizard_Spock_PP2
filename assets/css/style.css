@@ -905,3 +905,29 @@ dialog {
     margin-top: 1rem;
   }
 }
+
+/* ABOUT PAGE */
+
+section #aboutPage_h1 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: rgb(84, 85, 206);
+  /* letter-spacing: 6px; */
+  line-height: clamp(0.8rem, 1rem + 4vw, 3rem);
+  margin-top: clamp(1rem, 1rem + 4vw, 1.5rem);
+  margin-left: clamp(1rem, 1rem + 4vw, 3rem);
+  margin-right: clamp(1rem, 1rem + 4vw, 3rem);
+  margin-bottom: clamp(1rem, 1rem + 4vw, 1.5rem);
+}
+
+.aboutPage-text {
+  /* text-align: center; */
+  font-family: "Montserrat", sans-serif;
+  font-size: clamp(0.5rem, 1rem + 1vw, 1.2rem);
+  line-height: clamp(0.5rem, 1rem + 1vw, 1.5rem);
+  margin-bottom: 2rem;
+  /* margin-left: clamp(1rem, 1rem + 4vw, 3rem);
+  margin-right: clamp(1rem, 1rem + 4vw, 3rem); */
+}
