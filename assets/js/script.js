@@ -49,9 +49,7 @@ buttons.forEach((button) => {
       counter++;
 
       // Add one to the counter
-
       playerPick = this.dataset.type;
-
       result.innerHTML = "";
 
       // Generate a random index number to select an element from the `pcPicks` array
@@ -63,7 +61,7 @@ buttons.forEach((button) => {
       // Call the `updateUI()` function to update the user interface with the winner and game result
       updateUI();
     } else {
-      result.innerHTML = "Game over! You have reached 20 points!";
+      result.innerHTML = "Game over! Total score 20 points!";
     }
   });
 });
