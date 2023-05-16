@@ -614,6 +614,19 @@ dialog {
   margin-right: auto;
 }
 
+/* Colours for hyperlinked words on About page */
+/* Use mnemonic LoVe/HAte to remember the order:LVHA */
+
+#about-page-link {
+  color: rgb(5, 172, 41);
+}
+#about-page-link:visited {
+  color: rgb(154, 9, 237);
+}
+#about-page-link:hover {
+  color: rgb(238, 238, 36);
+}
+
 /* MEDIA QUERIES */
 /* For screens between 1620px and 1800px  ONLY for the MODAL*/
 @media only screen and (min-width: 1621px) and (max-width: 1800px) {
