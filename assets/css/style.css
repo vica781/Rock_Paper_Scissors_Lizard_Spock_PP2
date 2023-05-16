@@ -614,16 +614,6 @@ dialog {
   margin-right: auto;
 }
 
-a #aboutPage_link {
-  color: #c96807;
-}
-a #aboutPage_link :hover {
-  color: #4e52c4;
-}
-a #aboutPage_link :visited {
-  color: #7a0d8d;
-}
-
 /* MEDIA QUERIES */
 /* For screens between 1620px and 1800px  ONLY for the MODAL*/
 @media only screen and (min-width: 1621px) and (max-width: 1800px) {
