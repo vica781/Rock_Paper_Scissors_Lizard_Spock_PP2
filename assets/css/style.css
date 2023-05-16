@@ -616,7 +616,8 @@ dialog {
 
 /* Colours for hyperlinked words on About page */
 /* Use mnemonic LoVe/HAte to remember the order:LVHA */
-
+/* Important, as other ways will not work */
+/* The order of link pseudo-classes matters because of the way browsers interpret the CSS */
 #about-page-link {
   color: rgb(5, 172, 41);
 }
