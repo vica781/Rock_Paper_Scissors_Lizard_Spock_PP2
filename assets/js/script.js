@@ -81,7 +81,8 @@ function determinWinner() {
   if (playerPick === computerPick) {
     winner = "tie";
     // Add span to the message to style it independently from the rest of the text
-    message = `<span class="outcome-message"><i class="far fa-handshake"></i>It's a tie</span>`;
+    message = `<span class="outcome-message"><i class="far fa-handshake"></i>
+    It's a tie</span>`;
   } else if (winningCombinations[playerPick].includes(computerPick)) {
     winner = "player";
     message = `<span class="outcome-message">${outcomeMessages[combo]} - You win!</span>`;

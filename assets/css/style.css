@@ -271,7 +271,15 @@ img {
   font-size: clamp(1rem, 1rem + 1vw, 2rem);
   line-height: clamp(0.5rem, 1rem + 1vw, 1.5rem);
   font-weight: 600;
-  margin-top: clamp(0.5rem, 1rem + 1vw, 1.5rem);
+  height: 2.2rem;
+}
+
+#result {
+  margin-top: clamp(0.5rem, 1rem + 1vw, 1rem);
+  margin-bottom: clamp(0.5rem, 1rem + 1vw, 1rem);
+}
+
+#pick {
   margin-bottom: clamp(0.5rem, 1rem + 1vw, 1.5rem);
 }
 
@@ -485,12 +493,12 @@ hr {
 /* General styles for the modal */
 #modal {
   width: 41%;
-  height: 70%;
+  height: 67%;
 }
 
 dialog {
   text-align: center;
-  top: 53.5%;
+  top: 52.5%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: calc(100% - 30rem);
@@ -562,6 +570,11 @@ dialog {
 }
 
 /* ABOUT PAGE */
+section#aboutPage_wrapper {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 #aboutPage_h1 {
   text-align: center;
@@ -618,11 +631,11 @@ dialog {
 /* Use mnemonic LoVe/HAte to remember the order:LVHA */
 /* Important, as other ways will not work */
 /* The order of link pseudo-classes matters because of the way browsers interpret the CSS */
-#about-page-link {
+#about-page-link:link {
   color: rgb(5, 172, 41);
 }
 #about-page-link:visited {
-  color: rgb(154, 9, 237);
+  color: rgb(143, 38, 164);
 }
 #about-page-link:hover {
   color: rgb(238, 238, 36);
