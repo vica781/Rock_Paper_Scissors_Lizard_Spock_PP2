@@ -631,14 +631,49 @@ section#aboutPage_wrapper {
 /* Use mnemonic LoVe/HAte to remember the order:LVHA */
 /* Important, as other ways will not work */
 /* The order of link pseudo-classes matters because of the way browsers interpret the CSS */
-#about-page-link:link {
+#about-page-link {
   color: rgb(5, 172, 41);
 }
 #about-page-link:visited {
-  color: rgb(143, 38, 164);
+  color: rgb(206, 50, 23);
 }
 #about-page-link:hover {
   color: rgb(238, 238, 36);
+}
+
+/* ABOUT PAGE */
+/* Back to top button on ABOUT page*/
+.go-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  background-color: rgba(86, 127, 121, 1);
+  color: hsl(66, 69%, 69%);
+  border: 2px solid hsl(66, 69%, 69%);
+  border-radius: 7px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  width: clamp(2rem, 1rem + 1vw, 2.5rem);
+  height: clamp(2rem, 1rem + 1vw, 2.5rem);
+}
+
+#back-to-top {
+  left: 85%;
+  bottom: 5%;
+}
+
+.go-to-top:hover {
+  background-color: rgb(84, 85, 206);
+  color: #fff;
+}
+#back-to-top i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: clamp(0.5rem, 0.5rem + 1vw, 1rem);
 }
 
 /* MEDIA QUERIES */
