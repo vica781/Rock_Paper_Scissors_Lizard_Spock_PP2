@@ -1022,9 +1022,12 @@ section#aboutPage_wrapper {
     margin-top: 1rem;
   }
   /* About page */
-  #aboutPage_wrapper {
-    margin-left: 1rem;
-    margin-right: 1rem;
+  section#aboutPage_wrapper {
+    /* max-width: 1200px; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
   #aboutPage_h1 {
     font-size: 1.2rem;
