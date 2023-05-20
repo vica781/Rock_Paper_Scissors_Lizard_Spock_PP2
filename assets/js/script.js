@@ -193,7 +193,7 @@ window.addEventListener("load", function () {
 // Update the UI with the results of the game.
 function updateUI() {
   // Update the player and computer hand images with the chosen icons.
-  playerImg.innerHTML = `<img src=${imagePaths[playerPick]} id="p-img"></img>`;
+  playerImg.innerHTML = `<img src=${imagePaths[playerPick]} id="player-img"></img>`;
 
   // Determine the winner and get the appropriate message.
   const [winner, message] = determinWinner();
