@@ -38,7 +38,7 @@ document.getElementById("current-year").innerHTML = currentYear;
 // Add event listeners to the buttons in order to detect which button the player clicked
 
 // Use querySelectorAll to pull all the buttons from the body of index.html
-const buttons = document.querySelectorAll(".btn-choices");
+const buttons = document.querySelectorAll(".btnChoices");
 result.innerHTML = '<span class="start-message">Ready when you are!</span>';
 // Use forEach to loop through all obtained buttons
 buttons.forEach((button) => {
@@ -67,7 +67,7 @@ buttons.forEach((button) => {
       } else if (playerScore < computerScore) {
         result.innerHTML = "Game over! Sorry, Computer won!";
       } else {
-        result.innerHTML = "Game over! You both won! It is a tie!";
+        result.innerHTML = "Game over! It is a tie! You both won!";
       }
     }
   });
@@ -154,7 +154,7 @@ function displayComputerChoice(message) {
     }
     compImg.innerHTML = `<img src=${
       imagePaths[slotArray[count]]
-    } id="c-img"></img>`;
+    } id="cImg"></img>`;
     if (count === slotArray.length - 1) {
       result.innerHTML = message;
 
@@ -176,8 +176,8 @@ function displayScore() {
 // Add the event listener to the window object.
 window.addEventListener("load", function () {
   // Get the playerImg and compImg elements
-  const playerImg = document.getElementById("player-img");
-  const compImg = document.getElementById("comp-img");
+  const playerImg = document.getElementById("playerImg");
+  const compImg = document.getElementById("compImg");
 
   // Create the image element and set its attributes.
   const pentagonImage = document.createElement("img");
@@ -193,7 +193,7 @@ window.addEventListener("load", function () {
 // Update the UI with the results of the game.
 function updateUI() {
   // Update the player and computer hand images with the chosen icons.
-  playerImg.innerHTML = `<img src=${imagePaths[playerPick]} id="player-img"></img>`;
+  playerImg.innerHTML = `<img src=${imagePaths[playerPick]} id="pImg"></img>`;
 
   // Determine the winner and get the appropriate message.
   const [winner, message] = determinWinner();
@@ -278,7 +278,7 @@ const backgroundOptions = [
 
 document.body.style.backgroundImage = `url(${backgroundOptions[bgChoice]})`;
 
-const bgChange = document.getElementById("bgchange");
+const bgChange = document.getElementById("bgChange");
 bgChange.addEventListener("click", function () {
   bgChoice++;
   if (bgChoice === backgroundOptions.length) {
@@ -329,9 +329,9 @@ function previousBg() {
 }
 
 // Attach event listeners to the buttons.
-document.getElementById("bg-forward").addEventListener("click", nextBg);
-document.getElementById("bg-back").addEventListener("click", previousBg);
-document.getElementById("bgchange").addEventListener("click", nextBg);
+document.getElementById("bgForward").addEventListener("click", nextBg);
+document.getElementById("bgBack").addEventListener("click", previousBg);
+document.getElementById("bgChange").addEventListener("click", nextBg);
 
 // ADD AUDIO TO THE GAME
 // Array of audio file names to be used by the audio element.

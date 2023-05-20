@@ -92,7 +92,7 @@ nav {
   justify-content: center;
 }
 
-#game-field {
+#gameField {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -105,7 +105,7 @@ nav {
 
 /* New Game and Background Change buttons*/
 
-.newgame-bgchange {
+.newGame-bgChange {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -119,12 +119,12 @@ nav {
   margin-left: 4rem;
 }
 
-#bg-back {
+#bgBack {
   margin-left: 2.5em;
 }
 
 #reset-btn,
-#bgchange {
+#bgChange {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -141,7 +141,7 @@ nav {
   transition: 0.5s;
 }
 
-.bgchange-container {
+.bgChange-container {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -150,8 +150,8 @@ nav {
   background: none;
 }
 
-#bg-back,
-#bg-forward,
+#bgBack,
+#bgForward,
 #back-music,
 #forward-music,
 #volume-up,
@@ -172,21 +172,21 @@ nav {
   transition: 0.5s;
 }
 
-#bg-back:hover,
-#bg-forward:hover,
+#bgBack:hover,
+#bgForward:hover,
 #volume-up:hover,
 #volume-off:hover,
 #back-music:hover,
 #forward-music:hover,
 #reset-btn:hover,
-#bgchange:hover,
+#bgChange:hover,
 #open-modal-btn:hover {
   background-color: rgb(84, 85, 206);
   color: #fff;
 }
 
-#bg-back,
-#bg-forward,
+#bgBack,
+#bgForward,
 #back-music,
 #forward-music,
 #volume-up,
@@ -198,12 +198,12 @@ nav {
   margin-left: 1rem;
 }
 
-#bgchange,
-#bg-back i,
-#bg-forward i,
+#bgChange,
+#bgBack i,
+#bgForward i,
 #volume-up,
-#bg-back-music i,
-#bg-forward-music i {
+#bgBack-music i,
+#bgForward-music i {
   gap: calc(0.2rem + 1vw);
 }
 
@@ -216,13 +216,13 @@ nav {
 
 /* Player abd Computer Images display */
 
-#choice-img {
+#choiceImg {
   display: flex;
   justify-content: space-between;
   gap: 15rem;
 }
 
-#player-img {
+#playerImg {
   display: flex;
   justify-content: center;
   width: 15rem;
@@ -239,7 +239,7 @@ nav {
   -ms-filter: "FlipH";
 }
 
-#comp-img {
+#compImg {
   display: flex;
   width: 15rem;
   height: 15rem;
@@ -250,8 +250,8 @@ nav {
   margin-top: 2rem;
 }
 
-#p-img,
-#c-img,
+#pImg,
+#cImg,
 img {
   width: 14.9rem;
   height: 14.9rem;
@@ -313,7 +313,7 @@ img {
   margin-bottom: clamp(0.5rem, 1rem + 1vw, 1rem);
 }
 
-.btn-choices {
+.btnChoices {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -330,14 +330,14 @@ img {
   padding: 0.2rem 0.5rem 0.2rem 0.5rem;
 }
 
-.btn-choices p {
+.btnChoices p {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: clamp(1rem, 1rem + 1vw, 1.5rem);
   margin-bottom: 2rem;
 }
 
-.btn-choices:hover {
+.btnChoices:hover {
   background-color: rgb(84, 85, 206);
   color: #fff;
 }
@@ -463,10 +463,10 @@ hr {
   font-weight: bolder;
   color: rgb(84, 85, 206);
   letter-spacing: 6px;
-  line-height: clamp(0.8rem, 1rem + 4vw, 3rem);
+  /* line-height: clamp(0.8rem, 1rem + 4vw, 3rem);
   margin-top: clamp(1rem, 1rem + 4vw, 1.5rem);
   margin-left: clamp(1rem, 1rem + 4vw, 3rem);
-  margin-right: clamp(1rem, 1rem + 4vw, 3rem);
+  margin-right: clamp(1rem, 1rem + 4vw, 3rem); */
 }
 
 .error-page p {
@@ -476,16 +476,20 @@ hr {
   line-height: clamp(0.5rem, 1rem + 1vw, 1.5rem);
   font-weight: bold;
   color: rgb(119, 114, 36);
-  margin-top: clamp(1rem, 1rem + 4vw, 1rem);
+  /* margin-top: clamp(1rem, 1rem + 4vw, 1rem);
   margin-left: clamp(1rem, 1rem + 4vw, 3rem);
-  margin-right: clamp(1rem, 1rem + 4vw, 3rem);
+  margin-right: clamp(1rem, 1rem + 4vw, 3rem); */
 }
 
-.image-wrapper #er-img {
+.image-wrapper {
+  text-align: center;
+}
+
+#er-img {
   width: 400px;
   height: 485px;
-  margin-bottom: clamp(1rem, 1rem + 4vw, 1.5rem);
-  transform: translate(175%, 3%);
+  /* margin-bottom: clamp(1rem, 1rem + 4vw, 1.5rem);
+  transform: translate(175%, 3%); */
 }
 
 /* RULES (opening) MODAL */
@@ -570,7 +574,7 @@ dialog {
 }
 
 /* ABOUT PAGE */
-section#about-page-wrapper {
+section#aboutPage-wrapper {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -614,7 +618,7 @@ section#about-page-wrapper {
   color: rgb(173, 173, 224);
 } */
 
-#about-page-h1 {
+#aboutPage-h1 {
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
@@ -628,7 +632,7 @@ section#about-page-wrapper {
   margin-bottom: clamp(1rem, 1rem + 4vw, 1.5rem);
 }
 
-.about-page-h2 {
+.aboutPage-h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
   font-weight: bolder;
@@ -638,7 +642,7 @@ section#about-page-wrapper {
   margin-bottom: clamp(1rem, 1rem + 4vw, 1.5rem);
 }
 
-.about-page-h3 {
+.aboutPage-h3 {
   font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
   font-weight: bolder;
@@ -648,7 +652,7 @@ section#about-page-wrapper {
   margin-bottom: clamp(1rem, 1rem + 4vw, 1.5rem);
 }
 
-.about-page-text {
+.aboutPage-text {
   font-family: "Montserrat", sans-serif;
   font-size: clamp(0.5rem, 1rem + 1vw, 1.2rem);
   line-height: clamp(0.5rem, 1rem + 1vw, 1.5rem);
@@ -756,31 +760,31 @@ section#about-page-wrapper {
     gap: 0.5rem;
   }
   #reset-btn,
-  #bgchange {
+  #bgChange {
     padding: 0.5rem 0 0.5rem 0;
     line-height: 1.2rem;
     font-size: 1.3rem;
   }
-  #game-field {
+  #gameField {
     margin: 2rem 4rem 2rem 4rem;
   }
   #reset-btn {
     margin-right: 18rem;
     margin-left: 2rem;
   }
-  #choice-img {
+  #choiceImg {
     gap: 15rem;
   }
-  #player-img {
+  #playerImg {
     width: 13rem;
     height: 13rem;
   }
-  #comp-img {
+  #compImg {
     width: 13rem;
     height: 13rem;
   }
-  #p-img,
-  #c-img,
+  #pImg,
+  #cImg,
   img {
     width: 12.9rem;
     height: 12.9rem;
@@ -828,22 +832,22 @@ section#about-page-wrapper {
     margin-right: 10.5rem;
     margin-left: 3.5rem;
   }
-  #game-field {
+  #gameField {
     margin: 4rem 5rem 4rem 5rem;
   }
-  #choice-img {
+  #choiceImg {
     gap: 12rem;
   }
-  #player-img {
+  #playerImg {
     width: 12rem;
     height: 12rem;
   }
-  #comp-img {
+  #compImg {
     width: 12rem;
     height: 12rem;
   }
-  #p-img,
-  #c-img,
+  #pImg,
+  #cImg,
   img {
     width: 11.9rem;
     height: 11.9rem;
@@ -853,11 +857,11 @@ section#about-page-wrapper {
     min-width: 17.5rem;
     align-items: center;
   }
-  .image-wrapper #er-img {
+  /* .image-wrapper #er-img {
     max-width: 60rem;
     max-height: 50vh;
     translate: -110%;
-  }
+  } */
   /* MODAL */
   #modal {
     width: 80%;
@@ -912,48 +916,48 @@ section#about-page-wrapper {
     margin-left: 2rem;
   }
   #reset-btn,
-  #bgchange {
+  #bgChange {
     font-size: 1rem;
     padding: 0.2rem 0 0.2rem 0;
     line-height: 1rem;
   }
-  #game-field {
+  #gameField {
     margin: 2rem 4rem 2rem 4rem;
   }
-  #choice-img {
+  #choiceImg {
     gap: 4rem;
   }
-  #player-img {
+  #playerImg {
     width: 10rem;
     height: 10rem;
   }
-  #comp-img {
+  #compImg {
     width: 10rem;
     height: 10rem;
   }
-  #p-img,
-  #c-img,
+  #pImg,
+  #cImg,
   img {
     width: 9.9rem;
     height: 9.9rem;
   }
-  .btn-choices {
+  .btnChoices {
     font-size: 1.3rem;
   }
   #pick {
     margin-top: 0;
   }
-  .error-page-container > h1 {
+  /* .errorPage-container > h1 {
     font-size: clamp(1.2rem, 1rem + 1vw, 2rem);
   }
-  .error-page-container > p {
+  .errorPage-container > p {
     font-size: clamp(0.8rem, 0.5rem + 1vw, 1rem);
   }
   .image-wrapper #er-img {
     max-width: 50%;
     max-height: 47vh;
     translate: -115%;
-  }
+  } */
   /* MODAL */
   #modal {
     width: 80%;
@@ -984,33 +988,33 @@ section#about-page-wrapper {
     margin-left: 2rem;
   }
   #reset-btn,
-  #bgchange {
+  #bgChange {
     padding: 0.5rem 0 0.5rem 0;
     line-height: 0.9rem;
   }
-  #game-field {
+  #gameField {
     margin: 1rem 2rem 1rem 2rem;
   }
-  #choice-img {
+  #choiceImg {
     gap: 3rem;
   }
-  #player-img {
+  #playerImg {
     width: 7rem;
     height: 7rem;
     margin-top: 1rem;
   }
-  #comp-img {
+  #compImg {
     width: 7rem;
     height: 7rem;
     margin-top: 1rem;
   }
-  #p-img,
-  #c-img,
+  #pImg,
+  #cImg,
   img {
     width: 6.9rem;
     height: 6.9rem;
   }
-  .btn-choices {
+  .btnChoices {
     font-size: 1rem;
   }
   #pick {
@@ -1022,23 +1026,25 @@ section#about-page-wrapper {
     margin-left: 0.6rem;
     margin-right: 0.6rem;
   }
-  .error-page-container > h1 {
+  /* .errorPage-container > h1 {
     font-size: clamp(1rem, 1rem + 1vw, 2rem);
   }
-  .error-page-container > p {
+  .errorPage-container > p {
     font-size: clamp(0.5rem, 0.5rem + 1vw, 1rem);
   }
   .image-wrapper #er-img {
     max-width: 50%;
     max-height: 30vh;
     translate: -120%;
-  }
+  } */
   /* MODAL */
   #modal {
     width: 90%;
     height: 50%;
   }
-
+  /* dialog {
+    translate: 0 -11%;
+  } */
   /* Header title styles */
   #rules-header {
     font-size: 1rem;
@@ -1059,17 +1065,17 @@ section#about-page-wrapper {
     margin-top: 1rem;
   }
   /* About page */
-  section#about-page-wrapper {
+  section#aboutPage-wrapper {
     margin-left: 2rem;
     margin-right: 2rem;
   }
-  #about-page-h1 {
+  #aboutPage-h1 {
     font-size: 1.2rem;
     line-height: 1.3rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
-  .about-page-text {
+  .aboutPage-text {
     font-size: 1rem;
     line-height: 1rem;
     margin-bottom: 1rem;
