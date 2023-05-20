@@ -122,11 +122,11 @@ const outcomeMessages = {
 
 //An object containing path to game's images
 const imagePaths = {
-  rock: "assets/images/characters/boulder_1.webp",
-  paper: "assets/images/characters/paper_ball.webp",
-  scissors: "assets/images/characters/scissors_5.webp",
-  lizard: "assets/images/characters/lizard_3.webp",
-  spock: "assets/images/characters/spock_2.webp",
+  rock: "assets/images/characters/boulder-1.webp",
+  paper: "assets/images/characters/paper-ball.webp",
+  scissors: "assets/images/characters/scissors-5.webp",
+  lizard: "assets/images/characters/lizard-3.webp",
+  spock: "assets/images/characters/spock-2.webp",
 };
 
 function displayComputerChoice(message) {
@@ -159,10 +159,10 @@ function displayComputerChoice(message) {
 
 function displayScore() {
   // Update the scores displayed in the UI
-  document.getElementById("player_score").innerHTML = `Player: ${playerScore}`;
-  document.getElementById("tie_score").innerHTML = `Tie: ${tieScore}`;
+  document.getElementById("player-score").innerHTML = `Player: ${playerScore}`;
+  document.getElementById("tie-score").innerHTML = `Tie: ${tieScore}`;
   document.getElementById(
-    "computer_score"
+    "computer-score"
   ).innerHTML = `Computer: ${computerScore}`;
 }
 
@@ -174,7 +174,7 @@ window.addEventListener("load", function () {
 
   // Create the image element and set its attributes.
   const pentagonImage = document.createElement("img");
-  pentagonImage.src = "assets/images/favicon/pentagon_2.png";
+  pentagonImage.src = "assets/images/favicon/pentagon-2.png";
   pentagonImage.alt =
     "Game logo in a shape of pentagon formed by five icons: Rock, Paper, Scissors, Lizard, Spock";
 
@@ -205,13 +205,13 @@ function updateUI() {
 
 // Set the initial scores to 0 on window load.
 window.addEventListener("load", function () {
-  document.getElementById("player_score").innerHTML = `Player: 0`;
-  document.getElementById("tie_score").innerHTML = `Tie: 0`;
-  document.getElementById("computer_score").innerHTML = `Computer: 0`;
+  document.getElementById("player-score").innerHTML = `Player: 0`;
+  document.getElementById("tie-score").innerHTML = `Tie: 0`;
+  document.getElementById("computer-score").innerHTML = `Computer: 0`;
 });
 
 // Add a click event listener to the reset (New Game) button.
-document.getElementById("reset_btn").addEventListener("click", function () {
+document.getElementById("reset-btn").addEventListener("click", function () {
   playerScore = 0;
   computerScore = 0;
   tieScore = 0;
@@ -224,13 +224,13 @@ document.getElementById("reset_btn").addEventListener("click", function () {
   result.innerHTML = '<span class="start-message">Ready when you are!</span>';
 
   // Update the scores displayed in the UI to 0.
-  document.getElementById("player_score").innerHTML = `Player: 0`;
-  document.getElementById("tie_score").innerHTML = `Tie: 0`;
-  document.getElementById("computer_score").innerHTML = `Computer: 0`;
+  document.getElementById("player-score").innerHTML = `Player: 0`;
+  document.getElementById("tie-score").innerHTML = `Tie: 0`;
+  document.getElementById("computer-score").innerHTML = `Computer: 0`;
 
   // Creat the image element and set its attributes.
   const pentagonImage = document.createElement("img");
-  pentagonImage.src = "assets/images/favicon/pentagon_2.png";
+  pentagonImage.src = "assets/images/favicon/pentagon-2.png";
   pentagonImage.alt =
     "Game logo in a shape of pentagon formed by five icons: Rock, Paper, Scissors, Lizard, Spock";
 
@@ -241,24 +241,24 @@ document.getElementById("reset_btn").addEventListener("click", function () {
 
 // Create an array of image paths for the background options.
 const backgroundOptions = [
-  "assets/images/backgrounds/sweet_pea.webp",
+  "assets/images/backgrounds/sweet-pea.webp",
   "assets/images/backgrounds/dill.webp",
-  "assets/images/backgrounds/blue_feather.webp",
-  "assets/images/backgrounds/chinese_lantern.webp",
+  "assets/images/backgrounds/blue-feather.webp",
+  "assets/images/backgrounds/chinese-lantern.webp",
   "assets/images/backgrounds/lavandula.webp",
   "assets/images/backgrounds/dandelion.webp",
   "assets/images/backgrounds/pettel.webp",
   "assets/images/backgrounds/feather.webp",
   "assets/images/backgrounds/leaf-1.webp",
   "assets/images/backgrounds/mushroom.webp",
-  "assets/images/backgrounds/fish_scale_2.webp",
+  "assets/images/backgrounds/fish-scale-2.webp",
   "assets/images/backgrounds/oyster.webp",
   "assets/images/backgrounds/catmint.webp",
-  "assets/images/backgrounds/magic_world.webp",
-  "assets/images/backgrounds/fish_scale.webp",
+  "assets/images/backgrounds/magic-world.webp",
+  "assets/images/backgrounds/fish-scale.webp",
   "assets/images/backgrounds/leaf.webp",
-  "assets/images/backgrounds/dandelion_1.webp",
-  "assets/images/backgrounds/insect_scales.webp",
+  "assets/images/backgrounds/dandelion-1.webp",
+  "assets/images/backgrounds/insect-scales.webp",
   "assets/images/backgrounds/droplets.webp",
 ];
 
@@ -322,28 +322,28 @@ document.getElementById("bgChange").addEventListener("click", nextBg);
 // ADD AUDIO TO THE GAME
 // Array of audio file names to be used by the audio element.
 const audioFiles = [
-  "PeterTchaikovsky_The_Nutcracker_WaltzOfTheFlowers.mp3",
-  "EdvardGrieg_MorningMood_PeerGynt_Suite_No1.mp3",
-  "JohannPachelbel_Canon.mp3",
-  "AntonioVivaldi_Spring_TheFourSeasons.mp3",
-  "ChristophGluck_OrfeoEdEuridice_DanceOfTheBlessedSpirits.mp3",
-  "AntonioVivaldi_Autumn_TheFourSeasons.mp3",
-  "AramKhachaturian_Masquerade_Suite_NoI_ Waltz.mp3",
-  "ClaudeDebussy_Arabesque_No_1.mp3",
-  "ClaudeDebussy_ClairDeLune.mp3",
-  "RalphVaughanWilliams_TheLarkAscending.mp3",
-  "ErikSatie_Gymnopédie_No_1.mp3",
-  "LudwigVanBeethoven_FürElise.mp3",
-  "LudwigVanBeethoven_Pastoral_Symphony_No_6.mp3",
-  "AntoninDvorak_SymphonyNo9_FromTheNewWorld.mp3",
-  "AntonioVivaldi_Summer_TheFourSeasons.mp3",
-  "AntonioVivaldi_Winter_TheFourSeasons.mp3",
-  "CamilleSaint-Saens_CarnivalOfTheAnimals_TheSwan.mp3",
-  "EdwardElgar_EnigmaVariations_Nimrod.mp3",
-  "FredericChopin_NocturneNo2.mp3",
-  "JohannesBrahms_SymphonyNo3_3rdMovement.mp3",
-  "MauriceRavel_PavaneForAdeadPrincess.mp3",
-  "SergeiRachmaninoff_PianoConcertoNo2.mp3",
+  "antonindvorak-symphonyno9-fromthenewworld.mp3",
+  "antoniovivaldi-autumn-thefourseasons.mp3",
+  "antoniovivaldi-spring-thefourseasons.mp3",
+  "antoniovivaldi-summer-thefourseasons.mp3",
+  "antoniovivaldi-winter-thefourseasons.mp3",
+  "aramkhachaturian-masquerade-suite-noi-waltz.mp3",
+  "camillesaint-saens-carnivaloftheanimals-theswan.mp3",
+  "christophgluck-orfeoedeuridice-danceoftheblessedspirits.mp3",
+  "claudedebussy-arabesque-no-1.mp3",
+  "claudedebussy-clairdelune.mp3",
+  "edvardgrieg-morningmood-peergynt-suite-no1.mp3",
+  "edwardelgar-enigmavariations-nimrod.mp3",
+  "eriksatie-gymnop-die-no-1.mp3",
+  "fredericchopin-nocturneno2.mp3",
+  "johannesbrahms-symphonyno3-3rdmovement.mp3",
+  "johannpachelbel-canon.mp3",
+  "ludwigvanbeethoven-f-relise.mp3",
+  "ludwigvanbeethoven-pastoral-symphony-no-6.mp3",
+  "mauriceravel-pavaneforadeadprincess.mp3",
+  "petertchaikovsky-the-nutcracker-waltzoftheflowers.mp3",
+  "ralphvaughanwilliams-thelarkascending.mp3",
+  "sergeirachmaninoff-pianoconcertono2.mp3",
 ];
 
 // Variable to keep track of the current audio index
@@ -353,8 +353,8 @@ let currentAudioIndex = 0;
 const audioElement = new Audio(`assets/audio/${audioFiles[currentAudioIndex]}`);
 audioElement.loop = true;
 
-// Event listener for the volume_up button to play the next audio or start playing the first one.
-document.getElementById("volume_up").addEventListener("click", function () {
+// Event listener for the volume-up button to play the next audio or start playing the first one.
+document.getElementById("volume-up").addEventListener("click", function () {
   if (audioElement.paused) {
     audioElement.play(); // Play the audio if it's paused.
   } else {
@@ -367,14 +367,14 @@ document.getElementById("volume_up").addEventListener("click", function () {
   }
 });
 
-// Event listener for the volume_off button to pause the audio and reset its currentTime.
-document.getElementById("volume_off").addEventListener("click", function () {
+// Event listener for the volume-off button to pause the audio and reset its currentTime.
+document.getElementById("volume-off").addEventListener("click", function () {
   audioElement.pause();
   audioElement.currentTime = 0;
 });
 
-// Event listener for the back_music button to play the previous audio file.
-document.getElementById("back_music").addEventListener("click", function () {
+// Event listener for the back-music button to play the previous audio file.
+document.getElementById("back-music").addEventListener("click", function () {
   currentAudioIndex--;
   if (currentAudioIndex < 0) {
     currentAudioIndex = audioFiles.length - 1; // Set the index to the last item if it goes below 0.
@@ -383,8 +383,8 @@ document.getElementById("back_music").addEventListener("click", function () {
   audioElement.play(); // Play the new audio file.
 });
 
-// Event listener for the forward_music button to play the next audio file.
-document.getElementById("forward_music").addEventListener("click", function () {
+// Event listener for the forward-music button to play the next audio file.
+document.getElementById("forward-music").addEventListener("click", function () {
   currentAudioIndex++;
   if (currentAudioIndex === audioFiles.length) {
     currentAudioIndex = 0; // Reset the index if it reaches the end of the array.
