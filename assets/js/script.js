@@ -61,7 +61,14 @@ buttons.forEach((button) => {
       // Call the `updateUI()` function to update the user interface with the winner and game result
       updateUI();
     } else {
-      result.innerHTML = "Game over! Total score 20 points!";
+      // result.innerHTML = "Game over! Total score 20 points!";
+      if (playerScore > computerScore) {
+        result.innerHTML = "Game over! You are the winner!";
+      } else if (playerScore < computerScore) {
+        result.innerHTML = "Game over! Sorry, Computer won!";
+      } else {
+        result.innerHTML = "Game over! It is a tie! You both won!";
+      }
     }
   });
 });
