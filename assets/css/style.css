@@ -92,7 +92,7 @@ nav {
   justify-content: center;
 }
 
-#gameField {
+#game-field {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -105,7 +105,7 @@ nav {
 
 /* New Game and Background Change buttons*/
 
-.newGame-bgChange {
+.newgame-bgchange {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -119,12 +119,12 @@ nav {
   margin-left: 4rem;
 }
 
-#bgBack {
+#bg-back {
   margin-left: 2.5em;
 }
 
 #reset-btn,
-#bgChange {
+#bgchange {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -141,7 +141,7 @@ nav {
   transition: 0.5s;
 }
 
-.bgChange-container {
+.bgchange-container {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -150,8 +150,8 @@ nav {
   background: none;
 }
 
-#bgBack,
-#bgForward,
+#bg-back,
+#bg-forward,
 #back-music,
 #forward-music,
 #volume-up,
@@ -172,21 +172,21 @@ nav {
   transition: 0.5s;
 }
 
-#bgBack:hover,
-#bgForward:hover,
+#bg-back:hover,
+#bg-forward:hover,
 #volume-up:hover,
 #volume-off:hover,
 #back-music:hover,
 #forward-music:hover,
 #reset-btn:hover,
-#bgChange:hover,
+#bgchange:hover,
 #open-modal-btn:hover {
   background-color: rgb(84, 85, 206);
   color: #fff;
 }
 
-#bgBack,
-#bgForward,
+#bg-back,
+#bg-forward,
 #back-music,
 #forward-music,
 #volume-up,
@@ -198,12 +198,12 @@ nav {
   margin-left: 1rem;
 }
 
-#bgChange,
-#bgBack i,
-#bgForward i,
+#bgchange,
+#bg-back i,
+#bg-forward i,
 #volume-up,
-#bgBack-music i,
-#bgForward-music i {
+#bg-back-music i,
+#bg-forward-music i {
   gap: calc(0.2rem + 1vw);
 }
 
@@ -216,13 +216,13 @@ nav {
 
 /* Player abd Computer Images display */
 
-#choiceImg {
+#choice-img {
   display: flex;
   justify-content: space-between;
   gap: 15rem;
 }
 
-#playerImg {
+#player-img {
   display: flex;
   justify-content: center;
   width: 15rem;
@@ -239,7 +239,7 @@ nav {
   -ms-filter: "FlipH";
 }
 
-#compImg {
+#comp-img {
   display: flex;
   width: 15rem;
   height: 15rem;
@@ -250,8 +250,8 @@ nav {
   margin-top: 2rem;
 }
 
-#pImg,
-#cImg,
+#p-img,
+#c-img,
 img {
   width: 14.9rem;
   height: 14.9rem;
@@ -313,7 +313,7 @@ img {
   margin-bottom: clamp(0.5rem, 1rem + 1vw, 1rem);
 }
 
-.btnChoices {
+.btn-choices {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -330,14 +330,14 @@ img {
   padding: 0.2rem 0.5rem 0.2rem 0.5rem;
 }
 
-.btnChoices p {
+.btn-choices p {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: clamp(1rem, 1rem + 1vw, 1.5rem);
   margin-bottom: 2rem;
 }
 
-.btnChoices:hover {
+.btn-choices:hover {
   background-color: rgb(84, 85, 206);
   color: #fff;
 }
@@ -447,7 +447,7 @@ hr {
 
 /* 404 PAGE */
 
-.errorPage-container {
+.error-page-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -456,7 +456,7 @@ hr {
   position: absolute;
 }
 
-.errorPage h1 {
+.error-page h1 {
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-size: clamp(1rem, 1rem + 4vw, 2.5rem);
@@ -469,7 +469,7 @@ hr {
   margin-right: clamp(1rem, 1rem + 4vw, 3rem);
 }
 
-.errorPage p {
+.error-page p {
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-size: clamp(0.8rem, 1rem + 1vw, 1.5rem);
@@ -570,7 +570,7 @@ dialog {
 }
 
 /* ABOUT PAGE */
-section#aboutPage-wrapper {
+section#about-page-wrapper {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -614,7 +614,7 @@ section#aboutPage-wrapper {
   color: rgb(173, 173, 224);
 } */
 
-#aboutPage-h1 {
+#about-page-h1 {
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
@@ -628,7 +628,7 @@ section#aboutPage-wrapper {
   margin-bottom: clamp(1rem, 1rem + 4vw, 1.5rem);
 }
 
-.aboutPage-h2 {
+.about-page-h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
   font-weight: bolder;
@@ -638,7 +638,7 @@ section#aboutPage-wrapper {
   margin-bottom: clamp(1rem, 1rem + 4vw, 1.5rem);
 }
 
-.aboutPage-h3 {
+.about-page-h3 {
   font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
   font-weight: bolder;
@@ -648,7 +648,7 @@ section#aboutPage-wrapper {
   margin-bottom: clamp(1rem, 1rem + 4vw, 1.5rem);
 }
 
-.aboutPage-text {
+.about-page-text {
   font-family: "Montserrat", sans-serif;
   font-size: clamp(0.5rem, 1rem + 1vw, 1.2rem);
   line-height: clamp(0.5rem, 1rem + 1vw, 1.5rem);
@@ -756,31 +756,31 @@ section#aboutPage-wrapper {
     gap: 0.5rem;
   }
   #reset-btn,
-  #bgChange {
+  #bgchange {
     padding: 0.5rem 0 0.5rem 0;
     line-height: 1.2rem;
     font-size: 1.3rem;
   }
-  #gameField {
+  #game-field {
     margin: 2rem 4rem 2rem 4rem;
   }
   #reset-btn {
     margin-right: 18rem;
     margin-left: 2rem;
   }
-  #choiceImg {
+  #choice-img {
     gap: 15rem;
   }
-  #playerImg {
+  #player-img {
     width: 13rem;
     height: 13rem;
   }
-  #compImg {
+  #comp-img {
     width: 13rem;
     height: 13rem;
   }
-  #pImg,
-  #cImg,
+  #p-img,
+  #c-img,
   img {
     width: 12.9rem;
     height: 12.9rem;
@@ -828,22 +828,22 @@ section#aboutPage-wrapper {
     margin-right: 10.5rem;
     margin-left: 3.5rem;
   }
-  #gameField {
+  #game-field {
     margin: 4rem 5rem 4rem 5rem;
   }
-  #choiceImg {
+  #choice-img {
     gap: 12rem;
   }
-  #playerImg {
+  #player-img {
     width: 12rem;
     height: 12rem;
   }
-  #compImg {
+  #comp-img {
     width: 12rem;
     height: 12rem;
   }
-  #pImg,
-  #cImg,
+  #p-img,
+  #c-img,
   img {
     width: 11.9rem;
     height: 11.9rem;
@@ -912,41 +912,41 @@ section#aboutPage-wrapper {
     margin-left: 2rem;
   }
   #reset-btn,
-  #bgChange {
+  #bgchange {
     font-size: 1rem;
     padding: 0.2rem 0 0.2rem 0;
     line-height: 1rem;
   }
-  #gameField {
+  #game-field {
     margin: 2rem 4rem 2rem 4rem;
   }
-  #choiceImg {
+  #choice-img {
     gap: 4rem;
   }
-  #playerImg {
+  #player-img {
     width: 10rem;
     height: 10rem;
   }
-  #compImg {
+  #comp-img {
     width: 10rem;
     height: 10rem;
   }
-  #pImg,
-  #cImg,
+  #p-img,
+  #c-img,
   img {
     width: 9.9rem;
     height: 9.9rem;
   }
-  .btnChoices {
+  .btn-choices {
     font-size: 1.3rem;
   }
   #pick {
     margin-top: 0;
   }
-  .errorPage-container > h1 {
+  .error-page-container > h1 {
     font-size: clamp(1.2rem, 1rem + 1vw, 2rem);
   }
-  .errorPage-container > p {
+  .error-page-container > p {
     font-size: clamp(0.8rem, 0.5rem + 1vw, 1rem);
   }
   .image-wrapper #er-img {
@@ -984,33 +984,33 @@ section#aboutPage-wrapper {
     margin-left: 2rem;
   }
   #reset-btn,
-  #bgChange {
+  #bgchange {
     padding: 0.5rem 0 0.5rem 0;
     line-height: 0.9rem;
   }
-  #gameField {
+  #game-field {
     margin: 1rem 2rem 1rem 2rem;
   }
-  #choiceImg {
+  #choice-img {
     gap: 3rem;
   }
-  #playerImg {
+  #player-img {
     width: 7rem;
     height: 7rem;
     margin-top: 1rem;
   }
-  #compImg {
+  #comp-img {
     width: 7rem;
     height: 7rem;
     margin-top: 1rem;
   }
-  #pImg,
-  #cImg,
+  #p-img,
+  #c-img,
   img {
     width: 6.9rem;
     height: 6.9rem;
   }
-  .btnChoices {
+  .btn-choices {
     font-size: 1rem;
   }
   #pick {
@@ -1022,10 +1022,10 @@ section#aboutPage-wrapper {
     margin-left: 0.6rem;
     margin-right: 0.6rem;
   }
-  .errorPage-container > h1 {
+  .error-page-container > h1 {
     font-size: clamp(1rem, 1rem + 1vw, 2rem);
   }
-  .errorPage-container > p {
+  .error-page-container > p {
     font-size: clamp(0.5rem, 0.5rem + 1vw, 1rem);
   }
   .image-wrapper #er-img {
@@ -1038,9 +1038,7 @@ section#aboutPage-wrapper {
     width: 90%;
     height: 50%;
   }
-  /* dialog {
-    translate: 0 -11%;
-  } */
+
   /* Header title styles */
   #rules-header {
     font-size: 1rem;
@@ -1061,17 +1059,17 @@ section#aboutPage-wrapper {
     margin-top: 1rem;
   }
   /* About page */
-  section#aboutPage-wrapper {
+  section#about-page-wrapper {
     margin-left: 2rem;
     margin-right: 2rem;
   }
-  #aboutPage-h1 {
+  #about-page-h1 {
     font-size: 1.2rem;
     line-height: 1.3rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
-  .aboutPage-text {
+  .about-page-text {
     font-size: 1rem;
     line-height: 1rem;
     margin-bottom: 1rem;
