@@ -576,12 +576,12 @@ section#aboutPage-wrapper {
   margin-right: auto;
 }
 
-#tableOfContents {
+/* #tableOfContents {
   display: flex;
   flex-direction: column;
-  /* justify-content: center;
+  justify-content: center;
   align-items: center;
-  text-align: center; */
+  text-align: center;
   font-family: "Montserrat", sans-serif;
   font-size: clamp(0.8rem, 1rem + 1vw, 1.5rem);
   line-height: clamp(0.5rem, 1rem + 1vw, 1.5rem);
@@ -612,7 +612,7 @@ section#aboutPage-wrapper {
 #tableOfContents li a:hover {
   text-decoration: none;
   color: rgb(173, 173, 224);
-}
+} */
 
 #aboutPage-h1 {
   text-align: center;

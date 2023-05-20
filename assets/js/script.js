@@ -267,6 +267,13 @@ const backgroundOptions = [
   "assets/images/backgrounds/dandelion-1.webp",
   "assets/images/backgrounds/insect-scales.webp",
   "assets/images/backgrounds/droplets.webp",
+  "assets/images/backgrounds/monkswood.jpg",
+  "assets/images/backgrounds/monkswood-1.jpg",
+  "assets/images/backgrounds/monkswood-2.jpg",
+  "assets/images/backgrounds/monkswood-3.jpg",
+  "assets/images/backgrounds/garden-fir-tree.jpg",
+  "assets/images/backgrounds/garden-leaves.jpg",
+  "assets/images/backgrounds/garden-lupin.jpg",
 ];
 
 document.body.style.backgroundImage = `url(${backgroundOptions[bgChoice]})`;
@@ -329,6 +336,8 @@ document.getElementById("bgChange").addEventListener("click", nextBg);
 // ADD AUDIO TO THE GAME
 // Array of audio file names to be used by the audio element.
 const audioFiles = [
+  "petertchaikovsky-the-nutcracker-waltzoftheflowers.mp3",
+  "claudedebussy-clairdelune.mp3",
   "antonindvorak-symphonyno9-fromthenewworld.mp3",
   "antoniovivaldi-autumn-thefourseasons.mp3",
   "antoniovivaldi-spring-thefourseasons.mp3",
@@ -338,7 +347,6 @@ const audioFiles = [
   "camillesaint-saens-carnivaloftheanimals-theswan.mp3",
   "christophgluck-orfeoedeuridice-danceoftheblessedspirits.mp3",
   "claudedebussy-arabesque-no-1.mp3",
-  "claudedebussy-clairdelune.mp3",
   "edvardgrieg-morningmood-peergynt-suite-no1.mp3",
   "edwardelgar-enigmavariations-nimrod.mp3",
   "eriksatie-gymnop-die-no-1.mp3",
@@ -348,7 +356,6 @@ const audioFiles = [
   "ludwigvanbeethoven-f-relise.mp3",
   "ludwigvanbeethoven-pastoral-symphony-no-6.mp3",
   "mauriceravel-pavaneforadeadprincess.mp3",
-  "petertchaikovsky-the-nutcracker-waltzoftheflowers.mp3",
   "ralphvaughanwilliams-thelarkascending.mp3",
   "sergeirachmaninoff-pianoconcertono2.mp3",
 ];
