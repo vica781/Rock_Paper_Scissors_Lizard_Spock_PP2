@@ -105,7 +105,7 @@ nav {
 
 /* New Game and Background Change buttons*/
 
-.newGame_bgChange {
+.newGame-bgChange {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -114,7 +114,7 @@ nav {
   margin-top: clamp(1rem, 1rem + 2vw, 2rem);
 }
 
-#reset_btn {
+#reset-btn {
   margin-right: 4.5rem;
   margin-left: 4rem;
 }
@@ -123,7 +123,7 @@ nav {
   margin-left: 2.5em;
 }
 
-#reset_btn,
+#reset-btn,
 #bgChange {
   display: flex;
   align-items: center;
@@ -141,7 +141,7 @@ nav {
   transition: 0.5s;
 }
 
-.bgChange_container {
+.bgChange-container {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -152,10 +152,10 @@ nav {
 
 #bgBack,
 #bgForward,
-#back_music,
-#forward_music,
-#volume_up,
-#volume_off {
+#back-music,
+#forward-music,
+#volume-up,
+#volume-off {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -174,11 +174,11 @@ nav {
 
 #bgBack:hover,
 #bgForward:hover,
-#volume_up:hover,
-#volume_off:hover,
-#back_music:hover,
-#forward_music:hover,
-#reset_btn:hover,
+#volume-up:hover,
+#volume-off:hover,
+#back-music:hover,
+#forward-music:hover,
+#reset-btn:hover,
 #bgChange:hover,
 #open-modal-btn:hover {
   background-color: rgb(84, 85, 206);
@@ -187,23 +187,23 @@ nav {
 
 #bgBack,
 #bgForward,
-#back_music,
-#forward_music,
-#volume_up,
-#volume_off {
+#back-music,
+#forward-music,
+#volume-up,
+#volume-off {
   padding: 0 0.3rem 0 0.3rem;
 }
 
-#volume_off {
+#volume-off {
   margin-left: 1rem;
 }
 
 #bgChange,
 #bgBack i,
 #bgForward i,
-#volume_up,
-#bgBack_music i,
-#bgForward_music i {
+#volume-up,
+#bgBack-music i,
+#bgForward-music i {
   gap: calc(0.2rem + 1vw);
 }
 
@@ -305,7 +305,7 @@ img {
 
 /* Player Choice Buttons */
 
-#player_choice {
+#player-choice {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -344,21 +344,21 @@ img {
 
 /* Score Board */
 
-.score_container {
+.score-container {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   font-family: "Montserrat", sans-serif;
 }
 
-#score_board {
+#score-board {
   display: flex;
   justify-content: space-evenly;
   width: calc(90% - 2rem);
   gap: calc(1.5rem + 1vw);
 }
 
-#score_board p {
+#score-board p {
   flex: 1;
   text-align: center;
   font-family: "Montserrat", sans-serif;
@@ -481,7 +481,7 @@ hr {
   margin-right: clamp(1rem, 1rem + 4vw, 3rem);
 }
 
-.image-wrapper #er_img {
+.image-wrapper #er-img {
   width: 400px;
   height: 485px;
   margin-bottom: clamp(1rem, 1rem + 4vw, 1.5rem);
@@ -510,7 +510,7 @@ dialog {
 
 /* Header title styles */
 
-#rules_header {
+#rules-header {
   margin: 0;
   font-size: clamp(0.5rem, 1rem + 1vw, 2rem);
   font-family: "Montserrat", sans-serif;
@@ -560,7 +560,7 @@ dialog {
 
 /* Image styles */
 
-#rules_img {
+#rules-img {
   display: block;
   margin: 0 auto;
   max-width: 100%;
@@ -570,7 +570,7 @@ dialog {
 }
 
 /* ABOUT PAGE */
-section#aboutPage_wrapper {
+section#aboutPage-wrapper {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -614,7 +614,7 @@ section#aboutPage_wrapper {
   color: rgb(173, 173, 224);
 }
 
-#aboutPage_h1 {
+#aboutPage-h1 {
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
@@ -628,7 +628,7 @@ section#aboutPage_wrapper {
   margin-bottom: clamp(1rem, 1rem + 4vw, 1.5rem);
 }
 
-.aboutPage_h2 {
+.aboutPage-h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
   font-weight: bolder;
@@ -638,7 +638,7 @@ section#aboutPage_wrapper {
   margin-bottom: clamp(1rem, 1rem + 4vw, 1.5rem);
 }
 
-.aboutPage_h3 {
+.aboutPage-h3 {
   font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
   font-weight: bolder;
@@ -655,7 +655,7 @@ section#aboutPage_wrapper {
   margin-bottom: 2rem;
 }
 
-#game_rules_about {
+#game-rules-about {
   display: block;
   width: calc(25% - 2rem);
   height: calc(50% - 2rem);
@@ -722,14 +722,14 @@ section#aboutPage_wrapper {
     width: 50%;
     height: 70%;
   }
-  #rules_header {
+  #rules-header {
     font-size: 2rem;
   }
   .modal-text {
     font-size: 1.2rem;
     line-height: 1rem;
   }
-  #rules_img {
+  #rules-img {
     width: 25rem;
     height: 25rem;
   }
@@ -755,7 +755,7 @@ section#aboutPage_wrapper {
     flex-direction: column;
     gap: 0.5rem;
   }
-  #reset_btn,
+  #reset-btn,
   #bgChange {
     padding: 0.5rem 0 0.5rem 0;
     line-height: 1.2rem;
@@ -764,7 +764,7 @@ section#aboutPage_wrapper {
   #gameField {
     margin: 2rem 4rem 2rem 4rem;
   }
-  #reset_btn {
+  #reset-btn {
     margin-right: 18rem;
     margin-left: 2rem;
   }
@@ -785,19 +785,19 @@ section#aboutPage_wrapper {
     width: 12.9rem;
     height: 12.9rem;
   }
-  /* Modal_Rules */
+  /* Modal-Rules */
   #modal {
     width: 70%;
     height: 70%;
   }
-  #rules_header {
+  #rules-header {
     font-size: 1.8rem;
   }
   .modal-text {
     font-size: 1.2rem;
     line-height: 1rem;
   }
-  #rules_img {
+  #rules-img {
     width: 25rem;
     height: 25rem;
   }
@@ -824,7 +824,7 @@ section#aboutPage_wrapper {
     flex-direction: column;
     gap: 0.5rem;
   }
-  #reset_btn {
+  #reset-btn {
     margin-right: 10.5rem;
     margin-left: 3.5rem;
   }
@@ -853,7 +853,7 @@ section#aboutPage_wrapper {
     min-width: 17.5rem;
     align-items: center;
   }
-  .image-wrapper #er_img {
+  .image-wrapper #er-img {
     max-width: 60rem;
     max-height: 50vh;
     translate: -110%;
@@ -863,14 +863,14 @@ section#aboutPage_wrapper {
     width: 80%;
     height: 60%;
   }
-  #rules_header {
+  #rules-header {
     font-size: clamp(1.2rem, 1rem + 1vw, 2rem);
   }
   .modal-text {
     font-size: clamp(0.8rem, 0.5rem + 1vw, 1rem);
     line-height: clamp(0.8rem, 0.5rem + 1vw, 1rem);
   }
-  #rules_img {
+  #rules-img {
     width: 20rem;
     height: 20rem;
   }
@@ -907,11 +907,11 @@ section#aboutPage_wrapper {
     align-items: center;
     margin-right: 0;
   }
-  #reset_btn {
+  #reset-btn {
     margin-right: 6rem;
     margin-left: 2rem;
   }
-  #reset_btn,
+  #reset-btn,
   #bgChange {
     font-size: 1rem;
     padding: 0.2rem 0 0.2rem 0;
@@ -949,7 +949,7 @@ section#aboutPage_wrapper {
   .errorPage-container > p {
     font-size: clamp(0.8rem, 0.5rem + 1vw, 1rem);
   }
-  .image-wrapper #er_img {
+  .image-wrapper #er-img {
     max-width: 50%;
     max-height: 47vh;
     translate: -115%;
@@ -959,7 +959,7 @@ section#aboutPage_wrapper {
     width: 80%;
     height: 80%;
   }
-  #rules_header {
+  #rules-header {
     font-size: 0.7rem;
     line-height: 0.8rem;
   }
@@ -967,7 +967,7 @@ section#aboutPage_wrapper {
     font-size: 0.5rem;
     line-height: 0.6rem;
   }
-  #rules_img {
+  #rules-img {
     width: 12rem;
     height: 12rem;
   }
@@ -979,11 +979,11 @@ section#aboutPage_wrapper {
 /* Extra small-sized screens */
 /* For screens less than or equal to 480px */
 @media (max-width: 480px) {
-  #reset_btn {
+  #reset-btn {
     margin-right: 2rem;
     margin-left: 2rem;
   }
-  #reset_btn,
+  #reset-btn,
   #bgChange {
     padding: 0.5rem 0 0.5rem 0;
     line-height: 0.9rem;
@@ -1028,7 +1028,7 @@ section#aboutPage_wrapper {
   .errorPage-container > p {
     font-size: clamp(0.5rem, 0.5rem + 1vw, 1rem);
   }
-  .image-wrapper #er_img {
+  .image-wrapper #er-img {
     max-width: 50%;
     max-height: 30vh;
     translate: -120%;
@@ -1042,7 +1042,7 @@ section#aboutPage_wrapper {
     translate: 0 -11%;
   } */
   /* Header title styles */
-  #rules_header {
+  #rules-header {
     font-size: 1rem;
     line-height: 0.9rem;
   }
@@ -1052,7 +1052,7 @@ section#aboutPage_wrapper {
     line-height: 0.9rem;
   }
   /* Image styles */
-  #rules_img {
+  #rules-img {
     width: 20rem;
     height: 20rem;
     /* padding: 10px; */
@@ -1061,11 +1061,11 @@ section#aboutPage_wrapper {
     margin-top: 1rem;
   }
   /* About page */
-  section#aboutPage_wrapper {
+  section#aboutPage-wrapper {
     margin-left: 2rem;
     margin-right: 2rem;
   }
-  #aboutPage_h1 {
+  #aboutPage-h1 {
     font-size: 1.2rem;
     line-height: 1.3rem;
     margin-top: 1rem;
