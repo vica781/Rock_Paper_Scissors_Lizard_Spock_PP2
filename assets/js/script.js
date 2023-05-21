@@ -63,11 +63,14 @@ buttons.forEach((button) => {
     } else {
       // result.innerHTML = "Game over! Total score 20 points!";
       if (playerScore > computerScore) {
-        result.innerHTML = "Game over! You are the winner!";
+        result.innerHTML =
+          "<span class='game-over win'>Game over! You are the winner!</span>";
       } else if (playerScore < computerScore) {
-        result.innerHTML = "Game over! Sorry, Computer won!";
+        result.innerHTML =
+          "<span class='game-over loss'>Game over! Sorry, Computer won!</span>";
       } else {
-        result.innerHTML = "Game over! It is a tie! You both won!";
+        result.innerHTML =
+          "<span class='game-over tie'>Game over! It is a tie! You both won!</span>";
       }
     }
   });

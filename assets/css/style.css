@@ -303,6 +303,24 @@ img {
   margin-right: 1.5rem;
 }
 
+.game-over {
+  font-weight: bold;
+}
+
+.win,
+.loss,
+.tie {
+  color: rgb(233, 240, 23);
+}
+
+/* .loss {
+  color: rgb(30, 127, 166);
+}
+
+.tie {
+  color: rgb(35, 200, 120);
+} */
+
 /* Player Choice Buttons */
 
 #player-choice {
