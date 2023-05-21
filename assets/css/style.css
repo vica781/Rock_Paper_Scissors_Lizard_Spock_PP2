@@ -1080,4 +1080,12 @@ section#aboutPage-wrapper {
     line-height: 1rem;
     margin-bottom: 1rem;
   }
+  #about-game-features-video {
+    flex-direction: column;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
