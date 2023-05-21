@@ -286,43 +286,26 @@ img {
 .start-message {
   color: #4e52c4;
 }
-
 .you-have-chosen {
   color: #077986;
 }
-
 .outcome-message {
   color: #7753bf;
 }
-
 #pick {
   color: #893023;
 }
-
 .fa-handshake {
   margin-right: 1.5rem;
 }
-
 .game-over {
   font-weight: bold;
 }
-
 .win,
 .loss,
 .tie {
   color: rgb(19, 99, 191);
 }
-
-/* .loss {
-  color: rgb(30, 127, 166);
-}
-
-.tie {
-  color: rgb(35, 200, 120);
-} */
-
-/* Player Choice Buttons */
-
 #player-choice {
   display: flex;
   justify-content: center;
@@ -330,7 +313,6 @@ img {
   gap: clamp(1rem, 1rem + 1vw, 3.5rem);
   margin-bottom: clamp(0.5rem, 1rem + 1vw, 1rem);
 }
-
 .btnChoices {
   display: flex;
   justify-content: center;
@@ -608,7 +590,7 @@ section#aboutPage-wrapper {
   text-decoration: none;
   color: rgb(173, 173, 224);
 }
-*/ #aboutPage-h1 {
+#aboutPage-h1 {
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
@@ -673,12 +655,14 @@ section#aboutPage-wrapper {
   color: rgb(238, 238, 36);
 }
 
-#about-game-features-video {
+#about-game-controls {
   display: flex;
   flex-direction: row;
   margin-bottom: clamp(1rem, 1rem + 4vw, 1.5rem);
   margin-top: clamp(1rem, 1rem + 4vw, 1.5rem);
   max-width: 1200px;
+  width: 75rem;
+  height: 40rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -1080,12 +1064,14 @@ section#aboutPage-wrapper {
     line-height: 1rem;
     margin-bottom: 1rem;
   }
-  #about-game-features-video {
-    flex-direction: column;
+  #about-game-controls {
+    width: 20em;
+    height: 12rem;
+    /* flex-direction: column;
     margin-bottom: 1rem;
     margin-top: 1rem;
     max-width: 100%;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; */
   }
 }
