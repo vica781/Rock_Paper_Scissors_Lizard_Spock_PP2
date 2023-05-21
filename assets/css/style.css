@@ -310,7 +310,7 @@ img {
 .win,
 .loss,
 .tie {
-  color: rgb(233, 240, 23);
+  color: rgb(19, 99, 191);
 }
 
 /* .loss {
@@ -594,29 +594,6 @@ section#aboutPage-wrapper {
   margin-right: auto;
 }
 
-/* #tableOfContents {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  font-size: clamp(0.8rem, 1rem + 1vw, 1.5rem);
-  line-height: clamp(0.5rem, 1rem + 1vw, 1.5rem);
-  font-weight: bold;
-  color: rgb(119, 114, 36);
-  margin-top: clamp(1rem, 1rem + 4vw, 1rem);
-  margin-left: clamp(1rem, 1rem + 4vw, 3rem);
-  margin-right: clamp(1rem, 1rem + 4vw, 3rem);
-  margin-bottom: clamp(1rem, 1rem + 4vw, 1rem);
-}
-
-#tableOfContents ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
 #tableOfContents li {
   display: inline-block;
   margin: 0 10px;
@@ -630,9 +607,8 @@ section#aboutPage-wrapper {
 #tableOfContents li a:hover {
   text-decoration: none;
   color: rgb(173, 173, 224);
-} */
-
-#aboutPage-h1 {
+}
+*/ #aboutPage-h1 {
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
@@ -691,10 +667,20 @@ section#aboutPage-wrapper {
   color: rgb(5, 172, 41);
 }
 #about-page-link:visited {
-  color: rgb(206, 50, 23);
+  color: rgb(9, 107, 235);
 }
 #about-page-link:hover {
   color: rgb(238, 238, 36);
+}
+
+#about-game-features-video {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: clamp(1rem, 1rem + 4vw, 1.5rem);
+  margin-top: clamp(1rem, 1rem + 4vw, 1.5rem);
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* ABOUT PAGE */
