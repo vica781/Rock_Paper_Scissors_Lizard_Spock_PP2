@@ -51,19 +51,15 @@
     <h1 id="aboutPage-h1">Welcome to my unique take on the Rock, Paper, Scissors, Lizard, Spock game!</h1>
     <ul id="toc-list">
       <li><a href="#about-reasons">Reasons behind design</a></li>
-      <ul>
-        <li><a href="#about-nature">The Power of Nature</a></li>
-        <li><a href="#about-music">The Magic of Classical Music</a></li>
-        <li><a href="#about-sensory-combo">The Sensory Combination</a></li>
-      </ul>
       <li><a href="#about-game-features">Game Features</a></li>
+      <li><a href="#about-rpsls">About - Rock, Paper, Scissors, Lizard, Spock</a></li>
       <ul>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
+        <li><a href="#about-classic-game">The Classic Game</a></li>
+        <li><a href="#about-extended-version">The Extended Version</a></li>
       </ul>
-
-
+      <li><a href="#about-additional-facts">Additional Interesting Facts</a></li>
+      <li><a href="#about-tpr">Theory, Probability and Randomness</a></li>
+      <li><a href="#about-famous-use">The most famous use of Rock Paper Scissors game</a></li>
     </ul>
     <br>
     <br>
@@ -107,7 +103,7 @@
     </p>
     <img id="about-game-controls" src="assets/images/gifs/about-controls.gif" alt="Home screen of Rock Paper Scissors Lizard Spock game with demonstration 
     of the Audio control buttons and buttons allowing to change home screen backgrounds">
-    <p class="aboutPage-text">
+    <p id="about-background" class="aboutPage-text">
       <strong>Background change:</strong> You'll notice a 'Change Mood' button on your screen.
       This feature allows you to choose from a variety of calming, pastel-colored backgrounds
       inspired by macro nature photography. Feeling a little more energetic?
@@ -116,7 +112,7 @@
       explore the different options; to navigate use the <i class="fas fa-chevron-left"></i> and <i
         class="fas fa-chevron-right"></i> buttons.
     </p>
-    <p class="aboutPage-text">
+    <p id="about-audio" class="aboutPage-text">
       <strong>Classical Music Collection:</strong> To complement your visual experience, I've also
       included a collection of classical music pieces. You can control the audio by clicking on the
       <i class="fas fa-volume-up"></i> button to start the music.
@@ -130,7 +126,8 @@
       And don't worry about replaying your favorite piece - once chosen, it will play in a loop until you
       decide to change it or the game is closed.
     </p>
-    <p class="aboutPage-text"><strong>Rules:</strong> If at any point during the game you need a refresher on the rules,
+    <p id="about-modal-rules" class="aboutPage-text"><strong>Rules:</strong> If at any point during the game you need a
+      refresher on the rules,
       simply click the 'Rules' button to open this dialog again.
       I am here to ensure your gaming experience is seamless and fun!
     </p>
@@ -138,7 +135,7 @@
     <img id="about-rps-photo" src="assets/images/about-page-images/rps.webp"
       alt="Photo of three items: rock, paper and scissors. Paper covering rock, rock smashes scissors and shaters them.">
 
-    <h2 class="aboutPage-h2" id="about-rpsls">About - Rock, Paper, Scissors, Lizard, Spock</h2>
+    <h2 itemid="about-rpsls" class="aboutPage-h2" id="about-rpsls">About - Rock, Paper, Scissors, Lizard, Spock</h2>
 
     <img id="about-hands-rps" src="assets/images/about-page-images/rps-ancient-history.webp"
       alt="Black-and-white pencile drawing of tree hands gesturing Rock Paper Scissors">
@@ -148,7 +145,7 @@
       love - Rock, Paper, Scissors.
     </p>
 
-    <h3 class="aboutPage-h3" id="about-classic-game">The Classic Game</h3>
+    <h3 id="about-classic-game" class="aboutPage-h3">The Classic Game</h3>
 
     <p class="aboutPage-text">
       The classic game of Rock, Paper, Scissors (RPS) has a rich history, believed to have originated in China during
@@ -162,7 +159,7 @@
     </p>
     <img id="about-players" src="assets/images/about-page-images/kitsune-ken-japanese-rps.webp"
       alt="Black-and-white pencile drawing of tree characters in the national Japanise dress playing Rock Paper Scissors">
-    <h3 class="aboutPage-h3" id="about-extended-version">The Extended Version</h3>
+    <h3 id="about-extended-version" class="aboutPage-h3">The Extended Version</h3>
 
     <p class="aboutPage-text">
       The extended version - Rock, Paper, Scissors, Lizard, Spock - was invented by Sam Kass and Karen Bryla. This
@@ -234,16 +231,14 @@
       is a great example of how the game can be used to teach students about the importance of fair play.
     </p>
 
-    <h2 class="aboutPage-h2" id="about-tpr">Game Theory, Probability, and Randomness in Rock, Paper, Scissors, Lizard,
-      Spock</h2>
+    <h2 id="about-tpr" class="aboutPage-h2">Theory, Probability and Randomness</h2>
 
     <p class="aboutPage-text">
       1. <strong>Game Theory</strong>: Game theory involves the study of mathematical models of strategic interaction
-      among
-      rational decision-makers. In the context of Rock, Paper, Scissors, Lizard, Spock, players must make a decision
-      about what to play based on what they think the other player will do. If a player can accurately predict what the
-      other player will do, they can select the winning move. However, if both players are using the same logic, this
-      can lead to an ongoing cycle of trying to outthink the other.
+      among rational decision-makers. In the context of Rock, Paper, Scissors, Lizard, Spock, players must make a
+      decision about what to play based on what they think the other player will do. If a player can accurately predict
+      what the other player will do, they can select the winning move. However, if both players are using the same
+      logic, this can lead to an ongoing cycle of trying to outthink the other.
     </p>
     <p class="aboutPage-text">
       2. <strong>Probability</strong>: With five options in the game (Rock, Paper, Scissors, Lizard, Spock), the
@@ -279,7 +274,8 @@
     </p>
     <p class="aboutPage-text">
       One last thing. You, probably, noticed that mamy of the sources I have provided links to on this page are
-      mentioning story about the <strong>most famous use of Rock Paper Scissors game</strong>. The story about Takashi
+      mentioning story about the <strong id="about-famous-use">most famous use of Rock Paper Scissors game</strong>. The
+      story about Takashi
       Hashiyama, the president of Maspro Denkoh Corporation, decided to use a game of Rock Paper Scissors to choose
       between Christie's and Sotheby's for selling his company's art collection worth about $20 million in 2005.
       He said he believed this was the best way to decide between two things which are equally good. I found this story
