@@ -721,13 +721,13 @@ section#aboutPage-wrapper {
 #about-janken {
   display: flex;
   flex-direction: column;
-  margin-bottom: clamp(1rem, 1rem + 4vw, 1.5rem);
-  margin-top: clamp(1rem, 1rem + 4vw, 1.5rem);
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
   max-width: 1200px;
-  width: 20rem;
-  height: 11rem;
-  float: left;
-  margin: 1rem 1rem 0 0;
+  width: 22rem;
+  height: 14rem;
+  float: right;
 }
 
 #about-final {
@@ -873,6 +873,61 @@ ul ul {
   #close-modal-btn {
     margin-top: 1rem;
   }
+  /* About page */
+  section#aboutPage-wrapper {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  #aboutPage-h1 {
+    font-size: 2.2rem;
+    line-height: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .aboutPage-h2 {
+    font-size: 1.8rem;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .aboutPage-h3 {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .aboutPage-text {
+    font-size: 1.2em;
+    line-height: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  #about-game-controls {
+    width: 44em;
+    height: 25rem;
+  }
+  #about-rps-photo {
+    width: 30rem;
+    height: 20rem;
+  }
+  #about-hands-rps {
+    width: 30rem;
+    height: 20rem;
+    margin-bottom: 1rem;
+  }
+  #about-rules {
+    width: 20rem;
+    height: 28rem;
+    margin: 0 auto;
+  }
+  #about-players {
+    width: 34rem;
+    height: 26rem;
+    margin: 0 auto;
+  }
+  #about-janken {
+    width: 18rem;
+    height: 10rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+  }
 }
 
 /* Medium-sized screens */
@@ -945,6 +1000,46 @@ ul ul {
   }
   #close-modal-btn {
     margin-top: 0.7rem;
+  }
+  /* About page */
+  section#aboutPage-wrapper {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  #aboutPage-h1 {
+    font-size: 2rem;
+    line-height: 1.8rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .aboutPage-h2 {
+    font-size: 1.6rem;
+    line-height: 1.3rem;
+    margin-bottom: 1rem;
+  }
+  .aboutPage-h3 {
+    font-size: 1.3rem;
+    line-height: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  .aboutPage-text {
+    font-size: 1.2em;
+    line-height: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  #about-game-controls {
+    width: 36rem;
+    height: 21rem;
+  }
+  #about-hands-rps {
+    width: 19rem;
+    height: 12rem;
+    margin-bottom: 1rem;
+  }
+  #about-players {
+    width: 19rem;
+    height: 10rem;
+    margin: 0 auto;
   }
 }
 
@@ -1043,6 +1138,61 @@ ul ul {
   #close-modal-btn {
     margin-top: 0.6rem;
   }
+  /* About page */
+  section#aboutPage-wrapper {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  #aboutPage-h1 {
+    font-size: 2rem;
+    line-height: 1.8rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .aboutPage-h2 {
+    font-size: 1.6rem;
+    line-height: 1.4rem;
+    margin-bottom: 1rem;
+  }
+  .aboutPage-h3 {
+    font-size: 1.3rem;
+    line-height: 1.1rem;
+    margin-bottom: 1rem;
+  }
+  .aboutPage-text {
+    font-size: 1rem;
+    line-height: 1rem;
+    margin-bottom: 1rem;
+  }
+  #about-game-controls {
+    width: 29rem;
+    height: 16rem;
+  }
+  #about-rps-photo {
+    width: 23rem;
+    height: 15rem;
+  }
+  #about-hands-rps {
+    width: 25rem;
+    height: 15rem;
+    margin-bottom: 1rem;
+  }
+  #about-rules {
+    width: 20rem;
+    height: 28rem;
+    margin: 0 auto;
+  }
+  #about-players {
+    width: 30rem;
+    height: 20rem;
+    margin: 0 auto;
+  }
+  #about-janken {
+    width: 18rem;
+    height: 10rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+  }
 }
 
 /* Extra small-sized screens */
@@ -1107,9 +1257,6 @@ ul ul {
     width: 90%;
     height: 50%;
   }
-  /* dialog {
-    translate: 0 -11%;
-  } */
   /* Header title styles */
   #rules-header {
     font-size: 1rem;
@@ -1145,24 +1292,32 @@ ul ul {
     line-height: 1.2rem;
     margin-bottom: 1rem;
   }
+  .aboutPage-h3 {
+    font-size: 1rem;
+    line-height: 1rem;
+    margin-bottom: 1rem;
+  }
   .aboutPage-text {
     font-size: 1rem;
     line-height: 1rem;
     margin-bottom: 1rem;
   }
   #about-game-controls {
-    width: 20em;
-    height: 12rem;
+    width: 18rem;
+    height: 10rem;
+    margin: auto;
+    margin-bottom: 1rem;
   }
   #about-hands-rps {
     width: 19rem;
-    height: 12rem;
+    height: 10rem;
     margin-bottom: 1rem;
   }
   #about-players {
-    width: 19rem;
-    height: 10rem;
-    margin: 0 auto;
+    width: 18rem;
+    height: 12rem;
+    margin-left: auto;
+    margin-right: auto;
   }
   #about-rps-photo {
     width: 18rem;
@@ -1176,8 +1331,10 @@ ul ul {
   #about-janken {
     width: 19rem;
     height: 13rem;
-    margin: 0.5rem auto;
-    margin-left: 0.2rem;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
   }
   #about-final {
     font-size: 1rem;
