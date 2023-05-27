@@ -63,9 +63,9 @@ nav {
 }
 
 .buttons a {
-  background-color: rgba(86, 127, 121, 1);
-  color: hsl(66, 86%, 64%);
-  border: 1px solid hsl(66, 86%, 64%);
+  background-color: hsl(174, 19%, 52%); /* make it lighter */
+  color: hsl(66, 86%, 54%); /* make it darker */
+  border: 1px solid hsl(66, 86%, 54%);
   border-radius: 7px;
   padding: 5px 10px;
   font-family: "Montserrat", sans-serif;
