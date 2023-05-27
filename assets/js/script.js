@@ -184,7 +184,7 @@ window.addEventListener("load", function () {
 
   // Create the image element and set its attributes.
   const pentagonImage = document.createElement("img");
-  pentagonImage.src = "assets/images/favicon/pentagon-2.png";
+  pentagonImage.src = "assets/images/favicon/pentagon-2.webp";
   pentagonImage.alt =
     "Game logo in a shape of pentagon formed by five icons: Rock, Paper, Scissors, Lizard, Spock";
 
@@ -240,7 +240,7 @@ document.getElementById("reset-btn").addEventListener("click", function () {
 
   // Creat the image element and set its attributes.
   const pentagonImage = document.createElement("img");
-  pentagonImage.src = "assets/images/favicon/pentagon-2.png";
+  pentagonImage.src = "assets/images/favicon/pentagon-2.webp";
   pentagonImage.alt =
     "Game logo in a shape of pentagon formed by five icons: Rock, Paper, Scissors, Lizard, Spock";
 
