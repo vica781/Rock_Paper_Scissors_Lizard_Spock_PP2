@@ -667,7 +667,7 @@ section#aboutPage-wrapper {
 #about-page-link:hover {
   color: rgb(238, 238, 36);
 }
-#about-game-controls {
+/* #about-game-controls {
   display: flex;
   flex-direction: row;
   margin-bottom: clamp(1rem, 1rem + 4vw, 1.5rem);
@@ -677,7 +677,7 @@ section#aboutPage-wrapper {
   height: 40rem;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 #about-hands-rps {
   display: flex;
   flex-direction: column;
@@ -718,7 +718,7 @@ section#aboutPage-wrapper {
   margin-right: auto;
 }
 
-#about-janken {
+/* #about-janken {
   display: flex;
   flex-direction: column;
   margin-bottom: 1rem;
@@ -728,7 +728,7 @@ section#aboutPage-wrapper {
   width: 22rem;
   height: 14rem;
   float: right;
-}
+} */
 
 #about-final {
   display: flex;
