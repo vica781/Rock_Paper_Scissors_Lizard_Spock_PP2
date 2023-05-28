@@ -1343,26 +1343,23 @@ ul ul {
   }
 }
 /* Add style for iPhone 5, 5S, and old SE to remove horizontal scroll*/
+
 @media screen and (device-width: 320px) and (device-height: 568px) {
   #reset-btn {
     margin-right: 0.5rem;
     margin-left: 0.5rem;
   }
-
   #bgBack {
     margin-left: 0.5rem;
   }
-
   .newGame-bgChange > button {
     width: auto; /* let the buttons take their natural width */
     max-width: 100%;
     box-sizing: border-box;
   }
-
   #volume-off {
     margin-left: 0.5rem;
   }
-
   #bgChange,
   #bgBack i,
   #bgForward i,
@@ -1370,5 +1367,44 @@ ul ul {
   #bgBack-music i,
   #bgForward-music i {
     gap: 0.2rem; /* reduce gap size */
+  }
+  .heading h1 {
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+  }
+  #result {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  #pick {
+    margin-bottom: 0;
+  }
+  .btnChoices {
+    font-size: 0; /* to hide the text */
+    display: flex; /* to center the icon in the button */
+    align-items: center;
+    justify-content: center;
+  }
+  .btnChoices i {
+    font-size: 1.1rem;
+  }
+  #playerImg {
+    width: 6.5rem;
+    height: 6.5rem;
+    margin-top: 1rem;
+  }
+  #compImg {
+    width: 6.5rem;
+    height: 6.5rem;
+    margin-top: 1rem;
+  }
+  #pImg,
+  #cImg,
+  img {
+    width: 6.4rem;
+    height: 6.4rem;
+  }
+  .newGame-bgChange {
+    font-size: 1rem;
   }
 }
