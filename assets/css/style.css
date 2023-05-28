@@ -1143,19 +1143,23 @@ ul ul {
     margin-left: 2rem;
     margin-right: 2rem;
   }
+  #toc-list {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
   #aboutPage-h1 {
-    font-size: 2rem;
+    font-size: 1.6rem;
     line-height: 1.8rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
   .aboutPage-h2 {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     line-height: 1.4rem;
     margin-bottom: 1rem;
   }
   .aboutPage-h3 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     line-height: 1.1rem;
     margin-bottom: 1rem;
   }
@@ -1164,9 +1168,9 @@ ul ul {
     line-height: 1rem;
     margin-bottom: 1rem;
   }
-  #about-game-controls {
-    width: 29rem;
-    height: 16rem;
+  #about-final {
+    font-size: 1rem;
+    line-height: 1rem;
   }
   #about-rps-photo {
     width: 23rem;
@@ -1186,12 +1190,6 @@ ul ul {
     width: 30rem;
     height: 20rem;
     margin: 0 auto;
-  }
-  #about-janken {
-    width: 18rem;
-    height: 10rem;
-    margin-left: 1rem;
-    margin-bottom: 1rem;
   }
 }
 
@@ -1343,8 +1341,13 @@ ul ul {
   }
 }
 /* Add style for iPhone 5, 5S, and old SE to remove horizontal scroll*/
-
 @media screen and (device-width: 320px) and (device-height: 568px) {
+  /* Nav Bar - Heading */
+  .heading h1 {
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+  }
+  /* Control buttons - audio, background change */
   #reset-btn {
     margin-right: 0.5rem;
     margin-left: 0.5rem;
@@ -1357,6 +1360,9 @@ ul ul {
     max-width: 100%;
     box-sizing: border-box;
   }
+  .newGame-bgChange {
+    font-size: 1rem;
+  }
   #volume-off {
     margin-left: 0.5rem;
   }
@@ -1368,10 +1374,7 @@ ul ul {
   #bgForward-music i {
     gap: 0.2rem; /* reduce gap size */
   }
-  .heading h1 {
-    font-size: 1.8rem;
-    line-height: 1.8rem;
-  }
+  /* Messages */
   #result {
     margin-top: 0;
     margin-bottom: 0;
@@ -1379,6 +1382,7 @@ ul ul {
   #pick {
     margin-bottom: 0;
   }
+  /* Characters Choice Buttons */
   .btnChoices {
     font-size: 0; /* to hide the text */
     display: flex; /* to center the icon in the button */
@@ -1388,6 +1392,7 @@ ul ul {
   .btnChoices i {
     font-size: 1.1rem;
   }
+  /* Player and Computer Character choices */
   #playerImg {
     width: 6.5rem;
     height: 6.5rem;
@@ -1404,7 +1409,49 @@ ul ul {
     width: 6.4rem;
     height: 6.4rem;
   }
-  .newGame-bgChange {
+  /* About page */
+  section#aboutPage-wrapper {
+    margin-left: 1.1rem;
+    margin-right: 1.1rem;
+  }
+  #toc-list {
+    font-size: 0.8rem;
+    line-height: 1rem;
+  }
+  #aboutPage-h1 {
+    font-size: 1.1rem;
+    line-height: 1.1rem;
+  }
+  .aboutPage-h2 {
     font-size: 1rem;
+    line-height: 1rem;
+  }
+  .aboutPage-h3 {
+    font-size: 0.9rem;
+    line-height: 0.9rem;
+  }
+  .aboutPage-text {
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+  }
+  #about-hands-rps {
+    width: 17rem;
+    height: 8rem;
+  }
+  #about-players {
+    width: 17rem;
+    height: 11rem;
+  }
+  #about-rps-photo {
+    width: 17rem;
+    height: 11rem;
+  }
+  #about-rules {
+    width: 14rem;
+    height: 22rem;
+  }
+  #about-final {
+    font-size: 0.8rem;
+    line-height: 0.8rem;
   }
 }
