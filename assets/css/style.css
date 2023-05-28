@@ -667,17 +667,6 @@ section#aboutPage-wrapper {
 #about-page-link:hover {
   color: rgb(238, 238, 36);
 }
-/* #about-game-controls {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: clamp(1rem, 1rem + 4vw, 1.5rem);
-  margin-top: clamp(1rem, 1rem + 4vw, 1.5rem);
-  max-width: 1200px;
-  width: 75rem;
-  height: 40rem;
-  margin-left: auto;
-  margin-right: auto;
-} */
 #about-hands-rps {
   display: flex;
   flex-direction: column;
@@ -717,19 +706,6 @@ section#aboutPage-wrapper {
   margin-left: auto;
   margin-right: auto;
 }
-
-/* #about-janken {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-  margin-left: 1rem;
-  max-width: 1200px;
-  width: 22rem;
-  height: 14rem;
-  float: right;
-} */
-
 #about-final {
   display: flex;
   flex-direction: column;
@@ -899,10 +875,6 @@ ul ul {
     line-height: 1.2rem;
     margin-bottom: 1rem;
   }
-  #about-game-controls {
-    width: 44em;
-    height: 25rem;
-  }
   #about-rps-photo {
     width: 30rem;
     height: 20rem;
@@ -921,12 +893,6 @@ ul ul {
     width: 34rem;
     height: 26rem;
     margin: 0 auto;
-  }
-  #about-janken {
-    width: 18rem;
-    height: 10rem;
-    margin-left: 1rem;
-    margin-bottom: 1rem;
   }
 }
 
@@ -1026,10 +992,6 @@ ul ul {
     font-size: 1.2em;
     line-height: 1.2rem;
     margin-bottom: 1rem;
-  }
-  #about-game-controls {
-    width: 36rem;
-    height: 21rem;
   }
   #about-hands-rps {
     width: 19rem;
@@ -1253,7 +1215,8 @@ ul ul {
   /* MODAL */
   #modal {
     width: 90%;
-    height: 50%;
+    height: 60%;
+    margin-top: -3rem;
   }
   /* Header title styles */
   #rules-header {
@@ -1269,10 +1232,9 @@ ul ul {
   #rules-img {
     width: 20rem;
     height: 20rem;
-    /* padding: 10px; */
   }
   #close-modal-btn {
-    margin-top: 1rem;
+    font-size: 0.7rem;
   }
   /* About page */
   section#aboutPage-wrapper {
@@ -1300,12 +1262,6 @@ ul ul {
     line-height: 1rem;
     margin-bottom: 1rem;
   }
-  #about-game-controls {
-    width: 18rem;
-    height: 10rem;
-    margin: auto;
-    margin-bottom: 1rem;
-  }
   #about-hands-rps {
     width: 19rem;
     height: 10rem;
@@ -1326,14 +1282,6 @@ ul ul {
     height: 22rem;
     margin: 0 auto;
   }
-  #about-janken {
-    width: 19rem;
-    height: 13rem;
-    float: none;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 1rem;
-  }
   #about-final {
     font-size: 1rem;
     line-height: 1rem;
@@ -1344,8 +1292,8 @@ ul ul {
 @media screen and (device-width: 320px) and (device-height: 568px) {
   /* Nav Bar - Heading */
   .heading h1 {
-    font-size: 1.8rem;
-    line-height: 1.8rem;
+    font-size: 1.65rem;
+    line-height: 1.65rem;
   }
   /* Control buttons - audio, background change */
   #reset-btn {
@@ -1408,6 +1356,32 @@ ul ul {
   img {
     width: 6.4rem;
     height: 6.4rem;
+  }
+  /* Modal */
+  #modal {
+    width: 90%;
+    height: 70%;
+    margin-top: 3rem;
+  }
+  /* Modal image */
+  #rules-img {
+    width: 14.3rem;
+    height: 14.3rem;
+  }
+  /* Modal header */
+  #rules-header {
+    font-size: 0.9rem;
+    line-height: 0.9rem;
+  }
+  /* Madal text */
+  .modal-text {
+    font-size: 0.7rem;
+    line-height: 0.7rem;
+  }
+  /* Close modal button */
+  #close-modal-btn {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
   }
   /* About page */
   section#aboutPage-wrapper {
