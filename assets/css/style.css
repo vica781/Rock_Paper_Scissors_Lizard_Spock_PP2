@@ -1342,3 +1342,33 @@ ul ul {
     margin-bottom: 2rem;
   }
 }
+/* Add style for iPhone 5, 5S, and old SE to remove horizontal scroll*/
+@media screen and (device-width: 320px) and (device-height: 568px) {
+  #reset-btn {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+  }
+
+  #bgBack {
+    margin-left: 0.5rem;
+  }
+
+  .newGame-bgChange > button {
+    width: auto; /* let the buttons take their natural width */
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  #volume-off {
+    margin-left: 0.5rem;
+  }
+
+  #bgChange,
+  #bgBack i,
+  #bgForward i,
+  #volume-up,
+  #bgBack-music i,
+  #bgForward-music i {
+    gap: 0.2rem; /* reduce gap size */
+  }
+}
