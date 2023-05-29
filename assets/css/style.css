@@ -346,7 +346,7 @@ footer {
   align-items: center;
   text-align: center;
   height: 8.5rem;
-  background-color: rgba(98, 96, 88, 0.9);
+  background-color: rgba(90, 88, 80, 0.9);
 }
 .foot-container {
   display: flex;
@@ -356,7 +356,7 @@ footer {
   text-align: center;
   max-width: 40%;
   min-width: 17.5rem;
-  color: hsl(66, 86%, 64%);
+  color: rgb(219, 242, 12);
 }
 .mediaicons {
   text-align: center;
@@ -374,9 +374,11 @@ footer {
   margin: 0 10px;
   font-size: 1.5rem;
 }
-.icons li a {
+.icons li a,
+#current-year,
+.footer-p {
   font-size: clamp(1rem, 2vw, 1.5rem);
-  color: hsl(66, 86%, 64%);
+  color: rgb(219, 242, 12);
 }
 .icons li a:hover {
   text-decoration: none;
