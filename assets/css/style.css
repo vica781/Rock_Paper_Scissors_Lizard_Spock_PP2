@@ -679,14 +679,14 @@ ul ul {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-#er_img {
+#er-img {
   position: absolute;
   inset: 0; /* top, right, bottom, left */
   /* the idia inspired by video https://www.youtube.com/shorts/9cSL5dP4rgM */
   /* after hours of trying with transform/translate */
   margin: auto;
-  width: 30rem;
-  height: 35rem;
+  width: 30.45rem;
+  height: 32rem;
 }
 
 /* MEDIA QUERIES */
@@ -845,7 +845,7 @@ ul ul {
     height: 26rem;
     margin-top: 1rem;
   }
-  #er_img {
+  #er-img {
     position: absolute;
     inset: 0;
     margin: auto;
@@ -903,11 +903,6 @@ ul ul {
     max-width: 50%;
     min-width: 17.5rem;
     align-items: center;
-  }
-  .image-wrapper #er-img {
-    max-width: 60rem;
-    max-height: 50vh;
-    translate: -110%;
   }
   /* MODAL */
   #modal {
@@ -986,7 +981,7 @@ ul ul {
     height: 24rem;
     margin-top: 1rem;
   }
-  #er_img {
+  #er-img {
     position: absolute;
     inset: 0;
     margin: auto;
@@ -1157,7 +1152,7 @@ ul ul {
     height: 22rem;
     margin-top: 1rem;
   }
-  #er_img {
+  #er-img {
     position: absolute;
     inset: 0;
     margin: auto;
@@ -1313,7 +1308,7 @@ ul ul {
     height: 20rem;
     margin-top: 1rem;
   }
-  #er_img {
+  #er-img {
     position: absolute;
     inset: 0;
     margin: auto;
@@ -1487,7 +1482,7 @@ ul ul {
     height: 16rem;
     margin-top: 1rem;
   }
-  #er_img {
+  #er-img {
     position: absolute;
     inset: 0;
     margin: auto;

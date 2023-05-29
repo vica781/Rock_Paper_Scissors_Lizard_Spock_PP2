@@ -361,6 +361,9 @@ const audioFiles = [
   "mauriceravel-pavaneforadeadprincess.mp3",
   "ralphvaughanwilliams-thelarkascending.mp3",
   "sergeirachmaninoff-pianoconcertono2.mp3",
+  "johann-sebastian-bach-sheep-may-safely-graze.mp3",
+  "ludovico-einaudi-nuvole-bianche.mp3",
+  "wolfgang-amadeus-mozart-eine-kleine-nachtmusik.mp3",
 ];
 
 // Variable to keep track of the current audio index
