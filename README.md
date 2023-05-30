@@ -20,8 +20,8 @@ The site should respond to the users' actions, allowing users to actively engage
 with data, alter the way the site displays the information to achieve their 
 preferred goals. 
 
-![Mockup](./assets/image/readme_page/responsive_preview_1.webp)
-<img scr="./assets/image/readme_page/responsive_preview.webp" width="90%">
+![Mockup](./assets/images/readme/mockup.webp)
+<img scr="./assets/images/readme/mockup.webp" width="90%">
 
 ## Index – Table of Contents
 * [User Experience (UX)](#user-experience-ux) 
