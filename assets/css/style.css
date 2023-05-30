@@ -25,7 +25,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(98, 96, 88, 0.9);
+  background-color: rgba(70, 68, 63, 0.9);
   padding: 20px;
   font-size: clamp(1rem, 0.5rem + 1vw, 1.5rem);
   font-family: "Montserrat", sans-serif;
@@ -346,7 +346,7 @@ footer {
   align-items: center;
   text-align: center;
   height: 8.5rem;
-  background-color: rgba(90, 88, 80, 0.9);
+  background-color: rgba(70, 68, 63, 0.9);
 }
 .foot-container {
   display: flex;
@@ -356,7 +356,7 @@ footer {
   text-align: center;
   max-width: 40%;
   min-width: 17.5rem;
-  color: rgb(219, 242, 12);
+  color: rgb(231, 255, 10);
 }
 .mediaicons {
   text-align: center;
@@ -687,8 +687,8 @@ ul ul {
   /* the idia inspired by video https://www.youtube.com/shorts/9cSL5dP4rgM */
   /* after hours of trying with transform/translate */
   margin: auto;
-  width: 32rem;
-  height: 32rem;
+  width: 500px;
+  height: 500px;
 }
 
 /* MEDIA QUERIES */
