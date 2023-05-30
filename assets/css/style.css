@@ -1495,3 +1495,182 @@ ul ul {
     visibility: inherit;
   }
 }
+/* Add style for device used by Am I responsive? web site used for Mockup */
+@media screen and (device-width: 320px) and (device-height: 480px) {
+  /* Nav Bar - Heading */
+  nav {
+    height: 5.5rem;
+  }
+  .heading h1 {
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+  }
+  /* Control buttons - audio, background change */
+  #reset-btn {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+  }
+  #bgBack {
+    margin-left: 0.5rem;
+  }
+  .newGame-bgChange > button {
+    width: auto;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  .newGame-bgChange {
+    font-size: 1rem;
+  }
+  #volume-off {
+    margin-left: 0.5rem;
+  }
+  #bgChange,
+  #bgBack i,
+  #bgForward i,
+  #volume-up,
+  #bgBack-music i,
+  #bgForward-music i {
+    gap: 0.2rem;
+  }
+  /* Messages */
+  #result {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  #pick {
+    margin-bottom: 0;
+  }
+  /* Characters Choice Buttons */
+  .btnChoices {
+    font-size: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .btnChoices i {
+    font-size: 1.1rem;
+  }
+  /* Player and Computer Character choices */
+  #playerImg {
+    width: 6.5rem;
+    height: 6.5rem;
+    margin-top: 1rem;
+  }
+  #compImg {
+    width: 6.5rem;
+    height: 6.5rem;
+    margin-top: 1rem;
+  }
+  #pImg,
+  #cImg,
+  img {
+    width: 6.4rem;
+    height: 6.4rem;
+  }
+  footer {
+    height: 5rem;
+  }
+  /* MODAL */
+  #modal {
+    width: 90%;
+    height: 70%;
+    margin-top: 3rem;
+  }
+  /* Modal image */
+  #rules-img {
+    width: 14.3rem;
+    height: 14.3rem;
+  }
+  /* Modal header */
+  #rules-header {
+    font-size: 0.9rem;
+    line-height: 0.9rem;
+  }
+  /* Madal text */
+  .modal-text {
+    font-size: 0.7rem;
+    line-height: 0.7rem;
+  }
+  /* Close modal button */
+  #close-modal-btn {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+  }
+  /* About page */
+  section#aboutPage-wrapper {
+    margin-left: 1.1rem;
+    margin-right: 1.1rem;
+  }
+  #toc-list {
+    font-size: 0.8rem;
+    line-height: 1rem;
+  }
+  #aboutPage-h1 {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+  .aboutPage-h2 {
+    font-size: 0.9rem;
+    line-height: 0.9rem;
+  }
+  .aboutPage-h3 {
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+  }
+  .aboutPage-text {
+    font-size: 0.75rem;
+    line-height: 0.75rem;
+  }
+  #about-hands-rps {
+    width: 17rem;
+    height: 8rem;
+  }
+  #about-players {
+    width: 17rem;
+    height: 11rem;
+  }
+  #about-rps-photo {
+    width: 17rem;
+    height: 11rem;
+  }
+  #about-rules {
+    width: 14rem;
+    height: 22rem;
+  }
+  #about-final {
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+  }
+  /* 404 PAGE */
+  #error-page-heading {
+    font-size: 1.1rem;
+    line-height: 1.1rem;
+    letter-spacing: normal;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .error-page p {
+    font-size: 0.9rem;
+    line-height: 1rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .image-wrapper {
+    position: relative;
+    width: 100%;
+    height: 14rem;
+    margin-top: 1rem;
+  }
+  #er-img {
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: 12rem;
+    height: 14rem;
+  }
+  #back-home {
+    visibility: inherit;
+  }
+}
