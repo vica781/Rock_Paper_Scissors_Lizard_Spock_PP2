@@ -1,9 +1,3 @@
-// Add a YEAR to the footer
-document.addEventListener("DOMContentLoaded", function () {
-  const currentYear = new Date().getFullYear();
-  document.getElementById("current-year").innerHTML = currentYear;
-});
-
 // Get the BACK-TO-TOP button
 const backToTopButton = document.getElementById("back-to-top");
 
@@ -19,4 +13,10 @@ window.addEventListener("scroll", () => {
 // Scroll back to the top of the page after the player clicks the back-to-top button
 backToTopButton.addEventListener("click", () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
+});
+
+// Add a YEAR to the footer
+document.addEventListener("DOMContentLoaded", function () {
+  const currentYear = new Date().getFullYear();
+  document.getElementById("current-year").innerHTML = currentYear;
 });
