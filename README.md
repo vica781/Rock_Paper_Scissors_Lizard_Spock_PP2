@@ -1,27 +1,33 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-<h1 align="center">ROCK PAPER SCISSORS LIZARD SPOCK</h1>
+<h1 align="center">Rock Paper Scissors Lizard Spock</h1>
 
-[View the live project here]
-(https://vica781.github.io/Rock_Paper_Scissors_Lizard_Spock_PP2/)
+[View the live project here](https://vica781.github.io/Rock_Paper_Scissors_Lizard_Spock_PP2/)
 
-Welcome to my website **Rock, Paper, Scissors, Lizard, Spock**  
+## Overview
 
-This website is Portfolio Project 2 (JavaScript Essentials) of five Milestone 
-Projects required to complete the Diploma of Full Stack Software Development 
-with The Code Institute. 
+Welcome to my website **Rock, Paper, Scissors, Lizard, Spock**. This website is Portfolio Project 2 (JavaScript Essentials) of five Milestone Projects required to complete the Diploma of Full Stack Software Development with The Code Institute.
 
-Project purpose: Presentation of interactive data.
-Required: HTML, CSS, JavaScript.
+**Project purpose**: Presentation of interactive data.
+**Required**: HTML, CSS, JavaScript.
 
-The main requirement of this project is to build an interactive front-end site 
-applying all of the technologies learned so far, namely HTML5, CSS3 and 
-JavaScript. 
-The site should respond to the users' actions, allowing users to actively engage 
-with data, alter the way the site displays the information to achieve their 
-preferred goals. 
+**The main requirement** of this project is to build an interactive front-end site applying all of the technologies learned so far, namely HTML5, CSS3 and JavaScript. 
+
+**The site should** respond to the users' actions, allowing users to actively engage with data, alter the way the site displays the information to achieve their preferred goals.
+
+This website, an extended play on the classic Rock Paper Scissors game, now including the dimensions of the Lizard and Spock to add an extra level of strategy and fun! 
+
+I really hope that, my approach not only provides a new take on this well-loved game, but also delivers an immersive experience designed to help you unwind and destress. I tried to offer a calming environment replete with soothing classical music and serene nature-based backgrounds.
+
+## Reasons behind design
+**The Power of Nature**: Research has shown that exposure to nature, even through images, can lower stress levels, improve mood, and enhance mental well-being. That's why I've incorporated beautiful, calming backgrounds inspired by macro nature photography into my game. These tranquil images can help create a serene gaming atmosphere that promotes relaxation and mindfulness.
+
+**The Magic of Classical Music**: Classical music has long been recognized for its ability to soothe the mind and lift the spirits. Certain pieces can even help improve concentration and creativity. That's why I've included a collection of classical music pieces for you to choose from while playing the game. Let the music transport you to a world of calm and tranquility.
+
+**The Sensory Combination**: Combining the visual beauty of nature and the harmonious sounds of classical music creates a unique sensory experience that can significantly enhance your relaxation. As you play the game, you're not just engaging your problem-solving skills, you're also immersing yourself in an environment designed to reduce stress and promote positive emotions.
+
+A comprehensive "About" page accompanies my gameplay interface. Dive into the fascinating world of Rock Paper Scissors Lizard Spock and learn about its history, philosophy, educational significance, logical underpinnings, tactical nuances, and much more!
 
 ![Mockup](./assets/images/readme/mockup.webp)
-<img scr="./assets/images/readme/mockup.webp" width="90%">
 
 ## Index – Table of Contents
 * [User Experience (UX)](#user-experience-ux) 
@@ -37,17 +43,20 @@ preferred goals.
 ### Ideal User Demographic
 
 **THE IDEAL USER FOR THIS WEBSITE IS:**
-* <ins>New user:</ins>
-1. People who appreciate the beauty of natural materials, specifically amber
-2. Jewellery enthusiasts who are interested in the uses of amber in art, jewellery and different industries   
-3. Collectors of amber or other natural fossils
-4. Someone who searching for inspirational idea for a present
-5. Students of arts and crafts, science or geology
-6. This site can be used by English speaking tourists visiting Kaliningrad Region of Russia located on a Baltic sea.
-   The Kaliningrad Amber Combine is the only official amber mine in Russia and accounts for 65% of the global amber market. 
-   Region holds 90% of the world's extractable amber. 
-* Current user
-* Returning user   
+
+<ins>New user:</ins>
+- If you're a new visitor to my site, welcome! Whether you're an enthusiast of strategy games, or just looking for a fun distraction.I am really hoping that I've achieved my goal to design a straightforward and user-friendly game. 
+- You'll find clear instructions and rules for playing the game. 
+- Furthermore, you can explore the rich resources on About page to learn more about the game's intriguing aspects. Join me today and discover a delightful blend of relaxation and mental stimulation!
+
+<ins>Current Users:<ins>
+
+To a current users, thank you for your continued support! Challenge yourself with a round of the game, appreciate the calming music and beautiful backgrounds, or delve deeper into the fascinating world of Rock Paper Scissors Lizard Spock through the comprehensive About page. 
+
+<ins>Returning Users<ins>
+
+Welcome back! I am thrilled to see you again. Dive right back into the game for enjoyment and relaxation, or take your time to explore an updated collection of serene backgrounds and calming classical music. Reconnect with the simplicity and joy of Rock Paper Scissors Lizard Spock today!
+ 
 
 ## **USER STORIES**
 ### CURRENT USER GOALS
