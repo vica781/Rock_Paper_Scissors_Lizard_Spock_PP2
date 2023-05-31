@@ -44,14 +44,16 @@ A comprehensive "About" page accompanies my gameplay interface. Dive into the fa
 
 **THE IDEAL USER FOR THIS WEBSITE IS:**
 
-<ins>New user:</ins>
-- If you're a new visitor to my site, welcome! Whether you're an enthusiast of strategy games, or just looking for a fun distraction.I am really hoping that I've achieved my goal to design a straightforward and user-friendly game. 
-- You'll find clear instructions and rules for playing the game. 
+<ins>New user:<ins>
+- If you're a new visitor to my site, welcome! Whether you're an enthusiast of strategy games, or just looking for a fun distraction. I am really hoping that I've achieved my goal to design a straightforward and user-friendly game. 
+- You'll find clear instructions and rules for playing the game.
+- Throughout the game, you'll be assisted by clear and intuitive navigation.
+- Furthermore, you will be assisted by informative and concise messages that will help you navigate the game and understand the rules. 
 - Furthermore, you can explore the rich resources on About page to learn more about the game's intriguing aspects. Join me today and discover a delightful blend of relaxation and mental stimulation!
 
 <ins>Current Users:<ins>
 
-To a current users, thank you for your continued support! Challenge yourself with a round of the game, appreciate the calming music and beautiful backgrounds, or delve deeper into the fascinating world of Rock Paper Scissors Lizard Spock through the comprehensive About page. 
+To a current users, thank you for your continued support! Challenge yourself with a round of the game, appreciate the calming music and beautiful backgrounds, or delve deeper into the fascinating world of Rock Paper Scissors Lizard Spock through the comprehensive About page. Your feedback, either through forums, comments, or social media links, sharing the experience or strategies in playing the game, is always appreciated as it helps me improve and bring more joy to the community.
 
 <ins>Returning Users<ins>
 
@@ -59,34 +61,24 @@ Welcome back! I am thrilled to see you again. Dive right back into the game for 
  
 
 ## **USER STORIES**
-### CURRENT USER GOALS
 
-###  <ins>First Time Visitor Goals</ins>
+###  <ins>First Time Visitor Goals<ins>
     
    Idealy, as a new user I want to be able to:
-1. Experience easy and intuitive navigation through the site and access the information required.
-2. Have the ability to navigate to content or retrieve previous viewed information within a small number of steps.
-3. Experiense relevant and attractive content acompanied by the colour schemes compatible the content.
-4. Get a source of reliable and accurate information about amber.
-5. Learn about the beauty and value of amber, and its unique properties and characteristics.
-6. Discover the various uses of amber in different industries, art and jewellery.
-7. Get inspired by the beauty of amber and nature.
-8. Find ideas for amber gifts, office or home decorative and practical items.
-9. Have access to contact points in case of any queries or to communicate for any reason.
-10. Learn about the significance of Kaliningrad Region of Russia in the global amber market.
-11. Understand the importance of amber in the fields of arts, crafts, science and geology.
+1. As a first time visitor, I want to understand the purpose of the site and learn about the game Rock Paper Scissors Lizard Spock.
+2. As a first time visitor, I want to be able to navigate the website easily, find the game rules and instructions, and be able to start playing the game without any difficulties. 
+3. As a first time visitor, I want to enjoy the calming and destressing elements of the website, like the serene nature backgrounds and soothing classical music. 
+4. As a first time visitor, I want to explore the About page and learn more about the history, philosophy, educational aspects, logical components, tactical strategies of the game, and interesting facts about the game.
+5. As a first time visitor, I want to be able to provide feedback or ask for help in case I need any, either through forums, comments, or social media links, sharing my experience or strategies in playing the game.
       
-  ### <ins>Returning Visitor Goals</ins>
+  ### <ins>Returning Visitor Goals<ins>
 
-   As a current user I want to be able to:
-1. Discover the various uses of amber in different industries, art and jewellery 
-2. Understand the unique characteristics of amber and learn about rare types
-3. Gain inspiration from the beauty of amber and nature
-4. Get ideas for amber gifts, office or home decorative and practical items
-5. Get a source of reliable and accurate information about amber
-6. I would like to experience easy and intuitive navigation through the site and access the information I require.
-7. I would like to be able easily navigate to content or retrieve my steps to information I have previously viewed within a small number of steps.
-8. Also, as a current user, I would appreciate ability of contact points in case I have queries or want to communicate for any reason.
+   As a current/returning user I want to be able to:
+1. As a returning visitor, I want to be able to play the Rock Paper Scissors Lizard Spock game quickly, without needing to go through lengthy processes or instructions. 
+2. As a returning visitor, I want to see new elements or updates in the game, including new nature backgrounds and classical music to keep my experience fresh and enjoyable. 
+3. As a returning visitor, I want to find new, fascinating facts, insights, or resources on the About page that enhance my understanding and appreciation of the game. 
+4. As a returning visitor, I want a consistent, user-friendly interface where I can easily navigate to my desired sections. 
+5. As a returning visitor, I want to engage more with the community, either through forums, comments, or social media links, sharing my experience or strategies in playing the game.
 
 ##  **FEATURES**
 
