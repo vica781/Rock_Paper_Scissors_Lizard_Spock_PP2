@@ -91,22 +91,29 @@ Welcome back! I am thrilled to see you again. Dive right back into the game for 
     
       It includes a simple Logo, HOME and ABOUT links and is responsive on multiple screen sizes:  
          
-    - *On large* screens buttons are equipped with word description 'Home' and 'About' as well as icons to assist user with navigation. The buttons have a hover effect to indicate to the user that they are clickable. Also, on hover the buttons change background and text colour to indicate to the user that they are active.
+    - *On large* screens buttons are equipped with word description 'Home' and 'About' as well as icons to assist user with navigation. The buttons have a hover effect to indicate to the user that they are clickable. Also, on hover the buttons change background and text colour to indicate to the user that they are active. The Logo has been linked to the Home page for user convenience. 
 
       ![Navbar](./assets/images/readme/nav-bar.gif)
     
     - *On small and medium* screens the structure of navigation bar is adapting to a size. The logo is removed and the buttons have only icons to indicate 'home' and 'information'. The buttons have a hover effect to indicate to the user that they are clickable. Also, on hover the buttons change background and text colour to indicate to the user that they are active. 
+<br>
+-   **Audio and Background Change** controls are located on the top of the game field for the convenience of the user. The buttons have a hover effect to indicate to the user that they are clickable. Also, on hover the buttons change background and text colour to indicate to the user that they are active.
+     
+      ![Audio](./assets/images/readme/audio-bg-controls.gif)
 
-    ![Navbar](./assets/images/readme/nav-bar-small.gif)
-    
+-   **The Game Field** for the convenience of the user located in the centre of the screen . The field is equipped with the following elements:
+    - *Game Field Background* for the user convenience it is of sutable pastel colour and transparency (to allow all elements to be easy readable, as well as allow to see main page background). 
+    - *Player Choice" and "Computer Choice" areas* that displaying reflected on the Y-axis images of the corresponding choices.
+    - *"Computer Choice" area* has been designed to emitated the movement of the slot machine. The images are changing in a random order and then stop on the final choice. This is to add a bit of excitement to the game.
+    - *Game Score* is displayed at the bottom of the game field for the convenience of the user. The score board is displaying player's, computer's and the tie score. The score is updated after each round of the game. The score is reset to 0 after the Game has been restarted by cleacking on the 'Play again?' button.
+
+    -   **Game Rules** - the rules are displayed on the top of the game field for the convenience of the user. The
+
+
       ![Game Controls](./assets/images/readme/game-controls.webp)
     - *Active page* tab is identified as a button of orange colour;
     
-      ![Navbar](./assets/image/readme_page/navbar_large_screen_navigating.webp)
-    - *During navigation* through the tabs user is assisted by change of tab colour on hover to green
-    - Navigation through *Medium and Small screens* assisted by a 'hamburger' drop-down menu with transparent colour matching background and colour distinguished tabs
-      <br>
-      (the decision about 'hamburger' menu has been implemented to avoid nav bar going into two and more lines, and to save space on smalle screens)
+      
     
       ![Navbar](./assets/image/readme_page/navbar_drop_down_menu.webp) <img scr="./assets/image/readme_page/navbar_drop_down_menu.webp" width="75%">
 
