@@ -98,30 +98,39 @@ Welcome back! I am thrilled to see you again. Dive right back into the game for 
     - *On small and medium* screens the structure of navigation bar is adapting to a size. The logo is removed and the buttons have only icons to indicate 'home' and 'information'. The buttons have a hover effect to indicate to the user that they are clickable. Also, on hover the buttons change background and text colour to indicate to the user that they are active. 
 <br>
 -   **Audio and Background Change** controls are located on the top of the game field for the convenience of the user. The buttons have a hover effect to indicate to the user that they are clickable. Also, on hover the buttons change background and text colour to indicate to the user that they are active.
-     
-      ![Audio](./assets/images/readme/audio-bg-controls.gif)
-      <img width= 420,  >
-
+![Audio](./assets/images/readme/audio-bg-controls.gif)
+<br>   
 -   **The Game Field** for the convenience of the user located in the centre of the screen . The field is equipped with the following elements:
+<br>
     - *Game Field Background* for the user convenience and to set clear boundries of the Game Field. It is of a sutable pastel colour and transparency (to allow all elements to be easy readable, as well as allow to see main page background). 
-    - *Player Choice" and "Computer Choice" areas* that displaying reflected on the Y-axis images of the corresponding choices.
-    - *"Computer Choice" area* has been designed to emitated the movement of the slot machine. The images are changing in a random order and then stop on the final choice. This is to add a bit of excitement to the game.
-    - *Game Score* is displayed at the bottom of the game field for the convenience of the user. The score board is displaying player's, computer's and the tie score. The score is updated after each round of the game. The score is reset to 0 after the Game has been restarted by cleacking on the 'Play again?' button.
-
-    - *Game Rules* - the rules are displayed on the top of the game field for the convenience of the user. The
-
-
-      ![Game Controls](./assets/images/readme/game-controls.webp)
-    - *Active page* tab is identified as a button of orange colour;
+    - *'Player Choice' and 'Computer Choice' areas* that displaying reflected on the Y-axis images of the corresponding choices are distinguished by the individually coloured background. The colours are chosen to be in contrast with the Game Field Background and each other.  
+    - *'Computer Choice' area* has been designed to emitated the movement of the slot machine. The images are changing in a random order and then stop on the final choice. This is to add a bit of excitement to the game.
+    - *Game Score* is displayed at the bottom of the game field for the convenience of the user. The score board is displaying player's, computer's and the tie score. The score is updated after each round of the game. The score is reset to 0 after the Game has been restarted by cleacking on the 'Play again?' button. Player is prompted to restart the game after the total Score reaches 20.
+        
+    <ins>MESSAGES:<ins>
     
-      
+    - *Ready when you are!* message placed in the centre of the game field to indicate to the user that they need to make a choice. The message is located immediately under the Player's and Computer's choice fields and above 'Take a Pick!' message.
+    - *Take a Pick!* message placed in the centre of the game field to indicate to the user that they need to make a choice. The message is located above five buttons with the icons/images of the choices accompanied with the worded name. The buttons have a hover effect to indicate to the user that they are clickable. Also, on hover the buttons change background and text colour to indicate to the user that they are active.
+    - *You have chosen...* message, replacing 'Ready when you are!' message as soon as player made the choice by clicking on the button of thier prefered choice of the weapon, to confirm to the user the type of the weapon they have choosen. This message stays on the screen until the computer makes it's choice.
+    - *The outcome message* replacing 'You have chosen...' message as soon as computer made it's choice. The message is informing the user about the outcome of the round. The message is combyning the rule relevant to the weapons chosen in the round ('Spock smashes scissors', 'Lizard eats paper' and so on) and anounces the winner 'You won!' or 'Computer wins!'. Also, in the event of weapons of choice beeing the same, player being informed by the 'It's a tie' message accompanied by the icon of a handshacke. The message is staying on the screen until the user makes a new weapon cnoice or clicks on the 'Play again?' button.
+    - *Rules* button is located at the bottom of the game field for the convenience of the user. The button has a hover effect to indicate to the user that they are clickable. Also, on hover the buttons change background and text colour to indicate to the user that they are active. The button is linked to the 'Modal' for user convenience.
+    - All *messages* are colour differentiated for the user convenience. The colours are chosen to be in contrast with the Game Field Background and each other.
     
-      ![Navbar](./assets/image/readme_page/navbar_drop_down_menu.webp) <img scr="./assets/image/readme_page/navbar_drop_down_menu.webp" width="75%">
+    ![game-controls](./assets/images/readme/game-controls.gif)
 
-      ![Navbar](./assets/image/readme_page/navbar_medium_screen_active.webp)
+    - *Responsive* design of the *game field* allows user to play the game on any screen size. The game field is adapting to the screen size by changing the size of the images and the size of the buttons. Including the player's choice buttons. 
     
-      ![Navbar](./assets/image/readme_page/navbar_medium_screen_navigating.webp)
-
+    ![game-controls](./assets/images/readme/game-controls-small.gif) 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 -   **The Landing Page Animated panels, Logo and call to action**
 
     - Home Page has been equipped with three side-by-side animated (expanding on hover) panels. These panels are: USAGE, RARE AMBER and GIFTS. Panels are serving not just as a visual fixture, but thematically linked to relevant pages and can be used as navigation points to these pages. There is cursor pointer on hover to guide a user.
