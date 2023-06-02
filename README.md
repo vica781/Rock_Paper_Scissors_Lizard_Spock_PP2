@@ -1,6 +1,8 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 <h1 align="center">Rock Paper Scissors Lizard Spock</h1>
 
+![Mockup](./assets/images/readme/mockup.webp)
+
 [View the live project here](https://vica781.github.io/Rock_Paper_Scissors_Lizard_Spock_PP2/)
 
 ## Overview
@@ -27,8 +29,6 @@ I really hope that, my approach not only provides a new take on this well-loved 
 **The Sensory Combination**: Combining the visual beauty of nature and the harmonious sounds of classical music creates a unique sensory experience that can significantly enhance your relaxation. As you play the game, you're not just engaging your problem-solving skills, you're also immersing yourself in an environment designed to reduce stress and promote positive emotions.
 
 A comprehensive "About" page accompanies my gameplay interface. Dive into the fascinating world of Rock Paper Scissors Lizard Spock and learn about its history, philosophy, educational significance, logical underpinnings, tactical nuances, and much more!
-
-![Mockup](./assets/images/readme/mockup.webp)
 
 ## Index – Table of Contents
 * [User Experience (UX)](#user-experience-ux) 
@@ -100,14 +100,15 @@ Welcome back! I am thrilled to see you again. Dive right back into the game for 
 -   **Audio and Background Change** controls are located on the top of the game field for the convenience of the user. The buttons have a hover effect to indicate to the user that they are clickable. Also, on hover the buttons change background and text colour to indicate to the user that they are active.
      
       ![Audio](./assets/images/readme/audio-bg-controls.gif)
+      <img width= 420,  >
 
 -   **The Game Field** for the convenience of the user located in the centre of the screen . The field is equipped with the following elements:
-    - *Game Field Background* for the user convenience it is of sutable pastel colour and transparency (to allow all elements to be easy readable, as well as allow to see main page background). 
+    - *Game Field Background* for the user convenience and to set clear boundries of the Game Field. It is of a sutable pastel colour and transparency (to allow all elements to be easy readable, as well as allow to see main page background). 
     - *Player Choice" and "Computer Choice" areas* that displaying reflected on the Y-axis images of the corresponding choices.
     - *"Computer Choice" area* has been designed to emitated the movement of the slot machine. The images are changing in a random order and then stop on the final choice. This is to add a bit of excitement to the game.
     - *Game Score* is displayed at the bottom of the game field for the convenience of the user. The score board is displaying player's, computer's and the tie score. The score is updated after each round of the game. The score is reset to 0 after the Game has been restarted by cleacking on the 'Play again?' button.
 
-    -   **Game Rules** - the rules are displayed on the top of the game field for the convenience of the user. The
+    - *Game Rules* - the rules are displayed on the top of the game field for the convenience of the user. The
 
 
       ![Game Controls](./assets/images/readme/game-controls.webp)
