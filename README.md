@@ -141,6 +141,20 @@ Welcome back! I am thrilled to see you again. Dive right back into the game for 
 
     ![modal](./assets/images/readme/modal-small.gif)
 
+-  **The Footer** - has a consistent look and placement on all pages of the website supporting easy navigation and providing user with the links to the social media. The footer is equipped with the following elements:
+    - *Footer Background* of matching to the navigation bar colour for the user convenience and to set clear boundries of the.  
+    - *Social Media Icons* are of contrasting with background colour, matching colour of nav bar heading for concistancy. The icons have a hover effect to indicate to the user that they are clickable. Also, on hover the icons change background and text colour to indicate to the user that they are active. The icons are linked to the corresponding social media web sites in a new window. 
+    - *Footer Text* is minimalistic and consists name of the author and the current year. The text is of contrasting with background colour and matching colour with social media icons for concistancy. 
+
+    ![footer](./assets/images/readme/footer-sm-icons.gif)
+
+    - **Responsive** design of the *footer* allows user to read the content on any screen size. The footer is adapting to the screen size by changing the size of the text and the size of the icons. 
+
+    ![footer](./assets/images/readme/footer-small.gif)
+
+
+-   **The About Page** - The page is equipped with the following elements:
+
 
 <br>
 <br>
