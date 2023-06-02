@@ -126,7 +126,21 @@ Welcome back! I am thrilled to see you again. Dive right back into the game for 
     - **Rules** button is located at the bottom of the game field for the convenience of the user. The button has a hover effect to indicate to the user that they are clickable. Also, on hover the buttons change background and text colour to indicate to the user that they are active. The button is linked to the 'Modal' for user convenience.
     - **Responsive** design of the *game field* allows user to play the game on any screen size. The game field is adapting to the screen size by changing the size of the images and the size of the buttons. Including the player's choice buttons. 
     
-    ![game-controls](./assets/images/readme/game-controls-small.gif) 
+    ![game-controls](./assets/images/readme/game-controls-small.gif)
+    
+-   **The Modal** is located in the centre of the screen for the convenience of the user. By the Game design Modal is automatically displaied on the page load; loctaed at the centre of the Home screen covering the Game Field and preventing any interaction with page elements. The modal is equipped with the following elements:
+    - None transparant white **background** for the user convenience and to set clear boundries of the Modal.  
+    - **Modal Header** intended as welcoming and explanotary message to inform the user about the content of the modal.
+    - **Modal Body** displaying Game Rules in a pentagonal/star shape image, where each of five vertices are representing one of the five game weapons. All weapons/characters connected with each other by the arrows. The arrows are indicating the outcome of the game, for example 'Spock smashes scissors', 'Lizard eats paper' and so on. The lines are colour differentiated for the user convenience. The colours are chosen to be in contrast with the Modal Background and each other.
+    - **Game Controls** - brief explanation of purpose of the Audio and Background Change buttons located at the top of the Game Field.     
+    - **Close** button is located at the bottom of the modal for the user convenience. The name is to inform the user about the function of the button. The desktop users, also, can close Modal by using 'esc' button on the keyboard. 
+        
+    ![modal](./assets/images/readme/modal.gif) 
+
+    - **Responsive** design of the *modal* allows user to read the content on any screen size. The modal is adapting to the screen size by changing the size of the text and the size of the ' Close' button. 
+
+    ![modal](./assets/images/readme/modal-small.gif)
+
 
 <br>
 <br>
