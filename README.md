@@ -94,15 +94,22 @@ Welcome back! I am thrilled to see you again. Dive right back into the game for 
     - *On large* screens buttons are equipped with word description 'Home' and 'About' as well as icons to assist user with navigation. The buttons have a hover effect to indicate to the user that they are clickable. Also, on hover the buttons change background and text colour to indicate to the user that they are active. The Logo has been linked to the Home page for user convenience. 
     
     ![Navbar](./assets/images/readme/nav-bar.gif)
+
     <br>
+
     - *On small and medium* screens the structure of navigation bar is adapting to a size. The logo is removed and the buttons have only icons to indicate 'home' and 'information'. The buttons have a hover effect to indicate to the user that they are clickable. Also, on hover the buttons change background and text colour to indicate to the user that they are active.
+  
     ![Navbar](./assets/images/readme/nav-bar-small.gif) 
+
     <br>
+
 -   **Audio and Background Change** controls are located on the top of the game field for the convenience of the user. The buttons have a hover effect to indicate to the user that they are clickable. Also, on hover the buttons change background and text colour to indicate to the user that they are active.
+
 ![Audio](./assets/images/readme/audio-bg-controls.gif)
+
 <br>   
+
 -   **The Game Field** for the convenience of the user located in the centre of the screen . The field is equipped with the following elements:
-<br>
     - *Game Field Background* for the user convenience and to set clear boundries of the Game Field. It is of a sutable pastel colour and transparency (to allow all elements to be easy readable, as well as allow to see main page background). 
     - *'Player Choice' and 'Computer Choice' areas* that displaying reflected on the Y-axis images of the corresponding choices are distinguished by the individually coloured background. The colours are chosen to be in contrast with the Game Field Background and each other.  
     - *'Computer Choice' area* has been designed to emitated the movement of the slot machine. The images are changing in a random order and then stop on the final choice. This is to add a bit of excitement to the game.
@@ -116,10 +123,11 @@ Welcome back! I am thrilled to see you again. Dive right back into the game for 
   
    ![game-controls](./assets/images/readme/game-controls.gif)
 
-   - *Rules* button is located at the bottom of the game field for the convenience of the user. The button has a hover effect to indicate to the user that they are clickable. Also, on hover the buttons change background and text colour to indicate to the user that they are active. The button is linked to the 'Modal' for user convenience.
-   -  *Responsive* design of the *game field* allows user to play the game on any screen size. The game field is adapting to the screen size by changing the size of the images and the size of the buttons. Including the player's choice buttons. 
+   - **Rules** button is located at the bottom of the game field for the convenience of the user. The button has a hover effect to indicate to the user that they are clickable. Also, on hover the buttons change background and text colour to indicate to the user that they are active. The button is linked to the 'Modal' for user convenience.
+   -  **Responsive** design of the *game field* allows user to play the game on any screen size. The game field is adapting to the screen size by changing the size of the images and the size of the buttons. Including the player's choice buttons. 
     
- ![game-controls](./assets/images/readme/game-controls-small.gif) 
+  ![game-controls](./assets/images/readme/game-controls-small.gif) 
+
 <br>
 <br>
 <br>
