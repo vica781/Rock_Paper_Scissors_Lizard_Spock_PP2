@@ -92,12 +92,12 @@ Welcome back! I am thrilled to see you again. Dive right back into the game for 
       It includes a simple Logo, HOME and ABOUT links and is responsive on multiple screen sizes:  
          
     - *On large* screens buttons are equipped with word description 'Home' and 'About' as well as icons to assist user with navigation. The buttons have a hover effect to indicate to the user that they are clickable. Also, on hover the buttons change background and text colour to indicate to the user that they are active. The Logo has been linked to the Home page for user convenience. 
-
-      ![Navbar](./assets/images/readme/nav-bar.gif)
     
+    ![Navbar](./assets/images/readme/nav-bar.gif)
+    <br>
     - *On small and medium* screens the structure of navigation bar is adapting to a size. The logo is removed and the buttons have only icons to indicate 'home' and 'information'. The buttons have a hover effect to indicate to the user that they are clickable. Also, on hover the buttons change background and text colour to indicate to the user that they are active.
     ![Navbar](./assets/images/readme/nav-bar-small.gif) 
-<br>
+    <br>
 -   **Audio and Background Change** controls are located on the top of the game field for the convenience of the user. The buttons have a hover effect to indicate to the user that they are clickable. Also, on hover the buttons change background and text colour to indicate to the user that they are active.
 ![Audio](./assets/images/readme/audio-bg-controls.gif)
 <br>   
@@ -107,21 +107,21 @@ Welcome back! I am thrilled to see you again. Dive right back into the game for 
     - *'Player Choice' and 'Computer Choice' areas* that displaying reflected on the Y-axis images of the corresponding choices are distinguished by the individually coloured background. The colours are chosen to be in contrast with the Game Field Background and each other.  
     - *'Computer Choice' area* has been designed to emitated the movement of the slot machine. The images are changing in a random order and then stop on the final choice. This is to add a bit of excitement to the game.
     - *Game Score* is displayed at the bottom of the game field for the convenience of the user. The score board is displaying player's, computer's and the tie score. The score is updated after each round of the game. The score is reset to 0 after the Game has been restarted by cleacking on the 'Play again?' button. Player is prompted to restart the game after the total Score reaches 20.
-        
-    <ins>MESSAGES:<ins>
+    -  *Messages*
+       - *Ready when you are!* message placed in the centre of the game field to indicate to the user that they need to make a choice. The message is located immediately under the Player's and Computer's choice fields and above 'Take a Pick!' message.
+       - *Take a Pick!* message placed in the centre of the game field to indicate to the user that they need to make a choice. The message is located above five buttons with the icons/images of the choices accompanied with the worded name. The buttons have a hover effect to indicate to the user that they are clickable. Also, on hover the buttons change background and text colour to indicate to the user that they are active.
+       - *You have chosen...* message, replacing 'Ready when you are!' message as soon as player made the choice by clicking on the button of thier prefered choice of the weapon, to confirm to the user the type of the weapon they have choosen. This message stays on the screen until the computer makes it's choice.
+       - *The outcome message* replacing 'You have chosen...' message as soon as computer made it's choice. The message is informing the user about the outcome of the round. The message is combyning the rule relevant to the weapons chosen in the round ('Spock smashes scissors', 'Lizard eats paper' and so on) and anounces the winner 'You won!' or 'Computer wins!'. Also, in the event of weapons of choice beeing the same, player being informed by the 'It's a tie' message accompanied by the icon of a handshacke. The message is staying on the screen until the user makes a new weapon cnoice or clicks on the 'Play again?' button.
+       - All *messages* are colour differentiated for the user convenience. The colours are chosen to be in contrast with the Game Field Background and each other.
+     -  *Rules* button is located at the bottom of the game field for the convenience of the user. The button has a hover effect to indicate to the user that they are clickable. Also, on hover the buttons change background and text colour to indicate to the user that they are active. The button is linked to the 'Modal' for user convenience.
+
     
-    - *Ready when you are!* message placed in the centre of the game field to indicate to the user that they need to make a choice. The message is located immediately under the Player's and Computer's choice fields and above 'Take a Pick!' message.
-    - *Take a Pick!* message placed in the centre of the game field to indicate to the user that they need to make a choice. The message is located above five buttons with the icons/images of the choices accompanied with the worded name. The buttons have a hover effect to indicate to the user that they are clickable. Also, on hover the buttons change background and text colour to indicate to the user that they are active.
-    - *You have chosen...* message, replacing 'Ready when you are!' message as soon as player made the choice by clicking on the button of thier prefered choice of the weapon, to confirm to the user the type of the weapon they have choosen. This message stays on the screen until the computer makes it's choice.
-    - *The outcome message* replacing 'You have chosen...' message as soon as computer made it's choice. The message is informing the user about the outcome of the round. The message is combyning the rule relevant to the weapons chosen in the round ('Spock smashes scissors', 'Lizard eats paper' and so on) and anounces the winner 'You won!' or 'Computer wins!'. Also, in the event of weapons of choice beeing the same, player being informed by the 'It's a tie' message accompanied by the icon of a handshacke. The message is staying on the screen until the user makes a new weapon cnoice or clicks on the 'Play again?' button.
-    - *Rules* button is located at the bottom of the game field for the convenience of the user. The button has a hover effect to indicate to the user that they are clickable. Also, on hover the buttons change background and text colour to indicate to the user that they are active. The button is linked to the 'Modal' for user convenience.
-    - All *messages* are colour differentiated for the user convenience. The colours are chosen to be in contrast with the Game Field Background and each other.
     
-    ![game-controls](./assets/images/readme/game-controls.gif)
+  ![game-controls](./assets/images/readme/game-controls.gif)
 
-    - *Responsive* design of the *game field* allows user to play the game on any screen size. The game field is adapting to the screen size by changing the size of the images and the size of the buttons. Including the player's choice buttons. 
+   - *Responsive* design of the *game field* allows user to play the game on any screen size. The game field is adapting to the screen size by changing the size of the images and the size of the buttons. Including the player's choice buttons. 
     
-    ![game-controls](./assets/images/readme/game-controls-small.gif) 
+ ![game-controls](./assets/images/readme/game-controls-small.gif) 
 <br>
 <br>
 <br>
@@ -132,52 +132,6 @@ Welcome back! I am thrilled to see you again. Dive right back into the game for 
 <br>
 <br>
 <br>
--   **The Landing Page Animated panels, Logo and call to action**
-
-    - Home Page has been equipped with three side-by-side animated (expanding on hover) panels. These panels are: USAGE, RARE AMBER and GIFTS. Panels are serving not just as a visual fixture, but thematically linked to relevant pages and can be used as navigation points to these pages. There is cursor pointer on hover to guide a user.
-
-    - The choice of images on the Landing Page was not accidental. Images were selected to convey a sense of curiosity through an unusual (in relation to a traditional understanding of amber) objects like violin, beautiful blue stones and impressive ring with a green stone. On selection of the Landing Page images a colours chime has been taken in consideration too.  
-
-    ![Landing Area](./assets/image/readme_page/animated_panels.webp) 
-    <img scr="./assets/image/readme_page/animated_panels.webp" width="75%">
-
--   **Logo**
-
-    - **Discover Amber** - website Logo has been linked to home page for user convenience.   
-    - The Logo **Discover Amber** in connection with Landing Page **animated panels**, occupying the central part of the screen, together are eye-catching call to action to go ahead and explore.  
-
--   **Gifts Page Image Gallery**
-
-    - Images in the gallery are accompanied by information at the back of the image to provide user with a descriptive information about the materials were used to produce it, size and colour scheme. As the size of the images varies as well as the amount of the content, the information cards at the back of the images equipped by a scroll bar for convenience of the user.
-
-    ![Gallery](./assets/image/readme_page/gifts_page_gallery.webp)
-    <img scr="./assets/image/readme_page/gifts_page_gallery" width="60%">
-    
--   **Back-to-top button** on Gifts Page
-
-    - **Gifts Gallery** page equipped with back-to-top button to assist user and give opportunity to return to the top of the page in one click. 
-
-    ![Gallery](./assets/image/readme_page/gifts_page_gallery_1.webp)  
-
--   **Footer**
-
-    - For consistancy and intuativeness of brousing, as expected by user, **footer** has been placed at the bottom of all six pages (that including "Error" 404 page).
-      - Footer provides user with an oportunity to follow the website on social media platforms.
-      - Also, footer displays ways to contact website owner.
-      - At the very bottom part of the footer has been placed a **disclaimer** stating that the website is created strictly for educational purposes as a part of Full Stack 
-        Development Cours with Code Institute. This is to indicate that this is not a 'real' website and no materials (images, text, information, etc.) obtained from the various Internet resources under no circumstances are going to be used for the commercial purposes.   
-
-     ![Footer](./assets/image/readme_page/footer.webp)
-
--   **Contact Me Page**
-
-      - The 'Send Me a message' from of the Contact Me page allows the user to send a message, ask question or give feedback.
-        - The user is asked to provide their name, email address and telephone number.
-        - Sending the message will result in a new tab showing the results (at the moment the user is simply shown the formdump.codeinstitute.net page with the data they 
-          submitted displayed)
-        
-    ![Send me a message](./assets/image/readme_page/comtactme_form.webp)
-
 ## **FEATURES WHICH COULD BE IMPLEMENTED IN THE FUTURE**
 
 -  **Logo Image** next to Discover Amber Logo corresponding with website's favicon. This is should be an easy fix, but I was not able to find that fix despite multiple  
