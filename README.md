@@ -8,6 +8,7 @@
 Welcome to my website **Rock, Paper, Scissors, Lizard, Spock**. This website is Portfolio Project 2 (JavaScript Essentials) of five Milestone Projects required to complete the Diploma of Full Stack Software Development with The Code Institute.
 
 **Project purpose**: Presentation of interactive data.
+
 **Required**: HTML, CSS, JavaScript.
 
 **The main requirement** of this project is to build an interactive front-end site applying all of the technologies learned so far, namely HTML5, CSS3 and JavaScript. 
@@ -86,13 +87,19 @@ Welcome back! I am thrilled to see you again. Dive right back into the game for 
 
 -   **Navigation Bar**
 
-    - The navigation bar has a consistent look and placement on all five pages of the website supporting easy navigation.
+    - The navigation bar has a consistent look and placement on all pages of the website supporting easy navigation.
     
-      It includes a simple Logo, HOME, USAGE, RARE AMBER, GIFRS and CONTACT ME links and is responsive on multiple screen sizes.  
+      It includes a simple Logo, HOME and ABOUT links and is responsive on multiple screen sizes:  
          
-    - *On a large* screens tabs for all pages are visible;
+    - *On large* screens buttons are equipped with word description 'Home' and 'About' as well as icons to assist user with navigation. The buttons have a hover effect to indicate to the user that they are clickable. Also, on hover the buttons change background and text colour to indicate to the user that they are active.
+
+      ![Navbar](./assets/images/readme/nav-bar.gif)
     
-      ![Navbar](./assets/image/readme_page/navbar_large_screen_acrive.webp)
+    - *On small and medium* screens the structure of navigation bar is adapting to a size. The logo is removed and the buttons have only icons to indicate 'home' and 'information'. The buttons have a hover effect to indicate to the user that they are clickable. Also, on hover the buttons change background and text colour to indicate to the user that they are active. 
+
+    ![Navbar](./assets/images/readme/nav-bar-small.gif)
+    
+      ![Game Controls](./assets/images/readme/game-controls.webp)
     - *Active page* tab is identified as a button of orange colour;
     
       ![Navbar](./assets/image/readme_page/navbar_large_screen_navigating.webp)
