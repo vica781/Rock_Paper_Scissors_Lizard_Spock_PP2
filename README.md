@@ -95,7 +95,8 @@ Welcome back! I am thrilled to see you again. Dive right back into the game for 
 
       ![Navbar](./assets/images/readme/nav-bar.gif)
     
-    - *On small and medium* screens the structure of navigation bar is adapting to a size. The logo is removed and the buttons have only icons to indicate 'home' and 'information'. The buttons have a hover effect to indicate to the user that they are clickable. Also, on hover the buttons change background and text colour to indicate to the user that they are active. 
+    - *On small and medium* screens the structure of navigation bar is adapting to a size. The logo is removed and the buttons have only icons to indicate 'home' and 'information'. The buttons have a hover effect to indicate to the user that they are clickable. Also, on hover the buttons change background and text colour to indicate to the user that they are active.
+    ![Navbar](./assets/images/readme/nav-bar-small.gif) 
 <br>
 -   **Audio and Background Change** controls are located on the top of the game field for the convenience of the user. The buttons have a hover effect to indicate to the user that they are clickable. Also, on hover the buttons change background and text colour to indicate to the user that they are active.
 ![Audio](./assets/images/readme/audio-bg-controls.gif)
