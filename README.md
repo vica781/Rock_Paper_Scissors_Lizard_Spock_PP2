@@ -200,13 +200,22 @@ Welcome back! I am thrilled to see you again. Dive right back into the game for 
 
     <br> 
 
--  **The 404 Page**  
+-  **The 404 Page** is equipped with the following elements:
+  - **404 Page Background** have been consiously left white to allow user to focus on the content of the page.
+  - **Header** and **Footer** are of the same design as on the other pages of the website for the user convenience and concistance.
+  - **404 Page Content** have been intended as a joke to make the user smile and not to feel frustrated. The content is of a sutable size and quality to be easy readable and not to slow down the page loading. The content is accompanied by the **humorously distorted image** of all five game weapons - Rock, Paper, Scissors, Lizard and Spock. A **simple message** is intended to inform the user that the page they are looking for does not exist. The message is accompanied by the **link to the Home Page** for user convenience.  
+
+    ![404](./assets/images/readme/404-page-features.gif)
+  
+  - **Responsive** design of the *404 page* allows user to read the content on any screen size. The 404 page is adapting to the screen size by changing the size of the text and the size of the icons. 
+
+    ![404](./assets/images/readme/404-page-features-small.gif)
       
-    <br>
+  <br>
 
-    [Back to top ⇧](#index--table-of-contents)
+  [Back to top ⇧](#index--table-of-contents)
 
-    <br>
+  <br>
 
 
 <br>
