@@ -33,6 +33,8 @@ A comprehensive "About" page accompanies my gameplay interface. Dive into the fa
 ## Index – Table of Contents
 * [User Experience (UX)](#user-experience-ux) 
 * [Features](#features)
+  * [Existing Features](#existing-features)
+  * [Future Features](#possible-future-features)
 * [Design](#design)
 * [Technologies Used](#technologies-used)
 * [Testing](#testing)
@@ -217,57 +219,47 @@ Welcome back! I am thrilled to see you again. Dive right back into the game for 
 
   <br>
 
+## **Possible Future Features**
+
+I remember as a child playing the game Rock Paper Scissors with my friends. We used to play it with our hands. And up until this project, I didn't really know that there were more than three weapons in the game. I have learned that there are five weapons in the game Rock Paper Scissors Lizard Spock. 
+
+- **Even more Extended Version of the Game?**  
+Creating this game was a great experience for me. I have learned that there are even more extended versions of "Rock Paper Scissors," such as the 25-gesture game "Rock Paper Scissors Spock Lizard Cthulhu Poseidon Fire Water Air Sponge Wolf Tree Human Snake Dragon Devil Lightning Gun Chainsaw School Light darkness Dragon Monkey," where each choice has 12 others that it can beat and 12 that it can lose to.
+<br>
+
+  Such extended versions increase the complexity of the game and the number of possible outcomes, but they can also become quite hard to remember and play without a reference guide. So, while it's possible to create an even more extended version than "Rock Paper Scissors Lizard Spock," the trade-off in complexity might outweigh the novelty or fun of the game.
 
 <br>
+
+- **Or, perhaps, back to Classic Game?**  
+  To allow user to make a choice between the Classic, Extended and Extra Extended versions of the game. 
+
 <br>
+
+Furthermore, whilst thinking about the future development of the game, I am aware that it would be a right think to remember, that the key to adding new features is to always keep my target audience in mind. I need to make sure that the features enhance the relaxation aspect of the game rather than distract from it.
+
+With this in mind, below is the list of possible Etra Features that could be  added to the game in the future:
+
+1. **Variety of Backgrounds and Music**: Give players the ability to choose their own nature background and classical music. You could even pair certain music with certain backgrounds and label them as different "moods." For example, a "calm" mood could have a serene nature background and soothing classical music, while an "energetic" mood could have a more vibrant nature background and upbeat classical music. This would allow players to customize their experience and choose the mood that best suits them. For that reason I already equipped the game with the button "Change Mood" that allows user to change the background.
+2. **Meditation or Breathing Exercises**: Between rounds, guide players through short, simple meditation or breathing exercises. This could enhance the relaxation aspect of the game.
+3. **Relaxation Timer**: Implement a feature where players can set how long they want to play/relax for. After the set amount of time, the game could stop and encourage the player to take a break. This could help players avoid burnout and promote healthy gaming habits. 
+4. **Game Variations**: Add different versions of Rock Paper Scissors games, like the aforementioned 25-gesture version or simpler 3-gesture version, and let players choose which one they want to play. This could be done by adding a dropdown menu where players can select the game variation they want to play.
+5. **AI Difficulty Levels**: Have different levels of difficulty for the computer player, ranging from very easy to very hard. This could allow players to choose the level of challenge they want. This oprion could be added to a dropdown menu with other variations of the game (from paragraph 4) where players can select the difficulty level they want to play against.
+6. **Video Tutorial**: As Rock Paper Scissors Lizard Spock can be complex to new players (emagine a 25-gesture version :)), having an interactive tutorial or easily accessible game rules can be helpful. This could be done by adding a button that linked to a video tutorial.
+7. **Multiplayer Mode**: Enable the option for players to play with friends remotely. This could provide a shared relaxation experience. 
+8. **Leaderboards**: Allow players to compete against each other or try to beat their own high scores. This could be done by adding a database to the game and allowing players to submit their scores. The scores could then be displayed on a leaderboard. 
+9. **Achievements**: Create a system where players can unlock achievements based on various things like winning streaks, total wins, playing all game variations, etc. This could add a competitive element to the game and encourage players to keep playing. 
+10. **Customization**: Allow players to customize their own avatar or gameboard. This could be done by adding a button that linked to a customization screen.
+11. **In-Game Store**: Add a shop where players can use points earned from games to buy new backgrounds, music, or avatars. This could provide an incentive for players to keep playing and earn more points.
+ 
+
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-## **FEATURES WHICH COULD BE IMPLEMENTED IN THE FUTURE**
 
--  **Logo Image** next to Discover Amber Logo corresponding with website's favicon. This is should be an easy fix, but I was not able to find that fix despite multiple  
-   different attempts 
-   ![favicon_logo](./assets/image/readme_page/favicon_logo_discover_amber.webp)
+  [Back to top ⇧](#index--table-of-contents)
 
-   - Just, as I writing this lines, decidet to try again. Below is the results:
-     - The navigation tabs moved to the line under the nav-bar. 
-
-   ![favicon_logo](./assets/image/readme_page/issues/favicon_logo_discover_amber_issue.webp) 
-   
-     - The 'hamburger' menu background with the content displaysed on all screen sizes, for some widths worth than others. 
-       The decision has been made to return back to previous layout and work on the improvement at the later date.
-   
-   ![favicon_logo](./assets/image/readme_page/issues/favicon_logo_discover_amber_issue_1.webp) 
-   <img scr="./assets/image/readme_page/gifts_page_gallery" width="60%">
-   
-   ![favicon_logo](./assets/image/readme_page/issues/favicon_logo_discover_amber_issue_2.webp)
-
-- **History Page** - the original design of the website, until last few days before the Project dead line, contained four animated panels on the Landing Page. Realising that I have over estimated my abilities, experience and personal circumstances, I had to take note of advice and 'cut down' on the volume of the website. As the History Page was not quite finished, I made a decision to save it for the later development. The page originally meant to contain natural history of the amber, physical and chemical properties; information about amber inclusions and value they present to the modern scientist.
-   ![Histori_Page](./assets/image/readme_page/issues/history_home.png)
-
-   ![History_Page](./assets/image/readme_page/issues/history.png)    
-
-- **Scrolling Background** - I would like to learn how to stop background to scroll behind 'hamburger' menu when the latter is in use. I have studied some resources and tried to implement few suggestions, but the issue is still remaining.
-
-   ![scrolling_background](./assets/image/readme_page/issues/scrolling_background.png) 
-
-- **Language Button** - there are few reasons I would liked to add a Language button to my website:
-  - Amber is mined in many regions of the world, but the largest deposit is on the Baltic Sea, in the Kaliningrad region. The Kaliningrad Amber Combine is the only official amber mine in Russia and accounts for 65% of the global amber market. Region holds 90% of the world's extractable amber. Also, it is a popular tourist region and widely visited by tourists from many countries, the local users can find the website useful and interesting too.
-  -	Perhaps, it would be beneficial to the users from other non-English speaking countries to be able to have choice of a language.
-  -	As a bilingual speaker, I am proud of my roots and love my first language. English is not my first language and I would like to share my progress in this Course with my family and friends, but not all of them are fluent in English.
-
-- **Usage Page** - taking in concideration the aim of this project and the time given, I have only mentioned a tiny fraction of the areas where humans found aplication for amber. There is still so much I would like to share with the user. Amber has been used by humans since ancient times. It is studied by geologists, palaeontologists and geochemists. The use of amber in medicine, cosmetology, pharmacology and perfume industry deserves a separate website! Also, there are many legends and folks’ stories about the amber.
-
-- **Gifts Page** - perhaps, can be improved as well be providing user with the links to the websites where they can find products displayed in the gallery. Also, due to the many reasons, I was not able to provide every image with the description. Hence, that can be added at a later stage.
-
-Also, I would like to address the following: 
-   - There is corsoure pointer abailable on a screen when using Gifts' Page gallery. That aid user intuitevelly know that there is something to check/click.
-   - Unfortunatelly, when exploring Gifts' Page gallery on a mobile device, there are no obveouse clues that there is the content at the back of some images. 
+  <br>
+  
+  
          
 ## **DESIGN**
 
