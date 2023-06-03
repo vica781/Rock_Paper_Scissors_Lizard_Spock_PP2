@@ -82,6 +82,8 @@ Welcome back! I am thrilled to see you again. Dive right back into the game for 
 4. As a returning visitor, I want a consistent, user-friendly interface where I can easily navigate to my desired sections. 
 5. As a returning visitor, I want to engage more with the community, either through forums, comments, or social media links, sharing my experience or strategies in playing the game.
 
+[Back to top ⇧](#index--table-of-contents)
+
 ##  **FEATURES**
 
 ### **Existing Features**
@@ -94,13 +96,17 @@ Welcome back! I am thrilled to see you again. Dive right back into the game for 
          
     - *On large* screens buttons are equipped with word description 'Home' and 'About' as well as icons to assist user with navigation. The buttons have a hover effect to indicate to the user that they are clickable. Also, on hover the buttons change background and text colour to indicate to the user that they are active. The Logo has been linked to the Home page for user convenience. 
     
-    ![Navbar](./assets/images/readme/nav-bar.gif)
+      ![Navbar](./assets/images/readme/nav-bar.gif)
 
     <br>
 
     - *On small and medium* screens the structure of navigation bar is adapting to a size. The logo is removed and the buttons have only icons to indicate 'home' and 'information'. The buttons have a hover effect to indicate to the user that they are clickable. Also, on hover the buttons change background and text colour to indicate to the user that they are active.
   
-    ![Navbar](./assets/images/readme/nav-bar-small.gif) 
+      ![Navbar](./assets/images/readme/nav-bar-small.gif) 
+
+    <br>
+
+    [Back to top ⇧](#index--table-of-contents)
 
     <br>
 
@@ -124,10 +130,18 @@ Welcome back! I am thrilled to see you again. Dive right back into the game for 
   
       ![game-controls](./assets/images/readme/game-controls.gif)
 
+      <br>
+
     - **Rules** button is located at the bottom of the game field for the convenience of the user. The button has a hover effect to indicate to the user that they are clickable. Also, on hover the buttons change background and text colour to indicate to the user that they are active. The button is linked to the 'Modal' for user convenience.
     - **Responsive** design of the *game field* allows user to play the game on any screen size. The game field is adapting to the screen size by changing the size of the images and the size of the buttons. Including the player's choice buttons. 
     
-    ![game-controls](./assets/images/readme/game-controls-small.gif)
+      ![game-controls](./assets/images/readme/game-controls-small.gif)
+
+      <br>
+
+    [Back to top ⇧](#index--table-of-contents)
+
+    <br>
     
 -   **The Modal** is located in the centre of the screen for the convenience of the user. By the Game design Modal is automatically displaied on the page load; loctaed at the centre of the Home screen covering the Game Field and preventing any interaction with page elements. The modal is equipped with the following elements:
     - None transparant white **background** for the user convenience and to set clear boundries of the Modal.  
@@ -136,11 +150,17 @@ Welcome back! I am thrilled to see you again. Dive right back into the game for 
     - **Game Controls** - brief explanation of purpose of the Audio and Background Change buttons located at the top of the Game Field.     
     - **Close** button is located at the bottom of the modal for the user convenience. The name is to inform the user about the function of the button. The desktop users, also, can close Modal by using 'esc' button on the keyboard. 
         
-    ![modal](./assets/images/readme/modal.gif) 
+      ![modal](./assets/images/readme/modal.gif) 
 
     - **Responsive** design of the *modal* allows user to read the content on any screen size. The modal is adapting to the screen size by changing the size of the text and the size of the ' Close' button. 
 
-    ![modal](./assets/images/readme/modal-small.gif)
+      ![modal](./assets/images/readme/modal-small.gif)
+
+      <br>
+
+    [Back to top ⇧](#index--table-of-contents)
+
+    <br>
 
 -  **The Footer** - has a consistent look and placement on all pages of the website supporting easy navigation and providing user with the links to the social media. The footer is equipped with the following elements:
     - *Footer Background* of matching to the navigation bar colour for the user convenience and to set clear boundries of the.  
@@ -152,6 +172,12 @@ Welcome back! I am thrilled to see you again. Dive right back into the game for 
     - **Responsive** design of the *footer* allows user to read the content on any screen size. The footer is adapting to the screen size by changing the size of the text and the size of the icons. 
 
     ![footer](./assets/images/readme/footer-small.gif)
+
+    <br>
+
+    [Back to top ⇧](#index--table-of-contents)
+
+    <br>
 
 
 -   **The About Page** - The page is equipped with the following elements:
