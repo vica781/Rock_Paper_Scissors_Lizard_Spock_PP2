@@ -129,9 +129,7 @@ Welcome back! I am thrilled to see you again. Dive right back into the game for 
         - All **messages** are colour differentiated for the user convenience. The colours are chosen to be in contrast with the Game Field Background and each other.  
   
       ![game-controls](./assets/images/readme/game-controls.gif)
-
-      <br>
-
+     
     - **Rules** button is located at the bottom of the game field for the convenience of the user. The button has a hover effect to indicate to the user that they are clickable. Also, on hover the buttons change background and text colour to indicate to the user that they are active. The button is linked to the 'Modal' for user convenience.
     - **Responsive** design of the *game field* allows user to play the game on any screen size. The game field is adapting to the screen size by changing the size of the images and the size of the buttons. Including the player's choice buttons. 
     
@@ -167,11 +165,11 @@ Welcome back! I am thrilled to see you again. Dive right back into the game for 
     - *Social Media Icons* are of contrasting with background colour, matching colour of nav bar heading for concistancy. The icons have a hover effect to indicate to the user that they are clickable. Also, on hover the icons change background and text colour to indicate to the user that they are active. The icons are linked to the corresponding social media web sites in a new window. 
     - *Footer Text* is minimalistic and consists name of the author and the current year. The text is of contrasting with background colour and matching colour with social media icons for concistancy. 
 
-    ![footer](./assets/images/readme/footer-sm-icons.gif)
+      ![footer](./assets/images/readme/footer-desktop.gif)
 
     - **Responsive** design of the *footer* allows user to read the content on any screen size. The footer is adapting to the screen size by changing the size of the text and the size of the icons. 
 
-    ![footer](./assets/images/readme/footer-small.gif)
+      ![footer](./assets/images/readme/footer-small.gif)
 
     <br>
 
