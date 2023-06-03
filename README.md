@@ -129,7 +129,7 @@ Welcome back! I am thrilled to see you again. Dive right back into the game for 
         - All **messages** are colour differentiated for the user convenience. The colours are chosen to be in contrast with the Game Field Background and each other.  
   
       ![game-controls](./assets/images/readme/game-controls.gif)
-     
+           
     - **Rules** button is located at the bottom of the game field for the convenience of the user. The button has a hover effect to indicate to the user that they are clickable. Also, on hover the buttons change background and text colour to indicate to the user that they are active. The button is linked to the 'Modal' for user convenience.
     - **Responsive** design of the *game field* allows user to play the game on any screen size. The game field is adapting to the screen size by changing the size of the images and the size of the buttons. Including the player's choice buttons. 
     
@@ -178,7 +178,35 @@ Welcome back! I am thrilled to see you again. Dive right back into the game for 
     <br>
 
 
--   **The About Page** - The page is equipped with the following elements:
+-   The idea of **The About Page** have been prompted by my passion for learning and understanding different concepts and facts. I have decided to share my findings with the user. The page is equipped with the following elements:
+
+    ![about](./assets/images/readme/about-page-features.gif)
+
+      - **About Page Background** have been consiously left white to allow user to focus on the content of the page. 
+      - **Header** and **Footer** are of the same design as on the other pages of the website for the user convenience and concistance.
+      - **About Page Content** is divided into six sections that has been linked to the corresponding locations on the page and organised into a **Table of Contents**.
+      - The content of About Page have been broken by **Images** to make the page more interesting and visually appealing. The images are of a sutable size and quality to be easy readable and not to slow down the page loading.
+      - The content of About Page have been supplyed with **Links** to the corresponding web sites containing additional information. The links are opening in a new window.
+      - **Back-to-top Button** have been added for the user convenience. The button has a hover effect to indicate to the user that they are clickable. Also, on hover the button change background and text colour to indicate to the user that they are active. The button is linked to the Table of Contents for user convenience.    
+      - **Responsive** design of the *about page* allows user to read the content on any screen size. The about page is adapting to the screen size by changing the size of the text and the size of the icons. 
+
+    <br>
+
+      ![about](./assets/images/readme/about-page-features-small.gif)
+
+    <br>
+
+    [Back to top ⇧](#index--table-of-contents)
+
+    <br> 
+
+-  **The 404 Page**  
+      
+    <br>
+
+    [Back to top ⇧](#index--table-of-contents)
+
+    <br>
 
 
 <br>
