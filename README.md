@@ -59,7 +59,8 @@ To a current users, thank you for your continued support! Challenge yourself wit
 <ins>Returning Users<ins>
 
 Welcome back! I am thrilled to see you again. Dive right back into the game for enjoyment and relaxation, or take your time to explore an updated collection of serene backgrounds and calming classical music. Reconnect with the simplicity and joy of Rock Paper Scissors Lizard Spock today!
- 
+
+[Back to top ⇧](##index-table-of-contents) 
 
 ## **USER STORIES**
 
