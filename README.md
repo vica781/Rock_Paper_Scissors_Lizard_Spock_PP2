@@ -1,7 +1,7 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 <h1 align="center">Rock Paper Scissors Lizard Spock</h1>
 
-![Mockup](./assets/images/readme/mockup.webp)
+![Mockup](./assets/images/readme/readme-features/mockup.webp)
 
 [View the live project here](https://vica781.github.io/Rock_Paper_Scissors_Lizard_Spock_PP2/)
 
