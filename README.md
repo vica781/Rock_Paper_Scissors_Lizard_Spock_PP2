@@ -36,6 +36,10 @@ A comprehensive "About" page accompanies my gameplay interface. Dive into the fa
   * [Existing Features](#existing-features)
   * [Future Features](#possible-future-features)
 * [Design](#design)
+  * [Imagery](#imagery)
+  * [Colour Scheme](#colour-scheme)
+  * [Typography](#typography)
+  * [Wireframes](#wireframes)
 * [Technologies Used](#technologies-used)
 * [Testing](#testing)
 * [Deployment](#deployment)
@@ -179,7 +183,6 @@ Welcome back! I am thrilled to see you again. Dive right back into the game for 
 
     <br>
 
-
 -   The idea of **The About Page** have been prompted by my passion for learning and understanding different concepts and facts. I have decided to share my findings with the user. The page is equipped with the following elements:
 
     ![about](./assets/images/readme/about-page-features.gif)
@@ -257,56 +260,95 @@ With this in mind, below is the list of possible Etra Features that could be  ad
 
   [Back to top ⇧](#index--table-of-contents)
 
-  <br>
-  
-  
-         
+<br>
+           
 ## **DESIGN**
 
--   ### Imagery
+### Imagery
 
-    -  The images for the *Landing Page* have been chosen as they are eye-catching, sutable thematically, perfect colour vise and intriguing/inviting to discover what connecting them to amber. These images help to keep page simple, slick and inviting to explore. 
+Choice of images has been dictated by the intended purpouse of the game as well as by the desire to make the game visually appealing and interesting. 
+- My choice of **background images** have been made in line with my desire to provide user oportunity to unwind and destress. I have chosen images of nature, specifically macro photography of birds' feathers, colourful fish and butterfly scales, fascinating close-ups of mushrooms, and different plants as they are known to have a calming effect on the mind and body. Some of the images I have done in my back garden; others in a near by forest. Few more images were found on the internet, and some created with the help of https://labs.openai.com/. The images are of a sutable size and quality to be easy readable and not to slow down the page loading.  
 
-    -  *Gifts Page* - a special consideration has been given to the images on this page. To follow the general style of the website and continuity, images were chosen on a white background. On it's turn that dictated some styling difficulties. After adding appropriately selected background colour and creating masonry gallery, I have realised that the page looks like ordinary Google search page. The aim was to provide user with unusual, original, exciting (even for the familiar with amber user) and useful information. That is how the idea of the gallery of the images with descriptive information at the back was born.  
-   
--   ### Colour Scheme
+  ![Imagery](./assets/images/readme/readme-imagery/imagery-backgrounds.webp)
 
-    -  Amber is a fossilized resin that can vary in colour, ranging from yellow to brown to reddish orange. The colour of amber is influenced by the type of tree it came from and the location where it was formed, as well as other factors such as the presence of impurities and the amount of time it has been exposed to sunlight. 
+- My choice of **game weapons images** have been dictated by the style of the background images and style of the game. I have consciously avoided using cartoon based images as they would not be in line with the style of the game. I have chosen images of the weapons that are easy to recognise and remember. Also, special concideration has been given to colours of all weapons to insure a harmony with background images. The images are of a sutable size and quality to be easy readable and not to slow down the page loading.
+
+  ![Imagery](./assets/images/readme/readme-imagery/imagery-characters.webp)
+
+- The idea of **Logo** and **Fav icon** came from this page https://ktane.timwi.de/HTML/Rock-Paper-Scissors-Lizard-Spock.html. I have chosen this image as it is simple, easy to remember and recognise. I have used Paint 3D app to adapt it to the design of the game. The image is of a sutable size and quality to be easy readable and not to slow down the page loading. 
+
+  ![Imagery](./assets/images/readme/readme-imagery/logo-fav-icon.webp)
+
+- Inspiration for **Modal Rules** pentagonal diagram came from this page https://www.instructables.com/How-to-Play-Rock-Paper-Scissors-Lizard-Spock/. I have chosen this image as it is compact, better sutable to fit inside of a modal. I have used Paint 3D app to adapt it to the design of the game. The image is of a sutable size and quality to be easy readable and not to slow down the page loading. 
+
+  ![Imagery](./assets/images/readme/readme-imagery/imagery-rules-pentagon.webp)  
+
+- Inspiration for another set of **Rules** used on About page have been found on this page https://www.etsy.com/uk/listing/755449520/rock-paper-scissors-lizard-spock-svg-png. I have used Paint 3D app to adapt it to the design of the game. The image is of a sutable size and quality to be easy readable and not to slow down the page loading. 
+
+  ![Imagery](./assets/images/readme/readme-imagery/imagery-rules-list.webp)
+
+<br>
+
+  [Back to top ⇧](#index--table-of-contents)
+
+<br>
     
-    -  Rare amber colours include green, blue, and violet. These colours are caused by the presence of different impurities in the resin, such as iron, copper, or chlorine. Blue and green amber are highly prized for their rarity and beauty. These colours are often found in smaller pieces and are therefore more expensive than the more common yellow to brown ambers.
+    
 
-    Above facts had influence on my decisions when I was selecting images, specifically Landing Page once, deciding on the colours of navigation bar buttons and 'hamburger' menu background.
 
-    ![Colour_Scheme](./assets/image/readme_page/colours_choice_2.webp) 
 
-    ![Colour_Scheme](./assets/image/readme_page/colours_choice_3.webp)
+   
+   
+### Colour Scheme
 
-    Initially, I have chosen colours intuitively. Then, I have used ColorPick Eyedropper and Color Picker from Chrome, and image with multicoloured amber to check if my choice was a good one. 
+  -  Amber is a fossilized resin that can vary in colour, ranging from yellow to brown to reddish orange. The colour of amber is influenced by the type of tree it came from and the location where it was formed, as well as other factors such as the presence of impurities and the amount of time it has been exposed to sunlight. 
+    
+  -  Rare amber colours include green, blue, and violet. These colours are caused by the presence of different impurities in the resin, such as iron, copper, or chlorine. Blue and green amber are highly prized for their rarity and beauty. These colours are often found in smaller pieces and are therefore more expensive than the more common yellow to brown ambers.
 
-    Also, I have used to check my colour palette inspiration by using ColorSpace - Color Palettes [Generator_and_Color_Gradient_Tool](https://mycolor.space/?hex=%23E4782B&sub=1)
+  Above facts had influence on my decisions when I was selecting images, specifically Landing Page once, deciding on the colours of navigation bar buttons and 'hamburger' menu background.
+
+  ![Colour_Scheme](./assets/image/readme_page/colours_choice_2.webp) 
+
+  ![Colour_Scheme](./assets/image/readme_page/colours_choice_3.webp)
+
+  Initially, I have chosen colours intuitively. Then, I have used ColorPick Eyedropper and Color Picker from Chrome, and image with multicoloured amber to check if my choice was a good one. 
+
+  Also, I have used to check my colour palette inspiration by using ColorSpace - Color Palettes [Generator_and_Color_Gradient_Tool](https://mycolor.space/?hex=%23E4782B&sub=1)
 
     ![Colour_Scheme](./assets/image/readme_page/colours_choice.webp)
 
     ![Colour_Scheme](./assets/image/readme_page/amber_2.jpg) 
 
     ![Colour_Scheme](./assets/image/readme_page/colours_choice_1.webp)
+
+    <br>
+
+  [Back to top ⇧](#index--table-of-contents)
+
+    <br>
    
--   ### Typography
+### Typography
 
-    -   Google Fonts were used to import Oswald and Montserrat fonts into styles.css.  
-    -   These were chosen as they work well together and have a simple, unembellished, modern feel that is easy to read.
-    -   At the start of the design I tried to choose fonts Google Fonts manually, but found this approach impractical and time consuming. I can recall that whilst working on Love Running project in one of the videos Google Font had feature of paring fonts. Unfortunately, this function is not available now (as a least, I have not been able to find it); and users have to pick fonts manually. 
-    -   My student son did not approve choice of the fonts I made. Therefore, I and my son tried to research the topic of good font choices. Reading through several resources, I liked information provided at Sergei Davidov on Web Design [The_30_Best_Font_Combinations_for_Web_Design_(2022)](https://elementor.com/blog/font-pairing/)
+  -   Google Fonts were used to import Oswald and Montserrat fonts into styles.css.  
+  -   These were chosen as they work well together and have a simple, unembellished, modern feel that is easy to read.
+  -   At the start of the design I tried to choose fonts Google Fonts manually, but found this approach impractical and time consuming. I can recall that whilst working on Love Running project in one of the videos Google Font had feature of paring fonts. Unfortunately, this function is not available now (as a least, I have not been able to find it); and users have to pick fonts manually. 
+  -   My student son did not approve choice of the fonts I made. Therefore, I and my son tried to research the topic of good font choices. Reading through several resources, I liked information provided at Sergei Davidov on Web Design [The_30_Best_Font_Combinations_for_Web_Design_(2022)](https://elementor.com/blog/font-pairing/)
 
-    ![fonts_choice](./assets/image/readme_page/fonts.webp) <img scr="./assets/image/readme_page/fonts.webp" width="60%">   
+  ![fonts_choice](./assets/image/readme_page/fonts.webp) <img scr="./assets/image/readme_page/fonts.webp" width="60%">   
 
--   ### Wireframes
+  <br>
 
-    - Though, wireframes are not mandatory in web design but they are widely used as a best practice to help clarify design goals and requirements, improve collaboration between designers and stakeholders, and streamline the design and development process.
+  [Back to top ⇧](#index--table-of-contents)
+
+  <br>
+
+### Wireframes
+
+  - Though, wireframes are not mandatory in web design but they are widely used as a best practice to help clarify design goals and requirements, improve collaboration between designers and stakeholders, and streamline the design and development process.
     
-    - I fully support and understand that wireframes are important for web design as they provide a visual representation of the layout and structure of a website before it is built, helping to ensure that the end product meets the design goals and requirements.
+  - I fully support and understand that wireframes are important for web design as they provide a visual representation of the layout and structure of a website before it is built, helping to ensure that the end product meets the design goals and requirements.
 
-    - Unfortunately, I don't have a dissent Wireframe to produce on this occasion. This is the best I have got at the moment:
+  - Unfortunately, I don't have a dissent Wireframe to produce on this occasion. This is the best I have got at the moment:
 
     ![Wireframe_Home](./assets/image/readme_page/wireframe_front_page.webp)
 
@@ -318,6 +360,12 @@ With this in mind, below is the list of possible Etra Features that could be  ad
     ![Figma_attempt](./assets/image/readme_page/wireframe_front_page_figma.webp)
 
     ![Figma_attempt](./assets/image/readme_page/logo_figma.webp)  
+
+    <br>
+
+  [Back to top ⇧](#index--table-of-contents)
+
+    <br>
 
 ## **Technologies Used**
 
@@ -453,3 +501,5 @@ With this in mind, below is the list of possible Etra Features that could be  ad
   to finish this project.
 
 - I would also like to thank my son Timothy and his friend Sam for usefull tips and testing.
+
+[def]: #--imagery
