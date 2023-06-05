@@ -255,13 +255,8 @@ With this in mind, below is the list of possible Etra Features that could be  ad
 10. **Customization**: Allow players to customize their own avatar or gameboard. This could be done by adding a button that linked to a customization screen.
 11. **In-Game Store**: Add a shop where players can use points earned from games to buy new backgrounds, music, or avatars. This could provide an incentive for players to keep playing and earn more points.
  
-
-<br>
-
   [Back to top ⇧](#index--table-of-contents)
-
-<br>
-           
+         
 ## **DESIGN**
 
 ### Imagery
@@ -287,39 +282,42 @@ Choice of images has been dictated by the intended purpouse of the game as well 
 
   ![Imagery](./assets/images/readme/readme-imagery/imagery-rules-list.webp)
 
-<br>
-
   [Back to top ⇧](#index--table-of-contents)
 
-<br>
-    
-    
+### Colour Scheme 
+
+The colour scheme for my website was not accidental. Choice of the colours has been dictated by the intended purpouse of the game as well as by the desire to make the game visually appealing and interesting. 
+
+The first background image I have chosen was image of a sweet pea. To support my intuitive choice of coloures I have used various tools to confirm and improve made choices. The task of creating sutable colour scheme have been challanging due to the amount of elements involved. 
+
+My aim was to create a colour scheme that would be harmonious across of all elements involved: background images, game weapons, background colours of navigation bar, footer, game field, player's and computer's choices fields, coloures of score board and buttons, as well as moltiple messages displayed throughout the game. 
+
+Special concideration has been given to many aspects to insure positive user experience. For example, I have chosen colours for the messages that would be in contrast with the background colours of the game field and each other, easy to read. Nav bar, footer and game field were given a sutable level of transparency to allow all elements to be easy readable, as well as allow to see main page background. 
+
+**I have used following tools** to creat colour scheme:
+
+- https://www.colorzilla.com Chrome extension
+
+and
+
+- https://mycolor.space
+
+![Colour Scheme](./assets/images/readme/readme-colour-scheme/colour-scheme-tools.gif)
+
+- https://coolors.co/
+
+![Colour Scheme](./assets/images/readme/readme-colour-scheme/colour-scheme-sweet-pea.gif)
+
+
+  
 
 
 
-   
-   
-### Colour Scheme
 
-  -  Amber is a fossilized resin that can vary in colour, ranging from yellow to brown to reddish orange. The colour of amber is influenced by the type of tree it came from and the location where it was formed, as well as other factors such as the presence of impurities and the amount of time it has been exposed to sunlight. 
-    
-  -  Rare amber colours include green, blue, and violet. These colours are caused by the presence of different impurities in the resin, such as iron, copper, or chlorine. Blue and green amber are highly prized for their rarity and beauty. These colours are often found in smaller pieces and are therefore more expensive than the more common yellow to brown ambers.
 
-  Above facts had influence on my decisions when I was selecting images, specifically Landing Page once, deciding on the colours of navigation bar buttons and 'hamburger' menu background.
 
-  ![Colour_Scheme](./assets/image/readme_page/colours_choice_2.webp) 
 
-  ![Colour_Scheme](./assets/image/readme_page/colours_choice_3.webp)
 
-  Initially, I have chosen colours intuitively. Then, I have used ColorPick Eyedropper and Color Picker from Chrome, and image with multicoloured amber to check if my choice was a good one. 
-
-  Also, I have used to check my colour palette inspiration by using ColorSpace - Color Palettes [Generator_and_Color_Gradient_Tool](https://mycolor.space/?hex=%23E4782B&sub=1)
-
-    ![Colour_Scheme](./assets/image/readme_page/colours_choice.webp)
-
-    ![Colour_Scheme](./assets/image/readme_page/amber_2.jpg) 
-
-    ![Colour_Scheme](./assets/image/readme_page/colours_choice_1.webp)
 
     <br>
 
