@@ -329,30 +329,12 @@ Overall, the choice of 'Montserrat' for the body text and 'Cabin Sketch' for the
    [Back to top ⇧](#index--table-of-contents)
 
   
-### Wireframes
+### Wireframes    
 
-  - Though, wireframes are not mandatory in web design but they are widely used as a best practice to help clarify design goals and requirements, improve collaboration between designers and stakeholders, and streamline the design and development process.
-    
-  - I fully support and understand that wireframes are important for web design as they provide a visual representation of the layout and structure of a website before it is built, helping to ensure that the end product meets the design goals and requirements.
-
-  - Unfortunately, I don't have a dissent Wireframe to produce on this occasion. This is the best I have got at the moment:
-
-    ![Wireframe_Home](./assets/image/readme_page/wireframe_front_page.webp)
-
-    ![Wireframe_Contact Me](./assets/image/readme_page/wireframe_contact_me_page.webp) 
-
-    - I have researched most popular wireframe building platforms available (Balsamiq, Axure, Sketch, Adobe XD, Figma, InVision Studio, Moqups, UXPin, Marvel App and
-      Justinmind) and spent hours in an attempt to build my website mock-up, wireframes and website logo. In the end, I have just abundant the idea promising myself that I will master it in a less stressful and time pushing environment.
-    
-    ![Figma_attempt](./assets/image/readme_page/wireframe_front_page_figma.webp)
-
-    ![Figma_attempt](./assets/image/readme_page/logo_figma.webp)  
-
-    <br>
 
   [Back to top ⇧](#index--table-of-contents)
 
-    <br>
+
 
 ## **Technologies Used**
 
@@ -360,6 +342,7 @@ Overall, the choice of 'Montserrat' for the body text and 'Cabin Sketch' for the
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-   [JavaScript](https://en.wikipedia.org/wiki/JavaScript) 
 
 ### Frameworks, Libraries & Programs Used
 
