@@ -310,21 +310,25 @@ and
 
 <br>
    
-### Typography
+### Typography  
 
-  -   Google Fonts were used to import Oswald and Montserrat fonts into styles.css.  
-  -   These were chosen as they work well together and have a simple, unembellished, modern feel that is easy to read.
-  -   At the start of the design I tried to choose fonts Google Fonts manually, but found this approach impractical and time consuming. I can recall that whilst working on Love Running project in one of the videos Google Font had feature of paring fonts. Unfortunately, this function is not available now (as a least, I have not been able to find it); and users have to pick fonts manually. 
-  -   My student son did not approve choice of the fonts I made. Therefore, I and my son tried to research the topic of good font choices. Reading through several resources, I liked information provided at Sergei Davidov on Web Design [The_30_Best_Font_Combinations_for_Web_Design_(2022)](https://elementor.com/blog/font-pairing/)
+I gave a lot of thought to the choice of fonts for my website. I wanted to make sure that the fonts I chose would be easy to read and would complement the overall design of the website. I have chosen two font families: 'Cabin Sketch' and 'Montserrat' from https://fonts.google.com/.
 
-  ![fonts_choice](./assets/image/readme_page/fonts.webp) <img scr="./assets/image/readme_page/fonts.webp" width="60%">   
+**Reasons behind the choice of fonts:**
 
-  <br>
+- I have chosen **'Cabin Sketch'** for navigation bar heading. The choice of this font is inspired by the desire to create an experience that is as comforting and familiar as a cabin in the woods, while the sketch aesthetic adds a playful and creative element. This font, with its casual yet attention-grabbing design, reinforces the website's overall theme of combining playful gaming with the tranquility of nature. The distinctive look of "Cabin Sketch" also enhances the general look of the website.
+<br>
+- The body text of the website employs the **'Montserrat'** font, complementing the "Cabin Sketch" used in the navigation bar heading. The pairing of these two font families has been carefully chosen to align with the website's overall aesthetic and enhance the user's reading experience.
 
-  [Back to top ⇧](#index--table-of-contents)
+*'Montserrat'*, a versatile and widely popular font, is known for its modern, geometric design, offering clean lines and a sleek appearance. It’s incredibly legible at both large and small sizes, ensuring that the body text of the website is clear, readable, and accessible across various devices and screen sizes. The neutrality of Montserrat makes it a perfect companion to the more distinctive Cabin Sketch, providing a balance between the playful, rustic appeal of the main website heading and the straightforward, easy-to-read body text.
 
-  <br>
+While the 'Cabin Sketch' font captures users' attention and sets the mood for the website, the body's 'Montserrat' font ensures a comfortable reading and browsing experience. It successfully delivers information without distracting from the overall user experience. The combination of these two fonts supports my design goal of offering a gaming website that is both engaging and user-friendly.
 
+Overall, the choice of 'Montserrat' for the body text and 'Cabin Sketch' for the main heading creates a visual hierarchy that is not only effective and functional, but also aesthetically pleasing. It reflects my wish to creating a website that is not only playful and engaging, but also easy to navigate and use.
+
+   [Back to top ⇧](#index--table-of-contents)
+
+  
 ### Wireframes
 
   - Though, wireframes are not mandatory in web design but they are widely used as a best practice to help clarify design goals and requirements, improve collaboration between designers and stakeholders, and streamline the design and development process.
