@@ -102,13 +102,13 @@ Welcome back! I am thrilled to see you again. Dive right back into the game for 
          
     - *On large* screens buttons are equipped with word description 'Home' and 'About' as well as icons to assist user with navigation. The buttons have a hover effect to indicate to the user that they are clickable. Also, on hover the buttons change background and text colour to indicate to the user that they are active. The Logo has been linked to the Home page for user convenience. 
     
-      ![Navbar](./assets/images/readme/nav-bar.gif)
+      ![Navbar](./assets/images/readme/readme-features/nav-bar.gif)
 
     <br>
 
     - *On small and medium* screens the structure of navigation bar is adapting to a size. The logo is removed and the buttons have only icons to indicate 'home' and 'information'. The buttons have a hover effect to indicate to the user that they are clickable. Also, on hover the buttons change background and text colour to indicate to the user that they are active.
   
-      ![Navbar](./assets/images/readme/nav-bar-small.gif) 
+      ![Navbar](./assets/images/readme/readme-features/nav-bar-small.gif) 
 
     <br>
 
@@ -118,7 +118,7 @@ Welcome back! I am thrilled to see you again. Dive right back into the game for 
 
 -   **Audio and Background Change** controls are located on the top of the game field for the convenience of the user. The buttons have a hover effect to indicate to the user that they are clickable. Also, on hover the buttons change background and text colour to indicate to the user that they are active.
  
-    ![Audio](./assets/images/readme/audio-bg-controls.gif)
+    ![Audio](./assets/images/readme/readme-features/audio-bg-controls.gif)
 
 <br>   
 
@@ -134,12 +134,12 @@ Welcome back! I am thrilled to see you again. Dive right back into the game for 
         - **The outcome message** replacing 'You have chosen...' message as soon as computer made it's choice. The message is informing the user about the outcome of the round. The message is combyning the rule relevant to the weapons chosen in the round ('Spock smashes scissors', 'Lizard eats paper' and so on) and anounces the winner 'You won!' or 'Computer wins!'. Also, in the event of weapons of choice beeing the same, player being informed by the 'It's a tie' message accompanied by the icon of a handshacke. The message is staying on the screen until the user makes a new weapon cnoice or clicks on the 'Play again?' button.
         - All **messages** are colour differentiated for the user convenience. The colours are chosen to be in contrast with the Game Field Background and each other.  
   
-      ![game-controls](./assets/images/readme/game-controls.gif)
+      ![game-controls](./assets/images/readme/readme-features/game-controls.gif)
            
     - **Rules** button is located at the bottom of the game field for the convenience of the user. The button has a hover effect to indicate to the user that they are clickable. Also, on hover the buttons change background and text colour to indicate to the user that they are active. The button is linked to the 'Modal' for user convenience.
     - **Responsive** design of the *game field* allows user to play the game on any screen size. The game field is adapting to the screen size by changing the size of the images and the size of the buttons. Including the player's choice buttons. 
     
-      ![game-controls](./assets/images/readme/game-controls-small.gif)
+      ![game-controls](./assets/images/readme/readme-features/game-controls-small.gif)
 
       <br>
 
@@ -154,11 +154,11 @@ Welcome back! I am thrilled to see you again. Dive right back into the game for 
     - **Game Controls** - brief explanation of purpose of the Audio and Background Change buttons located at the top of the Game Field.     
     - **Close** button is located at the bottom of the modal for the user convenience. The name is to inform the user about the function of the button. The desktop users, also, can close Modal by using 'esc' button on the keyboard. 
         
-      ![modal](./assets/images/readme/modal.gif) 
+      ![modal](./assets/images/readme/readme-features/modal.gif) 
 
     - **Responsive** design of the *modal* allows user to read the content on any screen size. The modal is adapting to the screen size by changing the size of the text and the size of the ' Close' button. 
 
-      ![modal](./assets/images/readme/modal-small.gif)
+      ![modal](./assets/images/readme/readme-features/modal-small.gif)
 
       <br>
 
@@ -171,11 +171,11 @@ Welcome back! I am thrilled to see you again. Dive right back into the game for 
     - *Social Media Icons* are of contrasting with background colour, matching colour of nav bar heading for concistancy. The icons have a hover effect to indicate to the user that they are clickable. Also, on hover the icons change background and text colour to indicate to the user that they are active. The icons are linked to the corresponding social media web sites in a new window. 
     - *Footer Text* is minimalistic and consists name of the author and the current year. The text is of contrasting with background colour and matching colour with social media icons for concistancy. 
 
-      ![footer](./assets/images/readme/footer-desktop.gif)
+      ![footer](./assets/images/readme/readme-features/footer-desktop.gif)
 
     - **Responsive** design of the *footer* allows user to read the content on any screen size. The footer is adapting to the screen size by changing the size of the text and the size of the icons. 
 
-      ![footer](./assets/images/readme/footer-small.gif)
+      ![footer](./assets/images/readme/readme-features/footer-small.gif)
 
     <br>
 
@@ -185,7 +185,7 @@ Welcome back! I am thrilled to see you again. Dive right back into the game for 
 
 -   The idea of **The About Page** have been prompted by my passion for learning and understanding different concepts and facts. I have decided to share my findings with the user. The page is equipped with the following elements:
 
-    ![about](./assets/images/readme/about-page-features.gif)
+    ![about](./assets/images/readme/readme-features/about-page-features.gif)
 
       - **About Page Background** have been consiously left white to allow user to focus on the content of the page. 
       - **Header** and **Footer** are of the same design as on the other pages of the website for the user convenience and concistance.
@@ -197,7 +197,7 @@ Welcome back! I am thrilled to see you again. Dive right back into the game for 
 
     <br>
 
-      ![about](./assets/images/readme/about-page-features-small.gif)
+      ![about](./assets/images/readme/readme-features/about-page-features-small.gif)
 
     <br>
 
@@ -210,11 +210,11 @@ Welcome back! I am thrilled to see you again. Dive right back into the game for 
   - **Header** and **Footer** are of the same design as on the other pages of the website for the user convenience and concistance.
   - **404 Page Content** have been intended as a joke to make the user smile and not to feel frustrated. The content is of a sutable size and quality to be easy readable and not to slow down the page loading. The content is accompanied by the **humorously distorted image** of all five game weapons - Rock, Paper, Scissors, Lizard and Spock. A **simple message** is intended to inform the user that the page they are looking for does not exist. The message is accompanied by the **link to the Home Page** for user convenience.  
 
-    ![404](./assets/images/readme/404-page-features.gif)
+    ![404](./assets/images/readme/readme-features/404-page-features.gif)
   
   - **Responsive** design of the *404 page* allows user to read the content on any screen size. The 404 page is adapting to the screen size by changing the size of the text and the size of the icons. 
 
-    ![404](./assets/images/readme/404-page-features-small.gif)
+    ![404](./assets/images/readme/readme-features/404-page-features-small.gif)
       
   <br>
 
