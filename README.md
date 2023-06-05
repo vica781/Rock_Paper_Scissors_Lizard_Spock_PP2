@@ -317,7 +317,7 @@ I gave a lot of thought to the choice of fonts for my website. I wanted to make 
 **Reasons behind the choice of fonts:**
 
 - I have chosen **'Cabin Sketch'** for navigation bar heading. The choice of this font is inspired by the desire to create an experience that is as comforting and familiar as a cabin in the woods, while the sketch aesthetic adds a playful and creative element. This font, with its casual yet attention-grabbing design, reinforces the website's overall theme of combining playful gaming with the tranquility of nature. The distinctive look of "Cabin Sketch" also enhances the general look of the website.
-<br>
+
 - The body text of the website employs the **'Montserrat'** font, complementing the "Cabin Sketch" used in the navigation bar heading. The pairing of these two font families has been carefully chosen to align with the website's overall aesthetic and enhance the user's reading experience.
 
 *'Montserrat'*, a versatile and widely popular font, is known for its modern, geometric design, offering clean lines and a sleek appearance. It’s incredibly legible at both large and small sizes, ensuring that the body text of the website is clear, readable, and accessible across various devices and screen sizes. The neutrality of Montserrat makes it a perfect companion to the more distinctive Cabin Sketch, providing a balance between the playful, rustic appeal of the main website heading and the straightforward, easy-to-read body text.
