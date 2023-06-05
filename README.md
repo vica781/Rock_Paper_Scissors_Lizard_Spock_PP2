@@ -288,7 +288,7 @@ Choice of images has been dictated by the intended purpouse of the game as well 
 
 The colour scheme for my website was not accidental. Choice of the colours has been dictated by the intended purpouse of the game as well as by the desire to make the game visually appealing and interesting. 
 
-The first background image I have chosen was image of a sweet pea. To support my intuitive choice of coloures I have used various tools to confirm and improve made choices. The task of creating sutable colour scheme have been challanging due to the amount of elements involved. 
+The first background image I have chosen was image of a sweet pea. To support my intuitive choice of colours I have used various tools to confirm and improve made choices. The task of creating sutable colour scheme have been challanging due to the amount of elements involved. 
 
 My aim was to create a colour scheme that would be harmonious across of all elements involved: background images, game weapons, background colours of navigation bar, footer, game field, player's and computer's choices fields, coloures of score board and buttons, as well as moltiple messages displayed throughout the game. 
 
@@ -297,33 +297,18 @@ Special concideration has been given to many aspects to insure positive user exp
 **I have used following tools** to creat colour scheme:
 
 - https://www.colorzilla.com Chrome extension
-
 and
-
 - https://mycolor.space
 
-![Colour Scheme](./assets/images/readme/readme-colour-scheme/colour-scheme-tools.gif)
+  ![Colour Scheme](./assets/images/readme/readme-colour-scheme/colour-scheme-tools.gif)
 
 - https://coolors.co/
 
-![Colour Scheme](./assets/images/readme/readme-colour-scheme/colour-scheme-sweet-pea.gif)
-
-
-  
-
-
-
-
-
-
-
-
-
-    <br>
+  ![Colour Scheme](./assets/images/readme/readme-colour-scheme/colour-scheme-sweet-pea.gif)
 
   [Back to top ⇧](#index--table-of-contents)
 
-    <br>
+<br>
    
 ### Typography
 
