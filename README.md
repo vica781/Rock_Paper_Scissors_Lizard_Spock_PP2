@@ -329,7 +329,15 @@ Overall, the choice of 'Montserrat' for the body text and 'Cabin Sketch' for the
    [Back to top ⇧](#index--table-of-contents)
 
   
-### Wireframes    
+### Wireframes
+
+I have started the design process by making hand drawn sketch of the Home Page. I have used the sketch to visualise the layout of the website and to plan the placement of the elements. The main purpose of the sketch was to help me to start on JavaScript code - to create basic working 'skeleton' of the game. 
+
+  ![Wireframes](./assets/images/readme/readme-wireframes/wireframe-sketch.jpg)
+
+After that, sketch has been used as a reference during the process of planning and researching the design of the website.
+
+![Wireframes](./assets/images/readme/readme-wireframes/wireframes-planning-reseaching.gif)
 
 
   [Back to top ⇧](#index--table-of-contents)
@@ -352,7 +360,6 @@ Overall, the choice of 'Montserrat' for the body text and 'Cabin Sketch' for the
 -   [GitHub:](https://github.com/) is used as the respository for the projects code after being pushed from Git.
 -   [Microsoft Paint 3D:](https://www.microsoft.com/en-us/p/paint-3d/9nblggh5fv99?activetab=pivot:overviewtab) was used for resizing images and editing photos for the website.
 -   [WebP Converter:](https://www.freeconvert.com/webp-converter) was used to convert images to webp.
--   [Figma:](https://www.figma.com/login) was used in unsuccessful attempt to creat wireframes and website logo
 -   [Image to WEBP Converter:](https://converter.11zon.com/en/image-to-webp/) was used to convert images to webp.
 -   [CSS Beautifier:](https://www.freeformatter.com/css-beautifier.html#before-output) was used to format (beautify) style.css.
 -   [Image to WEBP Converter:](https://www.freeformatter.com/html-formatter.html#before-output) was used to format (beautify) index.html, usage.html, rare.html, gifts.html, 
@@ -364,61 +371,30 @@ Overall, the choice of 'Montserrat' for the body text and 'Cabin Sketch' for the
 
 - [HTML Validator](https://validator.w3.org/)
 
-    - result for index.html
-      ![HTML results index](./assets/image/readme_page/validation/validation_index.webp)
-    - result for usage.html
-      ![HTML results usage](./assets/image/readme_page/validation/validation_usage_1.webp)
-      ![HTML results usage](./assets/image/readme_page/validation/validation_usage_2.webp)       
-    - result for rare.html
-      ![HTML results rare](./assets/image/readme_page/validation/validation_rare.webp)
-    - result for gifts.html
-      ![HTML results gifts](./assets/image/readme_page/validation/validation_gifts.webp)
-    - result for contact.html
-      ![HTML results contact](./assets/image/readme_page/validation/validation_contact_1.webp)  
-      ![HTML results contact](./assets/image/readme_page/validation/validation_contact_2.webp)
+    
 
 ### Results after the bugs fixing
-   - result for index.html  
-     ![HTML results index](./assets/image/readme_page/validation/final_validation/final_validation_index.webp)
-     
-     - there is still a warning remaining on index.html after the final validation. I was given an instruction by my mentor to change *div* to *section*.
-       I don't have reason to disrespect that instruction/advice.
- 
-     ![HTML results index](./assets/image/readme_page/validation/final_validation/section_div_instruction.webp)
-     ![HTML results index](./assets/image/readme_page/validation/final_validation/section_div_warning.webp)
-
-   - result for usage.html
-     ![HTML results usage](./assets/image/readme_page/validation/final_validation/final_validation_usage.webp)
-   - result for rare.html  
-     ![HTML results rare](./assets/image/readme_page/validation/final_validation/final_validation_rare.webp)
-   - result for gifts.html 
-     ![HTML results gifts](./assets/image/readme_page/validation/final_validation/final_validation_gifts.webp)
-   - result for contact.html
-     ![HTML results contact](./assets/image/readme_page/validation/final_validation/final_validation_contact_page.webp)       
+   
     
 - [CSS Validator](https://jigsaw.w3.org/css-validator/)
 
     - result for styles.css 
-      ![CSS results 1](./assets/image/readme_page/validation/final_validation/final_css_validation.webp)
-      ![CSS results 2](./assets/image/readme_page/validation/final_validation/final_css_validation_warnings.webp)
-
-      I used the code shown in the warning to remove up-wards and down-wards pointing arrows in the telephone input field of the form. As these arrows were allowing to increase and decrease values in the input field, which is not appropreate for the telephone numbers. I have obtained the code as a result of extensive research and tried various methods to resolve the issue beforehand.
+      
     
     ### Lighthouse testing for Performans, Accessibillity, Best Practices and SEO
-    ![Lighthouse results index](./assets/image/readme_page/validation/lighthouse_testing/lighthouse_index.webp)
-    ![Lighthouse results usage](./assets/image/readme_page/validation/lighthouse_testing/lighthouse_usage.webp)
-    ![Lighthouse results rare](./assets/image/readme_page/validation/lighthouse_testing/lighthouse_rare.webp)
-    ![Lighthouse results gifts](./assets/image/readme_page/validation/lighthouse_testing/lighthouse_gifts.webp)
-    ![Lighthouse results contact](./assets/image/readme_page/validation/lighthouse_testing/lighthouse_contact.webp)
-    ![Lighthouse results 404](./assets/image/readme_page/validation/lighthouse_testing/lighthouse_404_.webp)
+    ![Lighthouse results index]
+    ![Lighthouse results usage]
+    ![Lighthouse results gifts]
+    ![Lighthouse results contact]
+    ![Lighthouse results 404]
     
     ### Browser Compatibility
   Testing has been carried out on the following browsers :
-    - Chrome ![Browser testing](./assets/image/readme_page/validation/browser_testing/chrome.webp)    
-    - Firefox ![Browser testing](./assets/image/readme_page/validation/browser_testing/firefox.webp)
-    - Edge ![Browser testing](./assets/image/readme_page/validation/browser_testing/edge.webp)
-    - Vivaldi ![Browser testing](./assets/image/readme_page/validation/browser_testing/vivaldi.webp)
-    - Brave ![Browser testing](./assets/image/readme_page/validation/browser_testing/brave.webp)
+    - Chrome ![Browser testing]   
+    - Firefox ![Browser testing]
+    - Edge ![Browser testing]
+    - Vivaldi ![Browser testing]
+    - Brave ![Browser testing]
 
     ### Navigation Bar links, Contact Form and Footer icons validation
 
