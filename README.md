@@ -333,7 +333,7 @@ Overall, the choice of 'Montserrat' for the body text and 'Cabin Sketch' for the
 
 I have started the design process by making hand drawn sketch of the Home Page. I have used the sketch to visualise the layout of the website and to plan the placement of the elements. The main purpose of the sketch was to help me to start on JavaScript code - to create basic working 'skeleton' of the game. 
 
-  ![Wireframes](./assets/images/readme/readme-wireframes/wireframe-sketch.jpg)
+  ![Wireframes](./assets/images/readme/readme-wireframes/wireframe-sketch.webp)
 
 After that, sketch has been used as a reference during the process of planning and researching the design of the website.
 
@@ -359,6 +359,9 @@ After that, sketch has been used as a reference during the process of planning a
 -   [Git:](https://git-scm.com/) was used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
 -   [GitHub:](https://github.com/) is used as the respository for the projects code after being pushed from Git.
 -   [Microsoft Paint 3D:](https://www.microsoft.com/en-us/p/paint-3d/9nblggh5fv99?activetab=pivot:overviewtab) was used for resizing images and editing photos for the website.
+-   [Microsoft PowerPoint:](https://www.microsoft.com/en-us/microsoft-365/powerpoint) was used to plan and design.
+-   [Microsoft Paint:](https://support.microsoft.com/en-us/windows/get-microsoft-paint-a6b9578c-ed1c-5b09-0699-4ed8115f9aa9) was used to to work with images.
+-   **Toggle Pesticide Extention for Chrome** was used to outline the elements of the website with developer tools.
 -   [WebP Converter:](https://www.freeconvert.com/webp-converter) was used to convert images to webp.
 -   [Image to WEBP Converter:](https://converter.11zon.com/en/image-to-webp/) was used to convert images to webp.
 -   [CSS Beautifier:](https://www.freeformatter.com/css-beautifier.html#before-output) was used to format (beautify) style.css.
