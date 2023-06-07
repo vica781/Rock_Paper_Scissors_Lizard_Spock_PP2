@@ -42,8 +42,11 @@ A comprehensive "About" page accompanies my gameplay interface. Dive into the fa
   * [Wireframes](#wireframes)
 * [Technologies Used](#technologies-used)
 * [Testing](#testing)
+[Testing.md](TESTING.md)
 * [Deployment](#deployment)
 * [Credits](#credits)
+
+***
 
 # User Experience (UX)
 
@@ -370,52 +373,8 @@ After that, sketch has been used as a reference during the process of planning a
     
 ## TESTING
 
-### Validator Testing
+Testing information can be found in a separate testing [file](TESTING.md "Link to testing file")
 
-- [HTML Validator](https://validator.w3.org/)
-
-    
-
-### Results after the bugs fixing
-   
-    
-- [CSS Validator](https://jigsaw.w3.org/css-validator/)
-
-    - result for styles.css 
-      
-    
-    ### Lighthouse testing for Performans, Accessibillity, Best Practices and SEO
-    ![Lighthouse results index]
-    ![Lighthouse results usage]
-    ![Lighthouse results gifts]
-    ![Lighthouse results contact]
-    ![Lighthouse results 404]
-    
-    ### Browser Compatibility
-  Testing has been carried out on the following browsers :
-    - Chrome ![Browser testing]   
-    - Firefox ![Browser testing]
-    - Edge ![Browser testing]
-    - Vivaldi ![Browser testing]
-    - Brave ![Browser testing]
-
-    ### Navigation Bar links, Contact Form and Footer icons validation
-
-  - Testing has been carried out on all tabs of the menu bar to make sure that active pages displayed correctly, tabs are changing colour on hover during navigation, and links 
-    from the nav tabs are functioning.
-    <br>
-    ![Nav testing](./assets/image/readme_page/validation/validation_gifs/menu_links_test.gif)
-
-  - Testing has been carried out on all input fields of the Contact Form to make sure that all areas marked as 'required' are functioning properly.  
-    <br> 
-    ![Contact Form testing](./assets/image/readme_page/validation/validation_gifs/form_validation.gif)        
-  
-  - Testing has been carried out on all social media icons of the footer to make sure that all icons are functioning properly and open in a corresponding to the media web site 
-    in a new window.  
-    <br>
-    ![Footer testing](./assets/image/readme_page/validation/validation_gifs/social_media_links_test.gif)
- 
-     
 ## Deployment
 
 ### How this site was deployed
@@ -451,4 +410,3 @@ After that, sketch has been used as a reference during the process of planning a
 
 - I would also like to thank my son Timothy and his friend Sam for usefull tips and testing.
 
-[def]: #--imagery
