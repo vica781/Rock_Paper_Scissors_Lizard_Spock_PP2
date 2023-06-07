@@ -23,7 +23,9 @@
 
 ## Testing User Stories
 
-#### Current User Goals:
+#### <ins>New User Goals<ins>:
+
+As a new user I want to be able to:
 
 1. As a first time visitor, I want to understand the purpose of the site and learn about the game Rock Paper Scissors Lizard Spock.
 
@@ -35,38 +37,50 @@
 5. As a first time visitor, I want to be able to provide feedback or ask for help in case I need any, either through forums, comments, or social media links, sharing my experience or strategies in playing the game.
 
 
-#### New User Goals:
+#### <ins>Returning Visitor Goals<ins>
+
+   As a current/returning user I want to be able to:
+1. As a returning visitor, I want to be able to play the Rock Paper Scissors Lizard Spock game quickly, without needing to go through lengthy processes or instructions. 
+2. As a returning visitor, I want to see new elements or updates in the game, including new nature backgrounds and classical music to keep my experience fresh and enjoyable. 
+3. As a returning visitor, I want to find new, fascinating facts, insights, or resources on the About page that enhance my understanding and appreciation of the game. 
+4. As a returning visitor, I want a consistent, user-friendly interface where I can easily navigate to my desired sections. 
+5. As a returning visitor, I want to engage more with the community, either through forums, comments, or social media links, sharing my experience or strategies in playing the game.
+
+[Back to top ⇧](#index--table-of-contents)
+
 
   
 
 #### Returning Visitor Goals:
 
-
+[Back to top ⇧](#index--table-of-contents)
 
 
 
 ## Manual Testing
 
+[Back to top ⇧](#index--table-of-contents)
 
 
 ### Common Elements Testing
 
-
+[Back to top ⇧](#index--table-of-contents)
      
 ### Home Page
 
-     
+[Back to top ⇧](#index--table-of-contents)     
+
 ### About Page
 
-     
+[Back to top ⇧](#index--table-of-contents)
+  
 ### Error (404) Page
 
-    
-
-
-
+[Back to top ⇧](#index--table-of-contents)    
 
 ## Automated Testing
+
+[Back to top ⇧](#index--table-of-contents)
 
 ### Code Validation
 The [W3C Markup Validator](https://validator.w3.org/) service was used to validate the `HTML` and `CSS` code used.
@@ -77,18 +91,25 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
 
      ![Home Page HTML Validation Results]()
 
+[Back to top ⇧](#index--table-of-contents)
+
 - About Page
 
      ![About Page HTML Validation Results]()
+
+[Back to top ⇧](#index--table-of-contents)
 
 - 404 Page
 
      ![404 Page HTML Validation Results]()
      
+     [Back to top ⇧](#index--table-of-contents)
 
 - CSS stylesheet
 
      ![Style sheet validation results]()
+
+[Back to top ⇧](#index--table-of-contents)
 
 ### Browser Validation
 - Chrome - [test image]()
@@ -99,11 +120,12 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
 - Vivaldi - [test image]()
 - Brave - [test image]()
 
+[Back to top ⇧](#index--table-of-contents)
+
 ## User testing 
 
 
-[Back to top ⇧]()
-
+[Back to top ⇧](#index--table-of-contents)
 ***
 # FROM DISCOVER AMBER 
 
@@ -122,11 +144,9 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
       
     
     ### Lighthouse testing for Performans, Accessibillity, Best Practices and SEO
-    ![Lighthouse results index]
-    ![Lighthouse results usage]
-    ![Lighthouse results gifts]
-    ![Lighthouse results contact]
-    ![Lighthouse results 404]
+    ![Lighthouse results Home page]
+    ![Lighthouse results About page]
+    ![Lighthouse results Error (404) page]
     
     ### Browser Compatibility
   Testing has been carried out on the following browsers :
