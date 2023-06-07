@@ -30,6 +30,8 @@ I really hope that, my approach not only provides a new take on this well-loved 
 
 A comprehensive "About" page accompanies my gameplay interface. Dive into the fascinating world of Rock Paper Scissors Lizard Spock and learn about its history, philosophy, educational significance, logical underpinnings, tactical nuances, and much more!
 
+***
+
 ## Index – Table of Contents
 * [User Experience (UX)](#user-experience-ux) 
 * [Features](#features)
@@ -42,7 +44,7 @@ A comprehensive "About" page accompanies my gameplay interface. Dive into the fa
   * [Wireframes](#wireframes)
 * [Technologies Used](#technologies-used)
 * [Testing](#testing)
-[Testing.md](TESTING.md)
+ [Testing.md](TESTING.md)
 * [Deployment](#deployment)
 * [Credits](#credits)
 
@@ -55,7 +57,8 @@ A comprehensive "About" page accompanies my gameplay interface. Dive into the fa
 **THE IDEAL USER FOR THIS WEBSITE IS:**
 
 <ins>New user:<ins>
-- If you're a new visitor to my site, welcome! Whether you're an enthusiast of strategy games, or just looking for a fun distraction. I am really hoping that I've achieved my goal to design a straightforward and user-friendly game. 
+
+If you're a new visitor to my site, welcome! Whether you're an enthusiast of strategy games, or just looking for a fun distraction. I am really hoping that I've achieved my goal to design a straightforward and user-friendly game. 
 - You'll find clear instructions and rules for playing the game.
 - Throughout the game, you'll be assisted by clear and intuitive navigation.
 - Furthermore, you will be assisted by informative and concise messages that will help you navigate the game and understand the rules. 
