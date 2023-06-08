@@ -1322,7 +1322,7 @@ ul ul {
   }
 }
 /* Add style for iPhone 5, 5S, and old SE to remove horizontal scroll*/
-@media screen and (device-width: 320px) and (device-height: 568px) {
+@media screen and (width: 320px) and (height: 568px) {
   /* Nav Bar - Heading */
   .heading h1 {
     font-size: 1.65rem;
@@ -1496,7 +1496,7 @@ ul ul {
   }
 }
 /* Add style for device used by Am I responsive? web site used for Mockup */
-@media screen and (device-width: 320px) and (device-height: 480px) {
+@media screen and (width: 320px) and (height: 480px) {
   /* Nav Bar - Heading */
   nav {
     height: 5.5rem;

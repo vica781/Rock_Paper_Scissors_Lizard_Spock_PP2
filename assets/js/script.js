@@ -85,7 +85,6 @@ buttons.forEach((button) => {
 // The function returns an array with two values: the winner and the message to display the outcome of the game.
 // function determinWinner() {
 function determinWinner() {
-  let winner;
   let message;
   const combo = playerPick + "-" + computerPick;
   if (playerPick === computerPick) {
