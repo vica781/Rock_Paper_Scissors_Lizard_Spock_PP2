@@ -347,8 +347,9 @@ I have started the design process by making hand drawn sketch of the Home Page. 
 
   ![Wireframes](./assets/images/readme/readme-wireframes/wireframe-sketch.webp)
 
-After that, sketch has been used as a reference during the process of planning and researching the design of the website.
+This sketch has been used as a reference for the design of the website that was made using Microsoft PowerPoint. 
 
+ 
 ![Wireframes](./assets/images/readme/readme-wireframes/wireframes-planning-reseaching.gif)
 
 
@@ -373,12 +374,11 @@ After that, sketch has been used as a reference during the process of planning a
 -   [Microsoft Paint 3D:](https://www.microsoft.com/en-us/p/paint-3d/9nblggh5fv99?activetab=pivot:overviewtab) was used for resizing images and editing photos for the website.
 -   [Microsoft PowerPoint:](https://www.microsoft.com/en-us/microsoft-365/powerpoint) was used to plan and design.
 -   [Microsoft Paint:](https://support.microsoft.com/en-us/windows/get-microsoft-paint-a6b9578c-ed1c-5b09-0699-4ed8115f9aa9) was used to to work with images.
--   **Toggle Pesticide Extention for Chrome** was used to outline the elements of the website with developer tools.
+-   **Toggle Pesticide Extension for Chrome** was used to outline the elements of the website with developer tools.
 -   [WebP Converter:](https://www.freeconvert.com/webp-converter) was used to convert images to webp.
 -   [Image to WEBP Converter:](https://converter.11zon.com/en/image-to-webp/) was used to convert images to webp.
 -   [CSS Beautifier:](https://www.freeformatter.com/css-beautifier.html#before-output) was used to format (beautify) style.css.
--   [Image to WEBP Converter:](https://www.freeformatter.com/html-formatter.html#before-output) was used to format (beautify) index.html, usage.html, rare.html, gifts.html, 
-    contact.html and 404.html  
+-   [Image to WEBP Converter:](https://www.freeformatter.com/html-formatter.html#before-output) was used to format (beautify) html code.  
     
 ## TESTING
 
