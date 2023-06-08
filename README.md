@@ -294,9 +294,15 @@ Choice of images has been dictated by the intended purpouse of the game as well 
 
 The colour scheme for my website was not accidental. Choice of the colours has been dictated by the intended purpouse of the game as well as by the desire to make the game visually appealing and interesting. 
 
+![Colour Scheme](./assets/images/readme/readme-colour-scheme/colour-scheme-front-page.jpg)
+
 The first background image I have chosen was image of a sweet pea. To support my intuitive choice of colours I have used various tools to confirm and improve made choices. The task of creating sutable colour scheme have been challanging due to the amount of elements involved. 
 
+![Colour Scheme](./assets/images/readme/readme-colour-scheme/palet-2.webp)
+
 My aim was to create a colour scheme that would be harmonious across of all elements involved: background images, game weapons, background colours of navigation bar, footer, game field, player's and computer's choices fields, coloures of score board and buttons, as well as moltiple messages displayed throughout the game. 
+
+![Colour Scheme](./assets/images/readme/readme-colour-scheme/colour-scheme-used-css.webp)
 
 Special concideration has been given to many aspects to insure positive user experience. For example, I have chosen colours for the messages that would be in contrast with the background colours of the game field and each other, easy to read. Nav bar, footer and game field were given a sutable level of transparency to allow all elements to be easy readable, as well as allow to see main page background. 
 
@@ -322,9 +328,9 @@ I gave a lot of thought to the choice of fonts for my website. I wanted to make 
 
 **Reasons behind the choice of fonts:**
 
-- I have chosen **'Cabin Sketch'** for navigation bar heading. The choice of this font is inspired by the desire to create an experience that is as comforting and familiar as a cabin in the woods, while the sketch aesthetic adds a playful and creative element. This font, with its casual yet attention-grabbing design, reinforces the website's overall theme of combining playful gaming with the tranquility of nature. The distinctive look of "Cabin Sketch" also enhances the general look of the website.
+- **'Cabin Sketch'** have been used for navigation bar heading. The choice of this font is inspired by the desire to create an experience that is as comforting and familiar as a cabin in the woods, while the sketch aesthetic adds a playful and creative element. This font, with its casual yet attention-grabbing design, reinforces the website's overall theme of combining playful gaming with the tranquility of nature. The distinctive look of "Cabin Sketch" also enhances the general look of the website.
 
-- The body text of the website employs the **'Montserrat'** font, complementing the "Cabin Sketch" used in the navigation bar heading. The pairing of these two font families has been carefully chosen to align with the website's overall aesthetic and enhance the user's reading experience.
+- **'Montserrat'** font have been employed for the body text of the website. 'Montserrat' font complementing the "Cabin Sketch" used in the navigation bar heading. The pairing of these two font families has been carefully chosen to align with the website's overall aesthetic and enhance the user's reading experience.
 
 *'Montserrat'*, a versatile and widely popular font, is known for its modern, geometric design, offering clean lines and a sleek appearance. It’s incredibly legible at both large and small sizes, ensuring that the body text of the website is clear, readable, and accessible across various devices and screen sizes. The neutrality of Montserrat makes it a perfect companion to the more distinctive Cabin Sketch, providing a balance between the playful, rustic appeal of the main website heading and the straightforward, easy-to-read body text.
 
