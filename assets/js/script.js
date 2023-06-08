@@ -18,18 +18,16 @@ for (let key in winningCombinations) {
 }
 
 // Declare variables to store the choices made by the player and the computer, respectively, and their scores
-let playerChoice;
-let computerChoice;
 let playerScore = 0;
 let tieScore = 0;
 let computerScore = 0;
 let counter = 0;
-
-// Declare variables to store the choices made by the player and the computer, respectively
 let playerPick;
 let computerPick;
 let winner;
 let bgChoice = 0;
+let playerImg = document.getElementById("playerImg");
+let compImg = document.getElementById("compImg");
 
 let result = document.getElementById("result");
 
