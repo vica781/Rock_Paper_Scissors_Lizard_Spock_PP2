@@ -43,8 +43,7 @@ A comprehensive "About" page accompanies my gameplay interface. Dive into the fa
   * [Typography](#typography)
   * [Wireframes](#wireframes)
 * [Technologies Used](#technologies-used)
-* [Testing](#testing)
- [Testing.md](TESTING.md)
+* [Testing](#testing)   
 * [Deployment](#deployment)
 * [Credits](#credits)
 
@@ -382,7 +381,7 @@ This sketch has been used as a reference for the design of the website that was 
     
 ## TESTING
 
-Testing information can be found in a separate testing [file](TESTING.md "Link to testing file")
+Testing information can be found in a separate file [TESTING.md](TESTING.md "Link to testing file").
 
 ## Deployment
 
