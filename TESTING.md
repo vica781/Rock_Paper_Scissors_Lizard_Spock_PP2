@@ -59,6 +59,8 @@ As a new user I want to be able to:
 
 ## Manual Testing
 
+
+
 [Back to top ⇧](#index--table-of-contents)
 
 
@@ -79,8 +81,6 @@ As a new user I want to be able to:
 [Back to top ⇧](#index--table-of-contents)    
 
 ## Automated Testing
-
-[Back to top ⇧](#index--table-of-contents)
 
 ### Code Validation
 The [W3C Markup Validator](https://validator.w3.org/) service was used to validate the `HTML` and `CSS` code used.

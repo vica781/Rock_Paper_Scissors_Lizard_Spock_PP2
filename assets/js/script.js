@@ -31,6 +31,8 @@ let computerPick;
 let winner;
 let bgChoice = 0;
 
+let result = document.getElementById("result");
+
 // Add a YEAR to the footer
 const currentYear = new Date().getFullYear();
 document.getElementById("current-year").innerHTML = currentYear;
