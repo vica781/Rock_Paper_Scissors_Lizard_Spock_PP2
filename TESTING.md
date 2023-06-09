@@ -17,6 +17,7 @@
 3. [Automated Testing](#automated-testing) 
      - [Code Validation](#code-validation)
      - [Browser Validation](#browser-validation)
+     - [Lighthouse Validation](#lighthouse-validation)
 
 ***
 
@@ -192,48 +193,58 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
 
 [Back to top ⇧](#table-of-contents)
 
-### Browser Validation
-- Chrome - [test image]()
-- Edge - [test image]()
-- Opera - [test image]()
-- Firefox - [test image]()
-- Safari - [test image]()
-- Vivaldi - [test image]()
-- Brave - [test image]()
+### Browser Compatibility
+  Testing has been carried out on the following browsers :
+
+- Chrome 
+
+![test image](./assets/images/readme/readme-browser-validation/readme-chrome-validation.png)
+
+- Edge
+
+![test image](./assets/images/readme/readme-browser-validation/readme-edge-validation.png)
+
+- Opera 
+
+![test image](./assets/images/readme/readme-browser-validation/readme-opera-validation.png)
+
+- Firefox 
+
+![test image](./assets/images/readme/readme-browser-validation/readme-firefox-validation.png)
+
+- Brave 
+
+![test image](./assets/images/readme/readme-browser-validation/readme-brave-validation.png)
+
+
+[Back to top ⇧](#table-of-contents)
+
+### Lighthouse testing for Performans, Accessibillity, Best Practices and SEO
+
+- Home Page
+
+![Lighthouse results Home page]
+        
+- About Page
+
+![Lighthouse results About page]
+
+- Error (404) Page
+
+![Lighthouse results Error (404) page]
 
 [Back to top ⇧](#table-of-contents)
 
 ***
-# FROM DISCOVER AMBER 
-
-### Validator Testing
-
-- [HTML Validator](https://validator.w3.org/)
-
-    
-
-### Results after the bugs fixing
    
-    
-- [CSS Validator](https://jigsaw.w3.org/css-validator/)
 
-    - result for styles.css 
+
       
     
-    ### Lighthouse testing for Performans, Accessibillity, Best Practices and SEO
-    ![Lighthouse results Home page]
-    ![Lighthouse results About page]
-    ![Lighthouse results Error (404) page]
+### Lighthouse testing for Performans, Accessibillity, Best Practices and SEO
     
-    ### Browser Compatibility
-  Testing has been carried out on the following browsers :
-    - Chrome ![Browser testing]   
-    - Firefox ![Browser testing]
-    - Edge ![Browser testing]
-    - Vivaldi ![Browser testing]
-    - Brave ![Browser testing]
-
-    ### Navigation Bar links, Contact Form and Footer icons validation
+    
+### Navigation Bar links, Contact Form and Footer icons validation
 
   - Testing has been carried out on all tabs of the menu bar to make sure that active pages displayed correctly, tabs are changing colour on hover during navigation, and links from the nav tabs are functioning.
     
