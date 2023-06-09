@@ -10,14 +10,13 @@
 [View the live project here](https://vica781.github.io/Rock_Paper_Scissors_Lizard_Spock_PP2/)
 
 ***
-## Table of contents
-1. [Testing User Stories](#Testing-User-Stories)
-2. [Manual Testing](#Manual-Testing)
-3. [Automated Testing](#Automated-Testing) 
-     - [Code Validation](#Code-Validation)
-     - [Browser Validation](#Browser-Validation)
-4. [User Testing](#User-Testing)
 
+## Table of contents
+1. [Testing User Stories](#testing-user-stories)
+2. [Manual Testing](#manual-testing)
+3. [Automated Testing](#automated-testing) 
+     - [Code Validation](#code-validation)
+     - [Browser Validation](#browser-validation)
 
 ***
 
@@ -36,6 +35,7 @@ As a new user I want to be able to:
 4. As a first time visitor, I want to explore the About page and learn more about the history, philosophy, educational aspects, logical components, tactical strategies of the game, and interesting facts about the game.
 5. As a first time visitor, I want to be able to provide feedback or ask for help in case I need any, either through forums, comments, or social media links, sharing my experience or strategies in playing the game.
 
+[Back to top ⇧](#table-of-contents)
 
 #### <ins>Returning Visitor Goals<ins>
 
@@ -46,14 +46,14 @@ As a new user I want to be able to:
 4. As a returning visitor, I want a consistent, user-friendly interface where I can easily navigate to my desired sections. 
 5. As a returning visitor, I want to engage more with the community, either through forums, comments, or social media links, sharing my experience or strategies in playing the game.
 
-[Back to top ⇧](#index--table-of-contents)
+[Back to top ⇧](#table-of-contents)
 
 
   
 
 #### Returning Visitor Goals:
 
-[Back to top ⇧](#index--table-of-contents)
+[Back to top ⇧](#table-of-contents)
 
 
 
@@ -61,55 +61,136 @@ As a new user I want to be able to:
 
 
 
-[Back to top ⇧](#index--table-of-contents)
+[Back to top ⇧](#table-of-contents)
 
 
 ### Common Elements Testing
 
-[Back to top ⇧](#index--table-of-contents)
+[Back to top ⇧](#table-of-contents)
      
 ### Home Page
 
-[Back to top ⇧](#index--table-of-contents)     
+[Back to top ⇧](#table-of-contents)     
 
 ### About Page
 
-[Back to top ⇧](#index--table-of-contents)
+[Back to top ⇧](#table-of-contents)
   
 ### Error (404) Page
 
-[Back to top ⇧](#index--table-of-contents)    
+[Back to top ⇧](#table-of-contents)    
 
 ## Automated Testing
 
 ### Code Validation
-The [W3C Markup Validator](https://validator.w3.org/) service was used to validate the `HTML` and `CSS` code used.
+
+The [W3C Markup Validator](https://validator.w3.org/) service was used to validate the `HTML` and `CSS` code used. The [JSHint JavaScript Code Quality Tool](https://jshint.com/) was also used to validate the sites `JS` code.
 
 **Results:**
 
 - Home Page
 
-     ![Home Page HTML Validation Results]()
+<details>
+<summary>Home Page HTML Validation - First Results</summary>
 
-[Back to top ⇧](#index--table-of-contents)
+![Home Page HTML Validation - First Results](./assets/images/readme/readme-code-validation/html-code-validation/index-html-first-validation.png)
+
+</details>
+
+<details>
+<summary>Home Page HTML Validation - Errors</summary>
+
+![Home Page HTML Validation - Errors](./assets/images/readme/readme-code-validation/html-code-validation/index-html-errors.png)
+
+</details>
+
+<details>
+<summary>Home Page HTML Validation - Warnings</summary>
+
+![Home Page HTML Validation - Warnings](./assets/images/readme/readme-code-validation/html-code-validation/index-html-warnings.png)
+
+</details>
+
+<details>
+<summary>Home Page HTML Validation - Final</summary>
+
+![Home Page HTML Validation - Final](./assets/images/readme/readme-code-validation/html-code-validation/index-html-final-validation.png)
+
+</details>
+
+<br>
 
 - About Page
 
-     ![About Page HTML Validation Results]()
+<details>
+<summary>About Page HTML Validation</summary>
 
-[Back to top ⇧](#index--table-of-contents)
+![About Page HTML Validation](./assets/images/readme/readme-code-validation/html-code-validation/about-html-validation.png)
 
-- 404 Page
+</details>
 
-     ![404 Page HTML Validation Results]()
-     
-     [Back to top ⇧](#index--table-of-contents)
+<br>
 
+- Error (404) Page
+
+<details>
+<summary>Error Page HTML Validation</summary>
+
+![Error Page HTML Validation](./assets/images/readme/readme-code-validation/html-code-validation/error-html-validation.png)
+
+</details>
+
+<br>   
+   
 - CSS stylesheet
 
-     ![Style sheet validation results]()
+<details>
+<summary>Style sheet validation - First</summary>
 
-[Back to top ⇧](#index--table-of-contents)
+![Style sheet validation - First](./assets/images/readme/readme-code-validation/css-code-validation/css-first-validation.png)
+
+</details>
+
+<details>
+<summary>Style sheet validation - Final</summary>
+
+![Style sheet validation - Final](./assets/images/readme/readme-code-validation/css-code-validation/css-final-validation.png)
+
+</details>
+
+<br>
+
+- JavaScript
+
+<details>
+<summary>JavaScript script.js validation - First</summary>
+
+![JavaScript script.js validation - First](./assets/images/readme/readme-code-validation/js-code-validation/script-first-js-validation.png)
+
+</details>
+
+<details>
+<summary>JavaScript script.js validation - Final</summary>
+
+![JavaScript script.js validation - Final](./assets/images/readme/readme-code-validation/js-code-validation/script-final-js-validation.png)
+
+</details>
+
+<details>
+<summary>JavaScript about.js validation</summary>
+
+![JavaScript about.js validation](./assets/images/readme/readme-code-validation/js-code-validation/about-js-validation.png)
+
+</details>
+
+<details>
+<summary>JavaScript error-page.js validation</summary>
+
+![JavaScript error-page.js validation](./assets/images/readme/readme-code-validation/js-code-validation/error-page-js-validation.png)
+
+</details>
+
+[Back to top ⇧](#table-of-contents)
 
 ### Browser Validation
 - Chrome - [test image]()
@@ -120,12 +201,8 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
 - Vivaldi - [test image]()
 - Brave - [test image]()
 
-[Back to top ⇧](#index--table-of-contents)
+[Back to top ⇧](#table-of-contents)
 
-## User testing 
-
-
-[Back to top ⇧](#index--table-of-contents)
 ***
 # FROM DISCOVER AMBER 
 
