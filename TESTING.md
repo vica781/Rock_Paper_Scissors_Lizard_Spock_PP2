@@ -216,6 +216,10 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
 
 ![test image](./assets/images/readme/readme-browser-validation/readme-brave-validation.png)
 
+- Vivaldi
+
+![test image](./assets/images/readme/readme-browser-validation/readme-vivaldi-validation.png)
+
 
 [Back to top ⇧](#table-of-contents)
 
