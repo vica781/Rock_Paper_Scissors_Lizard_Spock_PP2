@@ -35,12 +35,13 @@ nav {
   height: 100px;
   margin-left: 20px;
 }
-.heading h1 {
+.heading p {
   font-family: "Cabin Sketch", cursive;
   font-size: clamp(2rem, 1rem + 4vw, 4rem);
   color: hsl(66, 80%, 62%);
   letter-spacing: 6px;
   line-height: clamp(2rem, 1rem + 4vw, 4rem);
+  font-weight: bold;
 }
 .logo-heading {
   display: flex;
@@ -1324,7 +1325,7 @@ ul ul {
 /* Add style for iPhone 5, 5S, and old SE to remove horizontal scroll*/
 @media screen and (width: 320px) and (height: 568px) {
   /* Nav Bar - Heading */
-  .heading h1 {
+  .heading p {
     font-size: 1.65rem;
     line-height: 1.65rem;
   }
@@ -1501,7 +1502,7 @@ ul ul {
   nav {
     height: 5.5rem;
   }
-  .heading h1 {
+  .heading p {
     font-size: 1.3rem;
     line-height: 1.3rem;
   }
