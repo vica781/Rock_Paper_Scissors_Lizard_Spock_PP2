@@ -228,43 +228,81 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
 - Home Page
 
 <details>
-<summary>Lighthouse validation Hope page - 1</summary>
+<summary>Lighthouse validation Home page - 1</summary>
 
-![Lighthouse validation Hope page - 1](./assets/images/readme/readme-lighthouse-validation/lighthouse-home-page/lighthouse-validation-home-1.jpg)
-
-</details>
-        
-<details>
-<summary>Lighthouse validation Hope page - 2</summary>
-
-![Lighthouse validation Hope page - 2](./assets/images/readme/readme-lighthouse-validation/lighthouse-home-page/lighthouse-validation-home-2.jpg)
-
-</details>
-
-<details>
-<summary>Lighthouse validation Hope page - 3</summary>
-
-![Lighthouse validation Hope page - 3](./assets/images/readme/readme-lighthouse-validation/lighthouse-home-page/lighthouse-validation-home-3.jpg)
+![Lighthouse validation Home page - 1](./assets/images/readme/readme-lighthouse-validation/lighthouse-home-page/lighthouse-validation-home-1.jpg)
 
 </details>
         
 <details>
-<summary>Lighthouse validation Hope page - 4</summary>
+<summary>Lighthouse validation Home page - 2</summary>
 
-![Lighthouse validation Hope page - 4](./assets/images/readme/readme-lighthouse-validation/lighthouse-home-page/lighthouse-validation-home-4.jpg)
+![Lighthouse validation Home page - 2](./assets/images/readme/readme-lighthouse-validation/lighthouse-home-page/lighthouse-validation-home-2.jpg)
 
 </details>
 
+<details>
+<summary>Lighthouse validation Home page - 3</summary>
 
-<summary>Lighthouse validation Hope page - Final</summary>
+![Lighthouse validation Home page - 3](./assets/images/readme/readme-lighthouse-validation/lighthouse-home-page/lighthouse-validation-home-3.jpg)
 
-![Lighthouse validation Hope page - Final](./assets/images/readme/readme-lighthouse-validation/lighthouse-home-page/lighthouse-validation-home-final.png)
+</details>
+        
+<details>
+<summary>Lighthouse validation Home page - 4</summary>
+
+![Lighthouse validation Home page - 4](./assets/images/readme/readme-lighthouse-validation/lighthouse-home-page/lighthouse-validation-home-4.jpg)
+
+</details>
+
+<summary>Lighthouse validation Home page - Final</summary>
+
+![Lighthouse validation Home page - Final](./assets/images/readme/readme-lighthouse-validation/lighthouse-home-page/lighthouse-validation-home-final.png)
 
 </details>
 <br>      
 - About Page
 
-![Lighthouse results About page]
+<details>
+<summary>Lighthouse results About page - 1</summary>
+
+![Lighthouse results About page - 1](./assets/images/readme/readme-lighthouse-validation/lighthouse-about-page/lighthouse-about-page-1.jpg)
+
+</details>
+
+<details>
+<summary>Lighthouse results About page - 2</summary>
+
+![Lighthouse results About page - 2](./assets/images/readme/readme-lighthouse-validation/lighthouse-about-page/lighthouse-about-page-2.jpg)
+
+</details>
+
+<details>
+<summary>Lighthouse results About page - SEO</summary>
+
+![Lighthouse results About page - SEO](./assets/images/readme/readme-lighthouse-validation/lighthouse-about-page/lighthouse-about-page-seo-1.png)
+
+</details>
+
+<details>
+<summary>Lighthouse results About page - SEO</summary>
+
+![Lighthouse results About page - SEO](./assets/images/readme/readme-lighthouse-validation/lighthouse-about-page/lighthouse-about-page-seo.png)
+
+</details>
+
+<details>
+<summary>Lighthouse results About page - Best Practices</summary>
+
+![Lighthouse results About page - Best Practices](./assets/images/readme/readme-lighthouse-validation/lighthouse-about-page/lighthouse-about-page-best-practices.jpg)
+
+</details>
+
+<summary>Lighthouse results About page - Final</summary>
+
+![Lighthouse results About page - Final](./assets/images/readme/readme-lighthouse-validation/lighthouse-about-page/lighthouse-about-page-final.jpg)
+
+[Back to top ⇧](#table-of-contents)
 
 - Error (404) Page
 
