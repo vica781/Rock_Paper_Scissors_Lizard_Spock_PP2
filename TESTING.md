@@ -136,7 +136,7 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
 <details>
 <summary>Error Page HTML Validation</summary>
 
-![Error Page HTML Validation](./assets/images/readme/readme-code-validation/html-code-validation/error-html-validation.png)
+![Error Page HTML Validation](./assets/images/readme/readme-code-validation/html-code-validation/error-page-html-validation.png)
 
 </details>
 
