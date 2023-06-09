@@ -227,8 +227,41 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
 
 - Home Page
 
-![Lighthouse results Home page]
+<details>
+<summary>Lighthouse validation Hope page - 1</summary>
+
+![Lighthouse validation Hope page - 1](./assets/images/readme/readme-lighthouse-validation/lighthouse-home-page/lighthouse-validation-home-1.jpg)
+
+</details>
         
+<details>
+<summary>Lighthouse validation Hope page - 2</summary>
+
+![Lighthouse validation Hope page - 2](./assets/images/readme/readme-lighthouse-validation/lighthouse-home-page/lighthouse-validation-home-2.jpg)
+
+</details>
+
+<details>
+<summary>Lighthouse validation Hope page - 3</summary>
+
+![Lighthouse validation Hope page - 3](./assets/images/readme/readme-lighthouse-validation/lighthouse-home-page/lighthouse-validation-home-3.jpg)
+
+</details>
+        
+<details>
+<summary>Lighthouse validation Hope page - 4</summary>
+
+![Lighthouse validation Hope page - 4](./assets/images/readme/readme-lighthouse-validation/lighthouse-home-page/lighthouse-validation-home-4.jpg)
+
+</details>
+
+
+<summary>Lighthouse validation Hope page - Final</summary>
+
+![Lighthouse validation Hope page - Final](./assets/images/readme/readme-lighthouse-validation/lighthouse-home-page/lighthouse-validation-home-final.png)
+
+</details>
+<br>      
 - About Page
 
 ![Lighthouse results About page]
