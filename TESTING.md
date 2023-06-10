@@ -172,15 +172,15 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
 
 </details>
 
-<summary>Home Page HTML Validation - Final</summary>
+  <summary>Home Page HTML Validation - Final</summary>
 
-![Home Page HTML Validation - Final](./assets/images/readme/readme-code-validation/html-code-validation/index-html-final-validation.png)
+  ![Home Page HTML Validation - Final](./assets/images/readme/readme-code-validation/html-code-validation/index-html-final-validation.png)
 
 <br>
 
 - **About Page**
 
-<summary>About Page HTML Validation</summary>
+  <summary>About Page HTML Validation</summary>
 
   ![About Page HTML Validation](./assets/images/readme/readme-code-validation/html-code-validation/about-html-validation.png)
 
@@ -188,7 +188,7 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
 
 - **Error (404) Page**
 
-<summary>Error Page HTML Validation</summary>
+  <summary>Error Page HTML Validation</summary>
 
   ![Error Page HTML Validation](./assets/images/readme/readme-code-validation/html-code-validation/error-page-html-validation.png)
 
@@ -201,9 +201,9 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
 
 </details>
 
-<summary>Style sheet validation - Final</summary>
+  <summary>Style sheet validation - Final</summary>
 
-![Style sheet validation - Final](./assets/images/readme/readme-code-validation/css-code-validation/css-final-validation.png)
+  ![Style sheet validation - Final](./assets/images/readme/readme-code-validation/css-code-validation/css-final-validation.png)
 
 - **JavaScript**
 
@@ -215,9 +215,9 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
 </details>
 
 <details>
-<summary>JavaScript script.js validation - Final</summary>
+   <summary>JavaScript script.js validation - Final</summary>
 
-![JavaScript script.js validation - Final](./assets/images/readme/readme-code-validation/js-code-validation/script-final-js-validation.png)
+   ![JavaScript script.js validation - Final](./assets/images/readme/readme-code-validation/js-code-validation/script-final-js-validation.png)
 
 </details>
 
