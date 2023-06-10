@@ -72,51 +72,64 @@ Manual testing was carried out to ensure that all features of the website are wo
 
 - Navigation Bar
 
-![Navigation Bar](./assets/images/readme/readme-manual-testing/manual-common-elements-testing/manual-testing-nav-bar.gif)
+  ![Navigation Bar](./assets/images/readme/readme-manual-testing/manual-common-elements-testing/manual-testing-nav-bar.gif)
+
+  <br>
 
 - Footer
 
-![Footer](./assets/images/readme/readme-manual-testing/manual-common-elements-testing/manual-testing-footer.gif)
+  ![Footer](./assets/images/readme/readme-manual-testing/manual-common-elements-testing/manual-testing-footer.gif)
 
-[Back to top ⇧](#table-of-contents)
+  [Back to top ⇧](#table-of-contents)
      
 ### Home Page
 
 - **Modal** (Game Rules)
 
-![Modal](./assets/images/readme/readme-manual-testing/manual-home-page-testing/manual-testing-modal.gif)
+  ![Modal](./assets/images/readme/readme-manual-testing/manual-home-page-testing/manual-testing-modal.gif)
+
+  <br>
 
 - **'Play again?'** button
 
-![Play again?](./assets/images/readme/readme-manual-testing/manual-home-page-testing/manual-testing-play-again.gif)
+  ![Play again?](./assets/images/readme/readme-manual-testing/manual-home-page-testing/manual-testing-play-again.gif)
+
+  <br>
 
 - **Audio controls**
 Audio controls are working as intended. The user can play music in order it is position on the website by clicking on the 'speaker' icon. The user can also navigate to the next composition by clicking on the 'forwatd' chevron icon or to the previous composition by clicking on the 'back' chevron icon. Also, if the user vould rather stop audio playing, they can click on the 'volume off' icon. The link to the video with **audio testing** is [here](https://youtu.be/Wnn-8dLJUb8).
+
 <br>
 
 - **'Change Mood'** button (background change controls)
 
-![Change Mood](./assets/images/readme/readme-manual-testing/manual-home-page-testing/manual-testing-change-mood.gif)
+  ![Change Mood](./assets/images/readme/readme-manual-testing/manual-home-page-testing/manual-testing-change-mood.gif)
+
+  <br>
 
 - **Game controls**
 
-![Game controls](./assets/images/readme/readme-manual-testing/manual-home-page-testing/manual-testing-game-controls.gif)
+  ![Game controls](./assets/images/readme/readme-manual-testing/manual-home-page-testing/manual-testing-game-controls.gif)
 
-[Back to top ⇧](#table-of-contents)     
+  [Back to top ⇧](#table-of-contents)     
 
 ### About Page
 
 - **Table of Contents**
 
-![Table of Contents](./assets/images/readme/readme-manual-testing/manual-about-page-testing/manual-testing-about-page-table-of-content.gif)
+  ![Table of Contents](./assets/images/readme/readme-manual-testing/manual-about-page-testing/manual-testing-about-page-table-of-content.gif)
 
-- **'Back to top'** button
+  <br>
 
-![Back to top](./assets/images/readme/readme-manual-testing/manual-about-page-testing/manual-testing-about-page-back-to-top.gif)
+- **'Back-to-top'** button
+
+  ![Back-to-top](./assets/images/readme/readme-manual-testing/manual-about-page-testing/manual-testing-about-page-back-to-top.gif)
+
+  <br>
 
 - **Hyperlinks**
 
-![Hyperlinks](./assets/images/readme/readme-manual-testing/manual-about-page-testing/manual-testing-about-page-hyperlinks.gif)
+  ![Hyperlinks](./assets/images/readme/readme-manual-testing/manual-about-page-testing/manual-testing-about-page-hyperlinks.gif)
 
 [Back to top ⇧](#table-of-contents)
 
@@ -124,7 +137,7 @@ Audio controls are working as intended. The user can play music in order it is p
 
 - **Link** to the **Home Page**
 
-![Link to the Home Page](./assets/images/readme/readme-manual-testing/manual-error-page-testing/manual-testing-error-page-back-home.gif)
+  ![Link to the Home Page](./assets/images/readme/readme-manual-testing/manual-error-page-testing/manual-testing-error-page-back-home.gif)
 
 [Back to top ⇧](#table-of-contents)    
 
@@ -136,7 +149,7 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
 
 **Results:**
 
-- Home Page
+- **Home Page**
 
 <details>
 <summary>Home Page HTML Validation - First Results</summary>
@@ -159,38 +172,27 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
 
 </details>
 
-<details>
 <summary>Home Page HTML Validation - Final</summary>
 
 ![Home Page HTML Validation - Final](./assets/images/readme/readme-code-validation/html-code-validation/index-html-final-validation.png)
 
-</details>
-
 <br>
 
-- About Page
+- **About Page**
 
-<details>
 <summary>About Page HTML Validation</summary>
 
-![About Page HTML Validation](./assets/images/readme/readme-code-validation/html-code-validation/about-html-validation.png)
-
-</details>
+  ![About Page HTML Validation](./assets/images/readme/readme-code-validation/html-code-validation/about-html-validation.png)
 
 <br>
 
-- Error (404) Page
+- **Error (404) Page**
 
-<details>
 <summary>Error Page HTML Validation</summary>
 
-![Error Page HTML Validation](./assets/images/readme/readme-code-validation/html-code-validation/error-page-html-validation.png)
+  ![Error Page HTML Validation](./assets/images/readme/readme-code-validation/html-code-validation/error-page-html-validation.png)
 
-</details>
-
-<br>   
-   
-- CSS stylesheet
+- **CSS stylesheet**
 
 <details>
 <summary>Style sheet validation - First</summary>
@@ -199,16 +201,11 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
 
 </details>
 
-<details>
 <summary>Style sheet validation - Final</summary>
 
 ![Style sheet validation - Final](./assets/images/readme/readme-code-validation/css-code-validation/css-final-validation.png)
 
-</details>
-
-<br>
-
-- JavaScript
+- **JavaScript**
 
 <details>
 <summary>JavaScript script.js validation - First</summary>
@@ -243,27 +240,27 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
 ### Browser Compatibility
   Testing has been carried out on the following browsers :
 
-- Chrome 
+- **Chrome** 
 
 ![test image](./assets/images/readme/readme-browser-validation/readme-chrome-validation.png)
 
-- Edge
+- **Edge**
 
 ![test image](./assets/images/readme/readme-browser-validation/readme-edge-validation.png)
 
-- Opera 
+- **Opera** 
 
 ![test image](./assets/images/readme/readme-browser-validation/readme-opera-validation.png)
 
-- Firefox 
+- **Firefox** 
 
 ![test image](./assets/images/readme/readme-browser-validation/readme-firefox-validation.png)
 
-- Brave 
+- **Brave** 
 
 ![test image](./assets/images/readme/readme-browser-validation/readme-brave-validation.png)
 
-- Vivaldi
+- **Vivaldi**
 
 ![test image](./assets/images/readme/readme-browser-validation/readme-vivaldi-validation.png)
 
@@ -272,7 +269,7 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
 
 ### Lighthouse testing for Performans, Accessibillity, Best Practices and SEO
 
-- Home Page
+- **Home Page**
 
 <details>
 <summary>Lighthouse validation Home page - 1</summary>
@@ -310,7 +307,7 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
 
 [Back to top ⇧](#table-of-contents)
 
--  About Page
+-  **About Page**
 
 <details>
 <summary>Lighthouse results About page - 1</summary>
@@ -353,7 +350,7 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
 
 [Back to top ⇧](#table-of-contents)
 
-- Error (404) Page
+- **Error (404) Page**
 
 <summary>Lighthouse results Error (404) page</summary>
 
@@ -363,23 +360,9 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
 
 ***
 
-## Testing User Stories from User Experience (UX) Section
-
-### New User Goals
-
-1. As a first time visitor, I want to understand the purpose of the site and learn about the game Rock Paper Scissors Lizard Spock.
-
-- Purpose of the site is 
+[Main README.md file](/README.md)
 
 
-### Navigation Bar links, Contact Form and Footer icons validation
 
-  - Testing has been carried out on all tabs of the menu bar to make sure that active pages displayed correctly, tabs are changing colour on hover during navigation, and links from the nav tabs are functioning.
-    
-    ![Nav testing](./assets/image/readme_page/validation/validation_gifs/menu_links_test.gif)
-
-  - Testing has been carried out on all input fields of the Contact Form to make sure that all areas marked as 'required' are functioning properly.  
-    
-    ![Footer testing](./assets/image/readme_page/validation/validation_gifs/social_media_links_test.gif)
  
      
