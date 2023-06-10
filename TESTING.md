@@ -93,6 +93,7 @@ Manual testing was carried out to ensure that all features of the website are wo
 - **Audio controls**
 Audio controls are working as intended. The user can play music in order it is position on the website by clicking on the 'speaker' icon. The user can also navigate to the next composition by clicking on the 'forwatd' chevron icon or to the previous composition by clicking on the 'back' chevron icon. Also, if the user vould rather stop audio playing, they can click on the 'volume off' icon. The link to the video with **audio testing** is [here](https://youtu.be/Wnn-8dLJUb8).
 <br>
+
 - **'Change Mood'** button (background change controls)
 
 ![Change Mood](./assets/images/readme/readme-manual-testing/manual-home-page-testing/manual-testing-change-mood.gif)
@@ -105,9 +106,25 @@ Audio controls are working as intended. The user can play music in order it is p
 
 ### About Page
 
+- **Table of Contents**
+
+![Table of Contents](./assets/images/readme/readme-manual-testing/manual-about-page-testing/manual-testing-about-page-table-of-content.gif)
+
+- **'Back to top'** button
+
+![Back to top](./assets/images/readme/readme-manual-testing/manual-about-page-testing/manual-testing-about-page-back-to-top.gif)
+
+- **Hyperlinks**
+
+![Hyperlinks](./assets/images/readme/readme-manual-testing/manual-about-page-testing/manual-testing-about-page-hyperlinks.gif)
+
 [Back to top ⇧](#table-of-contents)
-  
+
 ### Error (404) Page
+
+- **Link** to the **Home Page**
+
+![Link to the Home Page](./assets/images/readme/readme-manual-testing/manual-error-page-testing/manual-testing-error-page-back-home.gif)
 
 [Back to top ⇧](#table-of-contents)    
 
