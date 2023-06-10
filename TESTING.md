@@ -49,16 +49,19 @@ As a new user I want to be able to:
 
 [Back to top ⇧](#table-of-contents)
 
-
-  
-
 #### Returning Visitor Goals:
 
 [Back to top ⇧](#table-of-contents)
 
-
-
 ## Manual Testing
+
+Manual testing was carried out to ensure that all features of the website are working as intended. The following tests were carried out:
+
+- [Common Elements Testing](#common-elements-testing)
+- [Home Page](#home-page)
+- [About Page](#about-page)
+- [Error (404) Page](#error-404-page)
+
 
 
 
@@ -67,9 +70,28 @@ As a new user I want to be able to:
 
 ### Common Elements Testing
 
+- Navigation Bar
+
+![Navigation Bar](./assets/images/readme/readme-manual-testing/manual-common-elements-testing/manual-testing-nav-bar.gif)
+
+- Footer
+
+![Footer](./assets/images/readme/readme-manual-testing/manual-common-elements-testing/manual-testing-footer.gif)
+
 [Back to top ⇧](#table-of-contents)
      
 ### Home Page
+
+- Module 
+
+- 'Play again?' button 
+
+- Audio controls
+Audio controls are working as intended. The user can play music in order it is position on the website by clicking on the 'speaker' icon. The user can also navigate to the next composition by clicking on the 'forwatd' chevron icon or to the previous composition by clicking on the 'back' chevron icon. Also, if the user vould rather stop audio playing, they can click on the 'volume off' icon. The link to the video with audio testing is [here](https://youtu.be/Wnn-8dLJUb8).
+
+- Background change controls
+
+- Game controls
 
 [Back to top ⇧](#table-of-contents)     
 
