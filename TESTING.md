@@ -260,8 +260,10 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
 ![Lighthouse validation Home page - Final](./assets/images/readme/readme-lighthouse-validation/lighthouse-home-page/lighthouse-validation-home-final.png)
 
 </details>
-<br>      
-- About Page
+
+[Back to top ⇧](#table-of-contents)
+
+-  About Page
 
 <details>
 <summary>Lighthouse results About page - 1</summary>
@@ -306,19 +308,23 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
 
 - Error (404) Page
 
-![Lighthouse results Error (404) page]
+<summary>Lighthouse results Error (404) page</summary>
+
+![Lighthouse results Error (404) page](./assets/images/readme/readme-lighthouse-validation/lighthouse-error-page/lighthouse-error-page-final.jpg)
 
 [Back to top ⇧](#table-of-contents)
 
 ***
-   
+
+## Testing User Stories from User Experience (UX) Section
+
+### New User Goals
+
+1. As a first time visitor, I want to understand the purpose of the site and learn about the game Rock Paper Scissors Lizard Spock.
+
+- Purpose of the site is 
 
 
-      
-    
-### Lighthouse testing for Performans, Accessibillity, Best Practices and SEO
-    
-    
 ### Navigation Bar links, Contact Form and Footer icons validation
 
   - Testing has been carried out on all tabs of the menu bar to make sure that active pages displayed correctly, tabs are changing colour on hover during navigation, and links from the nav tabs are functioning.

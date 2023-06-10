@@ -301,7 +301,7 @@ The first background image I have chosen was image of a sweet pea. To support my
 
 My aim was to create a colour scheme that would be harmonious across of all elements involved: background images, game weapons, background colours of navigation bar, footer, game field, player's and computer's choices fields, coloures of score board and buttons, as well as moltiple messages displayed throughout the game. 
 
-![Colour Scheme](./assets/images/readme/readme-colour-scheme/colour-scheme-used-css.webp)
+![Colour Scheme](./assets/images/readme/readme-colour-scheme/colour-scheme-used-css.png)
 
 Special concideration has been given to many aspects to insure positive user experience. For example, I have chosen colours for the messages that would be in contrast with the background colours of the game field and each other, easy to read. Nav bar, footer and game field were given a sutable level of transparency to allow all elements to be easy readable, as well as allow to see main page background. 
 
