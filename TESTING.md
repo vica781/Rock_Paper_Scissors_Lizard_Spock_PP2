@@ -82,16 +82,24 @@ Manual testing was carried out to ensure that all features of the website are wo
      
 ### Home Page
 
-- Module 
+- **Modal** (Game Rules)
 
-- 'Play again?' button 
+![Modal](./assets/images/readme/readme-manual-testing/manual-home-page-testing/manual-testing-modal.gif)
 
-- Audio controls
-Audio controls are working as intended. The user can play music in order it is position on the website by clicking on the 'speaker' icon. The user can also navigate to the next composition by clicking on the 'forwatd' chevron icon or to the previous composition by clicking on the 'back' chevron icon. Also, if the user vould rather stop audio playing, they can click on the 'volume off' icon. The link to the video with audio testing is [here](https://youtu.be/Wnn-8dLJUb8).
+- **'Play again?'** button
 
-- Background change controls
+![Play again?](./assets/images/readme/readme-manual-testing/manual-home-page-testing/manual-testing-play-again.gif)
 
-- Game controls
+- **Audio controls**
+Audio controls are working as intended. The user can play music in order it is position on the website by clicking on the 'speaker' icon. The user can also navigate to the next composition by clicking on the 'forwatd' chevron icon or to the previous composition by clicking on the 'back' chevron icon. Also, if the user vould rather stop audio playing, they can click on the 'volume off' icon. The link to the video with **audio testing** is [here](https://youtu.be/Wnn-8dLJUb8).
+<br>
+- **'Change Mood'** button (background change controls)
+
+![Change Mood](./assets/images/readme/readme-manual-testing/manual-home-page-testing/manual-testing-change-mood.gif)
+
+- **Game controls**
+
+![Game controls](./assets/images/readme/readme-manual-testing/manual-home-page-testing/manual-testing-game-controls.gif)
 
 [Back to top ⇧](#table-of-contents)     
 

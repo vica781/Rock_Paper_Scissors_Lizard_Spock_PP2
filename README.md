@@ -354,8 +354,6 @@ This sketch has been used as a reference for the design of the website that was 
 
   [Back to top ⇧](#index--table-of-contents)
 
-
-
 ## **Technologies Used**
 
 ### Languages Used
@@ -377,7 +375,9 @@ This sketch has been used as a reference for the design of the website that was 
 -   [WebP Converter:](https://www.freeconvert.com/webp-converter) was used to convert images to webp.
 -   [Image to WEBP Converter:](https://converter.11zon.com/en/image-to-webp/) was used to convert images to webp.
 -   [CSS Beautifier:](https://www.freeformatter.com/css-beautifier.html#before-output) was used to format (beautify) style.css.
--   [Image to WEBP Converter:](https://www.freeformatter.com/html-formatter.html#before-output) was used to format (beautify) html code.  
+-   [Image to WEBP Converter:](https://www.freeformatter.com/html-formatter.html#before-output) was used to format (beautify) html code.
+-   [LICEcap](https://licecap.en.softonic.com/) screen recorder: was used to create the GIFs for this README file.
+-  [OBC Studio](https://obsproject.com/) open source software for video recording and live streaming: was used to record Manual testing of audio controls of the game for [TESTING.md](TESTING.md "Link to testing file") file.
     
 ## TESTING
 
@@ -392,7 +392,7 @@ Testing information can be found in a separate file [TESTING.md](TESTING.md "Lin
    - From the left side menu select Pages.
    - From the source section drop-down menu, select the main branch and click on save.
    - Once the main branch has been selected and saved, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-   - The live link can be found here [DISCOVER AMBER](https://vica781.github.io/Discover-Amber_2/) 
+   - The **live link** to my Rock Paper Scissors Lizard Spock project can be found  [here](https://vica781.github.io/Rock_Paper_Scissors_Lizard_Spock_PP2/). 
 
 ## CREDITS 
 
