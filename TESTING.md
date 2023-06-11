@@ -29,7 +29,7 @@ As a new user I want to be able to:
 
 1. As a first time visitor, I want to understand the purpose of the site and learn about the game Rock Paper Scissors Lizard Spock.
 
-- Purpose of the site is introduced in the **Game name** that is also a **Main Heading** displayed on the **Navigation Bar**. The user can easely familiarize with the game rules displayed on **Modal** on the load of the Home page or by clicking on the **'Rules'** button displayed at the bottom of the Game Field. The user can also learn more about the game in the **About Page**. The process is fully described and tested in the [Manual Testing](#manual-testing) section and [Existing Features](/README.md) section.
+  - Purpose of the site is introduced in the **Game name** that is also a **Main Heading** displayed on the **Navigation Bar**. The user can easely familiarize with the game rules displayed on **Modal** on the load of the Home page or by clicking on the **'Rules'** button displayed at the bottom of the Game Field. The user can also learn more about the game in the **About Page**. The process is fully described and tested in the [Manual Testing](#manual-testing) section and [Existing Features](/README.md) section.
 
 2. As a first time visitor, I want to be able to navigate the website easily, find the game rules and instructions, and be able to start playing the game without any difficulties.
 
