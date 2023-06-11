@@ -95,8 +95,6 @@ Manual testing was carried out to ensure that all features of the website are wo
 - [About Page](#about-page)
 - [Error (404) Page](#error-404-page)
 
-[Back to top ⇧](#table-of-contents)
-
 ### Common Elements Testing
 
 - Navigation Bar
@@ -109,7 +107,7 @@ Manual testing was carried out to ensure that all features of the website are wo
 
   ![Footer](./assets/images/readme/readme-manual-testing/manual-common-elements-testing/manual-testing-footer.gif)
 
-  [Back to top ⇧](#table-of-contents)
+[Back to top ⇧](#table-of-contents)
      
 ### Home Page
 
@@ -140,7 +138,7 @@ Audio controls are working as intended. The user can play music in order it is p
 
   ![Game controls](./assets/images/readme/readme-manual-testing/manual-home-page-testing/manual-testing-game-controls.gif)
 
-  [Back to top ⇧](#table-of-contents)     
+[Back to top ⇧](#table-of-contents)     
 
 ### About Page
 
