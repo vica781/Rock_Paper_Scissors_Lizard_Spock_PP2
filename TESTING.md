@@ -29,23 +29,54 @@ As a new user I want to be able to:
 
 1. As a first time visitor, I want to understand the purpose of the site and learn about the game Rock Paper Scissors Lizard Spock.
 
-- Purpose of the site is 
+- Purpose of the site is introduced in the **Game name** that is also a **Main Heading** displayed on the **Navigation Bar**. The user can easely familiarize with the game rules displayed on **Modal** on the load of the Home page or by clicking on the **'Rules'** button displayed at the bottom of the Game Field. The user can also learn more about the game in the **About Page**. The process is fully described and tested in the [Manual Testing](#manual-testing) section and [Existing Features](/README.md) section.
 
-2. As a first time visitor, I want to be able to navigate the website easily, find the game rules and instructions, and be able to start playing the game without any difficulties. 
+2. As a first time visitor, I want to be able to navigate the website easily, find the game rules and instructions, and be able to start playing the game without any difficulties.
+
+  - The user can navigate the website easily by using the **Navigation Bar buttons** and **Logo**. 
+  - The user can intuitively navigate between **Home Page**, **About Page**. Also, user can can leave Error (404) page easely and intuitively. The process is fully described and tested in the [Manual Testing](#manual-testing) section and [Existing Features](/README.md) section.
+  - The user is prompted to start playing the game by inviting to action messages displayed at the centre of the easely identifyiable **Game Field**: **'Ready when you are!'** and **'Take a Pick'**. 
+  - The  user can start playing the game by clicking on clearly indicative and equipped with worded name and recognizable 'weapon' icons buttons: **'Rock'**, **'Paper'**, **'Scissors'**, **'Lizard'**, **'Spock'**. 
+  - The user also assisted by the informative messages during the game: **'You picked ...'**, **'Computer picked ...'**, **'You win!'**, **'You lose!'**, **'It's a draw!'**. For the user 
+   convenience all messages distingvisable by the different colours.
+  - The user can also start playing the game by clicking on the button with inviting to action message: **'Play again?'** that is displayed at the top of the Game Field. 
+  - The **Score Board** located at the top of the Game Field also helps the user to keep track of the game progress. 
+   
 3. As a first time visitor, I want to enjoy the calming and destressing elements of the website, like the serene nature backgrounds and soothing classical music. 
+
+  - The user can easely and intuitively navigate between the different nature backgrounds by clicking on the **'Change Mood'** button or using **'Back'** and **'Forward'** chevron icons. The process is fully described and tested in the [Manual Testing](#manual-testing) section and [Existing Features](/README.md) section.
+
+  - The user can also control the music by clicking on the **'speaker'** and **'volume off'** icon, **'forward'** and **'back'** chevrons. The process is fully described and tested in the [Manual Testing](#manual-testing) section and [Existing Features](/README.md) section. 
+   
 4. As a first time visitor, I want to explore the About page and learn more about the history, philosophy, educational aspects, logical components, tactical strategies of the game, and interesting facts about the game.
-5. As a first time visitor, I want to be able to provide feedback or ask for help in case I need any, either through forums, comments, or social media links, sharing my experience or strategies in playing the game.
+
+- The user can learn more about the game in the **About Page**. All  navigation options and available resources are clearly displayed in the **Table of Contents**. The user can easely navigate to the desired section by clicking on the **hyperlink**. The process is fully described and tested in the [Manual Testing](#manual-testing) section and [Existing Features](/README.md) section. 
+
+The process is fully described and tested in the [Manual Testing](#manual-testing) section and [Existing Features](/README.md) section.
+
+
 
 [Back to top ⇧](#table-of-contents)
 
-#### <ins>Returning Visitor Goals<ins>
+#### <ins>Current and Returning Visitor Goals<ins>
 
    As a current/returning user I want to be able to:
+   
 1. As a returning visitor, I want to be able to play the Rock Paper Scissors Lizard Spock game quickly, without needing to go through lengthy processes or instructions. 
+
+
+
 2. As a returning visitor, I want to see new elements or updates in the game, including new nature backgrounds and classical music to keep my experience fresh and enjoyable. 
+
+
+
 3. As a returning visitor, I want to find new, fascinating facts, insights, or resources on the About page that enhance my understanding and appreciation of the game. 
+
+
+
 4. As a returning visitor, I want a consistent, user-friendly interface where I can easily navigate to my desired sections. 
-5. As a returning visitor, I want to engage more with the community, either through forums, comments, or social media links, sharing my experience or strategies in playing the game.
+
+
 
 [Back to top ⇧](#table-of-contents)
 
@@ -62,11 +93,7 @@ Manual testing was carried out to ensure that all features of the website are wo
 - [About Page](#about-page)
 - [Error (404) Page](#error-404-page)
 
-
-
-
 [Back to top ⇧](#table-of-contents)
-
 
 ### Common Elements Testing
 
@@ -172,6 +199,8 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
 
 </details>
 
+<br>
+
   <summary>Home Page HTML Validation - Final</summary>
 
   ![Home Page HTML Validation - Final](./assets/images/readme/readme-code-validation/html-code-validation/index-html-final-validation.png)
@@ -180,7 +209,7 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
 
 - **About Page**
 
-  <summary>About Page HTML Validation</summary>
+    <summary>About Page HTML Validation</summary>
 
   ![About Page HTML Validation](./assets/images/readme/readme-code-validation/html-code-validation/about-html-validation.png)
 
@@ -188,7 +217,7 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
 
 - **Error (404) Page**
 
-  <summary>Error Page HTML Validation</summary>
+    <summary>Error Page HTML Validation</summary>
 
   ![Error Page HTML Validation](./assets/images/readme/readme-code-validation/html-code-validation/error-page-html-validation.png)
 
@@ -201,9 +230,11 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
 
 </details>
 
-  <summary>Style sheet validation - Final</summary>
+<br>
 
-  ![Style sheet validation - Final](./assets/images/readme/readme-code-validation/css-code-validation/css-final-validation.png)
+   <summary>Style sheet validation - Final</summary>
+
+   ![Style sheet validation - Final](./assets/images/readme/readme-code-validation/css-code-validation/css-final-validation.png)
 
 - **JavaScript**
 
