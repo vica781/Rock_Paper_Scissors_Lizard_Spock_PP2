@@ -29,58 +29,60 @@ As a new user I want to be able to:
 
 1. As a first time visitor, I want to understand the purpose of the site and learn about the game Rock Paper Scissors Lizard Spock.
 
-  - Purpose of the site is introduced in the **Game name** that is also a **Main Heading** displayed on the **Navigation Bar**. The user can easely familiarize with the game rules displayed on **Modal** on the load of the Home page or by clicking on the **'Rules'** button displayed at the bottom of the Game Field. The user can also learn more about the game in the **About Page**. The process is fully described and tested in the [Manual Testing](#manual-testing) section and [Existing Features](/README.md) section.
+   - Purpose of the site is introduced in the **Game name** that is also a **Main Heading** displayed on the **Navigation Bar**. The user can easely familiarize with the game rules displayed on **Modal** on the load of the Home page or by clicking on the **'Rules'** button displayed at the bottom of the Game Field. The user can also learn more about the game in the **About Page**. The process is fully described and tested in the [Manual Testing](#manual-testing) section and [Existing Features](/README.md) section.
 
 2. As a first time visitor, I want to be able to navigate the website easily, find the game rules and instructions, and be able to start playing the game without any difficulties.
 
-  - The user can navigate the website easily by using the **Navigation Bar buttons** and **Logo**. 
-  - The user can intuitively navigate between **Home Page**, **About Page**. Also, user can can leave Error (404) page easely and intuitively. The process is fully described and tested in the [Manual Testing](#manual-testing) section and [Existing Features](/README.md) section.
-  - The user is prompted to start playing the game by inviting to action messages displayed at the centre of the easely identifyiable **Game Field**: **'Ready when you are!'** and **'Take a Pick'**. 
-  - The  user can start playing the game by clicking on clearly indicative and equipped with worded name and recognizable 'weapon' icons buttons: **'Rock'**, **'Paper'**, **'Scissors'**, **'Lizard'**, **'Spock'**. 
-  - The user also assisted by the informative messages during the game: **'You picked ...'**, **'Computer picked ...'**, **'You win!'**, **'You lose!'**, **'It's a draw!'**. For the user 
+   - The user can navigate the website easily by using the **Navigation Bar buttons** and **Logo**. 
+   - The user can intuitively navigate between **Home Page**, **About Page**. Also, user can can leave Error (404) page easely and intuitively. The process is fully described and tested in the [Manual Testing](#manual-testing) section and [Existing Features](/README.md) section.
+   - The user is prompted to start playing the game by inviting to action messages displayed at the centre of the easely identifyiable **Game Field**: **'Ready when you are!'** and **'Take a Pick'**.
+   - The user also supported by two fields displaying **images of player's and computer's weapon choices**.  
+   - The  user can start playing the game by clicking on clearly indicative and equipped with worded name and recognizable 'weapon' icons buttons: **'Rock'**, **'Paper'**, **'Scissors'**, **'Lizard'**, **'Spock'**. 
+   - The user also assisted by the informative messages during the game: **'You picked ...'**, **'Computer picked ...'**, **'You win!'**, **'You lose!'**, **'It's a draw!'**. For the user 
    convenience all messages distingvisable by the different colours.
-  - The user can also start playing the game by clicking on the button with inviting to action message: **'Play again?'** that is displayed at the top of the Game Field. 
-  - The **Score Board** located at the top of the Game Field also helps the user to keep track of the game progress. 
+   - The user can also start playing the game by clicking on the button with inviting to action message: **'Play again?'** that is displayed at the top of the Game Field. 
+   - The **Score Board** located at the top of the Game Field also helps the user to keep track of the game progress. 
    
 3. As a first time visitor, I want to enjoy the calming and destressing elements of the website, like the serene nature backgrounds and soothing classical music. 
 
-  - The user can easely and intuitively navigate between the different nature backgrounds by clicking on the **'Change Mood'** button or using **'Back'** and **'Forward'** chevron icons. The process is fully described and tested in the [Manual Testing](#manual-testing) section and [Existing Features](/README.md) section.
+   - The user can easely and intuitively navigate between the different nature backgrounds by clicking on the **'Change Mood'** button or using **'Back'** and **'Forward'** chevron icons. The process is fully described and tested in the [Manual Testing](#manual-testing) section and [Existing Features](/README.md) section.
 
-  - The user can also control the music by clicking on the **'speaker'** and **'volume off'** icon, **'forward'** and **'back'** chevrons. The process is fully described and tested in the [Manual Testing](#manual-testing) section and [Existing Features](/README.md) section. 
+   - The user can also control the music by clicking on the **'speaker'** and **'volume off'** icon, **'forward'** and **'back'** chevrons. The process is fully described and tested in the [Manual Testing](#manual-testing) section and [Existing Features](/README.md) section. 
    
 4. As a first time visitor, I want to explore the About page and learn more about the history, philosophy, educational aspects, logical components, tactical strategies of the game, and interesting facts about the game.
 
-- The user can learn more about the game in the **About Page**. All  navigation options and available resources are clearly displayed in the **Table of Contents**. The user can easely navigate to the desired section by clicking on the **hyperlink**. The process is fully described and tested in the [Manual Testing](#manual-testing) section and [Existing Features](/README.md) section. 
+   - The user can learn more about the game in the **About Page**. All  navigation options and available resources are clearly displayed in the **Table of Contents**. The user can easely navigate to the desired section by clicking on the **hyperlink**. The process is fully described and tested in the [Manual Testing](#manual-testing) section and [Existing Features](/README.md) section. 
+   
+5. As a first time visitor, I want to be able to play the game on different devices, including mobile, tablet, and desktop, without any issues.
 
-The process is fully described and tested in the [Manual Testing](#manual-testing) section and [Existing Features](/README.md) section.
-
-
+    - The website is fully responsive and can be viewed on different devices, including mobile, tablet, and desktop, without any issues. The process is fully described and tested in the [Manual Testing](#manual-testing) section and [Existing Features](/README.md) section.
 
 [Back to top ⇧](#table-of-contents)
 
 #### <ins>Current and Returning Visitor Goals<ins>
 
-   As a current/returning user I want to be able to:
+As a current/returning user I want to be able to:
    
 1. As a returning visitor, I want to be able to play the Rock Paper Scissors Lizard Spock game quickly, without needing to go through lengthy processes or instructions. 
 
-
+   - As current and returning users are already familiar with the game rules, they can get back into action right away still supported by the messages displayed at the centre of the Game Field: **'Ready when you are!'** and **'Take a Pick'**. The user can also start playing the game by making a choice of the weapon by clicking on the clearly indicative and equipped with worded name and recognizable 'weapon' icons buttons: **'Rock'**, **'Paper'**, **'Scissors'**, **'Lizard'**, **'Spock'**. The user can also start playing the game by   
+   clicking on the **'Play again?'** button displayed at the top of the Game Field. The process is fully described and tested in the [Manual Testing](#manual-testing) section and [Existing Features](/README.md) section.
 
 2. As a returning visitor, I want to see new elements or updates in the game, including new nature backgrounds and classical music to keep my experience fresh and enjoyable. 
 
-
+    - *In the case if that would have been a real website*, the user would have been able to see regural updates in the game, including new nature backgrounds and classical music to keep the experience fresh and enjoyable. 
 
 3. As a returning visitor, I want to find new, fascinating facts, insights, or resources on the About page that enhance my understanding and appreciation of the game. 
 
+    - *In the case if that would have been a real website*, the content of the About page would have been updated regularly. As a result, the user would have been able to find new, fascinating facts, insights, or resources on the About page that enhance the understanding and appreciation of the game.
 
+4. As a returning visitor, I want experience a consistent, user-friendly interface where I can easily navigate to my desired sections. 
 
-4. As a returning visitor, I want a consistent, user-friendly interface where I can easily navigate to my desired sections. 
+    - *In the case if that would have been a real website it would have been updated regularly*, the user would have been able to experience a consistent, user-friendly interface where they can easily navigate to their desired sections. The Navigation Bar buttons and Logo ensure smooth navigation between the Home Page and the About Page. Any errors are redirected to the Error (404) page, from where user can easily return to the previous page. The process is fully described and tested in the [Manual Testing](#manual-testing) section and [Existing Features](/README.md) section.
 
+5. As a returning visitor, I want to be able to play the game on different devices, including mobile, tablet, and desktop, without any issues.
 
-
-[Back to top ⇧](#table-of-contents)
-
-#### Returning Visitor Goals:
+   - The website is fully responsive and can be viewed on different devices, including mobile, tablet, and desktop, without any issues. The process is fully described and tested in the [Manual Testing](#manual-testing) section and [Existing Features](/README.md) section.
 
 [Back to top ⇧](#table-of-contents)
 
