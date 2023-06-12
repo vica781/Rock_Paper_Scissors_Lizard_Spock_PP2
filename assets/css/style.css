@@ -192,7 +192,7 @@ nav {
   margin-bottom: clamp(0.5rem, 1rem + 1vw, 1rem);
 }
 
-/* Player abd Computer Images display */
+/* Player and Computer Images display */
 #choiceImg {
   display: flex;
   justify-content: space-between;
@@ -385,12 +385,6 @@ footer {
   text-decoration: none;
   color: rgb(173, 173, 224);
 }
-/* #footer-text p {
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  font-size: clamp(0.8rem, 1.5vw, 1.2rem);
-  font-weight: lighter;
-} */
 .footer-p {
   margin-bottom: 0;
   margin-left: 1rem;
