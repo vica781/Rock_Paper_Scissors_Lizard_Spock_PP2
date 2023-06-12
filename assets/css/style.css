@@ -385,12 +385,12 @@ footer {
   text-decoration: none;
   color: rgb(173, 173, 224);
 }
-#disclaimer p {
+/* #footer-text p {
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-size: clamp(0.8rem, 1.5vw, 1.2rem);
   font-weight: lighter;
-}
+} */
 .footer-p {
   margin-bottom: 0;
   margin-left: 1rem;
