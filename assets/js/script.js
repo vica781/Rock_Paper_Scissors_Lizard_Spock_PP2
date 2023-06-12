@@ -69,7 +69,8 @@ buttons.forEach((button) => {
           "<span class='game-over loss'>Game over! Sorry, Computer won!</span>";
       } else {
         result.innerHTML =
-          "<span class='game-over tie'>Game over! It is a tie! You both won!</span>";
+          "<span class='game-over tie'>Game over! It is a tie!" +
+          " You both won!</span>";
       }
     }
   });
@@ -261,8 +262,10 @@ if (currentBgIndex >= backgroundOptions.length) {
   currentBgIndex = 0;
 }
 
+// Function to update the background image.
 function updateBackgroundImage() {
-  document.body.style.backgroundImage = `url(${backgroundOptions[currentBgIndex]})`;
+  let bgImage = `url(${backgroundOptions[currentBgIndex]})`;
+  document.body.style.backgroundImage = bgImage;
 }
 
 function nextBg() {
@@ -333,7 +336,8 @@ document.getElementById("volume-up").addEventListener("click", function () {
     if (currentAudioIndex === audioFiles.length) {
       currentAudioIndex = 0; // Reset the index if it reaches the end.
     }
-    audioElement.src = `assets/audio/${audioFiles[currentAudioIndex]}`; // Update the source.
+    // Update the source.
+    audioElement.src = `assets/audio/${audioFiles[currentAudioIndex]}`;
     audioElement.play(); // Play the new audio file.
   }
 });
@@ -351,7 +355,8 @@ document.getElementById("back-music").addEventListener("click", function () {
   if (currentAudioIndex < 0) {
     currentAudioIndex = audioFiles.length - 1; // Set the index to the last item
   }
-  audioElement.src = `assets/audio/${audioFiles[currentAudioIndex]}`; // Update the source.
+  // Update the source.
+  audioElement.src = `assets/audio/${audioFiles[currentAudioIndex]}`;
   audioElement.play(); // Play the new audio file.
 });
 
@@ -361,7 +366,8 @@ document.getElementById("forward-music").addEventListener("click", function () {
   if (currentAudioIndex === audioFiles.length) {
     currentAudioIndex = 0; // Reset the index if it reaches the end.
   }
-  audioElement.src = `assets/audio/${audioFiles[currentAudioIndex]}`; // Update the source.
+  // Update the source.
+  audioElement.src = `assets/audio/${audioFiles[currentAudioIndex]}`;
   audioElement.play(); // Play the new audio file.
 });
 
