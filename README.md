@@ -403,16 +403,14 @@ you. (This person could be your client, somebody hired by them, or a future vers
 of yourself, who would definitely have forgotten the steps).
 
 A. Detail how to set up all the cloud environments.
-B. Explain how they can get the code onto their computer (git clone and git fork)
-   to make updates, how to commit and push those updates to Github.
+
+B. Explain how they can get the code onto their computer (git clone and git fork) to make updates, how to commit and push those updates to Github.
 
   Additional details on Cloning and Forking:
 
-  i). Cloning (code will be linked to your repo and any pushes they make will come
-      to you for approval).
+  i. Cloning (code will be linked to your repo and any pushes they make will come to you for approval).
 
-  ii). Forking (code will be in a new repo belonging to them. If you make changes
-       to your repo, they'll be informed and have the option to pull from yours).
+  ii. Forking (code will be in a new repo belonging to them. If you make changes to your repo, they'll be informed and have the option to pull from yours).
 
 C. And then make a note that any changes pushed to the main branch automatically
 show up on the site (this ties together A and B).
