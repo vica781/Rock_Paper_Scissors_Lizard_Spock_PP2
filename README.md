@@ -45,6 +45,11 @@ A comprehensive "About" page accompanies my gameplay interface. Dive into the fa
 * [Technologies Used](#technologies-used)
 * [Testing](#testing)   
 * [Deployment](#deployment)
+  * [A write-up of the process (reasoning)](#a-write-up-of-the-process-reasoning)
+  * [Adding and Committing files to Git](#adding-and-committing-files-to-git)
+  * [How this site was deployed](#how-this-site-was-deployed)
+  * [Forking](#forking)
+  * [Cloning](#cloning) 
 * [Credits](#credits)
 * [Acknowledgements](#acknowledgements)
 
@@ -364,6 +369,8 @@ This sketch has been used as a reference for the design of the website that was 
 -   [Font Awesome:](https://fontawesome.com/) was used to add icons for aesthetic and UX purposes.
 -   [Git:](https://git-scm.com/) was used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
 -   [GitHub:](https://github.com/) is used as the respository for the projects code after being pushed from Git.
+-   [W3schools](https://www.w3schools.com/) - for various code information and trouble shooting.
+-   [Am I Responsive](http://ami.responsivedesign.is/#) - Checking the responsive nature.
 -   **Toggle Pesticide Extension for Chrome** was used to outline the elements of the website with developer tools.
 -   [Microsoft Paint 3D:](https://www.microsoft.com/en-us/p/paint-3d/9nblggh5fv99?activetab=pivot:overviewtab) was used for resizing images and editing photos for the website.
 -   [Microsoft PowerPoint:](https://www.microsoft.com/en-us/microsoft-365/powerpoint) was used to plan and design.
@@ -371,18 +378,60 @@ This sketch has been used as a reference for the design of the website that was 
 -   [Convert A Colour](https://convertacolor.com/) was used to convert colours between RGB, HEX and HSL.
 -   [Coolers](https://coolors.co/) was used to create colour scheme.
 -   [WebP Converter:](https://www.freeconvert.com/webp-converter) was used to convert images to webp.
+-   [Tiny PNG](https://tinypng.com/) – changing some images to smaller sizes
 -   [Image to WEBP Converter:](https://converter.11zon.com/en/image-to-webp/) was used to convert images to webp.
--   [CSS Beautifier:](https://www.freeformatter.com/css-beautifier.html#before-output) was used to format (beautify) style.css.
 -   [Image to WEBP Converter:](https://www.freeformatter.com/html-formatter.html#before-output) was used to format (beautify) html code.
 -   [LICEcap](https://licecap.en.softonic.com/) screen recorder: was used to create the GIFs for this README file.
--  [OBC Studio](https://obsproject.com/) open source software for video recording and live streaming: was used to record Manual testing of audio controls of the game for [TESTING.md](TESTING.md "Link to testing file") file.
--  [Code Beautify](https://codebeautify.org/) was used to format (beautify) JavaScript, HTML and CSS code.
+-   [OBC Studio](https://obsproject.com/) open source software for video recording and live streaming: was used to record Manual testing of audio controls of the game for [TESTING.md](TESTING.md "Link to testing file") file.
+-   [Code Beautify](https://codebeautify.org/) was used to format (beautify) JavaScript, HTML and CSS code.
+-   [CSS Beautifier:](https://www.freeformatter.com/css-beautifier.html#before-output) was used to format (beautify) style.css.
     
 ## TESTING
 
 Testing information can be found in a separate file [TESTING.md](TESTING.md "Link to testing file").
 
-## Deployment
+[Back to top ⇧](#index--table-of-contents)
+
+## DEPLOYMENT
+
+### A write-up of the process (reasoning)
+
+The purpose of this is to give the person maintaining the project all the information
+they need on how to make changes to the site (this could be small changes or
+redeploying the site). Assume that the said person is less knowledgeable than
+you. (This person could be your client, somebody hired by them, or a future version
+of yourself, who would definitely have forgotten the steps).
+
+A. Detail how to set up all the cloud environments.
+B. Explain how they can get the code onto their computer (git clone and git fork)
+   to make updates, how to commit and push those updates to Github.
+
+  Additional details on Cloning and Forking:
+
+  i). Cloning (code will be linked to your repo and any pushes they make will come
+      to you for approval).
+
+  ii). Forking (code will be in a new repo belonging to them. If you make changes
+       to your repo, they'll be informed and have the option to pull from yours).
+
+C. And then make a note that any changes pushed to the main branch automatically
+show up on the site (this ties together A and B).
+
+[Back to top ⇧](#index--table-of-contents) 
+
+### Adding and Committing files to Git
+
+To add files to the repository take the following steps:
+- In the command line type -
+    -  git add .  
+    -  git commit -m "This is being committed"
+    -  git push
+- To add all new files or modified file use " ."  
+- To add a single file use the pathway to the file eg .index.html  or assets/css/style.css 
+- When committing make sure your comments are clear about what changes have been made.
+- Pushing will send your work to the repository
+
+[Back to top ⇧](#index--table-of-contents)
 
 ### How this site was deployed
 
@@ -392,6 +441,43 @@ Testing information can be found in a separate file [TESTING.md](TESTING.md "Lin
    - From the source section drop-down menu, select the main branch and click on save.
    - Once the main branch has been selected and saved, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
    - The **live link** to my Rock Paper Scissors Lizard Spock project can be found  [here](https://vica781.github.io/Rock_Paper_Scissors_Lizard_Spock_PP2/). 
+
+[Back to top ⇧](#index--table-of-contents)
+
+### Forking
+
+Forking the GitHub Repository
+
+By forking the GitHub Repository, you can make a copy of the original repository in your own GitHub account.  This means we can view or make changes without making the changes affecting the original.
+
+* Log into GitHub and locate the GitHub Repository.
+* At the top of the Repository there is a "Fork" button about the "Settings" button on the menu.
+* You should now have a new copy of the original repository in your own GitHub account.
+
+[Back to top ⇧](#index--table-of-contents)
+
+### Cloning 
+
+Making a Local Clone
+
+* Log into your GitHub then find the gitpod repository
+* Under the repository name there is a button that says "Clone or download". Click on this button.
+* If cloning with HTTPS "Clone with HTTPS", copy this link.
+* Open Gitbash
+* Change the current working directory to the location where you want the cloned directory to be.
+* Type git clone, and then paste the URL you copied earlier.
+
+        $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+        Press - Enter- Your local clone will be created.
+        $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+                > Cloning into `CI-Clone`...
+                > remote: Counting objects: 10, done.
+                > remote: Compressing objects: 100% (8/8), done.
+                > remove: Total 10 (delta 1), reused 10 (delta 1)
+                > Unpacking objects: 100% (10/10), done.
+[Click Here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository) for more info on cloning. 
+
+[Back to top ⇧](#index--table-of-contents)
 
 ## CREDITS 
 
