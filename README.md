@@ -364,16 +364,19 @@ This sketch has been used as a reference for the design of the website that was 
 -   [Font Awesome:](https://fontawesome.com/) was used to add icons for aesthetic and UX purposes.
 -   [Git:](https://git-scm.com/) was used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
 -   [GitHub:](https://github.com/) is used as the respository for the projects code after being pushed from Git.
+-   **Toggle Pesticide Extension for Chrome** was used to outline the elements of the website with developer tools.
 -   [Microsoft Paint 3D:](https://www.microsoft.com/en-us/p/paint-3d/9nblggh5fv99?activetab=pivot:overviewtab) was used for resizing images and editing photos for the website.
 -   [Microsoft PowerPoint:](https://www.microsoft.com/en-us/microsoft-365/powerpoint) was used to plan and design.
 -   [Microsoft Paint:](https://support.microsoft.com/en-us/windows/get-microsoft-paint-a6b9578c-ed1c-5b09-0699-4ed8115f9aa9) was used to to work with images.
--   **Toggle Pesticide Extension for Chrome** was used to outline the elements of the website with developer tools.
+-   [Convert A Colour](https://convertacolor.com/) was used to convert colours between RGB, HEX and HSL.
+-   [Coolers](https://coolors.co/) was used to create colour scheme.
 -   [WebP Converter:](https://www.freeconvert.com/webp-converter) was used to convert images to webp.
 -   [Image to WEBP Converter:](https://converter.11zon.com/en/image-to-webp/) was used to convert images to webp.
 -   [CSS Beautifier:](https://www.freeformatter.com/css-beautifier.html#before-output) was used to format (beautify) style.css.
 -   [Image to WEBP Converter:](https://www.freeformatter.com/html-formatter.html#before-output) was used to format (beautify) html code.
 -   [LICEcap](https://licecap.en.softonic.com/) screen recorder: was used to create the GIFs for this README file.
 -  [OBC Studio](https://obsproject.com/) open source software for video recording and live streaming: was used to record Manual testing of audio controls of the game for [TESTING.md](TESTING.md "Link to testing file") file.
+-  [Code Beautify](https://codebeautify.org/) was used to format (beautify) JavaScript, HTML and CSS code.
     
 ## TESTING
 
@@ -398,7 +401,8 @@ Testing information can be found in a separate file [TESTING.md](TESTING.md "Lin
    - The detailed infoprmation about images used in the project can be found in [Imagery of README.md](#imagery). The images were downloaded from different sources, because there are so many, it would be too tedious to list all of them. Though, I appreciate the rightful ownership of all of them.
    
 ### Code
-      
+
+   -  The weapons chosen by player and computer are displayed in the corresponding fields by reflecting the images on the Y-axis. The code was taken from Code taken from http://thenewcode.com/483/Flipping-Images-With-CSS-Transforms#:~:text=Reversing%20the%20orientation%20of%20images,the%20element%20horizontally%20or%20vertically and adapted to the needs of the project.     
 
 
 ###  ACKNOWLEDGEMENTS 
