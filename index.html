@@ -8,7 +8,6 @@
     <meta name="description" content="Rock Paper Scissors Lizard Spock game designed as refreshing 
         break from a stressful day with nature background images and classical music collection">
     <meta name="keywords" content="Rock Paper Scissors Lizard Spock, game, nature, relaxing, classical music">
-
     <!-- Font Awasome and Google Fonts -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,9 +15,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cabin+Sketch:wght@400;700&family=Montserrat&display=swap"
         rel="stylesheet">
-
     <link rel="icon" type="image/png" href="assets/images/favicon/pentagon-2.webp">
-
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Home Rock-Paper-Scissors-Lizard-Spock</title>
 </head>
@@ -31,7 +28,6 @@
                 <img src="assets/images/favicon/pentagon-2.webp"
                     alt="Game logo in a shape of pentagon formed by five icons: Rock, Paper, Scissors, Lizard, Spock">
             </div>
-
             <!-- Main website heading ('h1' replaced by 'p' in responce to the HTML validation Warning" -->
             <div class="heading">
                 <p>Rock Paper Scissors Lizard Spock</p>
@@ -43,20 +39,16 @@
                 <i class="fas fa-home"></i>
                 <span class="nav-text">Home</span>
             </a>
-
             <a href="about.html" id="about-btn" class="bttns" aria-label="about page link">
                 <i class="fas fa-info-circle"></i>
                 <span class="nav-text">About</span>
             </a>
         </div>
     </nav>
-
     <!-- Modal with rules -->
     <dialog id="modal">
         <div>
-            <h1 id="rules-header">
-                Something to help your strategy and experience
-            </h1>
+            <h1 id="rules-header"> Something to help your strategy and experience </h1>
         </div>
         <!-- Modal content -->
         <div>
@@ -64,44 +56,44 @@
                 alt="List of the rules with images of the game characters explaining what characters are able to do">
             <p class="modal-text">
                 <strong>BACKGROUND:</strong> to chenge press the 'Change Mood' button; to navigate use the <i
-                    class="fas fa-chevron-left"></i>
-                and <i class="fas fa-chevron-right"></i> chevrons.
+                    class="fas fa-chevron-left"></i> and <i class="fas fa-chevron-right"></i> chevrons.
             </p>
             <p class="modal-text">
-                <strong>AUDIO:</strong> to start click on the <i class="fas fa-volume-up"></i> button;
-                to mute use the <i class="fas fa-volume-mute"></i>;
-                to navigate use the <i class="fas fa-chevron-left"></i> and <i class="fas fa-chevron-right"></i>
-                chevrons.
+                <strong>AUDIO:</strong> to start click on the <i class="fas fa-volume-up"></i> button; to mute use the
+                <i class="fas fa-volume-mute"></i>; to navigate use the <i class="fas fa-chevron-left"></i> and <i
+                    class="fas fa-chevron-right"></i> chevrons.
             </p>
-            <p class="modal-text">
-                To see <strong>RULES</strong> again simply click the button.
-            </p>
+            <p class="modal-text"> To see <strong>RULES</strong> again simply click the button. </p>
         </div>
         <!-- Button to close the modal -->
         <button id="close-modal-btn" aria-label="button to close modal">CLOSE</button>
     </dialog>
-
     <!-- Gaim Field content -->
     <div class="wrapper">
         <div id="gameField">
             <!-- Buttons for controlling audio -->
             <div class="newGame-bgChange">
                 <button id="reset-btn" aria-label="button to restart the game">Play again?</button>
-                <button id="back-music" aria-label="button to novigate audio back"><i
-                        class="fas fa-chevron-left"></i></button>
-                <button id="volume-up" aria-label="button to allow select an audio"><i
-                        class="fas fa-volume-up"></i></button>
+                <button id="back-music" aria-label="button to novigate audio back">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button id="volume-up" aria-label="button to allow select an audio">
+                    <i class="fas fa-volume-up"></i>
+                </button>
                 <button id="forward-music" aria-label="button to novigate audio forward">
                     <i class="fas fa-chevron-right"></i>
                 </button>
-                <button id="volume-off" aria-label="button to mute the volume"><i
-                        class="fas fa-volume-mute"></i></button>
+                <button id="volume-off" aria-label="button to mute the volume">
+                    <i class="fas fa-volume-mute"></i>
+                </button>
                 <!-- Buttons for contolling background change -->
-                <button id="bgBack" aria-label="button to novigate background images back"><i
-                        class="fas fa-chevron-left"></i></button>
+                <button id="bgBack" aria-label="button to novigate background images back">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
                 <button id="bgChange" aria-label="button to allow select background">Change mood</button>
-                <button id="bgForward" aria-label="button to novigate background images forward"><i
-                        class="fas fa-chevron-right"></i></button>
+                <button id="bgForward" aria-label="button to novigate background images forward">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
             </div>
             <!-- Fields displaying images of chosen weapons -->
             <div id="choiceImg">
@@ -112,27 +104,21 @@
             <div>
                 <p id="result"></p>
             </div>
-
             <p id="pick">Take a Pick!</p>
             <!-- Buttons for choosing weapons -->
             <div class="coices-container">
                 <div id="player-choice">
                     <button data-type="rock" id="rock" class="btnChoices" aria-label="button to select rock">
-                        <i class="far fa-hand-rock"></i> Rock
-                    </button>
+                        <i class="far fa-hand-rock"></i> Rock </button>
                     <button data-type="paper" id="paper" class="btnChoices" aria-label="button to select paper">
-                        <i class="far fa-hand-paper"></i> Paper
-                    </button>
+                        <i class="far fa-hand-paper"></i> Paper </button>
                     <button data-type="scissors" id="scissors" class="btnChoices"
                         aria-label="button to select scissors">
-                        <i class="far fa-hand-scissors"></i> Scissors
-                    </button>
+                        <i class="far fa-hand-scissors"></i> Scissors </button>
                     <button data-type="lizard" id="lizard" class="btnChoices" aria-label="button to select lizard">
-                        <i class="far fa-hand-lizard"></i> Lizard
-                    </button>
+                        <i class="far fa-hand-lizard"></i> Lizard </button>
                     <button data-type="spock" id="spock" class="btnChoices" aria-label="button to select spock">
-                        <i class="far fa-hand-spock"></i> Spock
-                    </button>
+                        <i class="far fa-hand-spock"></i> Spock </button>
                 </div>
             </div>
             <!-- Score board -->
@@ -157,33 +143,35 @@
             <div class="mediaicons">
                 <ul class="icons">
                     <li>
-                        <a href="https://www.facebook.com/" target="_blank" aria-label="link to facebook"><i
-                                class="fab fa-facebook"></i></a>
+                        <a href="https://www.facebook.com/" target="_blank" aria-label="link to facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
                     </li>
                     <li>
-                        <a href="https://www.youtube.com/" target="_blank" aria-label="link to youtube"><i
-                                class="fab fa-youtube"></i></a>
+                        <a href="https://www.youtube.com/" target="_blank" aria-label="link to youtube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/" target="_blank" aria-label="link to instagram"><i
-                                class="fab fa-instagram"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank" aria-label="link to instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
                     </li>
                     <li>
-                        <a href="https://twitter.com/i/flow/login" target="_blank" aria-label="link to twitter"><i
-                                class="fab fa-twitter"></i></a>
+                        <a href="https://twitter.com/i/flow/login" target="_blank" aria-label="link to twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
                     </li>
                 </ul>
             </div>
             <hr>
             <!-- Name and Current Year -->
             <div>
-                <p class="footer-p">
-                    &copy; Victoria Kalenik <span id="current-year"></span>
+                <p class="footer-p"> &copy; Victoria Kalenik <span id="current-year"></span>
                 </p>
             </div>
         </div>
     </footer>
-
     <script src="assets/js/script.js"></script>
 </body>
 
