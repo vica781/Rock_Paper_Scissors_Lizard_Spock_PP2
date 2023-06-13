@@ -488,8 +488,9 @@ Making a Local Clone
    
 ### Code
 
-   -  The weapons chosen by player and computer are displayed in the corresponding fields by reflecting the images on the Y-axis. The code was taken from Code taken from http://thenewcode.com/483/Flipping-Images-With-CSS-Transforms#:~:text=Reversing%20the%20orientation%20of%20images,the%20element%20horizontally%20or%20vertically and adapted to the needs of the project.     
+   -  The weapons chosen by player and computer are displayed in the corresponding fields by reflecting the images on the Y-axis. The code was taken from [here](http://thenewcode.com/483/Flipping-Images-With-CSS-Transforms#:~:text=Reversing%20the%20orientation%20of%20images,the%20element%20horizontally%20or%20vertically) and adapted to the needs of the project.     
 
+[Back to top ⇧](#index--table-of-contents)
 
 ###  ACKNOWLEDGEMENTS 
 
@@ -497,3 +498,4 @@ Making a Local Clone
 
 - I would also like to express my gratitude to Tomislav Dukez for his help and support. 
 
+[Back to top ⇧](#overview)
