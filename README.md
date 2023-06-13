@@ -46,6 +46,7 @@ A comprehensive "About" page accompanies my gameplay interface. Dive into the fa
 * [Testing](#testing)   
 * [Deployment](#deployment)
 * [Credits](#credits)
+* [Acknowledgements](#acknowledgements)
 
 ***
 
@@ -220,11 +221,7 @@ Welcome back! I am thrilled to see you again. Dive right back into the game for 
 
     ![404](./assets/images/readme/readme-features/404-page-features-small.gif)
       
-  <br>
-
   [Back to top ⇧](#index--table-of-contents)
-
-  <br>
 
 ## **Possible Future Features**
 
@@ -396,24 +393,17 @@ Testing information can be found in a separate file [TESTING.md](TESTING.md "Lin
 ## CREDITS 
 
 ### Content 
-   -  Most of the content has been researched and put together from the multiple web sites dedicated to amber. All of the information obtained has been translated from Russian language to English and presented by the developer.  
+   -  Most of the content has been researched and put together from the multiple web sites dedicated to game Rock Paper Scissors Lizard Spock, photography, nature and claccical music. All resources used in the projest only for educational purposes.
+
+   - The detailed infoprmation about images used in the project can be found in [Imagery of README.md](#imagery). The images were downloaded from different sources, because there are so many, it would be too tedious to list all of them. Though, I appreciate the rightful ownership of all of them.
    
 ### Code
-   - The inspiration for the 'hamburger' menu and navigation bar came after warching this video on the YouTube:
-   [Nav_Bar_Hamburger](https://www.youtube.com/watch?v=oLgtucwjVII&t=400s)  
-  
-   - The idea of animated panels on the Landing page has been taken from FreeFrontEnd website [Panels_Landing_Page_Image_Hover_Over_Effect](https://freefrontend.com/css-image-effects/#image-shadow-effects). Crtedits go to Mert Cukuren.
-
-   - The solution for the Gifts Gallery images, also, came from FreeFrontEnd website [Image_Cards_Hover](https://freefrontend.com/css-cards/). Crtedits go to Luan Manara.
-
-   - The images were downloaded from different sources, mainly from the dedicated amber websites, because there are so many, it would be too tedious to list all of them. Though, 
-    I appreciate the rightful ownership of all of them.   
+      
 
 
 ###  ACKNOWLEDGEMENTS 
 
-- I would like to thank my mentor Brian Macharia who guided me for his dedication, calmness and useful advices. I believe, that without his help and support I wouldn't be able 
-  to finish this project.
+- I would like to thank my mentor Brian Macharia, who guided me, for his dedication, for going above and beyond, for his patience, calmness and useful advices. 
 
-- I would also like to thank my son Timothy and his friend Sam for usefull tips and testing.
+- I would also like to express my gratitude to Tomislav Dukez for his help and support. 
 
